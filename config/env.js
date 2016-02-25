@@ -20,7 +20,8 @@
  */
 
 var url = require("url");
-var config = require('./config.json');
+var config = require('./config.js');
+
 
 // the IP address of the Cloud Foundry DEA (Droplet Execution Agent) that hosts this application:
 exports.listenHost = (process.env.VCAP_APP_HOST || process.env.OPENSHIFT_NODEJS_IP || config.host);
