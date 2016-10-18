@@ -90,6 +90,11 @@ if (process.env.LDP_BASE) {
 	});
 }
 
+exports.services = config.services;
+exports.dbType = config.dbType;
+exports.contentType = config.contentType;
+exports.JenaURL = config.JenaURL;
+
 // MongoDB
 if (process.env.VCAP_SERVICES) {
 	var env = JSON.parse(process.env.VCAP_SERVICES);
@@ -101,3 +106,4 @@ if (process.env.VCAP_SERVICES) {
 		exports.mongoURL = process.env.MONGO_URL || config.mongoURL;
 	}
 }
+

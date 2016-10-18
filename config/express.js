@@ -4,7 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var oslcService = require('oslc-service');
+var oslcService = require('../../oslc-service');
+var ldpService = require('ldp-service');
 
 var env = require('./env.js');
 

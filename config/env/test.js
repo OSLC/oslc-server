@@ -1,3 +1,5 @@
+var path = require("path");
+
 module.exports = {
 	// Testing configuration settings
 	"scheme": "http",
@@ -5,5 +7,8 @@ module.exports = {
 	"port": 3000,
 	"context": "/r",
 	"mongoURL": "mongodb://localhost:27017/ldp",
-	"services": "../defaultServices.json"
+	"JenaURL": "http://169.46.145.70:3030/o3zl9i/",
+	"services": path.resolve("./config/defaultServices.json"),
+	"dbType": "Jena",
+	"contentType": "JSON"
 }; 
