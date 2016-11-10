@@ -1,5 +1,10 @@
 {
   "@context" : {
+
+    "queryBase" : {
+      "@id" : "http://open-services.net/ns/core#queryBase",
+      "@type" : "@id"
+    },
     "creation" : {
       "@id" : "http://open-services.net/ns/core#creation",
       "@type" : "@id"
@@ -68,9 +73,13 @@
       "@type" : "@id"
     },
     "identifier" : "http://purl.org/dc/terms/identifier",
-    "oslc" : "http://open-services.net/ns/core#",
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "dcterms" : "http://purl.org/dc/terms/"
+    "ldp" : "http://www.w3.org/ns/ldp#",
+    "ns1" : "http://jazz.net/xmlns/prod/jazz/process/1.0/",
+    "dc" : "http://purl.org/dc/terms/",
+    "oslc" : "http://open-services.net/ns/core#",
+    "oslc_cm" : "http://open-services.net/ns/cm#",
+    "ns3" : "http://jazz.net/xmlns/prod/jazz/calm/1.0/"
   },
 
   "@id" : "urn:x-arq:DefaultGraphNode",
@@ -123,6 +132,14 @@
 	    "resourceType" : "http://open-services.net/ns/cm#ChangeRequest",
 	    "usage" : "oslc:default",
 	    "title" : "Select Change Request"
+    }, {
+      "@id" : "_:b29",
+      "@type" : "oslc:QueryCapability",
+      "queryBase" : "tasks",
+      "resourceShape" : "http://open-services.net/ns/cm/shapes/2.0/changerequest",
+      "resourceType" : "oslc_cm:ChangeRequest",
+      "usage" : "oslc:default",
+      "title" : "Task queries"
     }
   ]
 }

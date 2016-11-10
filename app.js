@@ -7,7 +7,7 @@
  * in env.js
  */
 
-// var oslcService = require('../oslc-service');
+var oslcService = require('../oslc-service');
 
 // The NODE_ENV environment variable is often not properly set, default to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
@@ -17,7 +17,7 @@ var env = require('./config/env.js');
 var express = require('./config/express');
 var app = express();
 
-// app.use(oslcService(env));
+app.use(oslcService(env));
 
 app.use(function(err, req, res, next){
 	console.error(err.stack);
