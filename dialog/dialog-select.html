@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>Selection Dialog</title>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+	</head>
+
+	<body>
+
+		<!-- Put all information in "data" -->
+		<div ng-controller="MainController">
+			<select ng-model="selected" name="resource-list" size="10" multiple ng-options="resource.object disable when resource.predicate !== 'http://open-services.net/ns/core#label' for (resource.object, resource.subject) in found">
+			</select>
+
+			<div>
+				<input ng-keyup="searchForResources()" type=text ng-model="search">
+			</div>
+		</div>
+
+		<div class="button">
+			<button ng-click="getResources()">Submit</button>
+		</div>
+
+		<script>
+
+			var app = angular.module('app', []);
+
+			var resources; // Stores all resources currently in database
+
+			// app.factory()
+			app.controller('MainController', function($scope, $http){
+
+				// Have to add on AngularJS code to access form data
+				// I don't know how to access server name, so 'server-name' is just a placeholder
+
+				$http.get('/r/*').then(function(response){
+					resources = response; // Expecting a list of resources
+					$scope.found = resources; // Puts resource list inside found to display to user
+
+				});
+
+				$scope.getResources = function(){
+
+					var results = [];
+
+					for(var i = 0; i < $scope.selected.length; i++){
+						$http.get('/r/*').then(function(response){
+							results.add(response);
+						}, function(response){
+							console.log(response);
+						});
+
+						if(window.location.hash === "#oslc-core-windowName-1.0"){
+							respondWithWindowName(data);
+						}else if(window.location.hash === "#oslc-core-postMessage-1.0"){
+							respondWithPostMessage(data);
+						}
+					}
+				};
+ 
+				$scope.searchForResources = function(){
+					
+					var found = []; // Local version of found for querying resources
+
+					for(var i = 0; i < resources.length; i++){
+						if(resources[i].predicate === "http://open-services.net/ns/core#label"){
+							if(resources[i].subject.includes($scope.search)){
+								found.add(resources[i]);
+							}
+						}
+					}
+
+					$scope.found = found;
+
+				};
+
+				function respondWithPostMessage(response){
+					(window.parent | window).postMessage("oslc-response:"+response, "*");
+				}
+
+				function respondWithWindowName(response){
+					window.name = response;
+					[removed] = returnURL;
+				}
+
+			});
+
+		</script>
+
+	</body>
+
+</html>

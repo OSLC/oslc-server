@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>Creation Dialog</title>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<!-- Put all information in "data" -->
+		<div ng-controller="MainController">
+			
+			<form ng-submit="getProperties()">Name
+				<input type="text" ng-model="shape_name">
+				<input type="submit" value="Submit">
+			</form>
+
+			<form ng-submit="createResources()" ng-repeat="property in shape_properties">Name
+				<form>{{property.subject}}:
+					<input type="text" ng-model="data."+"property.subject">
+				</form>
+				<input type="submit" value="Submit">
+			</form>
+
+		</div>
+
+		<script>
+
+			var app = angular.module('app', []);
+			$scope.shape_properties = undefined;
+			app.controller('MainController', function($scope, $http){
+
+				$scope.getProperties = function(){
+
+					$http.get("http://localhost:3000/properties", {"data": $scope.shape_name}).then(function(response){
+						$scope.shape_properties = response.body;
+					}, function(response){
+						console.log("Could not find resource");
+					});
+
+				};
+
+				// Have to add on AngularJS code to access form data
+				// I don't know how to access server name, so 'server-name' is just a placeholder
+				$scope.createResources = function(){
+
+					// Code should probably be on the server side
+					var data = [];
+					for(var i = 0; i < $scope.data.length; i++){
+						data.add({
+							"subject": data.uri,
+							"predicate": property[i].subject,
+							"object": $scope.data[i]
+						});
+					}
+
+					$http.post('http://localhost:3000/r/*', data).then(function(response){
+
+						if(window.location.hash === "#oslc-core-windowName-1.0"){
+							respondWithWindowName(data);
+						}else if(window.location.hash === "#oslc-core-postMessage-1.0"){
+							respondWithPostMessage(data);
+						}
+
+					}, function(response){
+						console.log("Failed to create");
+					});
+				};
+
+				function respondWithPostMessage(response){
+					(window.parent | window).postMessage("oslc-response:"+response, "*");
+				}
+
+				function respondWithWindowName(response){
+					window.name = response;
+					[removed] = returnURL;
+				}
+
+			});
+
+		</script>
+
+	</body>
+
+</html>
