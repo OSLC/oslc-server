@@ -11,7 +11,7 @@ oslc-server exploits the dynamic and asynchronous capabilities of JavaScript and
 
 ## Configuration
 
-At startup, the server reads a config.json file and provides configuration information to the oslc-service and ldp-service Express middleware. This configuration information includes:
+At startup, the server reads a config.json file and provides configuration information to the oslc-service and ldp-service-jena Express middleware. This configuration information includes:
 
 var path = require("path");
 
@@ -25,9 +25,11 @@ module.exports = {
 	"services": path.resolve("./config/defaultServices.json")
 };
 
-The 'path' package allows the server to read in the services file. defaultServices.json is a JSON-LD file that contains the services defined for this server.
+The 'path' package allows the server to read in the services file. defaultServices.json is a JSON-LD file that contains the services defined for this server. This can be customized depending on the location of the user's preferred default service.
 
 All this information is processed by the oslc-service and ldp-service. The oslc-server only addresses where the configuration information comes from and how it is passed to the services, like any Express middleware configuration.
+
+oslc-server accepts RDF resources in JSON-LD and Turtle formats.
 
 The server can be exercised using Firefox REST Client, Poster or any other REST client.
 
@@ -35,7 +37,7 @@ The server can be exercised using Firefox REST Client, Poster or any other REST 
 
 OSLC Server requires the installation of ldp-service-jena, oslc-service, and Apache Jena Fuseki 2.4.
 
-Apache Jena Fuseki 2.0 can be downloaded [here](https://jena.apache.org/download/#jena-fuseki). Once it is unzipped, enter the folder apache-jena labeled apache-jena-fuseki-2.4.0 and run the following code:
+Apache Jena Fuseki 2.0 must be running before initializing the server. The database can be downloaded [here](https://jena.apache.org/download/#jena-fuseki). Once it is unzipped, enter the folder apache-jena labeled apache-jena-fuseki-2.4.0 and run the following code:
 
 	$ fuseki-server --update --loc=<location of directory> /ldp
 
@@ -50,6 +52,10 @@ In oslc-server, run the server by executing
 	$ node app.js
 
 By default, the server can be accessed at http://localhost:3000/.
+
+## Running The Server
+
+When oslc-server is run for the first time, a set of resources contained in the file indicated by the "services" key in the configuration file is loaded into Apache Jena, then the root service is returned to the user. Every subsequent load of either Apache Jena or oslc-server will return the root service, unless the user deletes the root resource.
 
 ## License
 
