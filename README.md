@@ -59,9 +59,12 @@ When oslc-server is run for the first time, a set of resources contained in the 
 
 The following OSLC methods can be used on the server:
 
-- Query Capability
+- Discovery
+- Query Capability (using syntax defined in [OSLC Query Syntax 2.0](http://open-services.net/bin/view/Main/OSLCCoreSpecQuery)
 - Creation Factory
-
+- Delegated Dialogs
+- UI Preview
+- CRUD Methods
 
 ## License
 
