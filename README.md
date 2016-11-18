@@ -37,8 +37,17 @@ OSLC Server requires the installation of ldp-service-jena, oslc-service, and Apa
 
 Apache Jena Fuseki 2.0 can be downloaded [here](https://jena.apache.org/download/#jena-fuseki). Once it is unzipped, enter the folder apache-jena labeled apache-jena-fuseki-2.4.0 and run the following code:
 
-	$ fuseki-server --update --loc=<location of direction> /ldp
+	$ fuseki-server --update --loc=<location of directory> /ldp
 
+Within oslc-service, ldp-service-jena, and oslc-service, run 
+	
+	$ npm install
+
+In oslc-server, run
+	
+	$ node app.js
+
+To run the server. By default, the server can be accessed at http://localhost:3000/.
 
 ## License
 
