@@ -13,20 +13,27 @@ oslc-server exploits the dynamic and asynchronous capabilities of JavaScript and
 
 At startup, the server reads a config.json file and provides configuration information to the oslc-service and ldp-service Express middleware. This configuration information includes:
 
-{
-    "scheme": "http",
-    "host": "localhost",
-    "port": 3000,
-    "context": "/r",
-    "mongoURL": "mongodb://localhost:27017/ldp”,
-    “services”: “services.json"
-}
+var path = require("path");
 
-services.json is a JSON-LD file that contains the services defined for this server.
+module.exports = {
+	// Development configuration settings
+	"scheme": "http",
+	"host": "localhost",
+	"port": 3000,
+	"context": "/r",
+	"JenaURL": "http://localhost:3030/ldp/",
+	"services": path.resolve("./config/defaultServices.json")
+};
+
+The 'path' package allows the server to read in the services file. defaultServices.json is a JSON-LD file that contains the services defined for this server.
 
 All this information is processed by the oslc-service and ldp-service. The oslc-server only addresses where the configuration information comes from and how it is passed to the services, like any Express middleware configuration.
 
 The server can be exercised using Firefox REST Client, Poster or any other REST client.
+
+## Set Up
+
+OSLC Server requires the installation of ldp-service-jena, oslc-service, and Apache Jena Fuseki 2.0. 
 
 ## License
 
