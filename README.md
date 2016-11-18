@@ -59,7 +59,9 @@ When oslc-server is run for the first time, a set of resources contained in the 
 
 The following OSLC methods can be used on the server:
 
-	- dfs
+- Query Capability
+- Creation Factory
+
 
 ## License
 
