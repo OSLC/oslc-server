@@ -13,17 +13,17 @@ oslc-server exploits the dynamic and asynchronous capabilities of JavaScript and
 
 At startup, the server reads a config.json file and provides configuration information to the oslc-service and ldp-service-jena Express middleware. This configuration information includes:
 
-var path = require("path");
+	var path = require("path");
 
-module.exports = {
-	// Development configuration settings
-	"scheme": "http",
-	"host": "localhost",
-	"port": 3000,
-	"context": "/r",
-	"JenaURL": "http://localhost:3030/ldp/",
-	"services": path.resolve("./config/defaultServices.json")
-};
+	module.exports = {
+		// Development configuration settings
+		"scheme": "http",
+		"host": "localhost",
+		"port": 3000,
+		"context": "/r",
+		"JenaURL": "http://localhost:3030/ldp/",
+		"services": path.resolve("./config/defaultServices.json")
+	};
 
 The 'path' package allows the server to read in the services file. defaultServices.json is a JSON-LD file that contains the services defined for this server. This can be customized depending on the location of the user's preferred default service.
 
