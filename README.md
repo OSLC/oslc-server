@@ -39,15 +39,17 @@ Apache Jena Fuseki 2.0 can be downloaded [here](https://jena.apache.org/download
 
 	$ fuseki-server --update --loc=<location of directory> /ldp
 
-Within oslc-service, ldp-service-jena, and oslc-service, run 
+At this time, [oslc-service](https://github.com/OSLC/oslc-service) and [ldp-service-jena](https://github.com/OSLC/ldp-service-jena) are not in the npm package manager. Both services must be cloned in the same directory as oslc-server from GitHub. 
+
+Within oslc-server, ldp-service-jena, and oslc-service, run 
 	
 	$ npm install
 
-In oslc-server, run
+In oslc-server, run the server by executing
 	
 	$ node app.js
 
-To run the server. By default, the server can be accessed at http://localhost:3000/.
+By default, the server can be accessed at http://localhost:3000/.
 
 ## License
 
