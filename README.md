@@ -35,7 +35,7 @@ The server can be exercised using Firefox REST Client, Poster or any other REST 
 
 OSLC Server requires the installation of ldp-service-jena, oslc-service, and Apache Jena Fuseki 2.0.
 
-Apache Jena Fuseki 2.0 can be downloaded [here][https://jena.apache.org/download/#jena-fuseki]. 
+Apache Jena Fuseki 2.0 can be downloaded [here](https://jena.apache.org/download/#jena-fuseki). 
 
 ## License
 
