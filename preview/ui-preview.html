@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>UI Preview</title>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<script>
+
+			var app = angular.module('app', []);
+			$scope.shape_properties = undefined;
+
+			$http.get('http://localhost:3000/getResourceData').then(function(response){
+	
+				$scope.data = response.body;
+				
+			});
+
+			app.controller('MainController', function($scope, $http){
+
+				
+			});
+
+		</script> 
+
+		<!-- Put all information in "data" -->
+		<div ng-controller="MainController">
+			
+			<div ng-repeat="(key, value) in data">{{key}}: {{value}}</div>
+
+		</div>
+
+	</body>
+
+</html>
