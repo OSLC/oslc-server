@@ -41,7 +41,9 @@ Apache Jena Fuseki 2.4 must be running before initializing the server. The datab
 
 	$ fuseki-server --update --loc=<location of directory> /ldp
 
-At this time, [oslc-service](https://github.com/OSLC/oslc-service) and [ldp-service-jena](https://github.com/OSLC/ldp-service-jena) are not in the npm package manager. Both services must be cloned in the same directory as oslc-server from GitHub. 
+(Note: For temporary storage, swap --loc=<location of directory> with --mem)
+
+At this time, [oslc-service](https://github.com/OSLC/oslc-service) and [ldp-service-jena](https://github.com/OSLC/ldp-service-jena) are not in the npm package manager. Both services must be cloned in the same directory as oslc-server from GitHub.
 
 Within oslc-server, ldp-service-jena, and oslc-service, run 
 	
