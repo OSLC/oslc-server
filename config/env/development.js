@@ -6,10 +6,8 @@ module.exports = {
 	"host": "localhost",
 	"port": 3000,
 	"context": "/r",
-	"mongoURL": "mongodb://localhost:27017/ldp",
-	"JenaURL": "http://localhost:3030/ldp/",
+	"URL": "http://localhost:3030/ldp/",
 	"services": path.resolve("./config/defaultServices.json"),
-	"dbType": "Jena",
 	"contentType": "JSON"
 }; 
 
