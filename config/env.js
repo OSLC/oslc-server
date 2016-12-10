@@ -91,19 +91,25 @@ if (process.env.LDP_BASE) {
 }
 
 exports.services = config.services;
-exports.dbType = config.dbType;
 exports.contentType = config.contentType;
-exports.JenaURL = config.JenaURL;
 
 // MongoDB
-if (process.env.VCAP_SERVICES) {
-	var env = JSON.parse(process.env.VCAP_SERVICES);
-	exports.mongoURL = env.mongolab[0].credentials.uri;
-} else {
-	if (process.env.OPENSHIFT_MONGODB_DB_URL) {
-		exports.mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL;
+
+if(config.URL.includes("mongodb")){
+
+	if (process.env.VCAP_SERVICES) {
+		var env = JSON.parse(process.env.VCAP_SERVICES);
+		exports.URL = env.mongolab[0].credentials.uri;
 	} else {
-		exports.mongoURL = process.env.MONGO_URL || config.mongoURL;
+		if (process.env.OPENSHIFT_MONGODB_DB_URL) {
+			exports.URL = process.env.OPENSHIFT_MONGODB_DB_URL;
+		} else {
+			exports.URL = process.env.MONGO_URL || config.URL;
+		}
 	}
+
+}else{
+	exports.URL = config.URL;
 }
+
 
