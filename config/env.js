@@ -92,6 +92,7 @@ if (process.env.LDP_BASE) {
 
 exports.services = config.services;
 exports.contentType = config.contentType;
+exports.resources = config.resources;
 
 // MongoDB
 
