@@ -8,7 +8,8 @@ module.exports = {
 	"context": "/r",
 	"URL": "http://localhost:3030/ldp/",
 	"services": path.resolve("./config/defaultServices.json"),
-	"contentType": "JSON"
+	"contentType": "JSON",
+	"resources": "change-requests"
 }; 
 
 // http://169.46.145.70:3030/o3zl9i/

@@ -8,5 +8,6 @@ module.exports = {
 	"context": "/r",
 	"URL": "http://localhost:3030/ldp/",
 	"services": path.resolve("./config/defaultServices.json"),
-	"contentType": "JSON"
+	"contentType": "JSON",
+	"resources": "change-requests"
 }; 
