@@ -2,12 +2,12 @@
  * oslc-server:
  * An OSLC3 server reference implementation that uses oslc-service and ldp-service
  * Express middleware. The server supports the Change Management 3.0 specification.
- * 
+ *
  * Environment, server configuration and provided services are configured
  * in env.js
  */
 
-var oslcService = require('../oslc-service');
+var oslcService = require('oslc-service');
 
 // The NODE_ENV environment variable is often not properly set, default to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';

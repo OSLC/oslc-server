@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var oslcService = require('../../oslc-service');
+var oslcService = require('oslc-service');
 var ldpService = require('ldp-service');
 
 var env = require('./env.js');
@@ -39,7 +39,7 @@ module.exports = function() {
 	// set the default routes
 	// The default index route
 	require('../app/routes/index.server.routes.js')(app);
- 
+
 	app.use(express.static('./public'));
 
 	// catch 404 and forward to error handler
