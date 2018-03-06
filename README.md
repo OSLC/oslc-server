@@ -51,7 +51,7 @@ Within oslc-server, ldp-service-jena, and oslc-service, run
 
 In oslc-server, run the server by executing
 	
-	$ node app.js
+	$ node server.js
 
 By default, the server can be accessed at http://localhost:3000/.
 
