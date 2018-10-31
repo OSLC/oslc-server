@@ -1,4 +1,8 @@
 # oslc-server
+
+[![Discourse status](https://img.shields.io/discourse/https/meta.discourse.org/status.svg)](https://forum.open-services.net/)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/OSLC/chat)
+
 An OSLC Server Node.js app
 
 oslc-server is a Bluemix Node.js app that uses the oslc-service (which in turn uses the ldp-service) to support a generic OSLC3 server reference implementation. The server is configured to support the OSLC Change Management 3.0 (CM3) domain. This server can be used for OSLC Core 3.0 (OSLC3) and CM3 testing.
