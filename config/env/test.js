@@ -5,7 +5,7 @@ module.exports = {
 	"scheme": "http",
 	"host": "localhost",
 	"port": 3000,
-	"context": "/r",
+	"context": "/",
 	"URL": "http://localhost:3030/ldp/",
 	"services": path.resolve("./config/defaultServices.json"),
 	"contentType": "JSON",

@@ -34,7 +34,21 @@ module.exports = function() {
 	app.use(cookieParser());
 
 	// set the oslcroot to all OSLC resources
-	app.use(oslcService(env));
+	// initialize database and set up LDP services and viz when ready
+	env.storageService = require('ldp-service-jena');
+	env.storageService.init(env, function(err) {
+		if (err) {
+			// don't add the services that depend on the database if it can't be initialized
+			console.error(err);
+			console.error(`Can't initialize the ${env.storageImpl} data service.`);
+		} else {
+			var oslcService = require('oslc-service');
+			app.use(oslcService(env));  // env specifies what is routed to oslc-service
+			var ldpService = require('ldp-service').ldpService;
+			app.use(ldpService(env));
+			// add the visualization middleware to support graph visualization,
+		}
+	});
 
 	// set the default routes
 	// The default index route
