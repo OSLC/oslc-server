@@ -94,23 +94,10 @@ exports.services = config.services;
 exports.contentType = config.contentType;
 exports.resources = config.resources;
 
-// MongoDB
+// ldp-service-jena storage service 
 
-if(config.URL.includes("mongodb")){
+exports.storageImpl = config.storageImpl;
+exports.jenaURL = config.jenaURL;  // this is storage implementation specific
 
-	if (process.env.VCAP_SERVICES) {
-		var env = JSON.parse(process.env.VCAP_SERVICES);
-		exports.URL = env.mongolab[0].credentials.uri;
-	} else {
-		if (process.env.OPENSHIFT_MONGODB_DB_URL) {
-			exports.URL = process.env.OPENSHIFT_MONGODB_DB_URL;
-		} else {
-			exports.URL = process.env.MONGO_URL || config.URL;
-		}
-	}
-
-}else{
-	exports.URL = config.URL;
-}
 
 
