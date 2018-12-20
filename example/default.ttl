@@ -1,0 +1,30 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ldp:  <http://www.w3.org/ns/ldp#> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+
+@base <http://localhost:3000/> .
+
+# default ServiceProvider
+
+# The default "project area" or root service provider if the user 
+# doesn't create one. This makes sure there somplace to put data
+# without having to do a lot of setup
+
+<oslc/default>
+  a ldp:DirectContainer, oslc:ServiceProvider ;
+  ldp:membershipResource <oslc/default> ;
+  ldp:hasMemberRelation oslc:service ;
+
+  dcterms:identifier "default";
+  dcterms:title "default ServiceProvider"^^rdf:XMLLiteral ;
+  oslc:details <oslc/default> ;
+  dcterms:description "This is the default SerivceProvider used to initialize the ServiceProviderCatalog with something"^^rdf:XMLLiteral ;
+  dcterms:publisher 
+  [ a oslc:Publisher ;
+    dcterms:identifier  "OSLC4JS" ;
+    dcterms:title     "OSLC4JS Open Source Project Sample Data"^^rdf:XMLLiteral
+  ] ;
+  oslc:service <oslc/default/root>
+.

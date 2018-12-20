@@ -5,11 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var oslcService = require('oslc-service');
-var ldpService = require('ldp-service');
 
-var env = require('./env.js');
-
-module.exports = function() {
+module.exports = function(env) {
 	var app = express();
 
 	// configure the middleware that will execute on all requests (in order)
@@ -27,14 +24,12 @@ module.exports = function() {
 	app.set('views', './app/views');
 	app.set('view engine', 'ejs');
 
-	// uncomment after placing your favicon in /public
 	app.use(favicon('./public/images/favicon.ico'));
 	app.use(bodyParser.json());
 	app.use(bodyParser.urlencoded({ extended: false }));
 	app.use(cookieParser());
 
-	// set the oslcroot to all OSLC resources
-	// initialize database and set up LDP services and viz when ready
+	// initialize database and set up storage services 
 	env.storageService = require('ldp-service-jena');
 	env.storageService.init(env, function(err) {
 		if (err) {
@@ -44,9 +39,6 @@ module.exports = function() {
 		} else {
 			var oslcService = require('oslc-service');
 			app.use(oslcService(env));  // env specifies what is routed to oslc-service
-			var ldpService = require('ldp-service').ldpService;
-			app.use(ldpService(env));
-			// add the visualization middleware to support graph visualization,
 		}
 	});
 

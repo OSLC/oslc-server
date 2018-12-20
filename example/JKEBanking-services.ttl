@@ -1,0 +1,95 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ldp:  <http://www.w3.org/ns/ldp#> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+
+@base <http://localhost:3000/> .
+
+# Defines the OSLC services available at a route and a root
+# container of resouces upon which those resources can be used
+# The services provided here are CM and RM OSLC resources, 
+# their creation and selection dialogs, creation factories, 
+# and query capabilities, along with BasicContainers that can
+# be used to organize these resources in folders.
+
+<oslc/JKEBanking/root>
+    a ldp:BasicContainer, oslc:Service ;
+  oslc:domain oslc_cm:, oslc_rm: ;
+  oslc:selectionDialog  [ a                  oslc:Dialog ;
+                         oslc:dialog        <oslc/JKEBanking/root/dialogs/select?type=Requirement> ;
+                         oslc:hintHeight    "460px" ;
+                         oslc:hintWidth     "550px" ;
+                         oslc:label         "Change Request" ;
+                         oslc:resourceType  oslc_rm:Requirement ;
+                         oslc:usage         oslc_rm:Requirement ;
+                         dcterms:title      "Select a Requirement"^^rdf:XMLLiteral
+                       ] ;
+  oslc:selectionDialog  [ a                  oslc:Dialog ;
+                         oslc:dialog        <oslc/JKEBanking/root/dialogs/select?type=ChangeRequest> ;
+                         oslc:hintHeight    "460px" ;
+                         oslc:hintWidth     "550px" ;
+                         oslc:label         "Change Request" ;
+                         oslc:resourceType  oslc_cm:ChangeRequest ;
+                         oslc:usage         oslc_cm:ChangeRequest ;
+                         dcterms:title      "Select Change Request"^^rdf:XMLLiteral
+                       ] ;
+  oslc:selectionDialog  [ a                  oslc:Dialog ;
+                         oslc:dialog        <oslc/JKEBanking/root/dialogs/select?type=Task> ;
+                         oslc:hintHeight    "460px" ;
+                         oslc:hintWidth     "550px" ;
+                         oslc:label         "Task" ;
+                         oslc:resourceType  oslc_cm:Task ;
+                         oslc:usage         oslc_cm:Task ;
+                         dcterms:title      "Select Task"^^rdf:XMLLiteral
+                       ] ;
+  oslc:selectionDialog  [ a                  oslc:Dialog ;
+                         oslc:dialog        <oslc/JKEBanking/root/dialogs/select?type=Defect> ;
+                         oslc:hintHeight    "460px" ;
+                         oslc:hintWidth     "550px" ;
+                         oslc:label         "Defect" ;
+                         oslc:resourceType  oslc_cm:ChangeRequest ;
+                         oslc:usage         oslc_cm:Defect ;
+                         dcterms:title      "Select Defect"^^rdf:XMLLiteral
+                       ] ;
+  oslc:creationDialog   [ a                  oslc:Dialog ;
+                         oslc:dialog        <cm/JKEBanking/create?type=Requirement> ;
+                         oslc:hintHeight    "505px" ;
+                         oslc:hintWidth     "680px" ;
+                         oslc:label         "Task" ;
+                         oslc:resourceType  oslc_rm:Requirement ;
+                         oslc:usage         oslc_rm:Requirement ;
+                         dcterms:title      "New Task"^^rdf:XMLLiteral
+                       ] ;
+  oslc:creationDialog   [ a                  oslc:Dialog ;
+                         oslc:dialog        <cm/JKEBanking/create?type=Task> ;
+                         oslc:hintHeight    "505px" ;
+                         oslc:hintWidth     "680px" ;
+                         oslc:label         "Task" ;
+                         oslc:resourceType  oslc_cm:Task ;
+                         oslc:usage         oslc_cm:Task, oslc:default ;
+                         dcterms:title      "New Task"^^rdf:XMLLiteral
+                       ] ;
+  oslc:creationDialog   [ a                  oslc:Dialog ;
+                         oslc:dialog        <oslc/JKEBanking/root/dialogs/create?type=Defect> ;
+                         oslc:hintHeight    "505px" ;
+                         oslc:hintWidth     "680px" ;
+                         oslc:label         "Defect" ;
+                         oslc:resourceType  oslc_cm:Defect ;
+                         oslc:usage         oslc_cm:Defect ;
+                         dcterms:title      "New Defect"^^rdf:XMLLiteral
+                       ] ;
+ oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                         oslc:creation       <oslc/JKEBanking/root> ;
+                         oslc:resourceShape  <http://open-services.net/ns/cm/shapes/3.0/ChangeRequest>, <http://open-services.net/ns/cm/shapes/3.0/Task>, <http://open-services.net/ns/cm/shapes/3.0/Defect>   ;
+                         oslc:resourceType oslc_cm:ChangeRequest,  oslc_cm:Task, oslc_cm:Defect, oslc_rm:Requirement ;
+                         dcterms:title       "Location for creation change requests "^^rdf:XMLLiteral
+                       ] ;
+ oslc:queryCapability  [ a                   oslc:QueryCapability ;
+                         oslc:queryBase      <oslc/JKEBanking/root> ;
+                         oslc:resourceShape  <cm/query> ;
+                         oslc:resourceType   oslc_cm:ChangeRequest ;
+                         oslc:usage          oslc:default ;
+                         dcterms:title       "Change request queries"^^rdf:XMLLiteral
+                         ] 
+.

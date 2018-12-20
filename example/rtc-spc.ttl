@@ -1,0 +1,51 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix jfs_proc: <http://jazz.net/xmlns/prod/jazz/process/1.0/> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+
+<https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/workitems/catalog>
+        a                     oslc:ServiceProviderCatalog ;
+        oslc:domain           <http://open-services.net/ns/cm#> ;
+        oslc:serviceProvider  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_Bin9UP4_EeiPc8APQi-BTw/workitems/services.xml> , <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_pGZfAP4-EeiPc8APQi-BTw/workitems/services.xml> , <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/services.xml> ;
+        dcterms:publisher     [ a                   oslc:Publisher ;
+                                oslc:icon           <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/web/com.ibm.team.rtc.web/ui/graphics/UICustomizations/RationalTeamConcert.ico> ;
+                                dcterms:identifier  "com.ibm.team.workitem" ;
+                                dcterms:title       "IBM Rational Team Concert Work Items"^^rdf:XMLLiteral
+                              ] ;
+        dcterms:title         "Project Areas"^^rdf:XMLLiteral .
+
+<https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_pGZfAP4-EeiPc8APQi-BTw/workitems/services.xml>
+        a                          oslc:ServiceProvider ;
+        jfs_proc:consumerRegistry  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/process/project-areas/_pGZfAP4-EeiPc8APQi-BTw/links> ;
+        jfs_proc:globalConfigurationAware
+                "compatible"^^rdf:XMLLiteral ;
+        jfs_proc:supportContributionsToLinkIndexProvider
+                "true"^^rdf:XMLLiteral ;
+        jfs_proc:supportLinkDiscoveryViaLinkIndexProvider
+                "false"^^rdf:XMLLiteral ;
+        oslc:details               <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/process/project-areas/_pGZfAP4-EeiPc8APQi-BTw> ;
+        dcterms:title              "default"^^rdf:XMLLiteral .
+
+<https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/services.xml>
+        a                          oslc:ServiceProvider ;
+        jfs_proc:consumerRegistry  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/process/project-areas/_S-s-oGZdEeiE-uU6gesupw/links> ;
+        jfs_proc:globalConfigurationAware
+                "compatible"^^rdf:XMLLiteral ;
+        jfs_proc:supportContributionsToLinkIndexProvider
+                "true"^^rdf:XMLLiteral ;
+        jfs_proc:supportLinkDiscoveryViaLinkIndexProvider
+                "false"^^rdf:XMLLiteral ;
+        oslc:details               <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/process/project-areas/_S-s-oGZdEeiE-uU6gesupw> ;
+        dcterms:title              "JKE Banking (Change Management)"^^rdf:XMLLiteral .
+
+<https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_Bin9UP4_EeiPc8APQi-BTw/workitems/services.xml>
+        a                          oslc:ServiceProvider ;
+        jfs_proc:consumerRegistry  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/process/project-areas/_Bin9UP4_EeiPc8APQi-BTw/links> ;
+        jfs_proc:globalConfigurationAware
+                "compatible"^^rdf:XMLLiteral ;
+        jfs_proc:supportContributionsToLinkIndexProvider
+                "true"^^rdf:XMLLiteral ;
+        jfs_proc:supportLinkDiscoveryViaLinkIndexProvider
+                "false"^^rdf:XMLLiteral ;
+        oslc:details               <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/process/project-areas/_Bin9UP4_EeiPc8APQi-BTw> ;
+        dcterms:title              "ADAS"^^rdf:XMLLiteral .

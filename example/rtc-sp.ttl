@@ -1,0 +1,172 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+
+<https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/services.xml>
+        a                          oslc:ServiceProvider ;
+        oslc:domain           <http://open-services.net/ns/cm#> ;
+        dcterms:title              "JKE Banking (Change Management)"^^rdf:XMLLiteral ;        oslc:details               <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/process/project-areas/_S-s-oGZdEeiE-uU6gesupw> ;
+        dcterms:publisher          [ a                   oslc:Publisher ;
+                                     oslc:icon           <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/web/com.ibm.team.rtc.web/ui/graphics/UICustomizations/RationalTeamConcert.ico> ;
+                                     dcterms:identifier  "com.ibm.team.workitem" ;
+                                     dcterms:title       "IBM Rational Team Concert Work Items"^^rdf:XMLLiteral
+                                   ] ;
+        oslc:service               [ a                     oslc:Service ;
+                                     oslc:creationDialog   [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/modules/com.ibm.team.workitem.WICreationDialog?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&dc%3Atype=task> ;
+                                                             oslc:hintHeight    "505px" ;
+                                                             oslc:hintWidth     "680px" ;
+                                                             oslc:label         "Requirement Change Request" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#requirementsChangeRequest> ;
+                                                             dcterms:title      "New Requirement Change Request"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationDialog   [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/modules/com.ibm.team.workitem.WICreationDialog?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&dc%3Atype=task> ;
+                                                             oslc:hintHeight    "505px" ;
+                                                             oslc:hintWidth     "680px" ;
+                                                             oslc:label         "Task" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#task> ;
+                                                             dcterms:title      "New Task"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationDialog   [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/modules/com.ibm.team.workitem.WICreationDialog?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&dc%3Atype=defect> ;
+                                                             oslc:hintHeight    "505px" ;
+                                                             oslc:hintWidth     "680px" ;
+                                                             oslc:label         "Defect" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#defect> , oslc:default ;
+                                                             dcterms:title      "New Defect"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationDialog   [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/modules/com.ibm.team.workitem.WICreationDialog?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&dc%3Atype=com.ibm.team.apt.workItemType.story> ;
+                                                             oslc:hintHeight    "545px" ;
+                                                             oslc:hintWidth     "680px" ;
+                                                             oslc:label         "Plan Item" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#planItem> ;
+                                                             dcterms:title      "New Plan Item"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/com.ibm.team.workItemType.buildtrackingitem> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/com.ibm.team.workItemType.buildtrackingitem> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/com.ibm.team.workItemType.buildtrackingitem> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/com.ibm.team.workItemType.buildtrackingitem> ;
+                                                             dcterms:title       "Location for creation of Track Build Item change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/com.ibm.team.apt.workItemType.epic> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/com.ibm.team.apt.workItemType.epic> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/com.ibm.team.apt.workItemType.epic> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/com.ibm.team.apt.workItemType.epic> ;
+                                                             dcterms:title       "Location for creation of Epic change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/com.ibm.team.apt.workItemType.story> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/com.ibm.team.apt.workItemType.story> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/com.ibm.team.apt.workItemType.story> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://open-services.net/ns/cm#planItem> ;
+                                                             dcterms:title       "Location for creation of Story change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                  oslc:CreationFactory ;
+                                                             oslc:creation      <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/drafts/workitems> ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/drafts> ;
+                                                             dcterms:title      "Location for creation of draft change requests"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/task> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/task> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/task> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://open-services.net/ns/cm#requirementsChangeRequest> , <http://open-services.net/ns/cm#task> ;
+                                                             dcterms:title       "Location for creation of Task change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/defect> ;
+                                                             oslc:resourceType   <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             dcterms:title       "Location for creation of change requests"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/defect> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/defect> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/defect> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://open-services.net/ns/cm#defect> , oslc:default ;
+                                                             dcterms:title       "Location for creation of Defect change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/com.ibm.team.workitem.workItemType.retrospective> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/com.ibm.team.workitem.workItemType.retrospective> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/com.ibm.team.workitem.workItemType.retrospective> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/com.ibm.team.workitem.workItemType.retrospective> ;
+                                                             dcterms:title       "Location for creation of Retrospective change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/com.ibm.team.workItemType.adoption> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/com.ibm.team.workItemType.adoption> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/com.ibm.team.workItemType.adoption> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/com.ibm.team.workItemType.adoption> ;
+                                                             dcterms:title       "Location for creation of Adoption Item change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:creationFactory  [ a                   oslc:CreationFactory ;
+                                                             oslc:creation       <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems/com.ibm.team.workitem.workItemType.impediment> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/shapes/workitems/com.ibm.team.workitem.workItemType.impediment> ;
+                                                             oslc:resourceType   <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/types/_S-s-oGZdEeiE-uU6gesupw/com.ibm.team.workitem.workItemType.impediment> , <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          <http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/com.ibm.team.workitem.workItemType.impediment> ;
+                                                             dcterms:title       "Location for creation of Impediment change requests "^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:queryCapability  [ a                   oslc:QueryCapability ;
+                                                             oslc:queryBase      <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/contexts/_S-s-oGZdEeiE-uU6gesupw/workitems> ;
+                                                             oslc:resourceShape  <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/oslc/context/_S-s-oGZdEeiE-uU6gesupw/trs/shapes/workitems/query> ;
+                                                             oslc:resourceType   <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage          oslc:default ;
+                                                             dcterms:title       "Change request queries"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:selectionDialog  [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/pickers/com.ibm.team.workitem.WIPicker?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&allowsMultiple=true> ;
+                                                             oslc:hintHeight    "460px" ;
+                                                             oslc:hintWidth     "550px" ;
+                                                             oslc:label         "Change Request" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         oslc:default ;
+                                                             dcterms:title      "Select Change Request"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:selectionDialog  [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/pickers/com.ibm.team.workitem.WIPicker?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&allowsMultiple=true&dc%3Atype=defect> ;
+                                                             oslc:hintHeight    "460px" ;
+                                                             oslc:hintWidth     "550px" ;
+                                                             oslc:label         "Defect" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#defect> ;
+                                                             dcterms:title      "Select Defect"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:selectionDialog  [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/pickers/com.ibm.team.workitem.WIPicker?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&allowsMultiple=true&dc%3Atype=com.ibm.team.apt.workItemType.story> ;
+                                                             oslc:hintHeight    "460px" ;
+                                                             oslc:hintWidth     "550px" ;
+                                                             oslc:label         "Plan Item" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#planItem> ;
+                                                             dcterms:title      "Select Plan Item"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:selectionDialog  [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/pickers/com.ibm.team.workitem.WIPicker?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&allowsMultiple=true&dc%3Atype=task> ;
+                                                             oslc:hintHeight    "460px" ;
+                                                             oslc:hintWidth     "550px" ;
+                                                             oslc:label         "Task" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#task> ;
+                                                             dcterms:title      "Select Task"^^rdf:XMLLiteral
+                                                           ] ;
+                                     oslc:selectionDialog  [ a                  oslc:Dialog ;
+                                                             oslc:dialog        <https://ce4iot.rtp.raleigh.ibm.com:9443/ccm/pickers/com.ibm.team.workitem.WIPicker?projectAreaId=_S-s-oGZdEeiE-uU6gesupw&showLoginLink=true&allowsMultiple=true&dc%3Atype=task> ;
+                                                             oslc:hintHeight    "460px" ;
+                                                             oslc:hintWidth     "550px" ;
+                                                             oslc:label         "Requirement Change Request" ;
+                                                             oslc:resourceType  <http://open-services.net/ns/cm#ChangeRequest> ;
+                                                             oslc:usage         <http://open-services.net/ns/cm#requirementsChangeRequest> ;
+                                                             dcterms:title      "Requirement Change Request"^^rdf:XMLLiteral
+                                                           ]
+                                   ] 
+.

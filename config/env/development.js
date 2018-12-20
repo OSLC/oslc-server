@@ -9,8 +9,6 @@ module.exports = {
 	"storageImpl": "ldp-service-jena",
 	"jenaURL": "http://localhost:3030/univ/",
 
-	"URL": "http://localhost:3030/ldp/",
-	"services": path.resolve("./config/defaultServices.json"),
-	"contentType": "JSON",
-	"resources": "change-requests"
+	"services": path.resolve("./example/oslc.ttl"),
+	"contentType": "text/turtle"
 }; 

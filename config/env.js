@@ -90,12 +90,11 @@ if (process.env.LDP_BASE) {
 	});
 }
 
+// The ServiceProviderCatalog file used to initialize the database
 exports.services = config.services;
 exports.contentType = config.contentType;
-exports.resources = config.resources;
 
 // ldp-service-jena storage service 
-
 exports.storageImpl = config.storageImpl;
 exports.jenaURL = config.jenaURL;  // this is storage implementation specific
 

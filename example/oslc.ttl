@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ldp:  <http://www.w3.org/ns/ldp#> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+
+@base <http://localhost:3000/> .
+
+# A root BasicContainer ServiceProviderCatalog
+<oslc>
+  a ldp:DirectContainer, oslc:ServiceProviderCatalog;
+  ldp:membershipResource <oslc> ;
+  ldp:hasMemberRelation oslc:serviceProvider ;
+
+  dcterms:identifier "oslc";
+  dcterms:title "oslc"; 
+  dcterms:description  "Root container ServiceProviderCatalog accessed from /oslc" ;
+
+  # oslc:domain intentionally left unspecified
+  dcterms:publisher 
+  [ a oslc:Publisher ;
+    dcterms:identifier  "OSLC4JS" ;
+    dcterms:title     "OSLC4JS Open Source Project Sample Data"^^rdf:XMLLiteral
+  ] ;
+  oslc:serviceProvider <oslc/default>, <oslc/JKEBanking>
+.

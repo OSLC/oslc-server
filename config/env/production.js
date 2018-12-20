@@ -2,12 +2,10 @@ var path = require("path");
 
 module.exports = {
 	// Production configuration settings
-	"scheme": "http",
+	"scheme": "https",
 	"host": "localhost",
-	"port": 3000,
+	"port": 9443,
 	"context": "/",
-	"URL": "http://localhost:3030/ldp/",
 	"services": path.resolve("./config/defaultServices.json"),
-	"contentType": "JSON",
-	"resources": "change-requests"
+	"contentType": "application/json"
 }; 

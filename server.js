@@ -9,11 +9,10 @@
 
 // The NODE_ENV environment variable is often not properly set, default to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-var env = require('./config/env.js');
+var env = require('./config/env');
 
 // Load, configure and initialize the Express module given its configuration
-var express = require('./config/express');
-var app = express();
+var app = require('./config/express')(env);
 
 // Anything not handled by the above is an error, nothing should get here
 app.use(function(err, req, res, next){
