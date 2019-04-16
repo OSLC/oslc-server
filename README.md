@@ -15,9 +15,9 @@ oslc-server exploits the dynamic and asynchronous capabilities of JavaScript and
 
 ## Installation
 
-At this time, [oslc-service](https://github.com/OSLC/oslc-service) and [ldp-service-jena](https://github.com/OSLC/ldp-service-jena) are not in the npm package manager. Both services must be cloned into the same directory as oslc-server from GitHub.
+At this time, [oslc-service](https://github.com/OSLC/oslc-service) is not in the npm package manager. The services must be linked into the same directory as oslc-server from GitHub.
 
-Within oslc-server, ldp-service-jena, and oslc-service, run 
+Within oslc-server and oslc-service, run 
 	
 	$ npm install
 
@@ -25,7 +25,7 @@ Within oslc-server, ldp-service-jena, and oslc-service, run
 
 ### Server configuration
 
-At startup, the server uses the config/env/development.js, production.js or test.js file to configure the oslc-service, ldp-service and ldp-service-jena Express middleware. The process.env.NODE_ENV environment variable is used to specify which configuration to use: development (the default), production or test. This configuration information includes:
+At startup, the server uses the config/env.js which in turn uses config/env/development.js, production.js or test.js file to configure the oslc-service Express middleware. The process.env.NODE_ENV environment variable is used to specify which configuration to use: development (the default), production or test. development.js configuration information includes:
 
 	var path = require("path");
 
@@ -34,9 +34,10 @@ At startup, the server uses the config/env/development.js, production.js or test
 		"scheme": "http",
 		"host": "localhost",
 		"port": 3000,
-		"context": "/r",
-		"JenaURL": "http://localhost:3030/oslc/",
-		"services": path.resolve("./config/defaultServices.json")
+		"context": "/",
+		"JenaURL": "http://localhost:3030/univ/",
+		"services": path.resolve("./services/spc.ttl"),
+		"contentType": "text/turtle"
 	};
 
 
@@ -64,13 +65,15 @@ oslc-server accepts RDF resources in JSON-LD, Turtle, and RDF-XML formats. When 
 ## Starting up the Fuseki server
 
 
-OSLC Server requires the installation of ldp-service-jena, oslc-service, and Apache Jena Fuseki 3.8.
+OSLC Server requires the installation of oslc-service, and Apache Jena Fuseki 3.8.
 
 Apache Jena Fuseki 3.8 must be running before initializing the server. The database can be downloaded [here](https://jena.apache.org/download/#jena-fuseki). Once it is unzipped, enter the folder apache-jena labeled apache-jena-fuseki-3.8.0 and run the following code:
 
-	$ cd ~/bin/apache-jena-fuseki-3.8.0
-	$ fuseki-server --update --config=.<location of fuseki config.ttl file>
-
+```
+cd ~/bin/apache-jena-fuseki-3.8.0
+./fuseki-server --update --config=../config-univ.ttl
+./fuseki-server --update --config=<location of fuseki config.ttl file>
+```
 
 ## Running The Server
 

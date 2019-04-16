@@ -30,7 +30,7 @@ module.exports = function(env) {
 	app.use(cookieParser());
 
 	// initialize database and set up storage services 
-	env.storageService = require('ldp-service-jena');
+	env.storageService = require('./storage-jena');
 	env.storageService.init(env, function(err) {
 		if (err) {
 			// don't add the services that depend on the database if it can't be initialized

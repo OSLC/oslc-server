@@ -6,9 +6,9 @@ module.exports = {
 	"host": "localhost",
 	"port": 3000,
 	"context": "/",
-	"storageImpl": "ldp-service-jena",
+	"storageImpl": "storage-jena",
 	"jenaURL": "http://localhost:3030/univ/",
 
-	"services": path.resolve("./example/oslc.ttl"),
+	"services": path.resolve("./services/spc.ttl"),
 	"contentType": "text/turtle"
 }; 
