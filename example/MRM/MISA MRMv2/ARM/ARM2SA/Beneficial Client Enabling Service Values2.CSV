@@ -1,0 +1,27 @@
+Name,Output,Client Type,Client
+"Effective, fair and open purchasing process; opportunity to bid",Purchased Good or Service (Issued Purchase Order),Beneficial,Suppliers of goods and services
+"Effective, fair and open purchasing process; opportunity to bid",Credit Card Purchased Good or Service,Beneficial,Suppliers of goods and services
+"Effective, fair and open purchasing process; opportunity to bid",Quotation Purchased Good or Service,Beneficial,Suppliers of goods and services
+"Effective, fair and open purchasing process; opportunity to bid",Proposal Purchased Good or Service,Beneficial,Suppliers of goods and services
+"Effective, fair and open purchasing process; opportunity to bid",Tender Purchased Good or Service,Beneficial,Suppliers of goods and services
+"Accurate, timely, payment for services rendered",Employee Paid (Pay Cheque),Beneficial,Employee
+Correctly compensated employee (in accordance with employment contract),Employee Managed,Beneficial,Employee
+Correctly compensated employee (in accordance with employment contract),Employee Compensated (Correctly),Beneficial,Employee
+Enhanced employee skills,Employee Trained,Beneficial,Employee
+More satisfied employee,Employee Trained,Beneficial,Employee
+Enhanced career opportunities,Employee Trained,Beneficial,Employee
+Increased safety in the  workplace,Rehabilitated Injured Worker,Beneficial,Employee
+Reduced risk of injury,Rehabilitated Injured Worker,Beneficial,Employee
+Improved quality of work / life,Rehabilitated Injured Worker,Beneficial,Employee
+"Improved access to employment supports in times of crisis, or challenges to working conditions",Employee Advised,Beneficial,Employee
+Lawful collective agreement and stability in labour relations,Labour Agreement (Approved),Beneficial,Labour Unions
+Increased fairness in staffing employees,Position Filled,Beneficial,Employee (Existing / Prospective)
+Increased fairness in recruiting employees,Employee Recruited,Beneficial,Prospective Employee
+Increased fairness in firing employees,Employee Fired,Beneficial,Fired Employee
+Increased fairness in retiring employees,Employee Retired,Beneficial,Retired Employee
+Improved clarity in employee role,Job / Position Managed,Beneficial,Employee
+Improved treatment of volunteers,Volunteer Assigned,Beneficial,Volunteer
+Improved allocation of volunteers to fill a desirable role,Volunteer Assigned,Beneficial,Volunteer
+"Awareness of relevant information about municipal programs and services, and the municipal workplace",Communication Message / Communiqu_,Beneficial,Communication Recipient
+Awareness of relevant information about municipal programs and services,External Communication Message / Communiqu_,Beneficial,Communication Recipient
+Awareness of relevant information about municipal programs and services and their workplace,Internal Communication Message / Communiqu_,Beneficial,Communication Recipient

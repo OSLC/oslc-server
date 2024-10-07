@@ -1,0 +1,24 @@
+[Application]
+Data file version=1.0041
+Program Version=9.1100.0.1
+
+[Rational Architect]
+EclipseElementProxiesPackageName=Eclipse Element Proxies
+
+[Add-ins]
+MRMv2=C:\Documents and Settings\Administrator\Desktop\ReqPro\Gotham City\MyMenu.txt
+
+[Project]
+Owner=vrosati
+Name=MRMv2
+GUID={074B52F5-9763-4312-8542-2D88A3FB0282}
+CQWebURL=
+isTrackChangesAllowed=1
+Description=
+Owner Key=1
+Revision number=1.0133
+Prefix=
+NbrRequirements=1310
+Directory=C:\Documents and Settings\Administrator\Desktop\Reqpro\Gotham City.rqs
+Key=1
+

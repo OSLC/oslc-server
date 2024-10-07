@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Front Plug-in
+Bundle-SymbolicName: misa.xform.front; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: misa.xform.front.Activator
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.emf.ecore,
+ org.eclipse.gmf.runtime.common.core,
+ org.eclipse.uml2.uml,
+ misa.xform.model.extract,
+ com.ibm.xtools.transform.authoring.uml2,
+ org.eclipse.emf.edit;bundle-version="2.4.0",
+ misa.xform.reqpro;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

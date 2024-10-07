@@ -1,0 +1,6 @@
+Name,Description,Status,Source,"From Date","To Date","Target Group Type","Population Size",Outcomes,"Sub-Target Groups","Reference Documents","Initial Date","Last Change Date","Initial Time","Last Change Time","Initial Audit","Last Change Audit",GUID
+"Home Owner",,Active,,,,,,"""Reduced loss of property from fire""
+""Reduced loss of life from fire""",,,10/29/2010,12/8/2010,"5:15:00 PM","4:40:00 PM",jra,Adminis,8eec4ad5-be4e-43d7-a3bd-aa847bff4418
+"On-road Vehicle Drivers",,Active,,,,,,"""Reduced percentage of unsafe drivers holding valid licenses""",,,11/17/2010,11/17/2010,"2:50:28 PM","3:40:14 PM",Adminis,Adminis,48f84e0f-303b-4950-b917-ef81fff932aa
+"People involved in fires",,Active,,,,,,,,,11/4/2010,12/8/2010,"5:21:27 PM","4:40:00 PM",jra,Adminis,f88fb261-c602-4890-b464-ece4ea826c98
+"The Public",,Active,,,,,,"""Reduced Rate of Traffic Fatalities""","""On-road Vehicle Drivers""",,11/17/2010,1/4/2011,"2:50:45 PM","12:34:42 PM",Adminis,Adminis,c0fad3c0-c6fb-4478-8d42-2ed1dfd6ed1a

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root targetProject="sample output">
+	<classDef name="Program" package="GSRM Framework Semantics">
+		<description>A program ...</description>
+		<attributeDef name="program name" typename="string">
+			<description>The name of a program</description>
+		</attributeDef>
+		<attributeDef name="program description" typename="string">
+		</attributeDef>
+	</classDef>
+
+	<classDef name="Service" package="GSRM Framework Semantics">
+		<description>A service ...</description>
+		<attributeDef name="service name" typename="string">
+		</attributeDef>
+		<attributeDef name="service description" typename="string">
+			<description>A description of a service</description>
+		</attributeDef>
+	</classDef>
+</root>

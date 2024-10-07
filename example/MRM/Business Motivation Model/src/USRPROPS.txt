@@ -1,0 +1,17 @@
+REM "Licensed Materials - Property of IBM"
+REM "USRPROPS.TXT"
+REM "(c) Copyright IBM Corporation 1986,2009. All Rights Reserved."
+REM "U.S. Government Users Restricted Rights: Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp."
+REM "You may copy, modify, and distribute these samples, or their modifications, in any form,"
+REM "internally or as part of your application or related documentation. These samples have not been"
+REM "tested under all conditions and are provided to you by IBM without obligation of support of any kind."
+REM "IBM PROVIDES THESE SAMPLES 'AS IS', SUBJECT TO ANY STATUTORY WARRANTIES THAT CANNOT BE EXCLUDED."
+REM "IBM MAKES NO WARRANTIES OR CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO,"
+REM "THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT"
+REM "REGARDING THESE SAMPLES OR TECHNICAL SUPPORT, IF ANY."
+
+REM "Instructions for modifying this file are in the on-line help."
+
+REM "******** BMM the OMG Business Motivation Reference Model ********"
+#include "BMM-definitions.txt"
+#include "BMM-diagrams.txt"

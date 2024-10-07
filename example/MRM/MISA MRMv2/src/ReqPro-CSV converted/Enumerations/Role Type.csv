@@ -1,0 +1,11 @@
+Name,"Is Instance", "Instance Of"
+"MRM Role Type", F,
+"Accountable", T, "MRM Role Type"
+"Consulted", T, "MRM Role Type"
+"Governs", T, "MRM Role Type"
+"Informed", T, "MRM Role Type"
+"Responsible", T, "MRM Role Type"
+"Responsible - Decision", T, "MRM Role Type"
+"Responsible - Involvement", T, "MRM Role Type"
+"Responsible - Primary", T, "MRM Role Type"
+"Supports", T, "MRM Role Type"

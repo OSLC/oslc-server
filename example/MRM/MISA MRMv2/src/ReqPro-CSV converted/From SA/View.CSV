@@ -1,0 +1,3 @@
+Name,Description,"View Type","View Access","Dynamic View Reports",Performance,ReportDef,ReportDgm,"Reference Documents","Initial Date","Last Change Date","Initial Time","Last Change Time","Initial Audit","Last Change Audit",GUID
+MRM,"Explores diagrams and definitions that are specific to MRM.",Dynamic,Public,"""MRM Diagram View""
+""MRM Definitions View""",,,,,11/3/2010,11/3/2010,"12:55:16 PM","12:59:37 PM",jra,jra,ad0d3576-ad23-4c2a-92b5-fb33d3bafcbe

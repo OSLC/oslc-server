@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY bpmn-soa "http://www.semanticweb.org/ontologies/2010/0/bpmn-soa.owl#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2006/12/owl2-xml#"
+     xml:base="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bpmn-soa="http://www.semanticweb.org/ontologies/2010/0/bpmn-soa.owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     URI="http://www.semanticweb.org/ontologies/2010/0/bpmn-soa.owl">
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <Class URI="&bpmn-soa;Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&bpmn-soa;doneBy"/>
+            <Class URI="&bpmn-soa;Performer"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&bpmn-soa;isElementIn"/>
+            <Class URI="&bpmn-soa;Process"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+            <Class URI="&bpmn-soa;Process"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+            <Class URI="&bpmn-soa;Task"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&bpmn-soa;doneBy"/>
+            <Class URI="&bpmn-soa;Performer"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+            <Class URI="&bpmn-soa;Process"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Activity"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+            <Class URI="&bpmn-soa;Task"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&bpmn-soa;Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class URI="&bpmn-soa;Actor"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Choreography"/>
+        <Class URI="&bpmn-soa;Process"/>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&bpmn-soa;Choreography"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Collaboration"/>
+        <Class URI="&bpmn-soa;Process"/>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&bpmn-soa;Collaboration"/>
+    </Declaration>
+    <Declaration>
+        <Class URI="&bpmn-soa;Element"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Orchestration"/>
+        <Class URI="&bpmn-soa;Process"/>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&bpmn-soa;Orchestration"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Performer"/>
+        <Class URI="&bpmn-soa;Actor"/>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&bpmn-soa;Performer"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Process"/>
+        <Class URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&bpmn-soa;Process"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&bpmn-soa;has"/>
+            <Class URI="&bpmn-soa;Activity"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&bpmn-soa;Process"/>
+    </Declaration>
+    <Declaration>
+        <Class URI="&bpmn-soa;Task"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&bpmn-soa;does"/>
+        <Class URI="&bpmn-soa;Performer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&bpmn-soa;does"/>
+        <Class URI="&bpmn-soa;Activity"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&bpmn-soa;does"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&bpmn-soa;doneBy"/>
+        <Class URI="&bpmn-soa;Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&bpmn-soa;doneBy"/>
+        <Class URI="&bpmn-soa;Performer"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&bpmn-soa;doneBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&bpmn-soa;has"/>
+        <Class URI="&bpmn-soa;Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&bpmn-soa;has"/>
+        <Class URI="&bpmn-soa;Activity"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&bpmn-soa;has"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&bpmn-soa;is"/>
+        <Class URI="&bpmn-soa;Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&bpmn-soa;is"/>
+        <Class URI="&bpmn-soa;Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&bpmn-soa;is"/>
+        <Class URI="&bpmn-soa;Activity"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&bpmn-soa;is"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&bpmn-soa;isElementIn"/>
+        <Class URI="&bpmn-soa;Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&bpmn-soa;isElementIn"/>
+        <Class URI="&bpmn-soa;Process"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&bpmn-soa;isElementIn"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+        <Class URI="&bpmn-soa;Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+        <Class URI="&bpmn-soa;Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+        <Class URI="&bpmn-soa;Task"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&bpmn-soa;originatedFrom"/>
+    </Declaration>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

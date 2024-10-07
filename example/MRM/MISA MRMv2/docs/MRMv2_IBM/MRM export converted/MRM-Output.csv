@@ -1,0 +1,253 @@
+"GUID","Name","Source","Period To Date","Period From Date","Service Output Type","Output Type","Volume Period End","Volume Period Start","Volume Count - Actual","Volume Count - Planned","Status","Service","Outcomesx"
+"OP1","Accessible Information (organized information)",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC1"
+"OP2","Arts & Cultural Advice (Imparted)",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC2"
+"OP3","Building Record Information Provided",,,02/22/10,"Advisory Encounters","Service",,,,,,,
+"OP4","Building Regulation & Construction Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,
+"OP5","Building Regulation Compliance Letter",,,02/22/10,"Advisory Encounters","Service",,,,,,,
+"OP6","Business Advice Imparted",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC3"
+"OP7","Business Consulted",,,02/22/10,"Advisory Encounters","Service",,,,,,,
+"OP8","Business Improvement Area Supported",,,02/22/10,"Advisory Encounters","Service",,,,,,,
+"OP9","Business Solution Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC4"
+"OP10","Child / Youth Health Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC5"
+"OP11","Chronic Disease Lifestyle Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC6(s)"
+"OP12","Election Result Posted",,,02/22/10,"Advisory Encounters","Service",,,,,,"SVOP8","OPOC7"
+"OP13","Energy Conserved",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC8"
+"OP14","Information Accessed (to conduct business)",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC9"
+"OP15","Information Communicated",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC10"
+"OP16","Information request fulfilled",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC11"
+"OP17","Injury Prevention Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC12"
+"OP18","Legal Advice (Imparted)",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC13"
+"OP19","Mental Health Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC14"
+"OP20","Prospective Business Supported",,,02/22/10,"Advisory Encounters","Service",,,,,,,
+"OP21","Public Health Care Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC15(s)"
+"OP22","Reproductive Health Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC16"
+"OP23","Small Business Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,
+"OP24","Substance Misuse Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC17"
+"OP25","Supportive Housing Pain and Symptom Consultation",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC18(s)"
+"OP26","Underground Utility Line(s) Located",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC19(s)"
+"OP27","Vulnerable Adult / Senior Advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC20"
+"OP28","Employee Advised (productive employee)",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC21(s)"
+"OP29","Energy conservation advice",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC22"
+"OP30","Recruitment Supported",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC23(s)"
+"OP31","Risk Assessed",,,02/22/10,"Advisory Encounters","Service",,,,,,,"OPOC24"
+"OP32","Child / Youth Health Promotional Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC25(s)"
+"OP33","Chronic Disease Personal Health Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC26"
+"OP34","Chronic Disease Prevention Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC27(s)"
+"OP35","Food Safety Promotional Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC28(s)"
+"OP36","Health Hazard Promotional Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC29"
+"OP37","Injury Prevention Awareness Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC30"
+"OP38","International Business Promotion Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,
+"OP39","Mental Health Promotional Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC31(s)"
+"OP40","New Business Attracted",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC32(s)"
+"OP41","Public Health Promotional Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC33(s)"
+"OP42","Reproductive Health Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC34"
+"OP43","Tourism Advertisement / Brochure Distributed",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC35(s)"
+"OP44","Trade Show Campaign",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,
+"OP45","Visitor Information (package) distributed",,,02/22/10,"Advocacy & Promotional Encounter","Service",,,,,,,"OPOC36(s)"
+"OP46","Adult Day Advanced Personal Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC37(s)"
+"OP47","Adult Day Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC38"
+"OP48","Adult Day Care Advice",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC39(s)"
+"OP49","Adult Day Care Case Managed",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC40(s)"
+"OP50","Adult Day Meal Provided",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC41(s)"
+"OP51","Adult Day Medication Monitored",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC42(s)"
+"OP52","Adult Day Personal Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,
+"OP53","Adult Day Pyscho-social Consultation",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC43(s)"
+"OP54","Adult Day Recreational Activity",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC44(s)"
+"OP55","Adult Day Rehabilitation Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC45(s)"
+"OP56","Child Immunized",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC46"
+"OP57","Dental Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC47(s)"
+"OP58","Disease Controlled",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC48"
+"OP59","High Risk Individual Immunized",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC49"
+"OP60","HIV/AIDS Drug",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC50"
+"OP61","HIV/AIDS Prevention Course",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC51"
+"OP62","Infection Drug",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC52"
+"OP63","Infectious Disease Controlled",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC53"
+"OP64","Paramedic Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC54"
+"OP65","Rabies Vaccination",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC55"
+"OP66","Respite care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC56"
+"OP67","Sexually Transmitted Disease Control Drug",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC57"
+"OP68","Supportive Housing Acquired Hearing Loss Special Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC58(s)"
+"OP69","Supportive Housing Blind and Visually Impaired Special Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC59(s)"
+"OP70","Supportive Housing Dietic Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC60(s)"
+"OP71","Supportive Housing Medication Coordinated",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC61(s)"
+"OP72","Supportive Housing Nursing Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC62(s)"
+"OP73","Supportive Housing Occupational Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC63(s)"
+"OP74","Supportive Housing Personal Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC64(s)"
+"OP75","Supportive Housing Personal Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC65(s)"
+"OP76","Supportive Housing Personal Support",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC66(s)"
+"OP77","Supportive Housing Physiotherapy Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC67(s)"
+"OP78","Supportive Housing Psychological Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC68(s)"
+"OP79","Supportive Housing Social Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC69(s)"
+"OP80","Supportive Housing Speech - Language Pathology Care Treatment",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC70"
+"OP81","Tuberculosis Control Drug",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC71"
+"OP82","Homelessness Prevention Support",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC72(s)"
+"OP83","Long Term Care accommodation",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC73"
+"OP84","Long Term Care Overnight Stay",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC74"
+"OP85","Long-Term Care Reference",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC75"
+"OP86","Medication Administration",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC76"
+"OP87","Palliative Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC77"
+"OP88","Pastoral care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC78"
+"OP89","Personal care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC79"
+"OP90","Psycho-social consultation",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC80"
+"OP91","Rehabilitation Care",,,02/22/10,"Care & Rehabilitation Encounters","Service",,,,,,,"OPOC81"
+"OP92","Election Officer Trained",,,02/22/10,"Educational & Training Encounter","Service",,,,,,"SVOP7","OPOC82"
+"OP93","Supportive Housing Health Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC83(s)"
+"OP94","Supportive Housing Physician Palliative Care Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC84(s)"
+"OP95","Arts and Cultural Lesson (imparted)",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC85"
+"OP96","Child / Youth Health Education Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC86"
+"OP97","Chronic Disease Lifestyle Education",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC87(s)"
+"OP98","Crime Prevention Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC88"
+"OP99","Fire Safety Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC89"
+"OP100","Library Used",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC90"
+"OP101","Public Health Education Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC91(s)"
+"OP102","Recreation Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC92"
+"OP103","Reproductive Health Education Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC93"
+"OP104","Sexual Health Course",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC94"
+"OP105","Substance Misuse Prevention Education Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC95"
+"OP106","Vulnerable Adult / Senior Education Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC96"
+"OP107","Literacy Lesson / Consultation",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,"OPOC97(s)"
+"OP108","Special Education Lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,
+"OP109","Special needs lesson",,,02/22/10,"Educational & Training Encounter","Service",,,,,,,
+"OP110","Audit Recommendation",,,02/22/10,"Findings","Service",,,,,,,"OPOC98"
+"OP111","Crime Investigated (and solved)",,,02/22/10,"Findings","Service",,,,,,,"OPOC99(s)"
+"OP112","Employee Criminal Record Checked",,,02/22/10,"Findings","Service",,,,,,,"OPOC100(s)"
+"OP113","Employee Security / Criminal Record Checked",,,02/22/10,"Findings","Service",,,,,,,"OPOC101(s)"
+"OP114","Employee Security Record Checked",,,02/22/10,"Findings","Service",,,,,,,"OPOC102(s)"
+"OP115","Pre-Application Applicable Law Reviewed",,,02/22/10,"Findings","Service",,,,,,,"OPOC103"
+"OP116","Preliminary Project Reviewed",,,02/22/10,"Findings","Service",,,,,,,"OPOC104"
+"OP117","Property Valuated",,,02/22/10,"Findings","Service",,,,,,,"OPOC105(s)"
+"OP118","Water Safety Inspected",,,02/22/10,"Findings","Service",,,,,,,"OPOC106"
+"OP119","Compliance Audit Recommendation",,,02/22/10,"Findings","Service",,,,,,,
+"OP120","Environmental Assessment",,,02/22/10,"Findings","Service",,,,,,,"OPOC107(s)"
+"OP121","Financial Audit Recommendation",,,02/22/10,"Findings","Service",,,,,,,"OPOC108"
+"OP122","Operational Audit Recommendation",,,02/22/10,"Findings","Service",,,,,,,"OPOC109"
+"OP123","Property audited for energy consumption",,,02/22/10,"Findings","Service",,,,,,,"OPOC110"
+"OP124","Value for Money Audit Recommendation",,,02/22/10,"Findings","Service",,,,,,,
+"OP125","Account Paid (in good standing)",,,02/22/10,"Funds","Service",,,,,,,"OPOC111"
+"OP126","Account Payment Received",,,02/22/10,"Funds","Service",,,,,,,"OPOC112"
+"OP127","Accounted for Transaction",,,02/22/10,"Funds","Service",,,,,,,"OPOC113"
+"OP128","Affordable Housing Grant / Subsidy",,,02/22/10,"Funds","Service",,,,,,,"OPOC114"
+"OP129","Asset Commissioned",,,02/22/10,"Funds","Service",,,,,,,"OPOC115"
+"OP130","Brownfield Redevelopment Incentive Grant",,,02/22/10,"Funds","Service",,,,,,,
+"OP131","Building Permit Fees / Charges Waived",,,02/22/10,"Funds","Service",,,,,,,
+"OP132","Community Improvement Plan Grant",,,02/22/10,"Funds","Service",,,,,,,
+"OP133","Finances Accounted",,,02/22/10,"Funds","Service",,,,,,,
+"OP134","Financial / Employment Assistance",,,02/22/10,"Funds","Service",,,,,,,"OPOC116"
+"OP135","Financial Assistance Payment",,,02/22/10,"Funds","Service",,,,,,,"OPOC117(s)"
+"OP136","Heritage Incentive Grant",,,02/22/10,"Funds","Service",,,,,,,
+"OP137","Income Support Payment",,,02/22/10,"Funds","Service",,,,,,,"OPOC118(s)"
+"OP138","Pre-school special needs funding payment",,,02/22/10,"Funds","Service",,,,,,,"OPOC119(s)"
+"OP139","Property Development Incentive Grant / Subsidy",,,02/22/10,"Funds","Service",,,,,,,
+"OP140","Property Tax Reduced",,,02/22/10,"Funds","Service",,,,,,,
+"OP141","Social Housing Subsidy Payment",,,02/22/10,"Funds","Service",,,,,,,"OPOC120(s)"
+"OP142","Tax account paid (or in good standing)",,,02/22/10,"Funds","Service",,,,,,,"OPOC121(s)"
+"OP143","Capital Budget Approved",,,02/22/10,"Funds","Service",,,,,,,"OPOC122(s)"
+"OP144","Cash (available for paying financial obligations)",,,02/22/10,"Funds","Service",,,,,,,"OPOC123"
+"OP145","Child Care Centre Subsidy Payment",,,02/22/10,"Funds","Service",,,,,,,"OPOC124(s)"
+"OP146","Compensated Employee",,,02/22/10,"Funds","Service",,,,,,,"OPOC125(s)"
+"OP147","Early Childhood Professional Wage Subsidy",,,02/22/10,"Funds","Service",,,,,,,"OPOC126(s)"
+"OP148","Electrical upgrade loan",,,02/22/10,"Funds","Service",,,,,,,"OPOC127"
+"OP149","Financial Investment / Debt Managed",,,02/22/10,"Funds","Service",,,,,,,"OPOC128"
+"OP150","Financial Plan and/or Budget Approved",,,02/22/10,"Funds","Service",,,,,,,"OPOC129(s)"
+"OP151","Good / Service Purchased",,,02/22/10,"Funds","Service",,,,,,,"OPOC130"
+"OP152","Grant / Subsidy Awarded / Received",,,02/22/10,"Funds","Service",,,,,,,"OPOC131(s)"
+"OP153","Heritage Grant Awarded",,,02/22/10,"Funds","Service",,,,,,,"OPOC132"
+"OP154","Homeless shelter funding payment",,,02/22/10,"Funds","Service",,,,,,,"OPOC133(s)"
+"OP155","Library Fee / Fine Collected",,,02/22/10,"Funds","Service",,,,,,,"OPOC134(s)"
+"OP156","Operating Budget Approved",,,02/22/10,"Funds","Service",,,,,,,"OPOC135(s)"
+"OP157","Rent Supplement Payment",,,02/22/10,"Funds","Service",,,,,,,"OPOC136(s)"
+"OP158","Social Housing Subsidy Payment",,,02/22/10,"Funds","Service",,,,,,,
+"OP159","Crisis and outreach intervention",,,02/22/10,"Interventions","Service",,,,,,,
+"OP160","Emergency / Disaster Mitigated",,,02/22/10,"Interventions","Service",,,,,,,
+"OP161","Incident Intervened",,,02/22/10,"Interventions","Service",,,,,,,"OPOC137(s)"
+"OP162","Incident Mitigated",,,02/22/10,"Interventions","Service",,,,,,,"OPOC138(s)"
+"OP163","Murder Incident Intervened",,,02/22/10,"Interventions","Service",,,,,,,"OPOC139(s)"
+"OP164","Rape Incident Intervened",,,02/22/10,"Interventions","Service",,,,,,,"OPOC140(s)"
+"OP165","Suicide Incident Intervened",,,02/22/10,"Interventions","Service",,,,,,,"OPOC141(s)"
+"OP166","Animal Controlled",,,02/22/10,"Interventions","Service",,,,,,,"OPOC142(s)"
+"OP167","Burglary Incident Intervened",,,02/22/10,"Interventions","Service",,,,,,,"OPOC143(s)"
+"OP168","Employment Support / Referral",,,02/22/10,"Matches, Referrals & Linkages","Service",,,,,,,"OPOC144(s)"
+"OP169","Service Request Redirected to Police, Fire, and/or Ambulance",,,02/22/10,"Matches, Referrals & Linkages","Service",,,,,,,"OPOC145(s)"
+"OP170","Service Request Redirected to Public Service Provider",,,02/22/10,"Matches, Referrals & Linkages","Service",,,,,,,"OPOC146(s)"
+"OP171","Service Request Taken, Referred and Fulfilled",,,02/22/10,"Matches, Referrals & Linkages","Service",,,,,,,"OPOC147"
+"OP172","Supportive Housing Placement",,,02/22/10,"Matches, Referrals & Linkages","Service",,,,,,,"OPOC148(s)"
+"OP173","Victim / Youth At Risk Referred",,,02/22/10,"Matches, Referrals & Linkages","Service",,,,,,,"OPOC149(s)"
+"OP174","Call Taken and Resources Dispatched",,,02/22/10,"Matches, Referrals & Linkages","Service",,,,,,,"OPOC150"
+"OP175","Ferry Trip",,,02/22/10,"Movements","Service",,,,,,,"OPOC151"
+"OP176","Passenger Trip",,,02/22/10,"Movements","Service",,,,,,,"OPOC152"
+"OP177","Transit / Passenger Trip",,,02/22/10,"Movements","Service",,,,,,,"OPOC153"
+"OP178","Child / Youth Escorted Across Street (in School Zones)",,,02/22/10,"Movements","Service",,,,,,,"OPOC275(s)"
+"OP179","Business Market Researched",,,02/22/10,"New Knowledge","Service",,,,,,,
+"OP180","Building Inspected (in compliance)",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,
+"OP181","Fence By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,"SVOP15",
+"OP182","Fireworks By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,"SVOP16",
+"OP183","Graffiti By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,"SVOP13",
+"OP184","Grass & Weed By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,"SVOP14",
+"OP185","Litter & Dumping By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,"SVOP12",
+"OP186","Moble Home By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,
+"OP187","Noise By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,"SVOP11",
+"OP188","Property Standards By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,"SVOP10","OPOC154"
+"OP189","Right-of-Way By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,
+"OP190","Sign By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,
+"OP191","Waste & Waste Collection By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,
+"OP192","Zoning By-law violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,
+"OP193","Fire Safety Violation Rectified",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,"OPOC155(s)"
+"OP194","Food Safety Inspected",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,"OPOC156(s)"
+"OP195","Health Hazard Inspected / Monitored",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,"OPOC157"
+"OP196","Provincial Offence Resolved (Fine Paid)",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,"OPOC158"
+"OP197","Public Heatlh Inspection",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,"OPOC159"
+"OP198","Traffic Violation (brought into compliance)",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,"OPOC160(s)"
+"OP199","Parking Violation brought into compliance",,,02/22/10,"Penalties & Periods of Sanction","Service",,,,,,,"OPOC161(s)"
+"OP200","Community Partnership Agreement",,,02/22/10,"Periods of Agreement","Service",,,,,,,"OPOC162"
+"OP201","Contract / Agreement Executed (managed)",,,02/22/10,"Periods of Agreement","Service",,,,,,,"OPOC163(s)"
+"OP202","Property Sale Negotiated",,,02/22/10,"Periods of Agreement","Service",,,,,,,
+"OP203","Alteration Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC164(s)"
+"OP204","Assisted Housing Accommodation (period of)",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC165"
+"OP205","Birth Certificate Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,"SVOP2","OPOC166"
+"OP206","Building Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC167(s)"
+"OP207","Business Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC168"
+"OP208","Change of Use Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC169(s)"
+"OP209","Charitable Gaming Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP210","Civic Address Assigned",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC170(s)"
+"OP211","Clothing Drop Box Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP212","Committee of Adjustment Minor Variance Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC171(s)"
+"OP213","Condominium Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC172(s)"
+"OP214","Construction Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC173(s)"
+"OP215","Death Certificate Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,"SVOP3","OPOC174"
+"OP216","Demolition Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC175(s)"
+"OP217","Development Application Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC176(s)"
+"OP218","Election Candidate Registered",,,02/22/10,"Periods of Permisson","Service",,,,,,"SVOP6","OPOC177"
+"OP219","Election Conducted and Results Posted",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC178"
+"OP220","Fence Exemption Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP221","Fence Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC179"
+"OP222","Fireworks Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP223","Graffiti Art Mural Exemption Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP224","Group Home Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP225","Heritage Demolition & Alteration Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC180(s)"
+"OP226","Liquor Establishment Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP227","Marriage Licence Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,"SVOP4","OPOC181"
+"OP228","Natural Garden Exemption Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP229","Noice Exemption Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP230","Occupational Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP231","Official Plan Amendment Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,"SVOP9","OPOC182"
+"OP232","Part Lot Control Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC183(s)"
+"OP233","Retail Business Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC184"
+"OP234","Rezoning Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC185(s)"
+"OP235","Right-of-Way Occupancy Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC276(s)"
+"OP236","Rooming House Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP237","Sign Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC186(s)"
+"OP238","Site Plan Control Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC187(s)"
+"OP239","Street Name",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP240","Subdivision Approved",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC188(s)"
+"OP241","Taxi Licenced (Company / Cab / Driver)",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC189(s)"
+"OP242","Temporary Sign Permit",,,02/22/10,"Periods of Permisson","Service",,,,,,,
+"OP243","Tow Truck Licence",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC190"
+"OP244","Vital Rights Registered",,,02/22/10,"Periods of Permisson","Service",,,,,,"SVOP1","OPOC191"
+"OP245","Voter Registered",,,02/22/10,"Periods of Permisson","Service",,,,,,"SVOP5","OPOC192"
+"OP246","Mixed Residential Construction Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC193(s)"
+"OP247","Residential High-Rise Construction Permit Issued",,,02/22/10,"Periods of Permisson","Service",,,,,,,"OPOC194(s)"
+"OP248","Courtroom Secured",,,02/22/10,"Periods of Protection","Service",,,,,,,"OPOC195(s)"
+"OP249","Neighbourhood Canine Patrolled",,,02/22/10,"Periods of Protection","Service",,,,,,,"OPOC196(s)"
+"OP250","Neighbourhood Foot Patrolled",,,02/22/10,"Periods of Protection","Service",,,,,,,"OPOC197(s)"
+"OP251","Neighbourhood Patrolled",,,02/22/10,"Periods of Protection","Service",,,,,,,"OPOC198(s)"
+"OP252","Neighbourhood Vehicle Patrolled",,,02/22/10,"Periods of Protection","Service",,,,,,,"OPOC199(s)"

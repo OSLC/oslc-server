@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+# You can replace the standard project update by removing the comment character (#) from the
+# line below, and adding the JET transformation id of a custom updater transformation
+#com.ibm.xtools.jet.ui.transformations.updater=<add id of custom updater here>

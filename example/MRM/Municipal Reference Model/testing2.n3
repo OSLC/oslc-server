@@ -1,0 +1,20 @@
+# baseURI: http://www.misa.org.ca/mrm
+
+@prefix am:      <http://open-services.net/ns/am#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1#> .
+@prefix mrm:     <http://www.misa.org.ca/mrm#> .
+@prefix mrms:    <http://www.misa.org.ca/mrms#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.misa.org.ca/mrm>
+      rdf:type owl:Ontology ;
+      owl:imports <http://www.misa.org.ca/mrms> , <http://purl.org/dc/elements/1.1> .
+
+mrm:Less_Fire_Losses
+      rdf:type mrms:Outcome ;
+      dc:title "Less Fire Losses" ;
+      mrms:status mrms:Status_Type-Active ;
+.

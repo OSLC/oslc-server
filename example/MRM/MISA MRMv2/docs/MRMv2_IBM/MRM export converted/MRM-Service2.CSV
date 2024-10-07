@@ -1,0 +1,1621 @@
+GUID,Sub-Services,Description,Name,To Date,From Date,Program Field,Source,Status,Programx,PROPOUx,Processes,Output,Program Field Type,Service Level Description,Service Type
+SV99.9,,"An internal service provided to the corporation for the hosting of applications and technology services (e.g. e-mail, voice mail, telephone, data network, etc.), ensuring availability, capacity, performance, continuity, recovery, security and asset management.",Information Technology Infrastructure Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.8,,An internal service provided to the corporation offering functional support of business solutions.,Business Solution Functional Support,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.7,,An internal service provided to the corporation offering training to intended business users in the use of business solutions.,Business Solution User Training,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.6,,An internal service provided to the corporation offering maintenance of operational application systems.,Application Maintenance,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.5,,An internal service provided to the corporation offering analysis (requirements definition) and development of business solutions.,Business Solution Analysis and Development,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.4,,"An internal service provided to the corporation for the hosting of applications and technology services (e.g. e-mail, voice mail, telephone, data network, etc.), ensuring availability, capacity, performance, continuity, recovery, security and asset management.",Information Technology Infrastructure Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.3,,"An internal service provided to the corporation to ensure that business processes and overall needs are supported with the right Information Technology solutions. Involves researching, evaluating, recommending, implementing and supporting technology applications.",Business Solutions Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.2,,"An internal service provided to the corporation offering the modeling, integration, and stewardship of corporate information, designing forms, managing the lifecycle management of records, managing documents, and providing print, courier and mail distribution services.",Records and Information Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99.1,,"A public service provided to information requesters offering access to public information under the Municipal Freedom of Information and Protection of Privacy Act, and Personal Health Information Protection Act, and the Municipal Act.",Information Access,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV99,"""Information Access""
+""Records and Information Management""
+""Business Solutions Management""
+""Information Technology Infrastructure Management""
+""Business Solution Analysis and Development""
+""Application Maintenance""
+""Business Solution User Training""
+""Business Solution Functional Support""
+""Information Technology Infrastructure Management""
+","An internal service provided to the corporation offering management of information, records, and information technology solutions.",Information and Information Technology Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV98.4,,,Real Property Remediation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV98.3,,"An internal service provided to the corporation offering access to property owned by other title holders for municipal use, or provision of municipally owned property for third party / public use.",Real Property Lease Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV98.2,,,Real Property Acquisition & Sale,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV98.1,,,Real Property Appraisal,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV98,"""Real Property Appraisal""
+""Real Property Acquisition & Sale""
+""Real Property Lease Management""
+""Real Property Remediation""
+","An internal service provided to the corporation offering support in the management of the real estate portfolio by acquiring land, and managing property rights owned properties, disposing of lands deemed surplus to the needs of ﾓMy Municipalityﾔ.",Real Property Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV97.6,,,Facility Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV97.5,,,Facility Security & Safety Access,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV97.4,,,Facility Energy Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV97.3,,,Facility Operations & Maintenance,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV97.2,,,Custodial Care,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV97.1,,,Facility Design & Construction,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV97,"""Facility Design & Construction""
+""Custodial Care""
+""Facility Operations & Maintenance""
+""Facility Energy Management""
+""Facility Security & Safety Access""
+""Facility Asset Lifecycle Management""
+",An internal service that supports the Corporation by providing a well maintained building to deliver programs and services.,Facility Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV96.5,,,Vehicle & Equipment Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV96.4,,,Vehicle & Equipment Disposal,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV96.3,,,Fleet & Equipment Operator Training & Certification,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV96.2,,,Vehicle & Equipment Maintenance,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV96.1,,,Vehicle & Equipment Acquisition,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV96,"""Vehicle & Equipment Acquisition""
+""Vehicle & Equipment Maintenance""
+""Fleet & Equipment Operator Training & Certification""
+""Vehicle & Equipment Disposal""
+""Vehicle & Equipment Asset Lifecycle Management""
+","An internal service that determines the acquisition needs for vehicles and equipment, maintains the vehicles and equipment and disposes of vehicles and equipment.",Fleet Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.8,,An internal service provided to the corporation offering monitoring of terms and conditions associated with the warranty of a product or constructed asset.,Asset Warranty Monitoring,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.7,,An internal service provided to the corporation offering sign off on a proposed construction project for infrastructure and / or facilities prior to turning the asset over for program / service delivery.,Asset Commissioning,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.6,,An internal service provided to the corporation offering expertise in monitoring construction projects including the use / disposition of materials required to support the construction effort.,Construction Site Inspection & Progress Payment Approval,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.5,,An internal service provide to the corporation offering oversight of construction contracts to ensure compliance with the terms and conditions of the agreement.,Construction Contract Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.4,,An internal service provided to the corporation offering expertise in the detailed design of prospective infrastructure and/or facilities.,Detailed Design,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.3,,An internal service provided to the corporation offering expertise in the preliminary and schematic design of prospective infrastructure and/or facilities.,Preliminary / Schematic Design,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.2,,"An internal service provided to the corporation offering expertise in surveying prospective sites for survey boundaries, soil conditions, etc.",Land & Site Surveying,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95.1,,An internal service provided to the corporation offering expertise in conducting an environmental assessment of a prospective site to be used for program and service delivery.,Environmental Assessment Analysis,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV95,"""Environmental Assessment Analysis""
+""Land & Site Surveying""
+""Preliminary / Schematic Design""
+""Detailed Design""
+""Construction Contract Management""
+""Construction Site Inspection & Progress Payment Approval""
+""Asset Commissioning""
+""Asset Warranty Monitoring""
+",An internal service provided to the corporation offering engineering expertise to design and construction new infrastructure and/or facility projects.,Engineering Design and Construction,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV94.3,,An internal service provided to the corporation offering management of fuel for consumption by fleet and equipment.,Fuel Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV94.2,,,Inventory Control / Stores,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV94.1,,"An internal service provided to the corporation offering assistance in the preparation of requests for proposal, request for tender, and requests for quotation, management of vendor contracts and the issuance of purchase orders.",Purchasing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV94,"""Purchasing""
+""Inventory Control / Stores""
+""Fuel Management""
+",An internal service provided to the corporation offering purchasing and control of acquired goods and services.,Materiel Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV93.6,,"An internal service provided to the corporation and employees offering a healthy, well and a safe environment.","Workplace Health, Wellness and Safety",,02/22/10,,KPMG,Active,,,,,,,Internal
+SV93.5,,"An internal service provided to the corporation offering compensation packages comprised of position wage rates and benefits, and paying the employee in accordance with the compensation package.",Compensation and Benefits Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV93.4,,"An internal service provided to the corporation and employees offering support in maintaining employee-employer relationships to resolve problems which arise out of the workplace or that affect it, and working with employees to resolve any professional and/or personal issues that may be implicating their productivity.",Employee and Labour Relations,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV93.3,,,Payroll,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV93.2,,An internal service provided to the Corporation offering employees training and development in support of increased productivity and career and personal development of employees...,Employee Learning and Development,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV93.1,,An internal service providing support to the corporation in the qualification and selection of human resources.,Human Resource Recruitment Support,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV93,"""Human Resource Recruitment Support""
+""Employee Learning and Development""
+""Payroll""
+""Employee and Labour Relations""
+""Compensation and Benefits Management""
+""Workplace Health, Wellness and Safety""
+",An internal service provided to the corporation offering support in the hiring of employees and growth in their development.,Human Resource Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV92.6,,,Property Tax Collection,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV92.5,,,Property Tax Billing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV92.4,,,Property Tax Rate Determination,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV92.3,,,Property Tax Account Creation and Maintenance,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV92.2,,,Property Tax Assessment Appeal Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV92.1,,,Property Tax Assessment Roll Reconciliation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV92,"""Property Tax Assessment Roll Reconciliation""
+""Property Tax Assessment Appeal Management""
+""Property Tax Account Creation and Maintenance""
+""Property Tax Rate Determination""
+""Property Tax Billing""
+""Property Tax Collection""
+",A public service provided to property owners offering property tax collection for municipal services without fees.,Property Tax Billing and Collection,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV91.3,,,Complex Property Valuation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV91.2,,,Property Income Assessment,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV91.1,,,Market Value Assessment,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV91,"""Market Value Assessment""
+""Property Income Assessment""
+""Complex Property Valuation""
+","An internal service provided to property owners offering fair, equitable valuation of property for taxation purposes.",Property Valuation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV90.4,,"An internal service provided to the Corporation offering support, accounting and reporting of grants / subsidies offered by ﾓMy Municipalityﾔ to external service providers, and grants and subsidies received from other governments and organizations.",Grants / Subsidies Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV90.3,,An internal service that accounts for revenues and expenditures by an approved budget account.,Accounting,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV90.2,,"An internal service provided to the corporation offering investments opportunities which may include: money market funds, bond funds, sinking funds, pension funds, trust funds, city owned subsidiaries, debt.",Investment / Debt Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV90.1,,An internal service provided to the corporation offering prioritization and allocation of resources in support of programs and services to be delivered in a given fiscal period.,Financial Planning and Budgeting,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV90,"""Accounting""
+""Grants / Subsidies Management""
+""Financial Planning and Budgeting""
+""Investment / Debt Management""
+","An internal service provided to the corporation offering budget preparation and monitoring, accounting, investment / debt management, and grant / subsidy management.",Financial Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV9.2,,,Complaint Initiated Building Inspection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV9.1,,A public service provided to property owners offering inspection on a scheduled basis of their building for compliance with applicable zoning and building regulations.,Scheduled Building Inspection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV9,"""Accounting""
+""Grants / Subsidies Management""
+""Human Resource Recruitment Support""
+""Employee Learning and Development""
+""Payroll""
+""Employee and Labour Relations""
+""Compensation and Benefits Management""
+""Workplace Health, Wellness and Safety""
+""Vehicle & Equipment Acquisition""
+""Vehicle & Equipment Maintenance""
+""Fleet & Equipment Operator Training & Certification""
+""Vehicle & Equipment Disposal""
+""Vehicle & Equipment Asset Lifecycle Management""
+""Financial Management""
+""Property Valuation""
+""Property Tax Billing and Collection""
+""Human Resource Management""
+""Materiel Management""
+""Engineering Design and Construction""
+""Fleet Management""
+""Information Access""
+""Facility Management""
+""Records and Information Management""
+""Real Property Management""
+""Business Solutions Management""
+""Information and Information Technology Management""
+""Information Technology Infrastructure Management""
+""Business Solution Analysis and Development""
+""Application Maintenance""
+""Business Solution User Training""
+""Business Solution Functional Support""
+""Information Technology Infrastructure Management""
+""Property Tax Assessment Roll Reconciliation""
+""Property Tax Assessment Appeal Management""
+""Property Tax Account Creation and Maintenance""
+""Property Tax Rate Determination""
+""Property Tax Billing""
+""Property Tax Collection""
+""Scheduled Building Inspection""
+""Complaint Initiated Building Inspection""
+""Environmental Assessment Analysis""
+""Land & Site Surveying""
+""Preliminary / Schematic Design""
+""Detailed Design""
+""Construction Contract Management""
+""Construction Site Inspection & Progress Payment Approval""
+""Asset Commissioning""
+""Asset Warranty Monitoring""
+""Real Property Appraisal""
+""Real Property Acquisition & Sale""
+""Real Property Lease Management""
+""Real Property Remediation""
+""Market Value Assessment""
+""Property Income Assessment""
+""Complex Property Valuation""
+""Purchasing""
+""Inventory Control / Stores""
+""Fuel Management""
+""Facility Design & Construction""
+""Custodial Care""
+""Facility Operations & Maintenance""
+""Facility Energy Management""
+""Facility Security & Safety Access""
+""Facility Asset Lifecycle Management""
+""Financial Planning and Budgeting""
+""Investment / Debt Management""
+",A public service provided to property owners offering inspection of their building for compliance with applicable zoning and building regulations.,Building Inspection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV89.3,,,Emergency Shelter Accommodation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV89.2,,,Emergency / Disaster Recovery Coordination,,02/22/10,,KPMG,Active,,,,,,,Public
+SV89.1,,,Emergency / Disaster Recovery Planning,,02/22/10,,KPMG,Active,,,,,,,Public
+SV89,"""Emergency / Disaster Recovery Planning""
+""Emergency / Disaster Recovery Coordination""
+""Emergency Shelter Accommodation""
+","An internal service provided to the corporation offering emergency and/or disaster recovery planning, coordination, temporary shelter, and monitoring.",Emergency / Disaster Recovery,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV88.5,,,External Communications,,02/22/10,,KPMG,Active,,,,,,,Public
+SV88.4,,,Internal Communications,,02/22/10,,KPMG,Active,,,,,,,Public
+SV88.3,,,Media / Public Relations,,02/22/10,,KPMG,Active,,,,,,,Public
+SV88.2,,,Communication Branding / Image Development,,02/22/10,,KPMG,Active,,,,,,,Public
+SV88.1,,,Communication Planning,,02/22/10,,KPMG,Active,,,,,,,Public
+SV88,"""Communication Planning""
+""Communication Branding / Image Development""
+""Media / Public Relations""
+""Internal Communications""
+""External Communications""
+",An internal service provided to the Corporation offering communication to the public and all parties that work for or with ﾓMy Municipalityﾔ.,Corporate Communications,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV87,,An internal service that prepares and legally binds parties to an agreement to govern the purchase of products and/or services.,Contract / Agreement Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV86.3,,,Intergovernmental Policy Development,,02/22/10,,KPMG,Active,,,,,,,Public
+SV86.2,,,Corporate Policy Development,,02/22/10,,KPMG,Active,,,,,,,Public
+SV86.1,,,Public Policy Development,,02/22/10,,KPMG,Active,,,,,,,Public
+SV86,"""Public Policy Development""
+""Corporate Policy Development""
+""Intergovernmental Policy Development""
+",An internal service that drafts and enacts policies governing the services delivered by ﾓMy Municipalityﾔ (public policy) and how ﾓMy Municipalityﾔ operates in the delivery of its services (corporate policy).,Policy Development,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV85.7,,,Legal Interpretation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV85.6,,,Legal Agreement Preparation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV85.5,,,Prosecution,,02/22/10,,KPMG,Active,,,,,,,Public
+SV85.4,,,Civil Litigation Negotiation & Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV85.3,,,By-Law Preparation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV85.2,,,Corporate Advisory,,02/22/10,,KPMG,Active,,,,,,,Public
+SV85.1,,,Council and Committees of Council Advisory,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV85,"""Council and Committees of Council Advisory""
+""Corporate Advisory""
+""By-Law Preparation""
+""Civil Litigation Negotiation & Support""
+""Prosecution""
+""Legal Agreement Preparation""
+""Legal Interpretation""
+",An internal service that provides support to the Corporation through the exercise of skills by or under the supervision of legally trained and qualified staff.,Legal Support,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV84.3,,,Correspondence Intake and Response,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV84.2,,,Mayor and Councillor Support,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV84.1,,,Council and Committee Meeting Support,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV84,"""Council and Committee Meeting Support""
+""Mayor and Councillor Support""
+""Correspondence Intake and Response""
+","An internal service provided to the Corporation providing secretarial / clerical support to the administration of departments, agencies, boards and commissions, and to Council.",Council and Administrative Support,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV83.4,,,Insurance Claim Settlement,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV83.3,,,Insurance Claim Receipt & Submission,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV83.2,,,Insurance Policy Negotiation and Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV83.1,,,Corporate Risk Assessment,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV83,"""Corporate Risk Assessment""
+""Insurance Policy Negotiation and Management""
+""Insurance Claim Receipt & Submission""
+""Insurance Claim Settlement""
+",An internal service that mitigates the risk to the Corporation posed by the delivery of services.,Risk Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV82.4,,An internal service provided to the corporation offering interpretation and translation of program and service information.,Interpretation and Translation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV82.3,,"An internal service provided to public service providers offering a single point of contact by the public in accessing a service, in supporting public facing processes, and in fulfilling a service request.",311,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV82.2,,An internal service provided to community service providers offering call taking and referral of inquiries about available community services.,211,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV82.1,,An internal service provided to emergency service providers offering integrated call taking in support of emergency service providers / first responder agencies.,911,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV82,"""911""
+""211""
+""311""
+""Interpretation and Translation""
+",An internal service provided to public service providers offering integration of public facing processes in support of improved service delivery.,Integrated Delivery,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV81.6,,An internal service provided to the corporation offering monitoring of peculiar circumstances that may violate the ethics of the corporation in delivery of services to the public and internally.,Forensic Investigation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV81.5,,"An internal service provided to the corporation offering monitoring of the compliance of the corporation with its policies, procedures and standards in delivery of services to the public and internally.",Compliance Auditing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV81.4,,An internal service provided to the corporation offering monitoring of the manner in which the municipality delivers its services to the public and internally.,Operational Auditing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV81.3,,An internal service provided to the corporation offering monitoring of financial processes and systems in the corporation in delivery of services to the public and internally.,Financial Auditing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV81.2,,An internal service provided to the corporation offering monitoring of  the value for money in delivery of services to the public and internally.,Value for Money Auditing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV81.1,,An internal service provided to the corporation offering monitoring of risks associated with the delivery of services to the public and internally.,Risk Assessment,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV81,"""Risk Assessment""
+""Value for Money Auditing""
+""Financial Auditing""
+""Operational Auditing""
+""Compliance Auditing""
+""Forensic Investigation""
+","An internal service provided to the corporation offering monitoring of financial processes and systems in the corporation, the compliance of the corporation with its policies, procedures and standards, and the value for money in delivery of services to the public and internally.",Internal Auditing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV80.3,,An internal service provided to the corporation offering measurement and monitoring of program and service performance.,Program & Service Performance Measurement & Monitoring,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV80.2,,An internal service provided to the corporation offering alignment of services offered by the municipality with the strategic directions of the corporation.,Service Planning,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV80.1,,An internal service provided to the corporation offering alignment of programs offered by the municipality with the strategic directions of the corporation.,Program Planning,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV80,"""Program Planning""
+""Service Planning""
+""Program & Service Performance Measurement & Monitoring""
+",An internal service provided to the corporation offering alignment of programs and services offered by the municipality with the strategic directions of the corporation.,Program and Service Planning and Monitoring,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV8.2,,A public service provided to current and prospective property owners offering information regarding the compliance of a property with applicable building regulations.,Building Regulation Compliance Notification,,02/22/10,,KPMG,Active,,,,,,,Public
+SV8.1,,A public service provided to property owners and their agents offering information regarding the compliance of a property with applicable building regulations.,Building Record Information Provision,,02/22/10,,KPMG,Active,,,,,,,Public
+SV8,"""Risk Assessment""
+""Value for Money Auditing""
+""Financial Auditing""
+""Operational Auditing""
+""Compliance Auditing""
+""Forensic Investigation""
+""Council and Committee Meeting Support""
+""Mayor and Councillor Support""
+""Correspondence Intake and Response""
+""Program Planning""
+""Service Planning""
+""Program & Service Performance Measurement & Monitoring""
+""Corporate Risk Assessment""
+""Insurance Policy Negotiation and Management""
+""Insurance Claim Receipt & Submission""
+""Insurance Claim Settlement""
+""Public Policy Development""
+""Corporate Policy Development""
+""Intergovernmental Policy Development""
+""Emergency / Disaster Recovery Planning""
+""Emergency / Disaster Recovery Coordination""
+""Emergency Shelter Accommodation""
+""911""
+""211""
+""311""
+""Interpretation and Translation""
+""Building Record Information Provision""
+""Building Regulation Compliance Notification""
+""Council and Committees of Council Advisory""
+""Corporate Advisory""
+""By-Law Preparation""
+""Civil Litigation Negotiation & Support""
+""Prosecution""
+""Program and Service Planning and Monitoring""
+""Legal Agreement Preparation""
+""Internal Auditing""
+""Legal Interpretation""
+""Integrated Delivery""
+""Risk Management""
+""Council and Administrative Support""
+""Legal Support""
+""Policy Development""
+""Contract / Agreement Management""
+""Corporate Communications""
+""Emergency / Disaster Recovery""
+""Communication Planning""
+""Communication Branding / Image Development""
+""Media / Public Relations""
+""Internal Communications""
+""External Communications""
+",A public service provided to property owners and their agents offering information regarding applicable building regulations.,Building Regulation & Construction Advisory,,02/22/10,,KPMG,Active,,,,,,,Public
+SV79.6,,An internal service provided to the corporation offering oversight and management of transformation initiatives.,Change Initiative Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV79.5,,"An internal service provided to the corporation offering formal registration of individuals and businesses who may lobby the municipality to offer their services, or advocate a particular direction.",Lobbyist Registration,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV79.4,,"An internal service provided to the corporation offering support to affiliated agencies, boards and commissions of the municipality.","Agency, Board & Commission Governance & Relationship Management",,02/22/10,,KPMG,Active,,,,,,,Internal
+SV79.3,,An internal service provided to the corporation offering the design and/or restructuring of the organization to meet changing needs.,Organizational Design,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV79.2,,An internal service provided to the corporation offering resolution of issues that may arise from time to time.,Issue Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV79.1,,"An internal service provided to the corporation offering a plan that sets out the vision, mission and core values of the municipality in the short- and long-term.",Strategic Planning,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV79,"""Issue Management""
+""Organizational Design""
+""Agency, Board & Commission Governance & Relationship Management""
+""Lobbyist Registration""
+""Change Initiative Management""
+""Strategic Planning""
+",An internal service that guides the Corporation in the strategic direction for growth and program/service delivery.,Corporate Leadership,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV78.4,,"A public service provided to library facility users offering access to the library for various purposes, including meetings, seminars, etc.",Library Facility Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV78.3,,"A public service provided to literacy students offering training in speaking, reading and writing languages.",Literacy Training & Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV78.2,,A public service provided to those individuals who may have a special learning need (i.e. infants) by offering specialized learning experiences.,Library Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV78.1,,A public service provided to library collection users by offering access to the various library collections for their personal / professional business needs.,Library Material Circulation and Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV78,"""Library Material Circulation and Management""
+""Library Programming""
+""Literacy Training & Education""
+""Library Facility Access""
+",A public service provided to library users offering access to a library facility and its collection of material for personal use.,Library,,02/22/10,,KPMG,Active,,,,,,,Public
+SV77.3,,An internal service provided to the provincial offences act courts offering coordination of cases.,Provincial Offences Act Court Case Coordination,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV77.2,,A public service provided to provincial offence violators offering collection of default fines.,Provincial Offences Act Default Fine Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV77.1,,A public service provided to provincial offence violators offering resolution of provincial offences act disputes.,Provincial Offences Act Dispute Resolution,,02/22/10,,KPMG,Active,,"SVPR413, SVPR414, SVPR415","""Forecast Dispute Resolution activity demand""
+""Set performance targets for Dispute Resolution activity""
+""Develop Dispute Resolution policies, procedures and standards""
+",,,,Public
+SV77,"""Provincial Offences Act Dispute Resolution""
+""Provincial Offences Act Default Fine Collection""
+""Provincial Offences Act Court Case Coordination""
+",A public service provided to provincial offence violators offering prosecution of offences coming with the jurisdiction of the Provincial Offences Act and to collect the resulting fines.,Provincial Offences Act Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV76.4,,,Interrogating,,02/22/10,,KPMG,Active,,,,,,,Public
+SV76.3,,,Surveillance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV76.2,,,Forensic Analysis,,02/22/10,,KPMG,Active,,,,,,,Public
+SV76.1,,,Crime Scene Analysis,,02/22/10,,KPMG,Active,,,,,,,Public
+SV76,"""Crime Scene Analysis""
+""Forensic Analysis""
+""Surveillance""
+""Interrogating""
+",A public service provided to the victims of crime to determine the suspected criminal and the nature of the crime in support of court proceedings.,Criminal Investigation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.9,,,Electricity Network Infrastructure Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.8,,,Electricity Network Maintenance:,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.7,,,Electricity Network Construction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.6,,,Electricity Billing and Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.5,,,Electricity Meter Reading,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.4,,,Electricity Meter Installation and Repair,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.3,,,Electricity Service Connection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.2,,A public service provided to the public energy distributors offering the generation of electricity,Electricity Generation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV75.1,,An internal service provided to electricity distributer which acquires electricity,Electricity Acquisition,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV75,"""Electricity Acquisition""
+""Electricity Generation""
+""Electricity Service Connection""
+""Electricity Meter Installation and Repair""
+""Electricity Meter Reading""
+""Electricity Billing and Collection""
+""Electricity Network Construction""
+""Electricity Network Maintenance:""
+""Electricity Network Infrastructure Lifecycle Management""
+",A public service provided to energy consumers offering access to electricity.,Electricity Distribution ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV74.4,,A public service provided to purchasers / renters offering energy efficient products to buy or rent.,Energy Efficient Product Sales and Rental ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV74.3,,A public service provided to energy consumers offering advice on how to conserve energy.,Energy Conservation Awareness Education ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV74.2,,A public service provided to energy consumer offering advice on how to improve energy consumption.,Energy Audits ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV74.1,,A public service provided to property owners offering loans to upgrade their electrical infrastructure.,Electrical Upgrade Loans ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV74,"""Electrical Upgrade Loans ""
+""Energy Audits ""
+""Energy Conservation Awareness Education ""
+""Energy Efficient Product Sales and Rental ""
+","A public service provided to energy consumers offering financial assistance, energy audits, education and new energy saving products to conserve energy.",Energy Conservation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV73.4,,An internal service provided to cultural and heritage asset owners offering management of cultural and heritage assets over their life.,Museum Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV73.3,,A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,Museum Guided Touring,,02/22/10,,KPMG,Active,,,,,,,Public
+SV73.2,,A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,Museum Collection Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV73.1,,A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,Museum Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV73,"""Museum Access""
+""Museum Collection Management""
+""Museum Guided Touring""
+""Museum Asset Lifecycle Management""
+",A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,Museum Access and Collection Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV72.3,,An internal service provided to cultural and heritage asset owners offering management of cultural and heritage assets over their life.,Art Gallery Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV72.2,,An internal service provided to the art gallery owner offering management of the art gallery collection over their life.,Art Gallery Collection Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV72.1,,A public service provided to art gallery patrons offering access to the art gallery and its art collection.,Art Gallery Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV72,"""Art Gallery Access""
+""Art Gallery Collection Management""
+""Art Gallery Asset Lifecycle Management""
+",A public service provided to the art gallery patron offering access to the artistic heritage of the municipality.,Art Gallery Access and Collection Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV71,,A public service provided to arts and cultural program participants offering engagement in activities of arts and cultural significance to ﾓMy Municipalityﾔ.,Arts & Cultural Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV70.2,,A public service provided to cultural groups offering information about culture in the municipality.,Cultural Group Advisory,,02/22/10,,KPMG,Active,,,,,,,Public
+SV70.1,,A public service provided to community groups offering information about culture in the community.,Community Group Cultural Advisory,,02/22/10,,KPMG,Active,,,,,,,Public
+SV70,"""Community Group Cultural Advisory""
+""Cultural Group Advisory""
+",A public service provided to interested parties offering information about arts and culture in the municipality.,Arts & Cultural Advisory,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.8,,A public service provided to adjacent property owners offering compliance with applicable building code and regulations for a proposed fence construction.,Fence Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.7,,A public service provided to property owners and developers offering compliance with applicable building code and regulations for a proposed change in use to an existing building and/or unit.,Change of Use Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.6,,A public service provided to commercial establishments offering compliance with applicable building code and regulations for a proposed sign installation / erection.,Sign Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.5,,A pubic service provided to property owners and developers offering compliance with applicable building code and regulations for a proposed building alteration.,Alteration Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.4,,A pubic service provided to property owners and developers offering compliance with applicable building code and regulations for a proposed building demolition.,Demolition Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.3,,A public service provided to property owners and developers offering compliance with the Building Code for a proposed new building.,Construction Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.2,,,Pre-Application Applicable Law Review,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7.1,,A public service provided to property owners and developers offering advice on how to comply with applicable zoning and building regulations and/or by-laws.,Preliminary Project Review,,02/22/10,,KPMG,Active,,,,,,,Public
+SV7,"""Issue Management""
+""Organizational Design""
+""Agency, Board & Commission Governance & Relationship Management""
+""Lobbyist Registration""
+""Change Initiative Management""
+""Preliminary Project Review""
+""Pre-Application Applicable Law Review""
+""Construction Permission""
+""Demolition Permission""
+""Alteration Permission""
+""Sign Permission""
+""Art Gallery Access""
+""Change of Use Permission""
+""Art Gallery Collection Management""
+""Fence Permission""
+""Art Gallery Asset Lifecycle Management""
+""Electricity Acquisition""
+""Electricity Generation""
+""Electricity Service Connection""
+""Electricity Meter Installation and Repair""
+""Electricity Meter Reading""
+""Electricity Billing and Collection""
+""Electricity Network Construction""
+""Electricity Network Maintenance:""
+""Electricity Network Infrastructure Lifecycle Management""
+""Library Material Circulation and Management""
+""Library Programming""
+""Literacy Training & Education""
+""Library Facility Access""
+""Arts & Cultural Advisory""
+""Arts & Cultural Education""
+""Art Gallery Access and Collection Management""
+""Museum Access and Collection Management""
+""Electrical Upgrade Loans ""
+""Energy Conservation""
+""Electricity Distribution ""
+""Energy Audits ""
+""Criminal Investigation""
+""Energy Conservation Awareness Education ""
+""Provincial Offences Act Enforcement""
+""Energy Efficient Product Sales and Rental ""
+""Library""
+""Corporate Leadership""
+""Provincial Offences Act Dispute Resolution""
+""Provincial Offences Act Default Fine Collection""
+""Provincial Offences Act Court Case Coordination""
+""Community Group Cultural Advisory""
+""Cultural Group Advisory""
+""Museum Access""
+""Museum Collection Management""
+""Museum Guided Touring""
+""Museum Asset Lifecycle Management""
+""Crime Scene Analysis""
+""Forensic Analysis""
+""Surveillance""
+""Interrogating""
+""Strategic Planning""
+",A public service provided to property owners and developers offering compliance with applicable building code and regulations.,Building Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV69,,A public service provided to arts & cultural event coordinators offering assistance and support in hosting events in the municipality.,Arts & Cultural Event Coordination / Hosting ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV68,,A public service provided to public space users offering access to art.,Public Art Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.8,,,Recreational Programming Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.7,,,Special Event Hosting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.6,,,Sports Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.5,,,Skating Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.4,,,Ski Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.3,,,Camp Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.2,,,Aquatics Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67.1,,,General Interest Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV67,"""General Interest Programming""
+""Aquatics Programming""
+""Camp Programming""
+""Ski Programming""
+""Skating Programming""
+""Sports Programming""
+""Special Event Hosting""
+""Recreational Programming Subsidy""
+",A public service provided to users of recreation programs offering access to supervised / unsupervised recreational activity.,Recreational Programming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV66.4,,,Swimming Pool Booking and Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV66.3,,,Park & Sport Field Booking and Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV66.2,,,Community Centre Booking and Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV66.1,,,Arena Facility Booking and Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV66,"""Arena Facility Booking and Access""
+""Community Centre Booking and Access""
+""Park & Sport Field Booking and Access""
+""Swimming Pool Booking and Access""
+",A public service provided to recreational facility users offering access to well maintained recreational facilities for personal and group activities.,Recreational Facility Booking & Access,,02/22/10,,KPMG,Active,,,,,,,Public
+SV65.4,,,Arts Instruction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV65.3,,,First Aid Instruction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV65.2,,,Sports Instruction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV65.1,,,Aquatics Instruction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV65,"""Aquatics Instruction""
+""Sports Instruction""
+""First Aid Instruction""
+""Arts Instruction""
+",A public service provided to students interested in expanding their recreational experiences through recreational training and education lessons.,Recreational Instruction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV64.9,,,Park & Open Space Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV64.8,,,Park Winter Snow Control,,02/22/10,,KPMG,Active,,,,,,,Public
+SV64.7,,,Park Lighting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV64.6,,,Allotment / Community Gardening,,02/22/10,,KPMG,Active,,,,,,,Public
+SV64.5,,"An internal service provided to park and open space service providers offering maintenanc of parks, open space and amenities.",Park & Open Space Maintenance,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV64.4,,An internal service provided to the park & open space service providers offering assistance in the oversight of construction contracts to build new parks and open space.,Park & Open Space Construction Contract Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV64.3,,An internal service provided to the park & open space service providers offering assistance in the design of new parks and open space.,Park & Open Space Design,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV64.2,,An internal service provided to the park & open space service providers offering assistance in the planning of new parks and open space.,Park & Open Space Planning,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV64.1,,"An internal service provided to the park & open space service providers offering assistance in the planning, design and construction of new parks and open space.","Park & Open Space Planning, Design and Construction",,02/22/10,,KPMG,Active,,,,,,,Internal
+SV64,"""Park & Open Space Planning, Design and Construction""
+""Park & Open Space Planning""
+""Park & Open Space Design""
+""Park & Open Space Construction Contract Management""
+""Park & Open Space Maintenance""
+""Allotment / Community Gardening""
+""Park Lighting""
+""Park Winter Snow Control""
+""Park & Open Space Asset Lifecycle Management""
+",A public service provided to park / open space users offering access to parks and open space for recreation and leisure pursuits.,Parks & Open Space Access and Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV63,,A public service provided to the community offering the development of partnerships to further the interests of the community.,Community Partnership Development,,02/22/10,,KPMG,Active,,,,,,,Public
+SV62,,A public service provided to ferry passengers offering a ferry trip,Ferry,,02/22/10,,KPMG,Active,,,,,,,Public
+SV61.5,,An internal service provided to the airport operator offering management of the airport assets over their lifespan.,Airport Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV61.4,,A public service provided to airport users offering access to an operating airport facility.,Airport Operations,,02/22/10,,KPMG,Active,,,,,,,Public
+SV61.3,,A public service provided to airport users offering access to limited term parking spaces.,Airport Parking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV61.2,,"A public service provided to airport users offering safety of passengers, employees and visitors as well as security of private and public property while using an airport.",Airport Security,,02/22/10,,KPMG,Active,,,,,,,Public
+SV61.1,,A public service provided to businesses offering a lease to access a portion of the airport facility to conduct their business.,Airport Property Leasing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV61,"""Airport Property Leasing""
+""Airport Security""
+""Airport Parking""
+""Airport Operations""
+""Airport Asset Lifecycle Management""
+",A public service provided to airport users offering access to an airport facility.,Airport,,02/22/10,,KPMG,Active,,,,,,,Public
+SV60.5,,"A public service provided to persons with mobility disabilities offering on demand transit trips to and from medical, shopping and recreational facilities thereby assisting these individuals in leading active, productive lifestyles.",Para-Transit,,02/22/10,,KPMG,Active,,,,,,,Public
+SV60.4,,An internal service provided to transit service providers offering management and optimization of transit assets  over their useful life.,Scheduled Transit Infrastructure Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV60.3,,A public service provided to special event hosts offering access to transit vehicles for the transport of people.,Special Event Transit,,02/22/10,,KPMG,Active,,,,,,,Public
+SV60.2,,A public service provided to contractors offering access to transit vehicles for regular transport of people.,Contracted Transit,,02/22/10,,KPMG,Active,,,,,,,Public
+SV60.1,,A public service provided to transit riders / passengers offering a scheduled transit trip.,Scheduled Transit,,02/22/10,,KPMG,Active,,,,,,,Public
+SV60,"""Scheduled Transit""
+""Contracted Transit""
+""Special Event Transit""
+""Scheduled Transit Infrastructure Lifecycle Management""
+""Para-Transit""
+",A public service provided to transit riders / passengers offering a scheduled transit and Para transit trips.,Transit,,02/22/10,,KPMG,Active,,,,,,,Public
+SV6.8,,A public service provided to property owners and developers offering Committee of Adjustment compliance prior to applying for a Building Permit.,Heritage Demolition & Alteration Approval,,02/22/10,,KPMG,Active,PGSV63,,,,,,Public
+SV6.7,,A public service provided to property owners and developers offering Committee of Adjustment compliance prior to applying for a Building Permit.,Committee of Adjustment Approval,,02/22/10,,KPMG,Active,PGSV62,,,,,,Public
+SV6.6,,A public service provided to property owners and developers offering Part Lot Control compliance prior to applying for a Building Permit.,Part Lot Control Approval,,02/22/10,,KPMG,Active,PGSV61,,,,,,Public
+SV6.5,,A public service provided to property owners and developers offering Condominium compliance prior to applying for a Building Permit.,Condominium Approval,,02/22/10,,KPMG,Active,PGSV60,,,,,,Public
+SV6.4,,A public service provided to property owners and developers offering Subdivision compliance prior to applying for a Building Permit.,Subdivision Approval,,02/22/10,,KPMG,Active,PGSV59,,,,,,Public
+SV6.3,,A public service provided to property owners and developers offering Site Plan Control compliance prior to applying for a Building Permit.,Site Plan Control Approval,,02/22/10,,KPMG,Active,PGSV58,,,,,,Public
+SV6.2,,A public service provided to property owners and developers offering Official Plan compliance prior to applying for a Building Permit.,Official Plan Amendment Approval,,02/22/10,,KPMG,Active,PGSV57,,,,,,Public
+SV6.1,,A public service provided to property owners and developers offering Zoning By-Law compliance prior to applying for a Building Permit.,Rezoning Approval,,02/22/10,,KPMG,Active,PGSV56,,,,,,Public
+SV6,"""Transit""
+""Airport""
+""Ferry""
+""Community Partnership Development""
+""Parks & Open Space Access and Maintenance""
+""Recreational Instruction""
+""Recreational Facility Booking & Access""
+""Arena Facility Booking and Access""
+""Recreational Programming""
+""Community Centre Booking and Access""
+""Public Art Access""
+""Park & Sport Field Booking and Access""
+""Arts & Cultural Event Coordination / Hosting ""
+""Swimming Pool Booking and Access""
+""Rezoning Approval""
+""Aquatics Instruction""
+""Official Plan Amendment Approval""
+""Sports Instruction""
+""Site Plan Control Approval""
+""First Aid Instruction""
+""Subdivision Approval""
+""Arts Instruction""
+""Condominium Approval""
+""Part Lot Control Approval""
+""Committee of Adjustment Approval""
+""Heritage Demolition & Alteration Approval""
+""Airport Property Leasing""
+""Airport Security""
+""Airport Parking""
+""Airport Operations""
+""Airport Asset Lifecycle Management""
+""Park & Open Space Planning, Design and Construction""
+""Park & Open Space Planning""
+""Park & Open Space Design""
+""Park & Open Space Construction Contract Management""
+""Park & Open Space Maintenance""
+""Allotment / Community Gardening""
+""Park Lighting""
+""Park Winter Snow Control""
+""Park & Open Space Asset Lifecycle Management""
+""General Interest Programming""
+""Aquatics Programming""
+""Camp Programming""
+""Ski Programming""
+""Skating Programming""
+""Sports Programming""
+""Special Event Hosting""
+""Recreational Programming Subsidy""
+""Scheduled Transit""
+""Contracted Transit""
+""Special Event Transit""
+""Scheduled Transit Infrastructure Lifecycle Management""
+""Para-Transit""
+",A public service provided to property owners and developers offering compliance with applicable planning and development regulations and guidelines prior to applying for a Building Permit.,Development Approval,,02/22/10,,KPMG,Active,PGSV55,,,,,,Public
+SV59.7,,,Sidewalk Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV59.6,,,Sidewalk Snow Clearing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV59.5,,,Sidewalk Repair and Maintenance ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV59.4,,,Trail Lighting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV59.3,,,Sidewalk Access Ramp Construction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV59.2,,"A public service provided to pedestrians offering access to a new sidewalk.  Note, a sidewalk is typically constructed as part of a development proposal but the commissioning is acknowledging that the sidewalk constructed is to standard.",Sidewalk Commissioning,,02/22/10,,KPMG,Active,,,,,,,Public
+SV59.1,,,Sidewalk and Pathway Design,,02/22/10,,KPMG,Active,,,,,,,Public
+SV59,"""Sidewalk and Pathway Design""
+""Sidewalk Commissioning""
+""Sidewalk Access Ramp Construction""
+""Trail Lighting""
+""Sidewalk Repair and Maintenance ""
+""Sidewalk Snow Clearing""
+""Sidewalk Asset Lifecycle Management""
+","A public service provided to pedestrians offering access to sidewalks, and involves provision of safe, functional sidewalks, including placement and maintenance of access curb ramps.",Sidewalk and Pathway Access and Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58.7,,,Film Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58.6,,,Oversize Vehicle Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58.5,,,Utility Cut Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58.4,,,Hoarding Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58.3,,,Private Drain Connection Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58.2,,,On-Street Parking Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58.1,,,Sidewalk Caf� Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV58,"""Sidewalk Caf� Permission""
+""On-Street Parking Permission""
+""Private Drain Connection Permission""
+""Hoarding Permission""
+""Utility Cut Permission""
+""Oversize Vehicle Permission""
+""Film Permission""
+","A public service provided to persons wishing to occupy a portion of a public right-of-way, typically for retail use (e.g. outdoor patio), with permission to do so.",Right-of-Way Occupancy Permission,,02/22/10,,KPMG,Active,PGSV67,,,,,,Public
+SV57.6,,A public service provided to school aged children and their parents offering safe crossing of busy roadways adjacent to schools.,School Crossing Guard,,02/22/10,,KPMG,Active,,,,,,,Public
+SV57.5,,,Traffic Engineering Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV57.4,,,Traffic Control Markings Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV57.3,,,Traffic Control/Street Signs Maintenance  ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV57.2,,,Intelligent Transportation System Operation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV57.1,,,Traffic Signalization,,02/22/10,,KPMG,Active,,,,,,,Public
+SV57,"""Traffic Signalization""
+""Intelligent Transportation System Operation""
+""Traffic Control/Street Signs Maintenance  ""
+""Traffic Control Markings Maintenance""
+""Traffic Engineering Support""
+""School Crossing Guard""
+","A public service provided to road users offered controlled access to the roadway by vehicles, pedestrians and bicycles.",Traffic Flow Control,,02/22/10,,KPMG,Active,,,,,,,Public
+SV56.4,,A public service provided to parking patron offering a period of vehicular parking in residential or commercial areas.,Parking Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV56.3,,A public service provided to parking by-law violators and roadway users offering increased compliance with the Parking By-law.,Parking By-Law Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV56.2,,A public service provided to parking patron (vehicle operators) offering limited time parking privileges to conveniently access business establishments.,Off-Street Parking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV56.1,,A public service provided to parking patrons offering a period of parking typically provided in a parking space accessible on the street or off the street in a parking lot or parking facility.,On-Street Parking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV56,"""On-Street Parking""
+""Off-Street Parking""
+""Parking By-Law Enforcement""
+""Parking Permission""
+",A public service provided to parking patrons offering a period of parking typically provided in a parking space accessible on the street or off the street in a parking lot or parking facility.,Parking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV55.4,,An internal service provided to road service providers offering management and optimization of road infrastructure assets over their useful life.,Road Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV55.3,,A public service provided to roadway users offering safe passage along roadways during winter conditions.,Winter Control (Road Snow and Ice Control),,02/22/10,,KPMG,Active,,,,,,,Public
+SV55.2,,"An internal service provided to road service providers offering maintenance of roads, roadways and appurtenances.",Road Maintenance,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV55.1,,An internal service provided to road service providers offering support in the design and construction of roads.,Roadway Design and Construction,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV55,"""Roadway Design and Construction""
+""Road Maintenance""
+""Winter Control (Road Snow and Ice Control)""
+""Road Asset Lifecycle Management""
+","A public service provided to roadway users offering convenient, safe access to public highways (roads) for the transport of people, goods and services.",Road Access and Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV54,,"A public service provided to utility and construction contractors / operators offering advice on the location of underground infrastructure (e.g. gas lines, water lines, buried cable, etc.) thereby allowing the contractor who is digging around the site of such buried infrastructure not to damage the infrastructure.",Utility Locating,,02/22/10,,KPMG,Active,,,,,,,Public
+SV53,,A public service provided to students interested in crime prevention by offering training and awareness sessions.,Crime Prevention Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV52.2,,A public service provided to employers offering assurance that a prospective employee has no criminal record.,Criminal Record Checking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV52.1,,A public service provided to employers offering assurance that a prospective employee has no security restrictions.,Security Clearance Checking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV52,"""Security Clearance Checking""
+""Criminal Record Checking""
+",A public service provided to potential employees and their prospective employers offering assurance of no criminal record of the employee.,Security Clearance / Criminal Record Checking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV51,,"A public service provided to victims and their families, and youth at risk offering referral to support service providers.",Victim Support and Referral,,02/22/10,,KPMG,Active,,,,,,,Public
+SV50,,A public service provided to the courts offering security of courtrooms during proceedings.,Courtroom Security,,02/22/10,,KPMG,Active,,,,,,,Public
+SV5.9,,A public service provided to violators of the Fireworks By-law offering compliance with applicable municipal regulations,Fireworks By-Law Enforcement,,02/22/10,,KPMG,Active,,SVOP16,"",Fireworks By-law violation brought into compliance,,,Public
+SV5.8,,A public service provided to violators of the Zoning By-law offering compliance with applicable municipal regulations,Zoning By-Law Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV5.7,,A public service provided to violators of the Sign By-law offering compliance with applicable municipal regulations,Sign By-Law Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV5.6,,A public service provided to violators of the Fence By-law offering compliance with applicable municipal regulations,Fence By-Law Enforcement,,02/22/10,,KPMG,Active,,SVOP15,"",Fence By-law violation brought into compliance,,,Public
+SV5.5,,A public service provided to violators of the Grass & Weed By-law offering compliance with applicable municipal regulations,Grass & Weed By-Law Enforcement,,02/22/10,,KPMG,Active,,SVOP14,"",Grass & Weed By-law violation brought into compliance,,,Public
+SV5.4,,A public service provided to violators of the Graffiti By-law offering compliance with applicable municipal regulations,Graffiti By-Law Enforcement,,02/22/10,,KPMG,Active,,SVOP13,"",Graffiti By-law violation brought into compliance,,,Public
+SV5.3,,A public service provided to violators of the Litter & Dumping By-law offering compliance with applicable municipal regulations,Litter & Dumping By-Law Enforcement,,02/22/10,,KPMG,Active,,SVOP12,"",Litter & Dumping By-law violation brought into compliance,,,Public
+SV5.2,,A public service provided to violators of the Noise By-law offering compliance with applicable municipal regulations,Waste & Waste Collection By-Law Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV5.11,,A public service provided to violators of the Mobile Home By-law offering compliance with applicable municipal regulations,Mobile Home By-Law Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV5.10,,A public service provided to violators of the Right-of-Way By-law offering compliance with applicable municipal regulations,Right-of-Way By-Law Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV5.1,"""Right-of-Way By-Law Enforcement""
+""Mobile Home By-Law Enforcement""
+",A public service provided to violators of the Noise By-law offering compliance with applicable municipal regulations,Noise By-Law Enforcement,,02/22/10,,KPMG,Active,,SVOP11,"",Noise By-law violation brought into compliance,,,Public
+SV5,"""Right-of-Way By-Law Enforcement""
+""Mobile Home By-Law Enforcement""
+""Traffic Signalization""
+""Intelligent Transportation System Operation""
+""Traffic Control/Street Signs Maintenance  ""
+""Traffic Control Markings Maintenance""
+""Traffic Engineering Support""
+""School Crossing Guard""
+""On-Street Parking""
+""Off-Street Parking""
+""Parking By-Law Enforcement""
+""Parking Permission""
+""Sidewalk and Pathway Design""
+""Sidewalk Commissioning""
+""Sidewalk Access Ramp Construction""
+""Trail Lighting""
+""Sidewalk Repair and Maintenance ""
+""Sidewalk Snow Clearing""
+""Sidewalk Asset Lifecycle Management""
+""Courtroom Security""
+""Victim Support and Referral""
+""Security Clearance Checking""
+""Criminal Record Checking""
+""Security Clearance / Criminal Record Checking""
+""Crime Prevention Education""
+""Utility Locating""
+""Noise By-Law Enforcement""
+""Road Access and Maintenance""
+""Waste & Waste Collection By-Law Enforcement""
+""Parking""
+""Litter & Dumping By-Law Enforcement""
+""Traffic Flow Control""
+""Graffiti By-Law Enforcement""
+""Right-of-Way Occupancy Permission""
+""Grass & Weed By-Law Enforcement""
+""Sidewalk and Pathway Access and Maintenance""
+""Fence By-Law Enforcement""
+""Sign By-Law Enforcement""
+""Zoning By-Law Enforcement""
+""Fireworks By-Law Enforcement""
+""Roadway Design and Construction""
+""Road Maintenance""
+""Winter Control (Road Snow and Ice Control)""
+""Road Asset Lifecycle Management""
+""Sidewalk Caf� Permission""
+""On-Street Parking Permission""
+""Private Drain Connection Permission""
+""Hoarding Permission""
+""Utility Cut Permission""
+""Oversize Vehicle Permission""
+""Film Permission""
+",A public service provided to violators of Property Standards By-laws offering compliance with applicable municipal regulations,Property Standards By-Law Enforcement,,02/22/10,,KPMG,Active,,SVOP10,"",Property Standards By-law violation brought into compliance,,,Public
+SV49.2,,A public service provided to victims of incidents and perpetrators offering intervention in incidents to reduce the loss of life or property due to the incident.,Police Intervention,,02/22/10,,KPMG,Active,,,,,,,Public
+SV49.1,,A public service provided to potential victims and perpetrators offering protection from criminal activity through regular patrol of the community or neighbourhood.,Police Patrolling,,02/22/10,,KPMG,Active,,,,,,,Public
+SV49,"""Police Patrolling""
+""Police Intervention""
+","A public service provided to victims of incidents and perpetrators offering reduced loss of lives, reduced loss of property, reduced injury and improved security due to incidents.",Police Patrolling and Intervention,,02/22/10,,KPMG,Active,,,,,,,Public
+SV48.5,,,Dangerous Animal Investigation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV48.4,,,Stray Animal Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV48.3,,,Rodent Control,,02/22/10,,KPMG,Active,,,,,,,Public
+SV48.2,,,Animal Patrol and Intervention,,02/22/10,,KPMG,Active,,,,,,,Public
+SV48.1,,,Animal Registration,,02/22/10,,KPMG,Active,,,,,,,Public
+SV48,"""Animal Registration""
+""Animal Patrol and Intervention""
+""Rodent Control""
+""Stray Animal Care""
+""Dangerous Animal Investigation and Assessment""
+",A public service provided to animal owners and property owners affected by roaming animals offering safe capture and detention of stray animals.,Animal Control,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.9,,,Zoo Animal Collection Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.8,,,Zoo Infrastructure Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.7,,,Zoo Curatorial,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.6,,,Zoo Exhibit Design and Graphics,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.5,,,Zoo Volunteer Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.4,,,Zoo Special Event Hosting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.3,,,Zoo Education and Outreach,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.2,,,Zoo Product Sales and Rental,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47.1,,,Zoo Exhibiting and Visiting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV47,"""Zoo Exhibiting and Visiting""
+""Zoo Product Sales and Rental""
+""Zoo Education and Outreach""
+""Zoo Special Event Hosting""
+""Zoo Volunteer Management""
+""Zoo Exhibit Design and Graphics""
+""Zoo Curatorial""
+""Zoo Infrastructure Management""
+""Zoo Animal Collection Care""
+",A public service provided to zoo visitors offering access to zoological exhibitions.,Zoo,,02/22/10,,KPMG,Active,,,,,,,Public
+SV46,,A public service provided to property owners and building occupants offering compliance with the Fire Safety Code.,Fire Safety Inspection,,02/22/10,,KPMG,Active,PGSV118,,,,,,Public
+SV45.2,,,Fire Setter Counselling,,02/22/10,,KPMG,Active,PGSV117,,,,,,Public
+SV45.1,,,Fire Safety Promotion,,02/22/10,,KPMG,Active,PGSV116,,,,,,Public
+SV45,"""Fire Safety Promotion""
+""Fire Setter Counselling""
+",A public service provided to students interested in fire prevention by offering training and awareness sessions.,Fire Safety Education,,02/22/10,,KPMG,Active,PGSV115,"SVPR391, SVPR392, SVPR393, SVPR394, SVPR395, SVPR396, SVPR397, SVPR398, SVPR399, SVPR400, SVPR401, SVPR402, SVPR403, SVPR404, SVPR405, SVPR406, SVPR407, SVPR408, SVPR409, SVPR410, SVPR411, SVPR412","""Forecast Fire Safety Education activity demand""
+""Set performance targets for Fire Safety Education activity""
+""Develop Fire Safety Education policies, procedures and standards""
+""Estimate Fire Safety Education activity resource requirements (develop budget for Fire Safety Education)""
+""Set Fire Safety Education activity schedule""
+""Acquire Fire Safety Education activity resources""
+""Pay for Fire Safety Education activity resources""
+""Deploy Fire Safety Education activity resources""
+""Promote Fire Safety Education activity""
+""Mitigate Fire Safety Education activity risks""
+""Identify opportunities for Fire Safety Education""
+""Develop strategies for Fire Safety Education""
+""Develop Fire Safety Education plan""
+""Define partnerships to deliver Fire Safety Education""
+""Develop Fire Safety Education curriculum""
+""Develop Fire Safety Education material""
+""Deliver Fire Safety Education courses""
+""Evaluate effectiveness of Fire Safety Education""
+""Monitor Fire Safety Education activity performance""
+""Monitor Fire Safety Education activity resource consumption / availability""
+""Monitor Fire Safety Education activity risks and quality""
+""Decommission Fire Safety Education activity""
+",,,,Public
+SV44,,An internal service provided to fire rescue service providers offering receipt of emergency calls and dispatching of resources to respond to incidents.,Fire Rescue Call Taking and Dispatching,,02/22/10,,KPMG,Active,PGSV114,,,,,,Internal
+SV43.9,,,Public Assistance Response,,02/22/10,,KPMG,Active,PGSV106,,,,,,Public
+SV43.8,,,Rescue Response,,02/22/10,,KPMG,Active,PGSV105,,,,,,Public
+SV43.7,,,Medical Assistance Response,,02/22/10,,KPMG,Active,PGSV104,,,,,,Public
+SV43.6,,,Vehicle Accident Response,,02/22/10,,KPMG,Active,PGSV103,,,,,,Public
+SV43.5,,,Fuels (flammables) Fire Response,,02/22/10,,KPMG,Active,PGSV102,,,,,,Public
+SV43.4,,,Electrical Fire Response,,02/22/10,,KPMG,Active,PGSV101,,,,,,Public
+SV43.3,,,Vehicle Fire Response,,02/22/10,,KPMG,Active,PGSV100,,,,,,Public
+SV43.2,,,Environmental Fire Response,,02/22/10,,KPMG,Active,PGSV99,,,,,,Public
+SV43.16,,,Hazardous Materials Response,,02/22/10,,KPMG,Active,PGSV113,,,,,,Public
+SV43.15,,,Incident Cause Investigation,,02/22/10,,KPMG,Active,PGSV112,,,,,,Public
+SV43.14,,,Resource Sharing,,02/22/10,,KPMG,Active,PGSV111,,,,,,Public
+SV43.13,,,Standby Support,,02/22/10,,KPMG,Active,PGSV110,,,,,,Public
+SV43.12,,,Incident Hazard Mitigation (clean-up),,02/22/10,,KPMG,Active,PGSV109,,,,,,Public
+SV43.11,,,Agency Support Response,,02/22/10,,KPMG,Active,PGSV108,,,,,,Public
+SV43.10,,,Potential Incident Investigation,,02/22/10,,KPMG,Active,PGSV107,,,,,,Public
+SV43.1,"""Standby Support""
+""Resource Sharing""
+""Incident Cause Investigation""
+""Hazardous Materials Response""
+""Potential Incident Investigation""
+""Agency Support Response""
+""Incident Hazard Mitigation (clean-up)""
+",,Structure Fire Response,,02/22/10,,KPMG,Active,PGSV98,,,,,,Public
+SV43,"""Standby Support""
+""Resource Sharing""
+""Incident Cause Investigation""
+""Hazardous Materials Response""
+""Structure Fire Response""
+""Environmental Fire Response""
+""Vehicle Fire Response""
+""Electrical Fire Response""
+""Fuels (flammables) Fire Response""
+""Vehicle Accident Response""
+""Medical Assistance Response""
+""Rescue Response""
+""Public Assistance Response""
+""Potential Incident Investigation""
+""Agency Support Response""
+""Incident Hazard Mitigation (clean-up)""
+","A public service provided to incident victims and their families, property owners, and insurance companies offering mitigation of a life / property threatening incident.",Fire Rescue,,02/22/10,,KPMG,Active,PGSV97,"SVPR349, SVPR350, SVPR351, SVPR352, SVPR353, SVPR354, SVPR355, SVPR356, SVPR357, SVPR358, SVPR359, SVPR360, SVPR361, SVPR362, SVPR363, SVPR364, SVPR365, SVPR366, SVPR367, SVPR368, SVPR369, SVPR370, SVPR371, SVPR372, SVPR373, SVPR374, SVPR375, SVPR376, SVPR377, SVPR378, SVPR379, SVPR380, SVPR381, SVPR382, SVPR383, SVPR384, SVPR385, SVPR386, SVPR387, SVPR388, SVPR389, SVPR390","""Forecast Fire Rescue activity demand""
+""Set performance targets for Fire Rescue activity""
+""Develop Fire Rescue policies, procedures and standards (including Emergency Plans)""
+""Estimate Fire Rescue activity resource requirements (develop budget for Fire Rescue)""
+""Set Fire Rescue activity schedule""
+""Acquire Fire Rescue activity resources""
+""Pay for Fire Rescue activity resources""
+""Train Fire Rescue activity resources""
+""Deploy Fire Rescue activity resources""
+""Promote Fire Rescue activity""
+""Mitigate Fire Rescue activity risks""
+""Receive call for Fire Rescue response""
+""Qualify call for Fire Rescue response""
+""Determine Fire Rescue response requirements""
+""Dispatch resources to Fire Rescue response""
+""Send Fire Rescue profile to dispatched resources""
+""Acknowledge receipt of Fire Rescue profile""
+""Receive Fire Rescue response route detail and updated incident profile""
+""Confirm arrival at scene of Fire Rescue""
+""Identify actual Fire Rescue location""
+""Take Command of Fire Rescue Scene / possess Fire Rescue""
+""Assess Fire Rescue to determine response requirements and resource requirements (size up)""
+""Develop Fire Rescue strategy""
+""Assign resources to sectors and sectors to tactics""
+""Mitigate Fire Incident""
+""Determine Fire Rescue cause""
+""Transfer command of Fire Rescue""
+""Terminate command of Fire Rescue""
+""Return resources to Fire Station""
+""Investigate Fire Rescue""
+""Prepare Fire Rescue report""
+""Develop post Fire Rescue analysis""
+""Seek support for critical Fire Rescue stress""
+""Return equipment / fleet to stock""
+""Maintain equipment / fleet""
+""Account for Fire Rescue activity costs""
+""Process Fire Rescue activity exceptions""
+""Resolve Fire Rescue activity complaints""
+""Monitor Fire Rescue activity performance""
+""Monitor Fire Rescue activity resource consumption / availability""
+""Monitor Fire Rescue activity risks and quality""
+""Decommission Fire Rescue activity""
+",,,,Public
+SV42,,"A public service provided to traffic violators offering compliance with traffic code, and safer roadways for roadway users.",Traffic Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV41,,An internal service provided to street lighting service providers offering management and optimization of street lights and appurtances over their useful life.,Street Lighting Asset Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV40.3,,A service delivery process group identified for the purpose of defining processes.,Street Lighting Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV40.2,,A service delivery process group identified for the purpose of defining processes.,Street Lighting Operations,,02/22/10,,KPMG,Active,,,,,,,Public
+SV40.1,,A service delivery process group identified for the purpose of defining processes.,Installation and Replacement of Street Lighting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV40,"""Installation and Replacement of Street Lighting""
+""Street Lighting Operations""
+""Street Lighting Maintenance""
+",A public service provided to roadway users and adjacent property owners offering lighting of streets and roadways at night and other periods of darkness.  This service also includes the lighting of other public areas.,Street Lighting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV4.6,,"An internal service provided to the corporation offering research and insight into the trends in the economy, demographics, and other municipal characteristics to aid in improved land use planning and policy development.",Socio-Economic Surveying & Monitoring,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV4.5,,An internal service provided to the corporation and heritage property owners offering listing and/or designation of their properties as heritage sites.,Heritage Listing and Designation,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV4.4,,An internal service provided to the corporation in partnership with or collaboration with other government organizations offering cohesion and innovation in land use planning matters.,Inter-governmental Land Use Planning Coordination,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV4.3,,An internal service provided to the corporation offering a Zoning By-Law policy for designating the purpose and general nature for which land may be used.,Zoning By-Law Development,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV4.2,,An internal service provided to the corporation offering an Official Plan policy for designating the purpose and general nature for which land may be used.,Official Plan Development,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV4.1,,"An internal service provided to the corporation offering design of urban spaces, including streetscapes, public realms and pedestrian spaces around new developments to attract pedestrian traffic.",Urban Design,,02/22/10,,KPMG,Active,,SVOP9,"",Official Plan Amendment Approved,,,Internal
+SV4,"""Standby Support""
+""Inter-governmental Land Use Planning Coordination""
+""Resource Sharing""
+""Heritage Listing and Designation""
+""Incident Cause Investigation""
+""Socio-Economic Surveying & Monitoring""
+""Hazardous Materials Response""
+""Fire Safety Promotion""
+""Fire Setter Counselling""
+""Animal Registration""
+""Animal Patrol and Intervention""
+""Rodent Control""
+""Stray Animal Care""
+""Dangerous Animal Investigation and Assessment""
+""Street Lighting""
+""Street Lighting Asset Lifecycle Management""
+""Traffic Enforcement""
+""Fire Rescue""
+""Fire Rescue Call Taking and Dispatching""
+""Fire Safety Education""
+""Fire Safety Inspection""
+""Zoo""
+""Animal Control""
+""Police Patrolling and Intervention""
+""Zoo Exhibiting and Visiting""
+""Zoo Product Sales and Rental""
+""Zoo Education and Outreach""
+""Zoo Special Event Hosting""
+""Zoo Volunteer Management""
+""Zoo Exhibit Design and Graphics""
+""Zoo Curatorial""
+""Zoo Infrastructure Management""
+""Zoo Animal Collection Care""
+""Installation and Replacement of Street Lighting""
+""Street Lighting Operations""
+""Street Lighting Maintenance""
+""Structure Fire Response""
+""Environmental Fire Response""
+""Vehicle Fire Response""
+""Electrical Fire Response""
+""Fuels (flammables) Fire Response""
+""Vehicle Accident Response""
+""Medical Assistance Response""
+""Rescue Response""
+""Public Assistance Response""
+""Police Patrolling""
+""Police Intervention""
+""Potential Incident Investigation""
+""Urban Design""
+""Agency Support Response""
+""Official Plan Development""
+""Incident Hazard Mitigation (clean-up)""
+""Zoning By-Law Development""
+",An internal service provided to the corporation offering policies for designating the purpose and general nature for which land may be used.,Land Use Planning,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV39.5,,A public service provided to crisis and outreach victims offering crisis and outreach interventions.,Crisis and Outreach Intervention,,02/22/10,,KPMG,Active,,,,,,,Public
+SV39.4,,"This service provides additional information about the local labour market and about resources and services in the community to applicants or participants to assist them in meeting eligibility requirements or to become involved in employment measures.  This service also includes the following types of referrals to other program and service providers:
+- Referrals to program partners offering LEAP Parenting Training, Basic Education, etc.
+- Referrals to agencies providing programs and services external to Ontario Works.",Social Support Information and Referrals,,02/22/10,,KPMG,Active,,,,,,,Public
+SV39.3,,"This service provides for the intake, eligibility determination, case plan preparation, case plan implementation and monitoring.",Social Support Case Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV39.2,,A public service provided to Ontario Works Employment Support Recipients offering employment assistance in support of seeking and securing employment opportunities.,Employment Assistance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV39.1,,A public service provided to unemployed / underemployed offering financial assistance in support of subsequent employment.,Financial Assistance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV39,"""Financial Assistance""
+""Employment Assistance""
+""Social Support Case Management""
+""Social Support Information and Referrals""
+""Crisis and Outreach Intervention""
+",A public service provided to unemployed / underemployed offering financial and employment supports.,Social Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV38.4,,A public service provided to pre-school agencies offering funds to pre-school children with special needs.,Pre-School Special Needs Funding,,02/22/10,,KPMG,Active,,,,,,,Public
+SV38.3,,"A public service provided to service providers (professionals), parents and children offering education and training in literacy.",Literacy Training and Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV38.2,,A public service provided to early childhood professionals offering a wage subsidy or wage improvement to support higher quality early learning and child care by decreasing staff turnover.,Early Learning and Child Care Wage Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV38.1,,A public service provided directly to child care centres offering children and their parentsﾒ or guardians with a subsidy for early learning opportunities coupled with child care.,Early Learning and Child Care Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV38,"""Early Learning and Child Care Subsidy""
+""Early Learning and Child Care Wage Subsidy""
+""Literacy Training and Education""
+""Pre-School Special Needs Funding""
+",A public service provided to children and their parents or guardians offering early learning opportunities to meet familiesﾒ child care needs through fee subsidies to eligible families.,Early Learning and Child Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV37.2,,A public service provided to property owners offering access to the amenities of park and open space trees.,Park and Open Space Forestry,,02/22/10,,KPMG,Active,,,,,,,Public
+SV37.1,,A public service provided to property owners offering access to the amenities of boulevard trees.,Boulevard Forestry,,02/22/10,,KPMG,Active,,,,,,,Public
+SV37,"""Boulevard Forestry""
+""Park and Open Space Forestry""
+",A public service provided to property owners offering access to the amenities of trees.,Urban Forestry,,02/22/10,,KPMG,Active,,,,,,,Public
+SV36.5,,An internal service provided to storm water drainage service providers offering management and optimization of storm water drainage infrastructure over its lifespan.,Storm Water Drainage Infrastructure Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV36.4,,,Local Drainage Improvement ,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV36.3,,An internal service provided to storm water drainage service providers offering treatment of storm drainage water.,Storm Water Treatment,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV36.2,,An internal service provided to storm water drainage service providers offering maintenance of storm water drainage systems.,Storm Water Drainage System Maintenance,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV36.1,,An internal service provided to storm water drainage service providers offering design and construction of storm water drainage systems.,Storm Water Drainage System Design & Construction,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV36,"""Storm Water Drainage System Design & Construction""
+""Storm Water Drainage System Maintenance""
+""Storm Water Treatment""
+""Local Drainage Improvement ""
+""Storm Water Drainage Infrastructure Lifecycle Management""
+",A public service provided to property owners offering safe removal and disposal of storm water.,Storm Water Drainage,,02/22/10,,KPMG,Active,,,,,,,Public
+SV35.6,,An internal service provide to long-term care service providers offering access to qualified volunteers.,Long-Term Care Volunteer Management,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV35.5,,A public service provided to long-term care recipients offering admission to the facility for those eligible adults for up to 90 days/year.,Long-Term Care Respite Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV35.4,,A public service provided to long-term care recipients offering overnight accommodation and individualized care on an overnight basis.,Long-Term Convalescent Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV35.3,,A public service provided to long-term care recipients offering a period of accommodation for adults with various levels of care needs.,Long-Term Care Accommodation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV35.2,,A public service provided to long-term care recipients offering eligibility assessment and coordination of services to meet long-term care needs.,Long-Term Resident Care Case Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV35.1,,A public service provided to the general public offering referral to appropriate community/provincial contacts. Will assist in contacting where required.,Long-Term Care Information and Referral,,02/22/10,,KPMG,Active,,,,,,,Public
+SV35,"""Long-Term Care Information and Referral""
+""Long-Term Resident Care Case Management""
+""Long-Term Care Accommodation""
+""Long-Term Convalescent Care""
+""Long-Term Care Respite Care""
+""Long-Term Care Volunteer Management""
+",A public service provided to the elderly and frail adults offering accommodation and supports.,Long-Term Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV34.3,,"A public service provided to health hazard violators (e.g. firms emitting hazardous material into the air, water or land) and potential candidate victims of health hazards offering monitoring of air, water and land quality to ensure that it complies with provincial standards, and enforcing compliance with emission standards for violators.",Health Hazard Inspection and Monitoring,,02/22/10,,KPMG,Active,,,,,,,Public
+SV34.2,,A public service offering regular inspection of water sources and surface water bodies.  The main objective of the Safe Water Program is to protect public health by ensuring that drinking water meets the health-related parameters of the Ontario Drinking Water Standards.,Water Safety Inspection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV34.1,,A public service provided to food establishments offering regular inspection of establishments that serve or sell food and enforcement of regulations.,Food Safety Inspection and Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV34,"""Food Safety Inspection and Enforcement""
+""Water Safety Inspection""
+""Health Hazard Inspection and Monitoring""
+",A public service provided to business establishments offering regular inspection and enforcement of public health regulations and standards.,Public Health Inspection and Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV33.6,,A public service provided to sexually active adults offering courses on safe sexual behaviour.,Sexual Health Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV33.5,,A public service provided to vulnerable adults and seniors offering group education on how to improve personal health.,Vulnerable Adults and Seniors Health Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV33.4,,A public service provided to school aged children and youth offering group education on how to improve personal health.,School Age and Youth Health Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV33.3,,A public service provided to substance abusers offering group education on how to improve personal health.,Substance Misuse Prevention Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV33.2,,A public service provided to pregnant women offering group education on how to improve personal health during pregnancy.,Reproductive Health Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV33.1,,A public service provided to chronic disease sufferers and their families offering education on how to live a productive life with a chronic disease.,Chronic Disease Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV33,"""Chronic Disease Education""
+""Reproductive Health Education""
+""Substance Misuse Prevention Education""
+""School Age and Youth Health Education""
+""Vulnerable Adults and Seniors Health Education""
+""Sexual Health Education""
+",A public service provided to at risk individuals and their families offering education on how to improve their personal lifestyle options.,Public Health Education,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.8,,"A public service provided to potential candidate victims of health hazards offering promotional campaigns aimed at increasing awareness of potential air, water and land quality health hazards.",Health Hazard Promotion,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.7,,"A public service provided to food preparation, handling and processing operators and food consumers offering promotional campaigns aimed at informing people about how to improve food safety.",Food Safety Promotion,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.6,,"A public service provided to children, youth and their families offeirng promotional campaigns aimed at increasing awareness about healthy lifestyles.",Child and Youth Health Promotion,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.5,,A public service provided to mentally challenged individuals and their families offering promotional campaigns aimed at increasing awareness about how to live with mental health challenges.,Mental Health Promotion,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.4,,A public service provided to injury victims or candidates offering prevention and promotional campaigns to increase awareness and treatment interventions.,Injury Prevention Promotion,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.3,,A public service provided to pregnant women offering prevention and promotional campaigns to increase awareness about healthy pregnancy.,Reproduction Health Promotion,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.2,,A public service provided to chronic disease candidates and their families offering promotional and prevention awareness campaigns to educate candidates of lifestyle choices.,Chronic Disease Prevention Promotion,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32.1,,A public service provided to chronic disease sufferers and candidates offering alternative lifestyle options for living with chronic disease.,Chronic Disease Promotion & Advocacy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV32,"""Injury Prevention Promotion""
+""Mental Health Promotion""
+""Child and Youth Health Promotion""
+""Food Safety Promotion""
+""Health Hazard Promotion""
+""Chronic Disease Promotion & Advocacy""
+""Chronic Disease Prevention Promotion""
+""Reproduction Health Promotion""
+",A public service provided to at risk individuals offering information and promotional material recommending options for living alternate lifestyle options.,Public Health Promotion & Advocacy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV31.2,,A public service provided to victims of infectious disease offering immunization and/or treatment for infection.,Infectious Disease Control,,02/22/10,,KPMG,Active,,,,,,,Public
+SV31.1,,A public service provided to individuals infected with a sexually transmitted disease offering drugs for the treatment of sexually transmitted diseases free of charge.,Sexually Transmitted Disease Control,,02/22/10,,KPMG,Active,,,,,,,Public
+SV31,"""Sexually Transmitted Disease Control""
+""Infectious Disease Control""
+",A public service provided to individuals infected with a disease offering control of the spread of the disease within the individual and to others.,Public Health Disease Control,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.8,,A public service provided to low income dental patients and their families offering dental / oral treatment at limited or no cost.,Oral / Dental Treatment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.7,,A public service provided to vulnerable adults and seniors offering advice on how to improve personal health.,Vulnerable Adults and Seniors Consultation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.6,,A public service provided to children and youth offering advice on how to improve personal health.,Children and Youth Health Consultation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.5,,A public service provided to substance abusers offering advice on how to improve personal health.,Substance Misuse Prevention Consultation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.4,,A public service provided to injury victims or candidates offering advice on how to improve personal health.,Injury Prevention Consultation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.3,,A public service provided to mentally challenged individuals offering advice on how to improve personal health and live with mental health issues.,Mental Health Consultation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.2,,A public service provided to pregnant women offering advice on how to improve personal health during pregnancy.,Reproductive Health Consultation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30.1,,A public service provided to chronic disease sufferers and their families offering advice and assessment of the impacts of the chronic disease on lifestyle options.,Chronic Disease Consultation and Assessment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV30,"""Chronic Disease Consultation and Assessment""
+""Reproductive Health Consultation and Assessment""
+""Mental Health Consultation and Assessment""
+""Injury Prevention Consultation and Assessment""
+""Substance Misuse Prevention Consultation and Assessment""
+""Children and Youth Health Consultation and Assessment""
+""Vulnerable Adults and Seniors Consultation and Assessment""
+""Oral / Dental Treatment""
+",A public service provided to at risk individuals and their families offering consultation and assessment of the impacts of risks and choices they have in lifestyle options.,Public Health Care & Treatment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV3.5,,A public service provided to the general public offering notification of election results.,Election Result Posting,,02/22/10,,KPMG,Active,,SVOP8,"",Election Result Posted,,,Public
+SV3.4,,An internal service provided to election officers offering training in how to support voters during an election.,Election Officer Training,,02/22/10,,KPMG,Active,,SVOP7,"",Election Officer Trained,,,Internal
+SV3.3,,A public service provided to voters offering a polling station to enter a vote for election candidates.,Polling Station Operations,,02/22/10,,KPMG,Active,,,,,,,Public
+SV3.2,,A public service provided to election candidates offering registration for an upcoming election ballot.,Election Candidate Registration,,02/22/10,,KPMG,Active,,SVOP6,"",Election Candidate Registered,,,Public
+SV3.1,,A public service provided to voters offering the right to vote in an election.,Voter Registration,,02/22/10,,KPMG,Active,,SVOP5,"",Voter Registered,,,Public
+SV3,"""Injury Prevention Promotion""
+""Mental Health Promotion""
+""Child and Youth Health Promotion""
+""Food Safety Promotion""
+""Health Hazard Promotion""
+""Long-Term Care Information and Referral""
+""Long-Term Resident Care Case Management""
+""Long-Term Care Accommodation""
+""Long-Term Convalescent Care""
+""Long-Term Care Respite Care""
+""Long-Term Care Volunteer Management""
+""Early Learning and Child Care Subsidy""
+""Early Learning and Child Care Wage Subsidy""
+""Literacy Training and Education""
+""Pre-School Special Needs Funding""
+""Voter Registration""
+""Sexually Transmitted Disease Control""
+""Election Candidate Registration""
+""Infectious Disease Control""
+""Polling Station Operations""
+""Election Officer Training""
+""Election Result Posting""
+""Food Safety Inspection and Enforcement""
+""Water Safety Inspection""
+""Health Hazard Inspection and Monitoring""
+""Boulevard Forestry""
+""Park and Open Space Forestry""
+""Chronic Disease Consultation and Assessment""
+""Reproductive Health Consultation and Assessment""
+""Mental Health Consultation and Assessment""
+""Injury Prevention Consultation and Assessment""
+""Substance Misuse Prevention Consultation and Assessment""
+""Children and Youth Health Consultation and Assessment""
+""Vulnerable Adults and Seniors Consultation and Assessment""
+""Oral / Dental Treatment""
+""Chronic Disease Education""
+""Reproductive Health Education""
+""Substance Misuse Prevention Education""
+""School Age and Youth Health Education""
+""Vulnerable Adults and Seniors Health Education""
+""Sexual Health Education""
+""Storm Water Drainage System Design & Construction""
+""Storm Water Drainage System Maintenance""
+""Storm Water Treatment""
+""Local Drainage Improvement ""
+""Storm Water Drainage Infrastructure Lifecycle Management""
+""Public Health Care & Treatment""
+""Public Health Disease Control""
+""Public Health Promotion & Advocacy""
+""Public Health Education""
+""Public Health Inspection and Enforcement""
+""Long-Term Care""
+""Storm Water Drainage""
+""Urban Forestry""
+""Early Learning and Child Care""
+""Financial Assistance""
+""Social Support""
+""Employment Assistance""
+""Social Support Case Management""
+""Social Support Information and Referrals""
+""Crisis and Outreach Intervention""
+""Chronic Disease Promotion & Advocacy""
+""Chronic Disease Prevention Promotion""
+""Reproduction Health Promotion""
+","A public service provided to election participants offering registration of voters and election candidates, polling station operations and election result posting.",Election Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV29.5,,,Paramedic Standby Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV29.4,,,Paramedic Community Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV29.3,,A public service provided to paramedic patients offering safe transfer from / to hospital / clinic and home.,Paramedic Patient Transfer,,02/22/10,,KPMG,Active,,,,,,,Public
+SV29.2,,"A public service provided to paramedic patients offering pre-hospital care by a paramedic prior to receiving hospital medical care, and includes stabilization, comfort, assessment / referral, and transport from the scene of an incident to the hospital.",Paramedic Emergency Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV29.1,,An intenal service provided to paramedic care service providers offering receipt of calls and the dispatching of resources to respond to service requests.,Paramedic Call Taking and Dispatching,,02/22/10,,KPMG,Active,,,,,,,Public
+SV29,"""Paramedic Call Taking and Dispatching""
+""Paramedic Emergency Care""
+""Paramedic Patient Transfer""
+""Paramedic Community Care""
+""Paramedic Standby Support""
+","A public service provided to victims of emergency incidents and hospital patients offering pre-hospital advanced medical and trauma care, and patient transfer.",Paramedic Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV28.4,,A public service provided to landlords and tenants of income supported housing offering a rent supplement to cover a portion of the costs of rent.,Rent Supplement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV28.3,,A public service provided to social housing owners offering subsidies for rent for assisted housing leaseholders and occupants to meet their housing needs.,Social Housing Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV28.2,,,Rent Geared to Income Housing Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV28.1,,A public service provided to assisted and non-assisted housing occupants offering lower cost rental accommodation to meet their housing needs.,Social Housing Accommodation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV28,"""Social Housing Accommodation""
+""Rent Geared to Income Housing Subsidy""
+""Social Housing Subsidy""
+""Rent Supplement""
+",A public service provided to social housing residents and social housing operators offering non-profit or co-operative housing communities where some or all the rents are subsidized.,Social Housing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV27.4,,,Affordable Housing Strategy Development,,02/22/10,,KPMG,Active,,,,,,,Public
+SV27.3,,,Residential Rehabilitation Assistance (Loan),,02/22/10,,KPMG,Active,,,,,,,Public
+SV27.2,,,Shelter Conversion to Transitional Housing Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV27.1,,,Residential Conversion / Intensification Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV27,"""Residential Conversion / Intensification Subsidy""
+""Shelter Conversion to Transitional Housing Subsidy""
+""Residential Rehabilitation Assistance (Loan)""
+""Affordable Housing Strategy Development""
+",A public service provided to social housing owners offering subsidies for rent for assisted housing leaseholders and occupants to meet their housing needs.,Assisted Housing Provider Funding Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV25.1,,"A public service provided to prospective social housing providers offering supports in the planning, design, construction and delivery of affordable housing accommodation.",Affordable Housing Construction and Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV25,"""Affordable Housing Construction and Maintenance""
+",A public service provided to housing owners / operators offering financial assistance to convert or intensify housing to more affordable options.,Affordable Housing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV24.2,,,Transitional Housing Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV24.1,,A public service provided to transitional housing residents offering housing that is intended to offer a supportive living environment and tools and opportunities for social and skills development.,Domiciliary Hostel Accommodation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV24,"""Domiciliary Hostel Accommodation""
+""Transitional Housing Subsidy""
+","A public service provided to transitional housing residents offering housing that is intended to offer a supportive living environment and tools and opportunities for social and skills development. It is an intermediate step between emergency shelters and supportive housing, with limits on the length of stay.",Transitional Housing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV23.5,,A public service provided to homeless shelter operators offering a subsidy to operate the homeless shelter.,Homeless Shelter Subsidy,,02/22/10,,KPMG,Active,,,,,,,Public
+SV23.4,,"A public service provided to prospective homeless candidates offering supports that will provide them with basic needs, such as utility payments, counselling sessions, etc., necessary to remain within their existing home.",Homelessness Prevention,,02/22/10,,KPMG,Active,,,,,,,Public
+SV23.3,,A public service provided to homeless persons offering employment assistance and financial support.,Homeless Pre-employment & Income Assistance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV23.2,,A public service provided to homeless persons an their families\ offering proactive support and referral to other service providers for support.,Homeless Outreach & Referral,,02/22/10,,KPMG,Active,,,,,,,Public
+SV23.1,,A public service provided to homeless persons offering access to temporary shelter and supports.,Homeless Shelter,,02/22/10,,KPMG,Active,,,,,,,Public
+SV23,"""Homeless Shelter""
+""Homeless Outreach & Referral""
+""Homeless Pre-employment & Income Assistance""
+""Homelessness Prevention""
+""Homeless Shelter Subsidy""
+",A public service provided to homeless persons offering temporary shelter and supports.,Homeless Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV22.3,,"A public service provided to mentally challenged individuals offering the eligibility assessment, care planning and care oversight.",Supportive Housing Case Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV22.2,,A public service provided to prospective supportive housing residents offering a placement in a supportive housing facility.,Supportive Housing Placement Coordination,,02/22/10,,KPMG,Active,,,,,,,Public
+SV22.1,,"A public service provided to homebound seniors offering assistance to maintain a safe and comfortable home, including routine household activities including menu planning and meal preparation, shopping, light housecleaning and laundry, and paying bills or banking.",Homemaking,,02/22/10,,KPMG,Active,,,,,,,Public
+SV22,"""Homemaking""
+""Supportive Housing Placement Coordination""
+""Supportive Housing Case Management""
+",A public service provided to seniors offering people who only need minimal to moderate care -- such as homemaking or personal care and support - to live independently.,Supportive Housing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.9,,"A public service provided to elderly and frail adults offering meals (1 meal and 2 snacks) served at the appropriate temperature, time and in a suitable environment.",Adult Day Meal Provision,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.8,,A public service provided to elderly and frail adults offering various specialized rehabilitation support to individuals and groups.,Adult Day Rehabilitation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.7,,A public service provided to elderly and frail adults offering a variety of opportunities for recreational activity intended to engage individuals in active lifestyles.,Adult Day Recreation Activity,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.6,,A public service provided to elderly and frail adults offering access to social workers and specialized support services in response to individual and group referrals.,Adult Day Psycho-social Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.5,,A public service provided to elderly and frail adults offering support in accomplishing personal care requirements.,Adult Day Personal Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.4,,A public service provided to elderly and frail adults offering information and referral in response to their specific needs and identified goals.,Adult Day Participant Information and Referral,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.3,,A public service provided to elderly and frail adults offering monitoring of medication to ensure proper consumption.,Adult Day Medication Monitoring,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.2,,"A public service provided to elderly and frail adults offering access to a variety of personal care support including: hairdressers, chiropody, and dental care in response to specific need s or desires.",Adult Day Enhanced Personal Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.10,,A public service provided to the care giver of an elderly and frail adult offering a period of respite from care giving.,Adult Day Respite Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21.1,"""Adult Day Respite Care""
+","A public service provided to elderly and frail adults offering documentation of client care needs, goals, and interdisciplinary and other support interventions",Adult Day Individual Care Case Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV21,"""Adult Day Individual Care Case Management""
+""Adult Day Enhanced Personal Care""
+""Adult Day Medication Monitoring""
+""Adult Day Participant Information and Referral""
+""Adult Day Personal Care""
+""Adult Day Psycho-social Support""
+""Adult Day Recreation Activity""
+""Adult Day Rehabilitation""
+""Adult Day Meal Provision""
+""Adult Day Respite Care""
+","A public service provided to seniors offering social and other therapeutic activities at a location outside of the home, including planned recreation and physical activities, meals, transportation to a facility and personal care.",Adult Day Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV20.7,,,Landfill Site Remediation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV20.6,,A public service provided to Solid Waste Haulers offering disposal and incineration of solid waste,Solid Waste Disposal,,02/22/10,,KPMG,Active,,,,,,,Public
+SV20.5,,An internal service provided to solid waste service providers offering transfer and processing of collected waste.,Solid Waste Transfer and Processing,,02/22/10,,KPMG,Active,,,,,,,Internal
+SV20.4,,,Household Chemical Waste (drop off),,02/22/10,,KPMG,Active,,,,,,,Public
+SV20.3,,,Litter Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV20.2,,,Multi-Residential Solid Waste Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV20.1,,,Curbside Solid Waste Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV20,"""Curbside Solid Waste Collection""
+""Multi-Residential Solid Waste Collection""
+""Litter Collection""
+""Household Chemical Waste (drop off)""
+""Solid Waste Transfer and Processing""
+""Solid Waste Disposal""
+""Landfill Site Remediation""
+","A pubic service provided to waste producers offering curb side collection of solid waste, including residual waste, recycled material, organics, etc..",Waste Collection and Disposal,,02/22/10,,KPMG,Active,,,,,,,Public
+SV2.3,,"A public service provided to families of the deceased offering the sale of a cremation plot, and cremation of the deceased.",Cremation,,02/22/10,,KPMG,Active,,,,,,,Public
+SV2.2,,A public service provided to families of the deceased that offering perpetual care of the burial site.,Perpetual Care,,02/22/10,,KPMG,Active,,,,,,,Public
+SV2.1,,"A public service provided to families of the deceased offering the sale of a burial plot, and burial of the deceased.",Burial ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV2,"""Homeless Shelter""
+""Homeless Outreach & Referral""
+""Homeless Pre-employment & Income Assistance""
+""Homelessness Prevention""
+""Homeless Shelter Subsidy""
+""Paramedic Call Taking and Dispatching""
+""Paramedic Emergency Care""
+""Paramedic Patient Transfer""
+""Paramedic Community Care""
+""Paramedic Standby Support""
+""Homemaking""
+""Supportive Housing Placement Coordination""
+""Supportive Housing Case Management""
+""Waste Collection and Disposal""
+""Adult Day Care""
+""Supportive Housing""
+""Affordable Housing Construction and Maintenance""
+""Homeless Support""
+""Transitional Housing""
+""Affordable Housing""
+""Assisted Housing Provider Funding Support""
+""Social Housing""
+""Paramedic Care""
+""Social Housing Accommodation""
+""Rent Geared to Income Housing Subsidy""
+""Burial ""
+""Social Housing Subsidy""
+""Perpetual Care""
+""Rent Supplement""
+""Cremation""
+""Adult Day Individual Care Case Management""
+""Adult Day Enhanced Personal Care""
+""Adult Day Medication Monitoring""
+""Adult Day Participant Information and Referral""
+""Adult Day Personal Care""
+""Adult Day Psycho-social Support""
+""Adult Day Recreation Activity""
+""Adult Day Rehabilitation""
+""Adult Day Meal Provision""
+""Domiciliary Hostel Accommodation""
+""Transitional Housing Subsidy""
+""Residential Conversion / Intensification Subsidy""
+""Shelter Conversion to Transitional Housing Subsidy""
+""Residential Rehabilitation Assistance (Loan)""
+""Affordable Housing Strategy Development""
+""Curbside Solid Waste Collection""
+""Multi-Residential Solid Waste Collection""
+""Litter Collection""
+""Household Chemical Waste (drop off)""
+""Solid Waste Transfer and Processing""
+""Adult Day Respite Care""
+""Solid Waste Disposal""
+""Landfill Site Remediation""
+","A public service provided to families of the deceased offering the sale of a burial plot, burial of the deceased, and perpetual care of the burial site.",Cemetery Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.9,,,Wastewater Billing and Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.8,,,Wastewater Account Creation and Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.7,,,Wastewater Treatment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.6,,,Sewer Use By-Law Enforcement,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.5,,,Industrial Wastewater Monitoring,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.4,,,Wastewater Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.3,,,Wastewater Service Connection Installation & Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.2,,,Wastewater System Design & Construction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.15,,,Wastewater Infrastructure Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.14,,,Bio-Solids Disposal,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.13,,,SCADA system management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.12,,,Chemical Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.11,,,Wastewater Sewer Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.10,,,Wastewater Compliance Monitoring & Reporting ,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19.1,"""Wastewater Compliance Monitoring & Reporting ""
+""Wastewater Sewer Maintenance""
+""Chemical Management""
+""SCADA system management""
+""Bio-Solids Disposal""
+""Wastewater Infrastructure Lifecycle Management""
+",,Wastewater System Planning & Optimization,,02/22/10,,KPMG,Active,,,,,,,Public
+SV19,"""Wastewater Compliance Monitoring & Reporting ""
+""Wastewater Sewer Maintenance""
+""Chemical Management""
+""SCADA system management""
+""Bio-Solids Disposal""
+""Wastewater Infrastructure Lifecycle Management""
+""Wastewater System Planning & Optimization""
+""Wastewater System Design & Construction""
+""Wastewater Service Connection Installation & Maintenance""
+""Wastewater Collection""
+""Industrial Wastewater Monitoring""
+""Sewer Use By-Law Enforcement""
+""Wastewater Treatment""
+""Wastewater Account Creation and Maintenance""
+""Wastewater Billing and Collection""
+",A public service provided to wastewater account holders and wastewater producers offering safe removal of wastewater from their premises.,Wastewater Collection and Treatment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.9,,,Potable Water Pump Station & Equipment Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.8,,,Potable Water Transmission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.7,,,Chemical Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.6,,,Potable Water Treatment Plant Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.5,,,Potable Water Treatment,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.4,,,Source Water Production,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.3,,,Source Water Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.20,,,Potable Water Infrastructure Lifecycle Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.2,"""Potable Water Infrastructure Lifecycle Management""
+",,Potable Water System Design & Construction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.19,,,Potable Water Utility Locating,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.18,,,Potable Water Billing & Collection,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.17,,,Potable Water Advisory,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.16,,,Potable Water Compliance Monitoring & Reporting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.15,,,"Potable Water Meter Installation, Repair and Reading",,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.14,,,Potable Water Account Creation and Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.13,,,SCADA System Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.12,,,Potable Water Main Maintenance,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.11,,,Potable Water Distribution,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.10,,,Potable Water Storage & Reservoir Management,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18.1,"""Potable Water Storage & Reservoir Management""
+""Potable Water Distribution""
+""Potable Water Main Maintenance""
+""SCADA System Management""
+""Potable Water Account Creation and Maintenance""
+""Potable Water Meter Installation, Repair and Reading""
+""Potable Water Compliance Monitoring & Reporting""
+""Potable Water Advisory""
+""Potable Water Billing & Collection""
+""Potable Water Utility Locating""
+",,Potable Water System Planning & Optimization,,02/22/10,,KPMG,Active,,,,,,,Public
+SV18,"""Potable Water Storage & Reservoir Management""
+""Potable Water Distribution""
+""Potable Water Main Maintenance""
+""SCADA System Management""
+""Potable Water Account Creation and Maintenance""
+""Potable Water Meter Installation, Repair and Reading""
+""Potable Water Compliance Monitoring & Reporting""
+""Potable Water Advisory""
+""Potable Water Billing & Collection""
+""Potable Water Utility Locating""
+""Potable Water Infrastructure Lifecycle Management""
+""Potable Water System Planning & Optimization""
+""Potable Water System Design & Construction""
+""Source Water Management""
+""Source Water Production""
+""Potable Water Treatment""
+""Potable Water Treatment Plant Maintenance""
+""Chemical Management""
+""Potable Water Transmission""
+""Potable Water Pump Station & Equipment Maintenance""
+","A public service provided to water account holders and water consumers offering access to safe, clean potable water.",Potable Water Supply,,02/22/10,,KPMG,Active,,,,,,,Public
+SV17.2,,,Business Improvement Area Advisory,,02/22/10,,KPMG,Active,,,,,,,Public
+SV17.1,,,Business Improvement Area Financial Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV17,"""Business Improvement Area Financial Support""
+""Business Improvement Area Advisory""
+",A public service provided to commercial establishments offering administrative support for the levy of business improvement funds collected to enhance shopping experiences,Business Improvement Area (BIA) Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV16.8,,,Visitor Information Web Site Advisory,,02/22/10,,KPMG,Active,PGSV96,,,,,,Public
+SV16.7,,,Visitor Information Distribution,,02/22/10,,KPMG,Active,PGSV95,,,,,,Public
+SV16.6,,,Visitor Information Research,,02/22/10,,KPMG,Active,PGSV94,,,,,,Public
+SV16.5,,,Visitor Information Social Media Advisory,,02/22/10,,KPMG,Active,PGSV93,,,,,,Public
+SV16.4,,,Visitor Information Collateral Development,,02/22/10,,KPMG,Active,PGSV92,,,,,,Public
+SV16.3,,,Visitor Information eBlast Advisory,,02/22/10,,KPMG,Active,PGSV91,,,,,,Public
+SV16.2,,,Visitor Information Telephone Advisory,,02/22/10,,KPMG,Active,PGSV90,,,,,,Public
+SV16.1,,,Visitor Information Kiosk Advisory,,02/22/10,,KPMG,Active,PGSV89,,,,,,Public
+SV16,"""Visitor Information Kiosk Advisory""
+""Visitor Information Telephone Advisory""
+""Visitor Information eBlast Advisory""
+""Visitor Information Collateral Development""
+""Visitor Information Social Media Advisory""
+""Visitor Information Research""
+""Visitor Information Distribution""
+""Visitor Information Web Site Advisory""
+",A public service provided to tourists / visitors offering information about the amenities of ﾓMy Municipalityﾔ.,Visitor Information,,02/22/10,,KPMG,Active,PGSV88,,,,,,Public
+SV15.9,,,Tourism Site Inspection,,02/22/10,,KPMG,Active,PGSV87,,,,,,Public
+SV15.8,,,Tourism Marketing and Promotion,,02/22/10,,KPMG,Active,PGSV86,,,,,,Public
+SV15.7,,,Tourism In-Market Reception,,02/22/10,,KPMG,Active,PGSV85,,,,,,Public
+SV15.6,,,Tourism Event Familiarization Touring,,02/22/10,,KPMG,Active,PGSV84,,,,,,Public
+SV15.5,,,Tourism Event Attendance Building,,02/22/10,,KPMG,Active,PGSV83,,,,,,Public
+SV15.4,,,Tourism Market Research,,02/22/10,,KPMG,Active,PGSV82,,,,,,Public
+SV15.3,,,Tourism Event Bid Presentation,,02/22/10,,KPMG,Active,PGSV81,,,,,,Public
+SV15.2,,,Tourism Venue Plan Development,,02/22/10,,KPMG,Active,PGSV80,,,,,,Public
+SV15.1,,,Tourism Promotional Material Development,,02/22/10,,KPMG,Active,PGSV79,,,,,,Public
+SV15,"""Tourism Promotional Material Development""
+""Tourism Venue Plan Development""
+""Tourism Event Bid Presentation""
+""Tourism Market Research""
+""Tourism Event Attendance Building""
+""Tourism Event Familiarization Touring""
+""Tourism In-Market Reception""
+""Tourism Marketing and Promotion""
+""Tourism Site Inspection""
+",A public service provided to tourists and tourism operators offering information about the opportunities available in ﾓMy Municipalityﾔ for tourist visits.,Tourism Promotion,,02/22/10,,KPMG,Active,PGSV78,,,,,,Public
+SV14.4,,,Business Consultation and Support,,02/22/10,,KPMG,Active,PGSV77,,,,,,Public
+SV14.3,,,Small Business Advisory,,02/22/10,,KPMG,Active,PGSV76,,,,,,Public
+SV14.2,,,Business Market Research,,02/22/10,,KPMG,Active,,,,,,,Public
+SV14.1,,,Trade Show Promotion and Hosting,,02/22/10,,KPMG,Active,,,,,,,Public
+SV14,"""Trade Show Promotion and Hosting""
+""Business Market Research""
+""Small Business Advisory""
+""Business Consultation and Support""
+","A public service provided to existing businesses in ﾓMy Municipalityﾔ offering advice, expertise, information and networks in how to grow their business operations.",Business Retention and Expansion Support,,02/22/10,,KPMG,Active,PGSV75,,,,,,Public
+SV13.5,,,Prospective Business Support,,02/22/10,,KPMG,Active,PGSV74,,,,,,Public
+SV13.4,,,Property Sale Negotiation Support,,02/22/10,,KPMG,Active,PGSV73,,,,,,Public
+SV13.3,,,International Business Promotion,,02/22/10,,KPMG,Active,PGSV72,,,,,,Public
+SV13.2,,,Business Market Research,,02/22/10,,KPMG,Active,PGSV71,,,,,,Public
+SV13.1,,,Trade Show Promotion and Hosting,,02/22/10,,KPMG,Active,PGSV70,,,,,,Public
+SV13,"""Trade Show Promotion and Hosting""
+""Business Market Research""
+""International Business Promotion""
+""Property Sale Negotiation Support""
+""Prospective Business Support""
+",A public service provided to non-resident businesses offering access to information about ﾓMy Municipalityﾒsﾔ attributes as a business location in an effort to attract those businesses to ﾓMy Municipalityﾔ.,Business Attraction,,02/22/10,,KPMG,Active,PGSV69,,,,,,Public
+SV12.9,,,Clothing Drop Box Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.8,,,Right-of-Way Occupancy Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.7,,,Occupational Licensing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.6,,,Liquor Establishment Licensing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.5,,,Charitable Gaming Licensing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.4,,,Tow Truck Licensing,,02/22/10,,KPMG,Active,PGSV66,,,,,,Public
+SV12.3,,,Livery Limousine Licensing,,02/22/10,,KPMG,Active,PGSV65,,,,,,Public
+SV12.2,,"A public service provided to taxi cab companies, taxi drivers and taxi cab occupants offering safe, clean taxi cab operations.",Taxi Cab / Driver Licensing,,02/22/10,,KPMG,Active,PGSV64,,,,,,Public
+SV12.17,,,Rooming House Licensing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.16,,,Group Home Licensing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.15,,,Fireworks Permission,,02/22/10,,KPMG,Active,PGSV68,,,,,,Public
+SV12.14,,,Graffiti Art Mural Exemption Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.13,,,Fence Exemption Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.12,,,Natural Garden Exemption Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.11,,,Noise Exemption Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.10,,,Temporary Sign Permission,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12.1,"""Temporary Sign Permission""
+""Noise Exemption Permission""
+""Natural Garden Exemption Permission""
+""Fence Exemption Permission""
+""Graffiti Art Mural Exemption Permission""
+""Fireworks Permission""
+""Group Home Licensing""
+""Rooming House Licensing""
+",A public service provided to retail businesses offering licensing of their retail establishment in accordance with applicable licensing regulations / by-laws.,Retail Business Licensing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV12,"""Temporary Sign Permission""
+""Noise Exemption Permission""
+""Natural Garden Exemption Permission""
+""Fence Exemption Permission""
+""Graffiti Art Mural Exemption Permission""
+""Fireworks Permission""
+""Group Home Licensing""
+""Rooming House Licensing""
+""Retail Business Licensing""
+""Taxi Cab / Driver Licensing""
+""Livery Limousine Licensing""
+""Tow Truck Licensing""
+""Charitable Gaming Licensing""
+""Liquor Establishment Licensing""
+""Occupational Licensing""
+""Right-of-Way Occupancy Permission""
+""Clothing Drop Box Permission""
+",A public service provided to businesses offering acknowledgement that they operate in ﾓMy Municipality.,Business Licensing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV11.6,,,Heritage Incentive Funding,,02/22/10,,KPMG,Active,,,,,,,Public
+SV11.5,,,Business Improvement Area Support,,02/22/10,,KPMG,Active,,,,,,,Public
+SV11.4,,,Brownfield Redevelopment Incentive Funding,,02/22/10,,KPMG,Active,,,,,,,Public
+SV11.3,,,Property Tax Reduction,,02/22/10,,KPMG,Active,,,,,,,Public
+SV11.2,,,Building Permit Fees / Charges Waiving,,02/22/10,,KPMG,Active,,,,,,,Public
+SV11.1,,,Community Improvement Plan Incentive,,02/22/10,,KPMG,Active,,,,,,,Public
+SV11,"""Community Improvement Plan Incentive""
+""Building Permit Fees / Charges Waiving""
+""Property Tax Reduction""
+""Brownfield Redevelopment Incentive Funding""
+""Business Improvement Area Support""
+""Heritage Incentive Funding""
+",A public service provided to property owners offering incentives to develop their land and/or buildings.,Property Development Incentive Funding,,02/22/10,,KPMG,Active,,,,,,,Public
+SV10.2,,A public service provided to property owners and occupants providing a civic address to property for convenient access by service providers.,Street Numbering,,02/22/10,,KPMG,Active,,,,,,,Public
+SV10.1,,"A public service provided to property owners fronting on a public highway offering identification of the street name, including the renaming of the street.",Street Naming,,02/22/10,,KPMG,Active,,,,,,,Public
+SV10,"""Street Naming""
+""Street Numbering""
+",A public service provided to property owners and occupants providing a civic address to property for convenient access by service providers.,Civic Addressing,,02/22/10,,KPMG,Active,,,,,,,Public
+SV1.3,,A public service provided to engaged couples wishing to register their marriage to each other.,Marriage Licensing,,02/22/10,,KPMG,Active,,SVOP4,"",Marriage Licence Issued,,,Public
+SV1.2,,A public service provided to families of the deceased offering registration of the death of their family member and removal of entitlement to services.,Death Registration,,02/22/10,,KPMG,Active,,SVOP3,"",Death Certificate Issued,,,Public
+SV1.1,,A public service provided to the parents of new born children offering registration of the birth of their child and entitlement to services.,Birth Certification,,02/22/10,,KPMG,Active,,SVOP2,"",Birth Certificate Issued,,,Public
+SV1,"""Temporary Sign Permission""
+""Noise Exemption Permission""
+""Natural Garden Exemption Permission""
+""Fence Exemption Permission""
+""Civic Addressing""
+""Graffiti Art Mural Exemption Permission""
+""Property Development Incentive Funding""
+""Fireworks Permission""
+""Business Licensing""
+""Group Home Licensing""
+""Business Attraction""
+""Rooming House Licensing""
+""Wastewater Compliance Monitoring & Reporting ""
+""Business Retention and Expansion Support""
+""Wastewater Sewer Maintenance""
+""Trade Show Promotion and Hosting""
+""Tourism Promotion""
+""Chemical Management""
+""Business Market Research""
+""Visitor Information""
+""SCADA system management""
+""Business Improvement Area (BIA) Support""
+""Small Business Advisory""
+""Bio-Solids Disposal""
+""Potable Water Supply""
+""Business Consultation and Support""
+""Wastewater Infrastructure Lifecycle Management""
+""Wastewater Collection and Treatment""
+""Business Improvement Area Financial Support""
+""Business Improvement Area Advisory""
+""Street Naming""
+""Street Numbering""
+""Trade Show Promotion and Hosting""
+""Business Market Research""
+""International Business Promotion""
+""Property Sale Negotiation Support""
+""Prospective Business Support""
+""Potable Water Storage & Reservoir Management""
+""Potable Water Distribution""
+""Potable Water Main Maintenance""
+""SCADA System Management""
+""Potable Water Account Creation and Maintenance""
+""Potable Water Meter Installation, Repair and Reading""
+""Potable Water Compliance Monitoring & Reporting""
+""Visitor Information Kiosk Advisory""
+""Potable Water Advisory""
+""Visitor Information Telephone Advisory""
+""Potable Water Billing & Collection""
+""Visitor Information eBlast Advisory""
+""Potable Water Utility Locating""
+""Visitor Information Collateral Development""
+""Visitor Information Social Media Advisory""
+""Visitor Information Research""
+""Visitor Information Distribution""
+""Visitor Information Web Site Advisory""
+""Wastewater System Planning & Optimization""
+""Wastewater System Design & Construction""
+""Wastewater Service Connection Installation & Maintenance""
+""Wastewater Collection""
+""Industrial Wastewater Monitoring""
+""Sewer Use By-Law Enforcement""
+""Wastewater Treatment""
+""Wastewater Account Creation and Maintenance""
+""Wastewater Billing and Collection""
+""Retail Business Licensing""
+""Taxi Cab / Driver Licensing""
+""Livery Limousine Licensing""
+""Tow Truck Licensing""
+""Charitable Gaming Licensing""
+""Liquor Establishment Licensing""
+""Occupational Licensing""
+""Right-of-Way Occupancy Permission""
+""Clothing Drop Box Permission""
+""Tourism Promotional Material Development""
+""Tourism Venue Plan Development""
+""Tourism Event Bid Presentation""
+""Tourism Market Research""
+""Tourism Event Attendance Building""
+""Tourism Event Familiarization Touring""
+""Tourism In-Market Reception""
+""Tourism Marketing and Promotion""
+""Tourism Site Inspection""
+""Potable Water Infrastructure Lifecycle Management""
+""Potable Water System Planning & Optimization""
+""Birth Certification""
+""Potable Water System Design & Construction""
+""Death Registration""
+""Source Water Management""
+""Marriage Licensing""
+""Source Water Production""
+""Potable Water Treatment""
+""Potable Water Treatment Plant Maintenance""
+""Chemical Management""
+""Potable Water Transmission""
+""Potable Water Pump Station & Equipment Maintenance""
+""Community Improvement Plan Incentive""
+""Building Permit Fees / Charges Waiving""
+""Property Tax Reduction""
+""Brownfield Redevelopment Incentive Funding""
+""Business Improvement Area Support""
+""Heritage Incentive Funding""
+","A public service provided to vital rights registrants offering registration of a key life event (i.e. birth, death, marriage, etc.).",Vital Rights Registration,,02/22/10,,KPMG,Active,,SVOP1,"",Vital Rights Registered,,,Public

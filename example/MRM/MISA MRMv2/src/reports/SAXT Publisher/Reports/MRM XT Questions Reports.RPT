@@ -1,0 +1,286 @@
+
+	FONT "LabelFont" { NAME "Arial" HEIGHT 10 BOLD }
+	FONT "PropertyFont" { NAME "Arial" HEIGHT 10 }
+	FONT "FooterFont" { NAME "Arial" HEIGHT 8 }
+	SETTING { LEGENDFONT "LabelFont" }
+	SETTING { FONT "PropertyFont" }
+	SETTING { TRAILERFONT "FooterFont" }
+	SETTING { IGNORECASE }
+
+REPORT "Service Output to Target Group"
+DESCRIPT "Describes the Output a Service provides to a Target Group"
+ID 38394
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Service Output to Target Group" }
+	SETTING { REPORTFORMAT 4 }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "produces"
+		JOIN
+		SELECT "Name" LEGEND "Output" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 152
+		JOIN
+		WHERE RELATION = "creates"
+		JOIN
+		SELECT "Name" LEGEND " Service Value" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 167
+		JOIN
+		WHERE RELATION = "realizes"
+		JOIN
+		SELECT "Name" LEGEND "Outcome"
+		WHERE Class = Definition
+		WHERE "Type Number" = 151
+		JOIN
+		WHERE RELATION = "experiencedBy"
+		JOIN
+		SELECT "Name" LEGEND "Target Group"
+		WHERE Class = Definition
+		WHERE "Type Number" = 155
+	}
+}
+REPORT "Program Hierarchy Report"
+DESCRIPT "Reports on the Program and Sub-Program Hierarchy"
+ID 48497
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Program Hierarchy Report" }
+	SETTING { REPORTFORMAT 4 }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "aggregates"
+		JOIN
+		SELECT "Name" LEGEND "Sub-Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		ORDERBY "Name"
+	}
+}
+REPORT "Organization Unit Report"
+DESCRIPT "Displays the hierarchy of organization units"
+ID 37238
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Organization Unit Report" }
+	SETTING { REPORTFORMAT 4 }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Organization Unit" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "comprises"
+		JOIN
+		SELECT "Name" LEGEND "Sub-Organization Unit" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		ORDERBY "Name"
+	}
+}
+REPORT "Services Report"
+DESCRIPT "Lists services and their properties"
+ID 28534
+{
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { REPORTFORMAT 4 }
+	FIELD "Description <-- Description" { SOURCE PROPERTY "Description" LENGTH 4074 TYPE MEMO LEGEND "Description" }
+	FIELD "Output <-- Output" { SOURCE PROPERTY "Output" LENGTH 80 TYPE CHARACTER LEGEND "Output" }
+	FIELD "Program <-- Program" { SOURCE PROPERTY "Program" LENGTH 80 TYPE CHARACTER LEGEND "Program" }
+	FIELD "Status <-- Status" { SOURCE PROPERTY "Status" LENGTH 8 TYPE CHARACTER LEGEND "Status" }
+	FIELD "Service Type <-- Service Type" { SOURCE PROPERTY "Service Type" LENGTH 20 TYPE CHARACTER LEGEND "Service Type" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGENDFONT Font4, "Description <-- Description" LEGEND "Description" LEGENDFONT Font4, 
+		       "Output <-- Output" LEGEND "Output" LEGENDFONT Font4, 
+		       "Program <-- Program" LEGEND "Program" LEGENDFONT Font4, 
+		       "Status <-- Status" LEGEND "Status" LEGENDFONT Font4, 
+		       "Service Type <-- Service Type" LEGEND "Service Type" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		ORDERBY "Name"
+	}
+}
+REPORT "Organization Unit accountable for Programs"
+DESCRIPT "A report that lists the organization units and the programs they are responsible for"
+ID 64925
+{
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { REPORTFORMAT 4 }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Organization Unit Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "accountableFor"
+		JOIN
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		ORDERBY "Name"
+	}
+}
+REPORT "Programs with no accountable Organization Unit"
+DESCRIPT "Lists Programs with no accountable Organization Unit"
+ID 48460
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Programs with no accountable Organization Unit" }
+	SETTING { REPORTFORMAT 4 }
+	FIELD "Owner <-- Owner"{ SOURCE PROPERTY "Owner" LENGTH 1200 TYPE MEMO LEGEND "Owner" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		WHERE "Owner <-- Owner" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Services with no accountable Organization Unit"
+DESCRIPT "List the Services with no accountable Organization Unit"
+ID 1860
+{
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { REPORTFORMAT 4 }
+	FIELD "Owners <-- Owners"{ SOURCE PROPERTY "Owner" LENGTH 1200 TYPE MEMO LEGEND "Owner" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		WHERE "Owners <-- Owners" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Services with no administring Program"
+DESCRIPT "Lists the Services with no administring Program"
+ID 56064
+{
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { REPORTFORMAT 4 }
+	FIELD "Program <-- Program" { SOURCE PROPERTY "Program" LENGTH 80 TYPE CHARACTER LEGEND "Program" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		WHERE "Program <-- Program" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "SIAM Report"
+DESCRIPT "Displays a report on SIAM diagram contents providing an accountability trace between organizaiton units and target groups"
+ID 35942
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "SIAM Report" }
+	SETTING { REPORTFORMAT 4 }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "SIAM Name" LEGENDFONT Font4
+		WHERE Class = Diagram
+		WHERE "Type Number" = 102
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "contains"
+		JOIN
+		WHERE Class = Symbol
+		JOIN
+		WHERE RELATION = "defined by"
+		JOIN
+		SELECT "Name" LEGEND "Definition Name" LEGENDFONT Font4, "Type" LEGENDFONT Font4
+		WHERE Class = Definition
+	}
+}
+REPORT "Program administers Services"
+DESCRIPT "List programs and the services they administer"
+ID 31658
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Program administers Services" }
+	SETTING { REPORTFORMAT 4 }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "administers"
+		JOIN
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		ORDERBY "Name"
+	}
+}
+REPORT "Programs administring no Services"
+DESCRIPT "List programs that administer no Services"
+ID 62948
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Programs administring no Services" }
+	SETTING { REPORTFORMAT 4 }
+	FIELD "Services <-- Services" { SOURCE PROPERTY "Services" LENGTH 1200 TYPE MEMO LEGEND "Services" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		WHERE "Services <-- Services" = ""
+		ORDERBY "Name"
+	}
+}

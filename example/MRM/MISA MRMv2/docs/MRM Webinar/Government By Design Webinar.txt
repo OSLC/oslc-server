@@ -1,0 +1,197 @@
+Slide 1:
+
+Government organizations are facing extreme challenges to deliver more with fewer resources, to maintain or increase service levels with a smaller workforce and reduced budgets. Addressing these challenges requires a strategic approach to determining what businesses the government should be in and to what extent they should be in them based on citizens' needs and available revenue. 
+
+What governments need is a rational process for planning and budgeting, performance management, and operations that maximize outcomes from available revenue. This requires a means of capturing, assessing and communicating information about their current environment and then determining, evaluating and choosing actions that evolve services to achieve desired results while managing costs. 
+
+Government by design is the concept of applying strategic planning for government in a form that provides a comprehensive view of the entirety of the business you are in and the services your agency or organization provides. It provides a set of tools and techniques to help you do the planning and management needed to meet your citiens's needs at a price they are willing to pay.
+
+
+Slide 2:
+
+Municipalities are facing a shrinking tax base, increasing costs of social support services due to high unemployment, increasing public sector labor costs, inability to increase property taxes, increased demand for transparency and accountability, and aging infrastructure. This is requiring municipalities to do more with less: to improve efficiency, effectiveness, quality and accountability in the programs and services they deliver to their constituents. It requires them to evaluate existing programs and services to determine what to outsource, in-source, privatize, retire, enhance, or look for new, lower cost alternatives. It requires a collaboration with other municipalities to learn what works well and what doesn't. And it requires leveraging community organizations for alternative ways delivering services.
+
+IBM Smarter Cities offerings provide a set of offerings for municipal strategic planning, solution analysis, design and construction, operational platforms and business analytics - all attempting to bridge the gap between accountable municipal organizations and their target group needs. 
+
+Slide 3:
+
+We live in a time of extreme challenges and we have extraordinary problems to solve, not the least of which are mentioned on this slide.  As Government organizations charged with serving citizens, you face challenges to effectively delivering those services to your people while being in a nearly constant state of fiscal crisis. 
+
+Demographics are changing – in many countries we’re seeing large populations of people growing older and requiring new services from health and human services organizations; we are also seeing changing demands based on an influx of immigrants, these forces married with lingering high levels of unemployment leaves government organizations struggling to keep up with the demand.  
+
+These rising citizen needs and the stress they are putting on government are strong infleuncers for change. For instance, we see that aging infrastructure and growing IT portfolios hinder the ability to respond quickly to changing citizen needs. We also live in a time of technological proliferation. Almost daily we become more connected and reliant on the ability to access information and to put our hands on what we need, when we need it. Many governments have gov 2.0 initiatives underway to help address the growing demand for services everywhere.   
+
+At the same time, we see an unprecedented call for government to be more transparent and demonstrate their accountability to their citizens.  In the face of constant change – whether it is evolving policy, or new regulations, the public sector is in the midst of a new economic environment. 
+
+In 2010. IBM conducted a CEO Study. We found that CEO’s and leaders in the Public Sector agreed that the new economic environment is vastly different - it is substantially more volatile, much more uncertain, increasingly complex, and structurally different.  Interestingly, they agreed and recognized an immense value in having an accessible vision and in defining priorities for their organization, and they agreed that the vision and priorities must be reflected at the IT level. 
+
+
+Slide 4:
+
+Addressing these challenges requires a process and supporting information to address three fundamental concerns. First you need determine what are the hightest priority things you need to do in terms of the services you provide to address citizen needs. Second you need to determine the most efficient and cost effective way of delivering those services. And third you need to find ways to leverage citizen groups, community organizations and private sector businesses to collaboratively work together for transparent, effective and efficient government.
+
+This Government By Design presentation explores some approaches for planning and budgeting and performance management that are supported by tools in order to explain the processes, capture and retain the required supporting information, and make the processes accessible and efficient enough that you can respond quickly to new or changing information. The goal is to provide methods, processes and tools that enable and foster continuous improvement rather than rewards and punishments as a means to facilitate government evolution to meet changing citizen needs. These tools and techniques are intended to address both the needs of "Steeres", those addressing the policy domain having needs for accountability, planning and budgeting, and those of the "Rowers", those addressing the functional domain having needs for to improve the operations management.
+
+Slide 5:
+
+So, what can governments do to survive in this new environment? Cost cutting and operational efficiency are important areas for improvement. However, there is also a critical need to focus limited resources on identifying and implementing initiatives that will deliver the greatest long-term value. Governments provide a wide range of programs and services that produce outcomes that meet community needs. Decisions about what programs and services to cut and where to invest require transparent, objective and collaborative assessments of different opportunities for change. Some people are looking for government to do less, others to do more with less. No matter what, larger or smaller, government represents a significant part of the overall shared economy. Just like any other sector of the economy, government should do what it does well, efficiently, cost effectively, and with expected outcomes and qualities of service.
+
+Defining Services requires a strategic approach to determining what businesses to be in, and to what extent to be in them, how much to invest and when. Cities need to have a greater focus on planning. You have to be doing the right things before you worry too much about how well you're doing them. Planning needs to focus on the demand-side view of government, services and outcomes from the perspective of citizens. What you are doing any why is  expressed in terms of services delivered to tax payers, citizens clients, customers, etc., not the processes and activities performed to provide those services. 
+
+This means we need to define the services first, then work on how to provide them efficiently and effectively. The "steerers", city planners have a better idea about the services provided by an organization as they are defined by what the citizens want and what they are willing to pay for. 
+
+	Service Levels determine the qualities of service that must be delivered to satisfy citizen needs and expectations. The establish the budget requirements and are the foundation for performance metrics and targets. Determining service levels can be quite difficult and have unanticipated impact.
+
+	For example child-staff ratio and group size are typical performance indicators for child care. 4 year olds generally have a child-staff ratio of 8:1 with maximum group size of 16. How do you decide what is an appropriate rating? If you want to improve child-care services, how do you know where to invest? Child care givers would likely want to see lower child-staff ratios and lower group size as this would clearly make their work easier and provide greater service to the children. But they have a vested interest. 
+
+	Child care services have an intended purposes: ensure safety, assistance to low income families, promote adult employment, education, and so on. There is a point at which decreasing child-staff ratios and decreasing group size doesn’t result in any significant improvement in achieving the intended purposes of child care services.
+
+If you understand the purpose of what you're trying to achieve, then you can effectively reason about service levels. This requires you to understand what the services are that you provide, what outcomes they produce, who experiences those outcomes, and what needs are addressed.
+
+Service Accountability is fundamental to government organization units. If people focus on the activities they perform to deliver a service, then they only focus on their piece, and how they do what they do to deliver their part of the output. If no one is responsible for overall outcome, they are only responsible for a piece, there can be no effective method for governance. The implication is that organization units within the government must be accountable for delivering outcomes, not just for executing processes, they have authority and responsibility to deliver outcomes.
+
+Slide 6: 
+
+An Enterprise Governance model establishes a conceptual context for understanding the activities, work products and relationships required to address the full lifecycle concerns of an enterprise.
+
+	Planning consists of the activities that determine what to do in response to business influencers. It captures the business goals and supporting strategies, establishes the services and service levels that will be provided, determines the budget, and a roadmap for execution.
+
+	The Build phase deals with the work required to transition plans into operational processes and supporting resources and systems. It is thought this phase that the enterprise evolves through execution of its plans.
+
+	The Operational phase deals with the actual execution of processes and activities required to deliver program and service outcomes. Operational systems need to be sensed and measured to provide information required for performance assessment and management.
+
+	Assessment deals with examining operations and determining if the original business goals and citizen needs are being met, and if there are performance gaps that need to be addressed through operations management and improvements. Assessments can also inform future plans by indicating performance gaps that influence future plans, or help establish new, more realistic and achievable service levels. 
+
+	The Manage phase deals with management or change in accordance with established governance procedures to control the whole evolutionary process.
+
+Not all of these concerns need to be addressed in every circumstance. But it is useful to see the full scope of enterprise government in order to understand the broader context and potential impact of any individual activity.
+ 
+Slide 7:
+
+Budgeting for Outcomes was pioneered by Governor Gary Locke of Washington at a time when his state faced a $2.5 billion shortfall in its budget. Quoting from Governor Locke:
+
+“The usual, political way to handle a projected deficit is to take last year's budget and cut. It is like taking last year's family car and reducing its weight with a blowtorch and shears. But cutting $2 billion from this vehicle does not make it a compact; it makes it a wreck. What is wanted is a budget designed from the ground up.”
+
+The process evolved and is described in a book by David Osborne and Peter Hutchinson called "The Price of Government: Getting the results we need in an age of permanent fiscal crisis". BFO is supported by consulting organizations such as Public Strategies Group and is a recommendation of the Government Finance Officers Association.
+
+The BFO process can be challenged by uncertain, inaccurate, or missing information, and poor line-of-sight between city goals, supporting service offers, performance indicators and available revenue. Tools help make the BFO process more efficient so that you can effectively respond to new and changing information. The process can benefit from supporting information and tools for more efficient execution in order to ensure expected outcome: maximize outcomes for available revenue. Tools help:
+
+Improve financial forecasting supporting Monte-Carlo simulation to provide more accurate and timely revenue estimates
+
+Benchmark against other cities to leverage their innovation and successes
+
+Create a Business Motivation Model to capture business strategy and policy information, and to enable the connection of motivational elements with the service catalog
+
+Create a municipal model to provide a common language for describing and relating the large number of services provided by a city, and to provide a service catalog that forms the basis for budget offers that can be connected to city goals, outcomes and citizen needs.
+
+Utilize portfolio management tools to prioritize citizen needs as well as city goals that along with costs, risks, time to value and performance indicators can be used to objectively assess service offers to establish defensible, quantified rankings, and to enable what-if scenarios for exploring alternative rankings.
+
+Slide 8:
+
+Meeting your objectives requires first capturing, validating and communicating them to all stakeholders, and then connecting them to the plans, programs and services that are intended to address them. 
+
+A business motivation model starts with the influencers that are motivating the business to change. We discussed many of those influencers early in this presentation. Governments then determine the desired results they wish to achieve in response to those influencers including a vision amplified by goals and quantified by SMART objectives. The business motivation also includes the courses of action you need to take in order to support the achievement of the desired results. These courses of action include mission statements, and plans for the mission as strategies that are implemented by tactics according to business policies and rules. 
+
+Slide 9:
+
+For example, this chart shows the vision of a model, unified, creative city that is amplified by goals for sustainable communities, public safety  and so on. Each of these goals is further amplified by sub-goals that can communicate in one page what your city is intending to focus on achieving for your citizens.
+
+Other diagrams can show strategies, tactics, business policies and rules, and can show how these are connected to the realizing programs and services that actually deliver the required outcomes.
+
+Slide 10:
+
+Accurate information about what services need to be provided and at what levels is required in order to create requests for offers and to properly evaluate submitted offers. Otherwise budget overruns can occur later when the services are actually performed, or planning may be sub-optimal because not all services are assessed against priorities.
+
+Service levels must be assessed against outcomes and needs to avoid over or under serviced needs leading to budget overruns, inappropriate performance indicator targets, poor performance and/or missed citizen expectations.
+
+A common language enables benchmarking with other cities to identify opportunities for service innovation and optimization, and to effectively compete for immigrants or new businesses.
+
+A comprehensive service catalog provides a means of identifying accountable organization units, administered programs, implementing processes, consumed resources, service outputs, delivered outcomes, and impacted citizen target groups in a a standard way, using precise definitions and concepts accepted and adopted by all stakeholders. Tools and templates can help create the descriptions of the municipality with user guides and training materials to help create and use these descriptions for a range of municipal purposes. A repository provides a location where these descriptions can be saved and can be pre-populated with a generic set of reusable service descriptions that can be used as a starting point, or as guidance for new or introducing new or updated existing services. These descriptions can easily be customized with specific information that address specific municipal needs. Tools also support analysis and comparison of such descriptions for opportunity analysis and measuring results that enable collaboration to allow ideas to be communicated and shared with all stakeholders.
+
+Slide 11:
+
+The MISA Municipal Reference Model, a model created by the Canadian government over the last 20 years, defines a language for expressing the relationship between the organization units in government as service providers, and target groups in the community as service consumers.
+
+Government organization units are accountable for programs that deliver outcomes experienced by target groups in the community. These programs administer services that commit to providing outputs that have direct value to receiving clients, and indirect value through the outcomes they contribute to. Services are implemented by processes that consume resources.
+
+Performance indicators are used to measure how effective a program is at delivering its outcome, how well a service produces its output, how well processes implement services, and how well a resource contributes to the needs of it consuming processes.
+
+Projects encapsulate plans for evolving the government enterprise by changing the organization, programs, services, process or resources that deliver the outcomes addressing possibly changing community needs.
+
+The reference model provide a model of typical municipality capturing the programs, services, processes, resources and outcomes that have been proven through common practice to effectively address specific target group needs. The reference model provides valuable reusable assets that can save years of business analysis work as well as provide ideas for innovative solutions to specific community needs.
+
+Slide 12:
+
+For example, Public Health is a program intended to deliver Improved Health as an outcome experienced by Municipal Residents and visitors. An outcome is a change in level of need experienced by a target group. Part of the planning process is to determine how we might measure an outcome and precisely what targets we wish to obtain. These considerations can lead to better expression of outcomes which can help determine what services and programs are required to deliver those outcomes.
+
+The Public Health program administers two services: Food Premise Inspection and H1N1 Immunization. The output of the Food Premise Inspection service is an Inspection Report which establishes permission to continue food preparation services. This output has direct value to the food premise owner and operator since they can stay in business. It has indirect benefit for patrons of the operation through the reduction of illnesses resulting from improper food preparation. 
+
+The Food Premise Inspection service is implemented by a process that includes scheduling the inspection, conducting the inspection, preparing a report, and scheduling any required follow-up according to current laws and regulations.
+
+Slide 13:
+
+Tools used to capture municipal models provide various diagrams and views that enable reasoning about the model and the impact decisions might have on the community. For example, the Program Logical model shown in this picture show the target groups and their needs associated with traffic deaths and accidents. 
+
+Form this diagram it is easy to capture a hierarchy of outcomes required to address drivers' needs for protection from loss of life or property from traffic accidents. The diagram also shows the services required to deliver those outcomes, and the outputs of the services that contribute to the outcomes. 
+
+A program logic model provides a simple means of understanding needs, outcomes required to address them, who experiences the outcomes, and what services are required to deliver them. You can also easily see needs that are not addressed, missing services, or services that produce outputs that don't contribute to any outcomes and are therefore candidates for elimination.
+
+Slide 14:
+
+Another diagram that is useful is the Service Integration and Accountability Model or SIAM diagram. Accountability for delivering outcomes is fundamental to government operations. The SIAM diagram shows the relationship between organization units and target groups in the community by describing the programs they are accountable for, the services administered by those programs, the service-level agreements between services, the service outputs, and what target groups are impacted by those outcomes. 
+
+A SIAM diagram provides a simple visualization that connects the organization units of the government to organizations of its citizens, bridged by the programs and services that are provided by the government and consumed by its citizens. From this diagram it is easy to see who is responsible for delivering what to whom and how. You can easily see organizations that are accountable for too much or too little, motivating some reorganization. You can also see that target groups in the community are under or over served as input into change initiatives.
+
+Slide 15:
+
+Results-based planning and budgeting requires you to objectively evaluate your programs and decisions against goals and citizens’ needs.
+
+For example, a government body or agency can prioritize pipeline projects and investments and rank the projects based on their aggregate value. The government has a view that shows pipeline projects with completed business cases that are ready to be prioritized. The stakeholders can add business case data to a view of expenses and net present value, along with subjective value such as public popularity. Using the scoring from each criterion, they can make a decision about which potential projects are the best candidates for launch based on current budget constraints. From that point, they can use a comparison chart (Figure 3) to schedule my projects based on dependencies and resource bottlenecks.
+
+Budget allocation is based on prioritized results that address citizen needs, which leads to budgeting for the right things; the things you want to keep, not the things you might need to cut. Allocations are driven by both government desired results and outcomes that address community community needs. Using this approach it is easier to communicate choice rational to government employees and citizen stakeholders, which can result in buy-in from department employees, better morale,  more effective deployment of business plans, and citizens that are sufficiently aware of rationale to inform effective voting.
+
+Slide 16: 
+
+Strategic Planning also involves determining which programs to invest in based on business goals, community needs prioritization, risk management, cost, and value. This approach to strategic planning provides emphasis on outcomes required to address needs instead of what to cut. Value becomes more relative, based on community need prioritization. Citizens can focus on what they’re getting for their tax dollars instead of what’s getting cut. 
+
+In this example the elements in the graph are pipeline programs that have completed business cases and are now ready for prioritization. Business case and outcome data has been incorporated into the ‘Budgeted Expenses’ and ‘NPV’ criteria located in the upper right corner. Subjective criteria such as public popularity, can also be assessed using a pair wise comparison. Using the scoring from each criterion planners can make a decision about which potential programs are the best candidates for launch based on current budget constraints. Then they can use the Gantt chart to schedule projects based on dependencies and resource availability.
+
+Slide 17:
+
+Citizen centered prioritization allows you to incorporate the voice of the citizen, community organization and private businesses to ensure you understand their needs and priorities since after all they are the consumers of the services they are paying for.
+
+Cost-cutting is a reality of today's budget deficits and austerity measures. But you can be smart about what you cut by focusing not on the cuts, but on the keeps. That is, determining the service offers that deliver the highest priority outcomes, and fund those that fit available revenue. 
+
+Government accountability requires performance management and assessment techniques that enable effective communication, reporting and accountability to citizens. Tools can help produce the reports and web pages that are required for "stat" meetings where actions to close or remediate gaps are addressed with the impacted citizens.
+
+Results-based planning helps ensure citizens are getting the most out of their tax dollars. Governments can prioritize government goals, citizen needs and service offers using a unique voting system that incorporates evaluation of subjective and objective criteria. The results are then illustrated in a visual representation that is easy to understand and takes the guesswork out of the selection process. Governments can then assess the effect of strategic decisions with diagrams and analytic views to facilitate the development of project and investment road maps.
+
+Slide 18:
+
+Some of the benefits to government organizations are listed here. The primary benefit is government has the methods, tools, techniques and reusable assets to help in planning what services to provide its constituents, at what service levels, assessed by what performance indicators, and delivering what impact to the community - all at a price its citizens are willing to pay and its legislative bodies are willing to approve.
+
+The alternative is government by a thousand cuts, motivated by threats of punishment or withheld rewards that have little to do with outcomes and that no one is happy with. 
+
+Slide 19:
+
+But most important of all are the benefits to citizens, who after all are participants in a government they own and pay for. These benefits contribute to a thriving, equatable, functional community that benefits everyone, and a more open and transparent process that contributes to more public participation and effective democracy.
+
+Slide 20:
+
+In summary, IBM provide a number of offerings that support municipal strategic planning including support for results-based budging and the BFO process. These offerings are inspired by our experiences in the Smarter Cities Challenges we have delivered over the last 
+
+
+
+
+
+
+
+
+The Municipal Strategic Planning offering provides a collaborative environment, in which municipal models can be created, validated, communicated across a wide range of stakeholders, reasoned about and acted upon to deliver value to the community. It provides the views, reports and document work products that support different stakeholder viewpoints in order to address their specific concerns. It provides planning and budgeting capabilities to help make the tradeoffs that are necessary when community needs outstrip the available budget and resources required to fulfill them.
+
+
+
+
+
+
+

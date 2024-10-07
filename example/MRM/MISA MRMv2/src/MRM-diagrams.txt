@@ -1,0 +1,362 @@
+REM "Licensed Materials - Property of IBM"
+REM "USRPROPS.TXT"
+REM "(c) Copyright IBM Corporation 1986,2009.  All Rights Reserved."
+REM "U.S. Government Users Restricted Rights:  Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp."
+REM "You may copy, modify, and distribute these samples, or their modifications, in any form,"
+REM "internally or as part of your application or related documentation. These samples have not been"
+REM "tested under all conditions and are provided to you by IBM without obligation of support of any kind."
+REM "IBM PROVIDES THESE SAMPLES  'AS IS', SUBJECT TO ANY STATUTORY WARRANTIES THAT CANNOT BE EXCLUDED."
+REM "IBM MAKES NO WARRANTIES OR CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO,"
+REM "THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT"
+REM "REGARDING THESE SAMPLES OR TECHNICAL SUPPORT, IF ANY."
+
+REM "Instructions for modifying this file are in the on-line help."
+
+
+REM "******** MISA Municipal Reference Model Diagrams ********"
+
+
+REM "Diagrams and their Symbols"
+
+RENAME DIAGRAM "User 1" to "MRM SIAM"
+RENAME DIAGRAM "User 2" to "MRM Hierarchy"
+RENAME DIAGRAM "User 3" to "MRM PLM"
+rename diagram "User 4" to "MRM Overview"
+
+
+RENAME SYMBOL "USER 1" TO "MRM Organization Unit"
+RENAME SYMBOL "User 2" to "MRM Program"
+RENAME SYMBOL "User 3" to "MRM Service"
+RENAME SYMBOL "USER 8" TO "MRM Target Group"
+RENAME SYMBOL "USER 10" TO "MRM Output"
+RENAME SYMBOL "USER 11" TO "MRM Outcome"
+RENAME SYMBOL "USER 13" TO "MRM Need"
+rename symbol "User 27" to "MRM Process"
+rename symbol "User 28" to "MRM Resource"
+rename symbol "User 29" to "MRM sub-Process"
+
+
+RENAME SYMBOL "User 21" to "MRM Program Accountabilities"
+RENAME SYMBOL "User 9" to "MRM Program Services"
+RENAME SYMBOL "USER 12" TO "MRM Service Level Agreements"
+RENAME SYMBOL "USER 14" TO "Service has Output"
+RENAME SYMBOL "USER 15" TO "Output contributesTo Outcome"
+RENAME SYMBOL "USER 16" TO "Outcome addresses Need"
+RENAME SYMBOL "USER 17" TO "Outcome impacts Target Group"
+rename symbol "User 23" to "MRM sub-Organization Unit"
+rename symbol "User 24" to "MRM sub-Program"
+rename symbol "User 25" to "MRM sub-Service"
+rename symbol "User 26" to "MRM sub-Target Group"
+rename symbol "User 30" to "MRM relatesToByHierarchy"
+rename symbol "User 31" to "ContributesTo"
+rename symbol "User 32" to "MRM Overview Relation"
+rename symbol "User 33" to "MRM Performance Indicator"
+rename symbol "User 34" to "MRM Project"
+
+
+REM "There's also a need for a means of depicting the sub-projects, services, outputs, outcomes, needs and target groups"
+REM "These hierarchies should be shown using nested symbols on diagrams, but referential consistency and containment associations"
+REM "using nested symbols isn't supported (yet). For now we'll leave out these associations and users can manually place"
+REM "sub-items inside their parent symbols if desired. This will avoid creating a lot of lines that we'll want to remove later"
+
+
+REM "******************************************************************************************"
+
+// Add BPMN subtypes to the Business Process diagram
+#ifdef "TOGAF 9"
+symbol "Process" in "Business Process" {
+	represents node "Process" and_subtypes
+}
+#else
+symbol "Process" in "Business Process" {
+	represents node "BPMN Process" and_subtypes
+}
+#endif
+
+REM "Hierarchy Diagram"
+REM "There is a single hierarchy diagram for all MRM definitions that are hierarchical. The user adds what they"
+REM "want on the diagram and then uses the Hierarch Builder macro to add the child elements and lines."
+
+// Note that hierarchy diagrams only work with single parents, not many-to-many
+
+diagram "MRM Hierarchy" {
+	hierarchical 
+}
+
+// ********************************************************************************************
+// A diagram for creating an overview of a public sector model
+
+diagram "MRM Overview" {
+}
+
+
+REM "******************************************************************************************"
+
+REM "SIAM - Service Integration Accountability Model"
+
+DIAGRAM "MRM SIAM" {
+}
+
+REM "******************************************************************************************"
+
+REM "PLM - Program Logic Model"
+
+DIAGRAM "MRM PLM" {
+}
+
+
+
+SYMBOL "MRM Organization Unit" {
+	REPRESENTS NODE "MRM Organization Unit"
+	depictions {diagram retain style "images\exp_organization_unit.wmf"  menu "images\exp_organization_unit.bmp"}
+	ASSIGN TO "MRM SIAM"
+	ASSIGN TO "MRM Hierarchy"
+	assign to "MRM Overview"
+}
+
+SYMBOL "MRM Program" {
+	REPRESENTS NODE "MRM Program" 
+	DEPICT LIKE "System" IN "UML Use Case"
+	ASSIGN TO "MRM SIAM"
+	ASSIGN TO "MRM Hierarchy"
+	ASSIGN TO "MRM PLM"
+	ASSIGN TO "BMM Business Motivation"
+	assign to "MRM Overview"
+}
+
+SYMBOL "MRM Service" {
+	REPRESENTS NODE "MRM Service" 
+	DEPICT LIKE "Use Case" IN "UML Use Case"
+	ASSIGN TO "MRM SIAM"
+	ASSIGN TO "MRM Hierarchy"
+	ASSIGN TO "MRM PLM"
+	assign to "MRM Overview"
+}
+
+symbol "MRM Process" {
+	represents node "MRM Process"
+#ifdef "TOGAF 9"
+	depict like "Process" in "Business Process"
+#else
+	depict like "BPMN Process" in "Business Process"
+#endif
+	assign to "MRM Hierarchy"
+	assign to "MRM Overview"
+}
+
+SYMBOL "MRM Target Group" {
+	REPRESENTS NODE "MRM Target Group"
+	DEPICT LIKE "Actor" IN  "UML Use Case"
+	ASSIGN TO "MRM SIAM"
+	ASSIGN TO "MRM Hierarchy"
+	ASSIGN TO "MRM PLM"
+	assign to "MRM Overview"
+}
+
+REM "Additional symbols for PLM"
+
+SYMBOL "MRM Output" {
+	REPRESENTS NODE "MRM Output" 
+	DEPICT LIKE "Data Preparation" IN "Flow Chart"
+	ASSIGN TO "MRM PLM"
+}
+
+SYMBOL "MRM Outcome" {
+	REPRESENTS NODE "MRM Outcome" 
+	DEPICT LIKE "PreProcess" IN "Flow Chart"
+	ASSIGN TO "MRM PLM"
+	ASSIGN TO "BMM Business Motivation"
+	assign to "MRM Overview"
+}
+
+SYMBOL "MRM Need" {
+	REPRESENTS NODE "MRM Need" 
+	DEPICTIONS {DIAGRAM "images\mrmneed.wmf"}
+	DEPICTIONS {MENU "images\mrmneed.bmp"}
+	ASSIGN TO "MRM PLM"
+	ASSIGN TO "BMM Business Motivation"
+	assign to "MRM Overview"
+}
+
+symbol "MRM Resource" {
+	represents node "MRM Resource" 
+	depictions {diagram "images\exp_entity.wmf"}
+	depictions {menu "images\exp_entity.bmp"}
+	assign to "MRM Overview"
+}
+
+symbol "MRM Performance Indicator" {
+	represents node "MRM Performance Indicator" 
+	depictions {diagram "images\bmm_assessment_dgm.wmf"}
+	depictions {menu "images\bmm_assessment_dgm.bmp"}
+	assign to "MRM Overview"
+}
+
+symbol "MRM Project" {
+	represents node "MRM Project" 
+	depictions {diagram "images\exp_work_package.wmf"}
+	depictions {menu "images\exp_work_package.bmp"}
+	assign to "MRM Overview"
+}
+
+// Lines for the MRM Hierarchy diagram
+// Hierarchy diagrams don't actually display line symbols in the palette
+// But a depiction needs to be provided. If these symbols are used on 
+// other diagrams too, then there could be additional depiction information
+// including images and line ends, but this is not needed for hierarchy diagrams
+// Hierarchies must be one-to-many, and the line depicts the parent property
+
+symbol "MRM sub-Organization Unit" {
+	represents implicit relationship "MRM Organization Unit"."Parent"
+	depict like "Generic Line"
+	assign to "MRM Hierarchy"
+}
+
+symbol "MRM sub-Program" {
+	represents implicit relationship "MRM Program"."Parent"
+	depict like "Generic Line"
+	assign to "MRM Hierarchy"
+}
+
+symbol "MRM sub-Service" {
+	represents implicit relationship "MRM Service"."Parent"
+	depict like "Generic Line"
+	assign to "MRM Hierarchy"
+}
+
+symbol "MRM sub-Process" {
+	represents implicit relationship "MRM Process"."Parent"
+	depict like "Generic Line"
+	assign to "MRM Hierarchy"
+}
+
+symbol "MRM sub-Target Group" {
+	represents implicit relationship "MRM Target Group"."Parent"
+	depict like "Generic Line"
+	assign to "MRM Hierarchy"
+}
+
+// Extend BMM to support MRM Outcome
+symbol "BMM relatesToByHierarchy" {
+	represents implicit relationship "MRM Outcome"."Amplified Vision" and_subtypes
+}
+
+symbol "BMM relatesTo" {
+	represents implicit relationship "MRM Outcome"."Amplified Vision"
+}
+
+
+
+
+
+REM "SIAM line sybmols for Relationships"
+
+REM "Explicit relationships that are represented by symbols must have HETEROGENOUSONEOF due to a bug"
+
+SYMBOL "MRM Program Accountabilities" {
+	REPRESENTS IMPLICIT RELATIONSHIP "MRM Organization Unit"."Programs"
+	DEPICT LIKE "Generic Line"
+	ASSIGN TO "MRM SIAM"
+}
+
+SYMBOL "MRM Program Services" {
+	REPRESENTS IMPLICIT RELATIONSHIP "MRM Program"."Services"
+	DEPICT LIKE "Resource Flow"
+	ASSIGN TO "MRM SIAM"
+	ASSIGN TO "MRM PLM"
+}
+
+SYMBOL "MRM Service Level Agreements" {
+	REPRESENTS EXPLICIT RELATIONSHIP "MRM Service Level Agreements"
+	DEPICT LIKE "Message Flow" IN "Business Process"
+	ASSIGN TO "MRM SIAM"
+}
+
+REM "The Service to Target Group line is derived using the 'Service to Target Group' Explorer Relationship Report"
+
+REM "Additional line symbols for PLM relationships"
+
+SYMBOL "Service has Output" {
+	REPRESENTS IMPLICIT RELATIONSHIP "MRM Service"."Output"
+	DEPICT LIKE "Output Flow"
+	ASSIGN TO "MRM PLM"
+}
+
+SYMBOL "Output contributesTo Outcome" {
+	REPRESENTS EXPLICIT RELATIONSHIP "MRM Service Value"
+	DEPICT LIKE "Message Flow" IN "Business Process"
+	ASSIGN TO "MRM PLM"
+}
+
+SYMBOL "Outcome addresses Need" {
+	REPRESENTS IMPLICIT RELATIONSHIP "MRM Outcome"."Need"
+	DEPICT LIKE "Sequence Flow" IN "Business Process"
+	ASSIGN TO "MRM PLM"
+}
+
+
+SYMBOL "Outcome impacts Target Group" {
+	REPRESENTS IMPLICIT RELATIONSHIP "MRM Outcome"."Target Group"
+	DEPICT LIKE "Association" IN "Business Process"
+	ASSIGN TO "MRM PLM"
+}
+
+symbol "ContributesTo" {
+	represents implicit relationship "BMM Desired Result"."Results" and_subtypes
+	assign To "MRM PLM"
+	assign to "MRM SIAM"
+	DEPICT LIKE "Association" IN "Business Process"
+}
+
+REM "All the sub-element relationships are handled by a single line"
+symbol "MRM relatesToByHierarchy" {
+	represents implicit relationship "MRM Program"."Sub-Programs"
+	represents implicit relationship "MRM Service"."Sub-Services"
+	represents implicit relationship "MRM Target Group"."Sub-Target Groups"
+	represents implicit relationship "MRM Need"."Sub-Needs"
+	
+	assign To "MRM PLM"
+	assign to "MRM SIAM"
+	depict like "Generic Line" 
+
+	property "From Line End" {   
+		EDIT TEXT ListOnly  LIST  "LineEnds"  DEFAULT "None"  FROMTAG
+	}
+
+	property "To Line End" {   
+		EDIT TEXT ListOnly  LIST  "LineEnds"  DEFAULT "LineEnd3"  TOTAG
+	}
+	property "Property" { edit text invisible display { format script _FmtImplicitAttribName legend "$$NONE$$"}}
+	property "Relation" { edit text invisible display { format script _FmtImplicitAttribRelName legend "$$NONE$$"}}
+	
+}
+
+// All the lines on an MRM Overview Diagram
+// Note: you can't mix implicit and explicit relations on the same line symbol
+symbol "MRM Overview Relation" {
+	represents implicit relationship "MRM Organization Unit"."Programs"
+	represents implicit relationship "MRM Program"."Services"
+	represents implicit relationship "MRM Service"."Processes"
+	represents implicit relationship "MRM Process"."Resources"
+	represents implicit relationship "MRM Program"."Outcomes"
+	represents implicit relationship "MRM Outcome"."Target Group"
+	represents implicit relationship "MRM Outcome"."Need"
+	represents implicit relationship "MRM Project"."Program Scope"
+	represents implicit relationship "MRM Project"."Service Scope"
+	represents implicit relationship "MRM Project"."Process Scope"
+	represents implicit relationship "MRM Project"."Resource Scope"
+	represents implicit relationship "MRM Performance Indicator"."Assessed Elements"
+	
+	assign To "MRM Overview"
+	depict like "Generic Line" 
+
+	property "From Line End" {   
+		EDIT TEXT ListOnly  LIST  "LineEnds"  DEFAULT "None"  FROMTAG
+	}
+
+	property "To Line End" {   
+		EDIT TEXT ListOnly  LIST  "LineEnds"  DEFAULT "LineEnd3"  TOTAG
+	}
+	property "Property" { edit text invisible display { format script _FmtImplicitAttribName legend "$$NONE$$"}}
+	property "Relation" { edit text invisible display { format script _FmtImplicitAttribRelName legend "$$NONE$$"}}	
+}

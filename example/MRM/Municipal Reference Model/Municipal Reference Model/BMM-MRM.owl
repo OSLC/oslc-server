@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.misa.org.ca/bmm-mrm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:bmms="http://www.omg.org/bmms#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:mrms="http://www.misa.org.ca/mrms#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.misa.org.ca/bmm-mrm">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://www.misa.org.ca/mrms"/>
+    <owl:imports rdf:resource="http://www.omg.org/bmms"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Created with TopBraid Composer</owl:versionInfo>
+  </owl:Ontology>
+  <owl:ObjectProperty rdf:ID="identifesAMeansToDeliver">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="isDeliveredBy"/>
+    </owl:inverseOf>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >identifes AMeans to deliver</dc:title>
+    <rdfs:range>
+      <rdf:Description rdf:about="http://www.misa.org.ca/mrms#Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.omg.org/bmms#DesiredResult"/>
+      </rdf:Description>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.omg.org/bmms#CourseOfAction"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="isActualizedBy">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is actualized by</dc:title>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="realizes">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="isRealizedBy"/>
+    </owl:inverseOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >realizes</rdfs:label>
+    <rdfs:range rdf:resource="http://www.omg.org/bmms#CourseOfAction"/>
+    <rdfs:domain rdf:resource="http://www.misa.org.ca/mrms#Program"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#isDeliveredBy">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is delivered by</dc:title>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="isMotivatedBy">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is motivated by</dc:title>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#isRealizedBy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is realized by</rdfs:label>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:ID="providesImpetusFor">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provides impetus for</dc:title>
+    <rdfs:domain rdf:resource="http://www.misa.org.ca/mrms#Need"/>
+    <rdfs:range rdf:resource="http://www.omg.org/bmms#DesiredResult"/>
+    <owl:inverseOf rdf:resource="#isMotivatedBy"/>
+  </rdf:Property>
+  <rdf:Description rdf:about="http://www.omg.org/bmms#BusinessProcess">
+    <owl:sameAs rdf:resource="http://www.misa.org.ca/mrms#BusinessProcess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.misa.org.ca/mrms#plannedPerformance">
+    <rdfs:range rdf:resource="http://www.omg.org/bmms#Objective"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.omg.org/bmms#OrganizationUnit">
+    <owl:sameAs rdf:resource="http://www.misa.org.ca/mrms#OrganizationUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.omg.org/bmms#Resource">
+    <owl:sameAs rdf:resource="http://www.misa.org.ca/mrms#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.misa.org.ca/mrms#actualPerformance">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.misa.org.ca/mrms#performanceTarget">
+    <rdfs:range rdf:resource="http://www.omg.org/bmms#Objective"/>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

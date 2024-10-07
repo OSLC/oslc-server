@@ -1,0 +1,7 @@
+Name,"Is Instance", "Instance Of"
+"MRM Process Type", F,
+"Capacity Building", T, "MRM Process Type"
+"Decommissioning", T, "MRM Process Type"
+"Delivering", T, "MRM Process Type"
+"Monitoring", T, "MRM Process Type"
+"Planning", T, "MRM Process Type"

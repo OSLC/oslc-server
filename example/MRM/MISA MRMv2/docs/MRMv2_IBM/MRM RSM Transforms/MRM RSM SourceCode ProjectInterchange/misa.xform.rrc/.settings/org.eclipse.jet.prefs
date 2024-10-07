@@ -1,0 +1,6 @@
+#Thu Sep 03 13:15:03 CDT 2009
+eclipse.preferences.version=1
+org.eclipse.jet.compiledTemplatePackage=misa.xform.rrc.compiled
+org.eclipse.jet.compiledTemplateSrcDir=jet2java
+org.eclipse.jet.projectPrefs=true
+org.eclipse.jet.useJava5=true

@@ -1,0 +1,819 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:am="http://open-services.net/ns/am#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://www.misa.org.ca/mrms#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.misa.org.ca/mrms">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://open-services.net/ns/am"/>
+    <owl:imports rdf:resource="http://purl.org/dc/elements/1.1/"/>
+  </owl:Ontology>
+  <rdfs:Class rdf:ID="Process_Impacts">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An assessment or measure of the impact a change driver has on a process.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Organization_Unit">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="Accountability_Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="BudgetableItem"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A point of authority, accountability or responsibility commanding resources commensurate with its obligations.</dc:description>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="Locatable_Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="Deliverable_Element"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Output">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A unit of value produced by a Service and conveyed to a Service Recipient.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#Accountability_Element">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Reporting_Relationship_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#Deliverable_Element">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An element that can be delivered by a project that changes the municipal business architecture in some way.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Performance_Indicator_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A closed classification of Performance Indicators.</dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Output_Producer">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An element that can produce an output (a service or process).</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Business_Process">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Work performed from an external event to the completion of the organization's response to that external event that may involve municipal services and processes</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Assessable_Element">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An element that can be assessed by performance indicators.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Change_Driver">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Something that is expected to cause material change to programs, services, processes or resources. Called an Influencer in BMM.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Accountable_Element">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An element for which an organization unit can be held accountable.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Target_Group_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A closed classification of Target Groups.  There are three types of Target Groups: Individual, Group of Individuals, and Legal Entity.  </dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Impact_Assessment"/>
+  <rdfs:Class rdf:ID="Process_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Resource_Impacts">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An assessment or measure of the impact a change driver has on a resource.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Process">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="Impcatable_Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Accountable_Element"/>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Assessable_Element"/>
+    <rdfs:subClassOf rdf:resource="#Output_Producer"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A business concept that deals with a sequence of tasks, executed by a role, using input resources to produce higher value outputs. Processes are triggered by events. Processes participate in a value chain to produce service outputs.</dc:description>
+    <rdfs:subClassOf rdf:resource="#Deliverable_Element"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Target_Group">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A set of Parties that share intrinsic or extrinsic characteristics causing a Program to identify (target) them. A Population Segment with a Recognized Need. The set of legal entities defined by common extrinsic and/or intrinsic properties the government proposes to serve (meet needs) by policy. The most important notion is that the definition be independent of program or service context. Distinguish from:
+1) outreach: the set of legal entities the government reaches/contacts with the intent to serve. The set may be smaller or larger than the target group. 
+
+2) served: the set of legal entities the government actually serves. Most people call this set 'clients', and give them a name that reflects the service context. Sometimes known as 'client set'.</dc:description>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Service">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Impcatable_Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Output_Producer"/>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A commitment to deliver Outputs that have Service Value and contribute to Outcomes.</dc:description>
+    <rdfs:subClassOf rdf:resource="#Assessable_Element"/>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Locatable_Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Accountable_Element"/>
+    <rdfs:subClassOf rdf:resource="#Deliverable_Element"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Status_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Service_Value">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Defines the expectations of parties receiving the Service's Output directly or indirectly, and ensures their alignment with associated Service Objectives and Outcomes. The way in which delivering the Service Output to the Target Groups contributes to Program and Service Outcomes.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#Impcatable_Element">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An element that can be impacted by a change driver.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#Locatable_Element">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An element that can have a location</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Program_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A closed classification of Programs.</dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Project_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Needs_Category">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A closed classification of Programs and Services according to Recognized Needs.  </dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Need">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Need is defined as a condition wanting or requiring relief.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Outcome">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Assessable_Element"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A desirable change in the level of a Target Group Need resulting from Service delivery.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Program_Impacts">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An assessment or measure of the impact a change driver has on a program.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Project">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Encapsulates discrete initiatives that an organization may approve to transform the business of the organization (e.g. business process re-engineering project), to develop assets (e.g. construction project), provide programs and services, etc. A collaborative initiative that is planned to achieve a particular aim.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Change_Driver_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Program">
+    <rdfs:subClassOf rdf:resource="#Impcatable_Element"/>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#BudgetableItem"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Program is a Mandate to achieve Outcomes by delivering Services. Organization Units are accountable for Programs that administer Services.</dc:description>
+    <rdfs:subClassOf rdf:resource="#Deliverable_Element"/>
+    <rdfs:subClassOf rdf:resource="#Assessable_Element"/>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Accountable_Element"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Organization_Unit_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An open classification of Organization Units. </dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Service_Output_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A closed classification of Service Outputs.</dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Resource_Authorities">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Specifies information about the resource authorized by an organization unit in terms of roles and budget allocations.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Process_Responsibilities">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Specifies information about the process responsibilities of an organization unit in terms of roles and budget allocations.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Service_Accountabilities">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Specifies information about the services an organization unit is accountable for in terms of roles and budget allocations.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Service_Impacts">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An assessment or measure of the impact a change driver has on a service.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Location">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Element"/>
+    </rdfs:subClassOf>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A business concept that defines a location of interest to the business where processes are carried out, resources are located and parties are located</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#BudgetableItem">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An element that can have associated budget information.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#Element">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The root superclass of all MRM elements</dc:description>
+    <rdfs:subClassOf rdf:resource="http://open-services.net/ns/am#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Output_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Service_Level_Agreements">
+    <rdfs:subClassOf rdf:resource="#Element"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Information about the relationship that one Provider / Internal Service has with zero, one or more Public and/or other Provider / Internal Services.</dc:description>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Resource_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An open classification of Resources.</dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Location_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Role_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A closed classification of roles organization units play in relationship to the other organizaiton units, programs, services, processes and resources.</dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Proces_Level_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Resource">
+    <rdfs:subClassOf rdf:resource="#Impcatable_Element"/>
+    <rdfs:subClassOf rdf:resource="#Deliverable_Element"/>
+    <rdfs:subClassOf rdf:resource="#Element"/>
+    <rdfs:subClassOf rdf:resource="#Locatable_Element"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A tangible or intangible asset used to perform or consumed by activities in a process.</dc:description>
+    <rdfs:subClassOf rdf:resource="#Assessable_Element"/>
+    <rdfs:subClassOf rdf:resource="#Accountable_Element"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Service_Type">
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A closed classification of Service.  A Service is either a “public” service offered to clients, or an “internal” service offered within the municipality to other public or internal service providers.</dc:description>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Program_Class_Type">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Performance_Indicator">
+    <rdfs:subClassOf rdf:resource="#Element"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A measure of the efficiency, effectiveness and quality of a Program, a Service, a Process, an Activity, a Task or a Resource.</dc:description>
+  </rdfs:Class>
+  <rdf:Property rdf:ID="allocation">
+    <rdfs:domain rdf:resource="#Service"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="locatedAt">
+    <rdfs:domain rdf:resource="#Locatable_Element"/>
+    <rdfs:range rdf:resource="#Location"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="addressedBy">
+    <rdfs:range rdf:resource="#Outcome"/>
+    <rdfs:domain rdf:resource="#Need"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="to_Date">
+    <rdfs:domain rdf:resource="#Element"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="creates">
+    <rdfs:range rdf:resource="#Service_Value"/>
+    <rdfs:domain rdf:resource="#Output"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="performance_Indicator_Type">
+    <rdfs:range rdf:resource="#Performance_Indicator_Type"/>
+    <rdfs:domain rdf:resource="#Performance_Indicator"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="service_Type">
+    <rdfs:range rdf:resource="#Service_Type"/>
+    <rdfs:domain rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Resources">
+    <rdfs:range rdf:resource="#Resource"/>
+    <rdfs:domain rdf:resource="#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Organization_Units">
+    <rdfs:domain rdf:resource="#Organization_Unit"/>
+    <rdfs:range rdf:resource="#Organization_Unit"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="output_Type">
+    <rdfs:range rdf:resource="#Output_Type"/>
+    <rdfs:domain rdf:resource="#Output"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="needs_Category">
+    <rdfs:range rdf:resource="#Needs_Category"/>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Classifies the purpose of the program activities terms of the needs its satisfies</dc:description>
+    <rdfs:domain rdf:resource="#Program"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="beneficiary_Rank">
+    <rdfs:domain rdf:resource="#Service_Value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="impact_Receiver">
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="#Target_Group"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="impactedBy">
+    <rdfs:domain rdf:resource="#Impact_Assessment"/>
+    <rdfs:range rdf:resource="#Change_Driver"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="delivers">
+    <rdfs:range rdf:resource="#Deliverable_Element"/>
+    <rdfs:domain rdf:resource="#Project"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="createdBy">
+    <rdfs:range rdf:resource="#Output"/>
+    <rdfs:domain rdf:resource="#Service_Value"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="objective">
+    <rdfs:domain rdf:resource="#Service_Value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="responsibleFor">
+    <rdfs:range rdf:resource="#Process"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Outcomes">
+    <rdfs:range rdf:resource="#Outcome"/>
+    <rdfs:domain rdf:resource="#Outcome"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="Organization_Unit_Mission">
+    <rdfs:domain rdf:resource="#Organization_Unit"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="impact_Level">
+    <rdfs:domain rdf:resource="#Impact_Assessment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="authorizedBy">
+    <rdfs:range rdf:resource="#Organization_Unit"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="participateIn">
+    <rdfs:range rdf:resource="#Project"/>
+    <rdfs:domain rdf:resource="#Organization_Unit"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Outputs">
+    <rdfs:range rdf:resource="#Output"/>
+    <rdfs:domain rdf:resource="#Output"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="volume_Period_end">
+    <rdfs:domain rdf:resource="#Output"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="implements">
+    <rdfs:domain rdf:resource="#Process"/>
+    <rdfs:range rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="budget_1">
+    <rdfs:domain rdf:resource="#BudgetableItem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Needs">
+    <rdfs:domain rdf:resource="#Need"/>
+    <rdfs:range rdf:resource="#Need"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="unit">
+    <rdfs:domain rdf:resource="#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="resources">
+    <rdfs:domain rdf:resource="#Process"/>
+    <rdfs:range rdf:resource="#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="assesses">
+    <rdfs:domain rdf:resource="#Performance_Indicator"/>
+    <rdfs:range rdf:resource="#Assessable_Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="allocation_1">
+    <rdfs:domain rdf:resource="#BudgetableItem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="actual_Performance">
+    <rdfs:domain rdf:resource="#Performance_Indicator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="achieved_Service_Level">
+    <rdfs:domain rdf:resource="#Service_Value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="consumer">
+    <rdfs:range rdf:resource="#Service"/>
+    <rdfs:domain rdf:resource="#Service_Level_Agreements"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="experiencedBy">
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="#Target_Group"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="service_Level_Target">
+    <rdfs:domain rdf:resource="#Service_Level_Agreements"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="uses">
+    <rdfs:range rdf:resource="#Service_Level_Agreements"/>
+    <rdfs:domain rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="process_Type">
+    <rdfs:domain rdf:resource="#Process"/>
+    <rdfs:range rdf:resource="#Process_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="experiences">
+    <rdfs:domain rdf:resource="#Target_Group"/>
+    <rdfs:range rdf:resource="#Outcome"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Target_Groups">
+    <rdfs:domain rdf:resource="#Target_Group"/>
+    <rdfs:range rdf:resource="#Target_Group"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accomodates">
+    <rdfs:range rdf:resource="#Locatable_Element"/>
+    <rdfs:domain rdf:resource="#Location"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="budget_2">
+    <rdfs:domain rdf:resource="#BudgetableItem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="consumedBy">
+    <rdfs:range rdf:resource="#Process"/>
+    <rdfs:domain rdf:resource="#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="service_Output_type">
+    <rdfs:domain rdf:resource="#Output"/>
+    <rdfs:range rdf:resource="#Service_Output_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="consumes">
+    <rdfs:domain rdf:resource="#Process"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="deliveredBy">
+    <rdfs:range rdf:resource="#Project"/>
+    <rdfs:domain rdf:resource="#Deliverable_Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Processes">
+    <rdfs:range rdf:resource="#Process"/>
+    <rdfs:domain rdf:resource="#Process"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="population_Size">
+    <rdfs:domain rdf:resource="#Target_Group"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="hasOutput">
+    <rdfs:range rdf:resource="#Output"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="service-Program_Field_Type">
+    <rdfs:range rdf:resource="#Needs_Category"/>
+    <rdfs:domain rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="target_Group_Type">
+    <rdfs:range rdf:resource="#Target_Group_Type"/>
+    <rdfs:domain rdf:resource="#Target_Group"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="process_Level_Type">
+    <rdfs:domain rdf:resource="#Process"/>
+    <rdfs:range rdf:resource="#Proces_Level_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="role_Type">
+    <rdfs:domain rdf:resource="#Program"/>
+    <rdfs:range rdf:resource="#Role_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accountableFor">
+    <rdfs:range rdf:resource="#Accountable_Element"/>
+    <rdfs:domain rdf:resource="#Accountability_Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="realizedBy">
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="#Service_Value"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accountable_Role_Type">
+    <rdfs:domain rdf:resource="#Accountability_Element"/>
+    <rdfs:range rdf:resource="#Role_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="program_Class">
+    <rdfs:domain rdf:resource="#Program"/>
+    <rdfs:range rdf:resource="#Program_Class_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="Organization_Unit_Vision">
+    <rdfs:domain rdf:resource="#Organization_Unit"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accountable_allocation_1">
+    <rdfs:domain rdf:resource="#Accountability_Element"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="volume_Period_Start">
+    <rdfs:domain rdf:resource="#Output"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Services">
+    <rdfs:domain rdf:resource="#Service"/>
+    <rdfs:range rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="administeredBy">
+    <rdfs:range rdf:resource="#Program"/>
+    <rdfs:domain rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="from_Date">
+    <rdfs:domain rdf:resource="#Element"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="assessedBy">
+    <rdfs:range rdf:resource="#Performance_Indicator"/>
+    <rdfs:domain rdf:resource="#Assessable_Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="realizes">
+    <rdfs:range rdf:resource="#Outcome"/>
+    <rdfs:domain rdf:resource="#Service_Value"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="administers">
+    <rdfs:domain rdf:resource="#Program"/>
+    <rdfs:range rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="performance_Target">
+    <rdfs:domain rdf:resource="#Performance_Indicator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="resource_Type">
+    <rdfs:range rdf:resource="#Resource_Type"/>
+    <rdfs:domain rdf:resource="#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="units">
+    <rdfs:domain rdf:resource="#Performance_Indicator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="usedBy">
+    <rdfs:range rdf:resource="#Service_Level_Agreements"/>
+    <rdfs:domain rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="planned_Client_Set">
+    <rdfs:domain rdf:resource="#Service_Value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accountable_allocation_2">
+    <rdfs:domain rdf:resource="#Accountability_Element"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="target_Level">
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="scope">
+    <rdfs:domain rdf:resource="#Project"/>
+    <rdfs:range rdf:resource="#Deliverable_Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="sub_Programs">
+    <rdfs:range rdf:resource="#Program"/>
+    <rdfs:domain rdf:resource="#Program"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="program_Type">
+    <rdfs:domain rdf:resource="#Program"/>
+    <rdfs:range rdf:resource="#Program_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="served_Client_Set">
+    <rdfs:domain rdf:resource="#Service_Value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="achieved_Level">
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accountableOrganization">
+    <rdfs:domain rdf:resource="#Accountability_Element"/>
+    <rdfs:range rdf:resource="#Organization_Unit"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="provider">
+    <rdfs:range rdf:resource="#Service"/>
+    <rdfs:domain rdf:resource="#Service_Level_Agreements"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="planned_Volume_Count">
+    <rdfs:domain rdf:resource="#Output"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accountable_allocation_3">
+    <rdfs:domain rdf:resource="#Accountability_Element"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="actual_Volume_Count">
+    <rdfs:domain rdf:resource="#Output"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="impacts">
+    <rdfs:range rdf:resource="#Impcatable_Element"/>
+    <rdfs:domain rdf:resource="#Change_Driver"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="implementedBy">
+    <rdfs:range rdf:resource="#Process"/>
+    <rdfs:domain rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="authorizes">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="project_Type">
+    <rdfs:domain rdf:resource="#Project"/>
+    <rdfs:range rdf:resource="#Project_Type"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="producer">
+    <rdfs:domain rdf:resource="#Output"/>
+    <rdfs:range rdf:resource="#Output_Producer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="is_formal_Program">
+    <rdfs:domain rdf:resource="#Program"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="governedElement">
+    <rdfs:range rdf:resource="#Accountable_Element"/>
+    <rdfs:domain rdf:resource="#Accountability_Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="algorithm">
+    <rdfs:domain rdf:resource="#Performance_Indicator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="location_Type">
+    <rdfs:range rdf:resource="#Location_Type"/>
+    <rdfs:domain rdf:resource="#Location"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="client_set_Takeup">
+    <rdfs:domain rdf:resource="#Service_Value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="contributedToBy">
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="#Program"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="addresses">
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="#Need"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="accountableTo">
+    <rdfs:domain rdf:resource="#Accountable_Element"/>
+    <rdfs:range rdf:resource="#Accountability_Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="responsibilityOf">
+    <rdfs:range rdf:resource="#Organization_Unit"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="status">
+    <rdfs:range rdf:resource="#Status_Type"/>
+    <rdfs:domain rdf:resource="#Element"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="service-has_Output">
+    <rdfs:range rdf:resource="#Output"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="planned_Performance">
+    <rdfs:domain rdf:resource="#Performance_Indicator"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="staff_1">
+    <rdfs:domain rdf:resource="#Organization_Unit"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="assessment">
+    <rdfs:domain rdf:resource="#Impcatable_Element"/>
+    <rdfs:range rdf:resource="#Impact_Assessment"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="produces">
+    <rdfs:range rdf:resource="#Output"/>
+    <rdfs:domain rdf:resource="#Output_Producer"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="client_Indicator">
+    <rdfs:domain rdf:resource="#Service_Value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="change_Driver_Type">
+    <rdfs:range rdf:resource="#Change_Driver_Type"/>
+    <rdfs:domain rdf:resource="#Change_Driver"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="processes">
+    <rdfs:range rdf:resource="#Process"/>
+    <rdfs:domain rdf:resource="#Service"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="program_Vision">
+    <rdfs:domain rdf:resource="#Program"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="amount">
+    <rdfs:domain rdf:resource="#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="resource_Processes">
+    <rdfs:range rdf:resource="#Process"/>
+    <rdfs:domain rdf:resource="#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:ID="contributesTo">
+    <rdfs:range rdf:resource="#Outcome"/>
+    <rdfs:domain rdf:resource="#Program"/>
+  </rdf:Property>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Demographic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Demographic</rdfs:label>
+  </Change_Driver_Type>
+  <Location_Type rdf:ID="Location_Type-Main_Office"/>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Contingiency">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Contingiency</rdfs:label>
+  </Change_Driver_Type>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Department"/>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Board"/>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Section"/>
+  <Program_Class_Type rdf:ID="Program_Class_Type-Informal"/>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Branch"/>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Agency"/>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Commission"/>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Social">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Social</rdfs:label>
+  </Change_Driver_Type>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Office"/>
+  <Program_Class_Type rdf:ID="Program_Class_Type-Formal"/>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Legislative">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Legislative</rdfs:label>
+  </Change_Driver_Type>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Division"/>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Environmental">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Environmental</rdfs:label>
+  </Change_Driver_Type>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Political">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Political</rdfs:label>
+  </Change_Driver_Type>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Corporation"/>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Financial">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Financial</rdfs:label>
+  </Change_Driver_Type>
+  <Change_Driver_Type rdf:ID="Change_Driver_Type-Economic">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Economic</rdfs:label>
+  </Change_Driver_Type>
+  <Organization_Unit_Type rdf:ID="Organization_Unit_Type-Governing_Body"/>
+  <Status_Type rdf:ID="StatusType-Active">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Active</rdfs:label>
+  </Status_Type>
+  <Status_Type rdf:ID="StatusType-Inactive">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Inactive</rdfs:label>
+  </Status_Type>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

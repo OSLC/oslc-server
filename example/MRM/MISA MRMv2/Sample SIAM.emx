@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
+  <uml:Model xmi:id="_7sa3UM_NEd-FBev91lMOjg" name="Sample SIAM">
+    <eAnnotations xmi:id="_7sa3Uc_NEd-FBev91lMOjg" source="uml2.diagrams"/>
+    <eAnnotations xmi:id="_7sa3U8_NEd-FBev91lMOjg" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+      <details xmi:id="_7sa3VM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+      <details xmi:id="_7sa3Vc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+      <details xmi:id="_7sa3Vs_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+      <details xmi:id="_7sa3V8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+      <details xmi:id="_7sa3WM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+      <details xmi:id="_7sa3Wc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+      <details xmi:id="_7sa3Ws_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+      <details xmi:id="_7sa3W8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
+      <details xmi:id="_7sa3XM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
+      <details xmi:id="_7sa3Xc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+      <details xmi:id="_7sa3Xs_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
+      <details xmi:id="_7sa3X8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+      <details xmi:id="_7sa3YM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+      <details xmi:id="_7sa3Yc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+      <details xmi:id="_7sa3Ys_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+      <details xmi:id="_7sa3Y8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+      <details xmi:id="_7sa3ZM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+      <details xmi:id="_7sa3Zc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBComponentTemplateParameter" value="1"/>
+      <details xmi:id="_7sa3Zs_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
+      <details xmi:id="_7sa3Z8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+      <details xmi:id="_7sa3aM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+      <details xmi:id="_7sa3ac_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+      <details xmi:id="_7sa3as_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+      <details xmi:id="_7sa3a8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+      <details xmi:id="_7sa3bM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
+      <details xmi:id="_7sa3bc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+      <details xmi:id="_7sa3bs_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+      <details xmi:id="_7sa3b8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+      <details xmi:id="_7sa3cM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+      <details xmi:id="_7sa3cc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+      <details xmi:id="_7sa3cs_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+      <details xmi:id="_7sa3c8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
+      <details xmi:id="_7sa3dM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
+      <details xmi:id="_7sa3dc_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBTypes3" value="1"/>
+      <details xmi:id="_7sa3ds_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
+      <details xmi:id="_7sa3d8_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+      <details xmi:id="_7sa3eM_NEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+      <details xmi:id="_GleuwM_SEd-FBev91lMOjg" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_Rrq1gM_REd-FBev91lMOjg" annotatedElement="_7sa3UM_NEd-FBev91lMOjg">
+      <body>&lt;p>A model for exploring the design of the MRM/PSRM Service Integration Accountability Model diagram.&lt;/p>&lt;p>&lt;/p></body>
+    </ownedComment>
+    <packageImport xmi:id="_7sa3ec_NEd-FBev91lMOjg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="82d4baca-3b1c-11d5-a5f5-004095d229e6" name="Language Types">
+      <eAnnotations xmi:id="_95EMkMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+        <details xmi:id="_95EMkczaEeCseLLqBaUL2w" key="SAObjId" value="_55"/>
+        <details xmi:id="_95EMkszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+        <details xmi:id="_95EMk8zaEeCseLLqBaUL2w" key="encoding" value="ISO-8859-1"/>
+        <details xmi:id="_95KTMMzaEeCseLLqBaUL2w" key="GUID" value="82d4baca-3b1c-11d5-a5f5-004095d229e6"/>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Package" xmi:id="dac0ae12-2a93-48eb-bbc0-b70bd13cfdbb" name="XSD Types">
+        <eAnnotations xmi:id="_95_ZoMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+          <details xmi:id="_95_ZoczaEeCseLLqBaUL2w" key="SAObjId" value="_60"/>
+          <details xmi:id="_95_ZoszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+          <details xmi:id="_95_Zo8zaEeCseLLqBaUL2w" key="encoding" value="ISO-8859-1"/>
+          <details xmi:id="_95_ZpMzaEeCseLLqBaUL2w" key="GUID" value="dac0ae12-2a93-48eb-bbc0-b70bd13cfdbb"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Class" xmi:id="eb43f9ee-1e02-414f-afb9-e3bb456d1f46" name="anonymous">
+          <eAnnotations xmi:id="_96kocMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96kocczaEeCseLLqBaUL2w" key="SAObjId" value="_61"/>
+            <details xmi:id="_96kocszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96koc8zaEeCseLLqBaUL2w" key="GUID" value="eb43f9ee-1e02-414f-afb9-e3bb456d1f46"/>
+            <details xmi:id="_96kodMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="977bffb7-c2ac-4496-8c5e-718d80f90b87" name="bin.base64">
+          <eAnnotations xmi:id="_96skQMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96skQczaEeCseLLqBaUL2w" key="SAObjId" value="_78"/>
+            <details xmi:id="_96skQszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96skQ8zaEeCseLLqBaUL2w" key="GUID" value="977bffb7-c2ac-4496-8c5e-718d80f90b87"/>
+            <details xmi:id="_96skRMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="1da62ee4-1517-4489-9428-12f7c937c72d" name="bin.hex">
+          <eAnnotations xmi:id="_96tyYczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96tyYszaEeCseLLqBaUL2w" key="SAObjId" value="_79"/>
+            <details xmi:id="_96tyY8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96tyZMzaEeCseLLqBaUL2w" key="GUID" value="1da62ee4-1517-4489-9428-12f7c937c72d"/>
+            <details xmi:id="_96tyZczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="2d1a3126-565b-4785-bbf2-025b77bfdb63" name="boolean">
+          <eAnnotations xmi:id="_96uZcczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96uZcszaEeCseLLqBaUL2w" key="SAObjId" value="_82"/>
+            <details xmi:id="_96uZc8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96uZdMzaEeCseLLqBaUL2w" key="GUID" value="2d1a3126-565b-4785-bbf2-025b77bfdb63"/>
+            <details xmi:id="_96uZdczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="6b02ec0b-96fe-45df-b4ec-ad1d29296d34" name="char">
+          <eAnnotations xmi:id="_96zR8MzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96zR8czaEeCseLLqBaUL2w" key="SAObjId" value="_87"/>
+            <details xmi:id="_96zR8szaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96zR88zaEeCseLLqBaUL2w" key="GUID" value="6b02ec0b-96fe-45df-b4ec-ad1d29296d34"/>
+            <details xmi:id="_96zR9MzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="7deb9fa6-71b6-44af-a7ff-d7aaf786aa09" name="date">
+          <eAnnotations xmi:id="_96z5AczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96z5AszaEeCseLLqBaUL2w" key="SAObjId" value="_88"/>
+            <details xmi:id="_96z5A8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96z5BMzaEeCseLLqBaUL2w" key="GUID" value="7deb9fa6-71b6-44af-a7ff-d7aaf786aa09"/>
+            <details xmi:id="_96z5BczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="6fd418b9-0a3f-4714-9029-48eac96e2e8a" name="dateTime">
+          <eAnnotations xmi:id="_97P94czaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97P94szaEeCseLLqBaUL2w" key="SAObjId" value="_89"/>
+            <details xmi:id="_97P948zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97P95MzaEeCseLLqBaUL2w" key="GUID" value="6fd418b9-0a3f-4714-9029-48eac96e2e8a"/>
+            <details xmi:id="_97P95czaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="e7841450-4955-4f27-a30c-09aa460e92ae" name="dateTime.tz">
+          <eAnnotations xmi:id="_97Qk8czaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97Qk8szaEeCseLLqBaUL2w" key="SAObjId" value="_90"/>
+            <details xmi:id="_97RMAMzaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97RMAczaEeCseLLqBaUL2w" key="GUID" value="e7841450-4955-4f27-a30c-09aa460e92ae"/>
+            <details xmi:id="_97RMAszaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="4950673c-b6c2-4475-b755-43418d6eace1" name="entities">
+          <eAnnotations xmi:id="_97RzEczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97RzEszaEeCseLLqBaUL2w" key="SAObjId" value="_95"/>
+            <details xmi:id="_97RzE8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97RzFMzaEeCseLLqBaUL2w" key="GUID" value="4950673c-b6c2-4475-b755-43418d6eace1"/>
+            <details xmi:id="_97RzFczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="3a5cc9c5-8fdf-4cd7-8c1e-b8e4e0631303" name="entity">
+          <eAnnotations xmi:id="_97UPUMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97UPUczaEeCseLLqBaUL2w" key="SAObjId" value="_94"/>
+            <details xmi:id="_97UPUszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97UPU8zaEeCseLLqBaUL2w" key="GUID" value="3a5cc9c5-8fdf-4cd7-8c1e-b8e4e0631303"/>
+            <details xmi:id="_97UPVMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="8b47c784-4bc9-448c-9d4a-712d7bc713ab" name="enumeration">
+          <eAnnotations xmi:id="_97UPVszaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97UPV8zaEeCseLLqBaUL2w" key="SAObjId" value="_96"/>
+            <details xmi:id="_97UPWMzaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97UPWczaEeCseLLqBaUL2w" key="GUID" value="8b47c784-4bc9-448c-9d4a-712d7bc713ab"/>
+            <details xmi:id="_97UPWszaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="1bb9a24d-bd3a-461d-9e63-e8c5787a34c9" name="fixed.14.4">
+          <eAnnotations xmi:id="_97VdcMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97VdcczaEeCseLLqBaUL2w" key="SAObjId" value="_98"/>
+            <details xmi:id="_97VdcszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97Vdc8zaEeCseLLqBaUL2w" key="GUID" value="1bb9a24d-bd3a-461d-9e63-e8c5787a34c9"/>
+            <details xmi:id="_97VddMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="b1b956fa-27a5-4617-a70c-1b698b3f3baa" name="float">
+          <eAnnotations xmi:id="_97WEgczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97WEgszaEeCseLLqBaUL2w" key="SAObjId" value="_102"/>
+            <details xmi:id="_97WEg8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97WEhMzaEeCseLLqBaUL2w" key="GUID" value="b1b956fa-27a5-4617-a70c-1b698b3f3baa"/>
+            <details xmi:id="_97WEhczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="ceba1f70-8f46-41b3-8e16-76f0d4082752" name="i1">
+          <eAnnotations xmi:id="_97XSoczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97XSoszaEeCseLLqBaUL2w" key="SAObjId" value="_103"/>
+            <details xmi:id="_97XSo8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97XSpMzaEeCseLLqBaUL2w" key="GUID" value="ceba1f70-8f46-41b3-8e16-76f0d4082752"/>
+            <details xmi:id="_97XSpczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="f7921efb-7846-4aef-9d14-ae2b63776e73" name="i2">
+          <eAnnotations xmi:id="_97YgwMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97YgwczaEeCseLLqBaUL2w" key="SAObjId" value="_104"/>
+            <details xmi:id="_97YgwszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97Ygw8zaEeCseLLqBaUL2w" key="GUID" value="f7921efb-7846-4aef-9d14-ae2b63776e73"/>
+            <details xmi:id="_97YgxMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="4ee5d134-42fe-4570-9567-77504d0ee24c" name="i4">
+          <eAnnotations xmi:id="_97ZH0czaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97ZH0szaEeCseLLqBaUL2w" key="SAObjId" value="_105"/>
+            <details xmi:id="_97ZH08zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97Zu4MzaEeCseLLqBaUL2w" key="GUID" value="4ee5d134-42fe-4570-9567-77504d0ee24c"/>
+            <details xmi:id="_97Zu4czaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="7817529c-224b-41de-8ee8-2b08a174a0ef" name="id">
+          <eAnnotations xmi:id="_97fOcczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97f1gMzaEeCseLLqBaUL2w" key="SAObjId" value="_106"/>
+            <details xmi:id="_97f1gczaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97f1gszaEeCseLLqBaUL2w" key="GUID" value="7817529c-224b-41de-8ee8-2b08a174a0ef"/>
+            <details xmi:id="_97f1g8zaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="6f9bac33-6f90-4097-9889-6e6135425a3e" name="idref">
+          <eAnnotations xmi:id="_97hDoczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97hDoszaEeCseLLqBaUL2w" key="SAObjId" value="_107"/>
+            <details xmi:id="_97hDo8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97hDpMzaEeCseLLqBaUL2w" key="GUID" value="6f9bac33-6f90-4097-9889-6e6135425a3e"/>
+            <details xmi:id="_97hDpczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="f2c5b2e4-24c1-4bee-935e-f2c758a9bea3" name="idrefs">
+          <eAnnotations xmi:id="_97iRwczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97iRwszaEeCseLLqBaUL2w" key="SAObjId" value="_108"/>
+            <details xmi:id="_97iRw8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97iRxMzaEeCseLLqBaUL2w" key="GUID" value="f2c5b2e4-24c1-4bee-935e-f2c758a9bea3"/>
+            <details xmi:id="_97iRxczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="e3ad9f6d-b7ff-4f52-bdf7-48e0f98fb0d6" name="int">
+          <eAnnotations xmi:id="_97jf4MzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97jf4czaEeCseLLqBaUL2w" key="SAObjId" value="_111"/>
+            <details xmi:id="_97jf4szaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97jf48zaEeCseLLqBaUL2w" key="GUID" value="e3ad9f6d-b7ff-4f52-bdf7-48e0f98fb0d6"/>
+            <details xmi:id="_97jf5MzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="e5bc3697-e8ba-4ce5-af4c-836df9588552" name="integer">
+          <eAnnotations xmi:id="_97l8IMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97l8IczaEeCseLLqBaUL2w" key="SAObjId" value="_112"/>
+            <details xmi:id="_97l8IszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97l8I8zaEeCseLLqBaUL2w" key="GUID" value="e5bc3697-e8ba-4ce5-af4c-836df9588552"/>
+            <details xmi:id="_97l8JMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="b1436359-0d16-4bde-93d1-51c854b7b215" name="nmtoken">
+          <eAnnotations xmi:id="_97nKQMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97nKQczaEeCseLLqBaUL2w" key="SAObjId" value="_118"/>
+            <details xmi:id="_97nKQszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97nKQ8zaEeCseLLqBaUL2w" key="GUID" value="b1436359-0d16-4bde-93d1-51c854b7b215"/>
+            <details xmi:id="_97nKRMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="462bee2d-632a-4fdc-b438-513b1ff783d9" name="nmtokens">
+          <eAnnotations xmi:id="_97nxUczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97nxUszaEeCseLLqBaUL2w" key="SAObjId" value="_119"/>
+            <details xmi:id="_97nxU8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97nxVMzaEeCseLLqBaUL2w" key="GUID" value="462bee2d-632a-4fdc-b438-513b1ff783d9"/>
+            <details xmi:id="_97nxVczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="0f20fc8b-86d6-47ea-826b-a0a834d8f843" name="notation">
+          <eAnnotations xmi:id="_97tQ4czaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97tQ4szaEeCseLLqBaUL2w" key="SAObjId" value="_120"/>
+            <details xmi:id="_97tQ48zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97tQ5MzaEeCseLLqBaUL2w" key="GUID" value="0f20fc8b-86d6-47ea-826b-a0a834d8f843"/>
+            <details xmi:id="_97tQ5czaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="fba61670-e77f-48ef-8965-57bb583bf432" name="number">
+          <eAnnotations xmi:id="_97t38czaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97t38szaEeCseLLqBaUL2w" key="SAObjId" value="_121"/>
+            <details xmi:id="_97t388zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97t39MzaEeCseLLqBaUL2w" key="GUID" value="fba61670-e77f-48ef-8965-57bb583bf432"/>
+            <details xmi:id="_97t39czaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="f1ae278c-7dd8-4cea-87cc-c69274fec1ab" name="r4">
+          <eAnnotations xmi:id="_97ufAczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97ufAszaEeCseLLqBaUL2w" key="SAObjId" value="_123"/>
+            <details xmi:id="_97ufA8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97ufBMzaEeCseLLqBaUL2w" key="GUID" value="f1ae278c-7dd8-4cea-87cc-c69274fec1ab"/>
+            <details xmi:id="_97ufBczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="5a64b2e6-077b-4bea-a2a3-bbf36965f163" name="r8">
+          <eAnnotations xmi:id="_97xiUMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97xiUczaEeCseLLqBaUL2w" key="SAObjId" value="_124"/>
+            <details xmi:id="_97xiUszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97xiU8zaEeCseLLqBaUL2w" key="GUID" value="5a64b2e6-077b-4bea-a2a3-bbf36965f163"/>
+            <details xmi:id="_97yJYMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="2f1bed38-4738-4190-8ee4-aba183eb0fcf" name="string">
+          <eAnnotations xmi:id="_97yJYszaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97yJY8zaEeCseLLqBaUL2w" key="SAObjId" value="_130"/>
+            <details xmi:id="_97yJZMzaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97yJZczaEeCseLLqBaUL2w" key="GUID" value="2f1bed38-4738-4190-8ee4-aba183eb0fcf"/>
+            <details xmi:id="_97yJZszaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="5b0d47c1-f809-4178-8a29-93aeaa97113e" name="time">
+          <eAnnotations xmi:id="_97zXgMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_97zXgczaEeCseLLqBaUL2w" key="SAObjId" value="_131"/>
+            <details xmi:id="_97zXgszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_97zXg8zaEeCseLLqBaUL2w" key="GUID" value="5b0d47c1-f809-4178-8a29-93aeaa97113e"/>
+            <details xmi:id="_97zXhMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="3f1ebf98-357f-49fa-86ca-11eb9c0686a5" name="time.tz">
+          <eAnnotations xmi:id="_970loczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_970loszaEeCseLLqBaUL2w" key="SAObjId" value="_132"/>
+            <details xmi:id="_970lo8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_970lpMzaEeCseLLqBaUL2w" key="GUID" value="3f1ebf98-357f-49fa-86ca-11eb9c0686a5"/>
+            <details xmi:id="_970lpczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="7d5cf72d-d3ee-4e9a-b33f-2f619b4b9ee7" name="ui1">
+          <eAnnotations xmi:id="_971zwMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_971zwczaEeCseLLqBaUL2w" key="SAObjId" value="_133"/>
+            <details xmi:id="_971zwszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_971zw8zaEeCseLLqBaUL2w" key="GUID" value="7d5cf72d-d3ee-4e9a-b33f-2f619b4b9ee7"/>
+            <details xmi:id="_971zxMzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="053ca702-6be1-4573-8132-7ce035df0462" name="ui2">
+          <eAnnotations xmi:id="_973o8czaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_973o8szaEeCseLLqBaUL2w" key="SAObjId" value="_134"/>
+            <details xmi:id="_973o88zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_973o9MzaEeCseLLqBaUL2w" key="GUID" value="053ca702-6be1-4573-8132-7ce035df0462"/>
+            <details xmi:id="_973o9czaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="7c19f801-a442-4c63-a7b9-35c4f0b38f7e" name="ui4">
+          <eAnnotations xmi:id="_974QAczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_974QAszaEeCseLLqBaUL2w" key="SAObjId" value="_135"/>
+            <details xmi:id="_974QA8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_974QBMzaEeCseLLqBaUL2w" key="GUID" value="7c19f801-a442-4c63-a7b9-35c4f0b38f7e"/>
+            <details xmi:id="_974QBczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="079d9b89-5383-4054-9658-b95729020cee" name="uri">
+          <eAnnotations xmi:id="_975eIczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_975eIszaEeCseLLqBaUL2w" key="SAObjId" value="_144"/>
+            <details xmi:id="_975eI8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_975eJMzaEeCseLLqBaUL2w" key="GUID" value="079d9b89-5383-4054-9658-b95729020cee"/>
+            <details xmi:id="_975eJczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="dd0b78c0-576e-49cf-b7a2-48c9fedbeb3e" name="uuid">
+          <eAnnotations xmi:id="_976sQczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_976sQszaEeCseLLqBaUL2w" key="SAObjId" value="_145"/>
+            <details xmi:id="_976sQ8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_976sRMzaEeCseLLqBaUL2w" key="GUID" value="dd0b78c0-576e-49cf-b7a2-48c9fedbeb3e"/>
+            <details xmi:id="_976sRczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="a9e290b3-6b4f-494f-9dbf-5ecf16b6ed30" name="Sample UML Package">
+      <eAnnotations xmi:id="_950agMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+        <details xmi:id="_950agczaEeCseLLqBaUL2w" key="SAObjId" value="_1696"/>
+        <details xmi:id="_950agszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+        <details xmi:id="_950ag8zaEeCseLLqBaUL2w" key="encoding" value="ISO-8859-1"/>
+        <details xmi:id="_950ahMzaEeCseLLqBaUL2w" key="GUID" value="a9e290b3-6b4f-494f-9dbf-5ecf16b6ed30"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_951ooMzaEeCseLLqBaUL2w" source="uml2.diagrams">
+        <contents xmi:type="notation:Diagram" xmi:id="aee2dfb1-da45-4376-94d0-b1ccbb952b48" type="Class" name="Sample Class Diagram">
+          <eAnnotations xmi:id="_951ooszaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_951oo8zaEeCseLLqBaUL2w" key="SAObjId" value="_1697"/>
+            <details xmi:id="_951opMzaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_951opczaEeCseLLqBaUL2w" key="GUID" value="aee2dfb1-da45-4376-94d0-b1ccbb952b48"/>
+            <details xmi:id="_951opszaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+          </eAnnotations>
+          <children xmi:id="_computedGUID_Class-_1700" element="2c0e6d7a-ded8-48eb-99fc-fb47f9f489c0">
+            <eAnnotations xmi:id="_953d0czaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+              <details xmi:id="_953d0szaEeCseLLqBaUL2w" key="SAObjId" value="_1700"/>
+              <details xmi:id="_953d08zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+              <details xmi:id="_953d1MzaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+            </eAnnotations>
+            <children xmi:id="_957IMMzaEeCseLLqBaUL2w" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_957IMczaEeCseLLqBaUL2w" width="1320" height="1320"/>
+            </children>
+            <children xmi:id="_957IMszaEeCseLLqBaUL2w" type="Stereotype"/>
+            <children xmi:id="_957IM8zaEeCseLLqBaUL2w" type="Name"/>
+            <children xmi:id="_957INMzaEeCseLLqBaUL2w" type="Parent"/>
+            <children xmi:id="_957INczaEeCseLLqBaUL2w" type="AttributeCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_958WUMzaEeCseLLqBaUL2w"/>
+            </children>
+            <children xmi:id="_958WUczaEeCseLLqBaUL2w" type="OperationCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_958WUszaEeCseLLqBaUL2w"/>
+            </children>
+            <children xmi:id="_958WU8zaEeCseLLqBaUL2w" visible="false" type="SignalCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_958WVMzaEeCseLLqBaUL2w"/>
+            </children>
+            <children xmi:id="_958WVczaEeCseLLqBaUL2w" visible="false" type="StructureCompartment">
+              <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_9589YMzaEeCseLLqBaUL2w"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_95-LgMzaEeCseLLqBaUL2w" showStereotype="Label"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_95-ykMzaEeCseLLqBaUL2w" x="7899" y="10998"/>
+          </children>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="2c0e6d7a-ded8-48eb-99fc-fb47f9f489c0" name="Student">
+        <eAnnotations xmi:id="_96RGcMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+          <details xmi:id="_96RGcczaEeCseLLqBaUL2w" key="SAObjId" value="_1695"/>
+          <details xmi:id="_96RGcszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+          <details xmi:id="_96RGc8zaEeCseLLqBaUL2w" key="Entity State" value="Model"/>
+          <details xmi:id="_96RGdMzaEeCseLLqBaUL2w" key="GUID" value="2c0e6d7a-ded8-48eb-99fc-fb47f9f489c0"/>
+          <details xmi:id="_96RGdczaEeCseLLqBaUL2w" key="Programming Language" value="XSD"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="e26eda0d-c3d2-4309-b97c-1601d0b48429" name="age" type="e5bc3697-e8ba-4ce5-af4c-836df9588552">
+          <eAnnotations xmi:id="_96YbMMzaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96YbMczaEeCseLLqBaUL2w" key="SAObjId" value="_1698"/>
+            <details xmi:id="_96YbMszaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96YbM8zaEeCseLLqBaUL2w" key="GUID" value="e26eda0d-c3d2-4309-b97c-1601d0b48429"/>
+          </eAnnotations>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="43734054-3e11-4ed6-8392-314fe9c61029" name="name" type="2f1bed38-4738-4190-8ee4-aba183eb0fcf">
+          <eAnnotations xmi:id="_96a3cczaEeCseLLqBaUL2w" source="com.ibm.xtools.sa.transform.properties">
+            <details xmi:id="_96a3cszaEeCseLLqBaUL2w" key="SAObjId" value="_1699"/>
+            <details xmi:id="_96a3c8zaEeCseLLqBaUL2w" key="SAObjAuditId" value="jra"/>
+            <details xmi:id="_96a3dMzaEeCseLLqBaUL2w" key="GUID" value="43734054-3e11-4ed6-8392-314fe9c61029"/>
+          </eAnnotations>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_7sa3es_NEd-FBev91lMOjg" name="Activity1">
+      <eAnnotations xmi:id="_7sa3e8_NEd-FBev91lMOjg" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_7sa3fM_NEd-FBev91lMOjg" type="Activity" element="_7sa3es_NEd-FBev91lMOjg" name="ActivityDiagram1" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLFrame" xmi:id="_7sa3fc_NEd-FBev91lMOjg" type="Activity Frame" element="_7sa3es_NEd-FBev91lMOjg" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_7sa3fs_NEd-FBev91lMOjg" type="ActivityCompartment"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_7sa3f8_NEd-FBev91lMOjg" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sa3gM_NEd-FBev91lMOjg" x="793" y="793"/>
+          </children>
+          <styles xmi:type="notation:BooleanValueStyle" xmi:id="_7sa3gc_NEd-FBev91lMOjg" name="support_hide_pins"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5yKCsM_QEd-FBev91lMOjg" name="Generic SIAM">
+      <eAnnotations xmi:id="_5yTMoM_QEd-FBev91lMOjg" source="uml2.diagrams" references="_5yTMoc_QEd-FBev91lMOjg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_5yTMoc_QEd-FBev91lMOjg" type="Freeform" name="Generic SIAM" description="&lt;h3 >Service Integration Accountability Model Diagram&lt;/h3>&lt;p>Describes the integration of services involved in a program or group of programs and their accountabilities. Shows the accountability trace from organization unit, service, SLA, output/outcome, target group. It is not a value chain - it does not express what party receives the output. Rather it expresses who is accountable for providing the output, and the dependencies between the services in order to do so. &lt;/p>">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_kW6zsM_REd-FBev91lMOjg" element="_do9t8M_REd-FBev91lMOjg" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="None">
+            <children xmi:type="notation:DecorationNode" xmi:id="_kW6zss_REd-FBev91lMOjg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_kW6zs8_REd-FBev91lMOjg" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_kW6ztM_REd-FBev91lMOjg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_kW6ztc_REd-FBev91lMOjg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_kW6zts_REd-FBev91lMOjg" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_kW6zt8_REd-FBev91lMOjg" type="PackageContents" collapsed="true" canonical="false"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kW6zsc_REd-FBev91lMOjg" x="1585" y="1268" width="10526" height="6741"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_lTkpMM_REd-FBev91lMOjg" element="_UMoWYM_REd-FBev91lMOjg" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="None">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lTkpMs_REd-FBev91lMOjg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_lTkpM8_REd-FBev91lMOjg" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_lTkpNM_REd-FBev91lMOjg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_lTkpNc_REd-FBev91lMOjg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_lTkpNs_REd-FBev91lMOjg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_lTkpN8_REd-FBev91lMOjg" visible="false" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_lTuaMM_REd-FBev91lMOjg" visible="false" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_lTuaMc_REd-FBev91lMOjg" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lTuaMs_REd-FBev91lMOjg" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lTkpMc_REd-FBev91lMOjg" x="2536" y="2536" width="7351" height="4203"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_uStHYM_REd-FBev91lMOjg" element="_iNNVMM_REd-FBev91lMOjg" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uStHYs_REd-FBev91lMOjg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_uStHY8_REd-FBev91lMOjg" width="2216" height="1322"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uStHZM_REd-FBev91lMOjg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uStHZc_REd-FBev91lMOjg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uStHZs_REd-FBev91lMOjg" type="Parent"/>
+            <children xmi:type="notation:ListCompartment" xmi:id="_uStHZ8_REd-FBev91lMOjg" visible="false" type="Extension_Points"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uStHYc_REd-FBev91lMOjg" x="2853" y="3170"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_zfD3gM_REd-FBev91lMOjg" element="_w3sMoM_REd-FBev91lMOjg" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_zfNBcM_REd-FBev91lMOjg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_zfNBcc_REd-FBev91lMOjg" width="2216" height="1322"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_zfNBcs_REd-FBev91lMOjg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_zfNBc8_REd-FBev91lMOjg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_zfNBdM_REd-FBev91lMOjg" type="Parent"/>
+            <children xmi:type="notation:ListCompartment" xmi:id="_zfNBdc_REd-FBev91lMOjg" visible="false" type="Extension_Points"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zfD3gc_REd-FBev91lMOjg" x="7291" y="4755"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_z7YAEM_REd-FBev91lMOjg" element="_jY66YM_REd-FBev91lMOjg" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_z7YAEs_REd-FBev91lMOjg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_z7YAE8_REd-FBev91lMOjg" width="1455" height="2381"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_z7YAFM_REd-FBev91lMOjg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_z7YAFc_REd-FBev91lMOjg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_z7YAFs_REd-FBev91lMOjg" type="Parent"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z7YAEc_REd-FBev91lMOjg" x="12680" y="3487"/>
+          </children>
+          <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Kror0M_SEd-FBev91lMOjg" element="_Kre60M_SEd-FBev91lMOjg" source="_uStHYM_REd-FBev91lMOjg" target="_zfD3gM_REd-FBev91lMOjg" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Kror0s_SEd-FBev91lMOjg" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kror1M_SEd-FBev91lMOjg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kror1c_SEd-FBev91lMOjg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kror08_SEd-FBev91lMOjg" y="-186"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Kror0c_SEd-FBev91lMOjg" points="[42, 1, -90, 0]$[90, 1, -42, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ls6ioM_SEd-FBev91lMOjg" id="(0.898014440433213,0.46520423600605143)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M9s1EM_SEd-FBev91lMOjg" id="(0.02888086642599278,0.4062027231467474)"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_QQJdQM_SEd-FBev91lMOjg" element="_QP_sQM_SEd-FBev91lMOjg" source="_zfD3gM_REd-FBev91lMOjg" target="_z7YAEM_REd-FBev91lMOjg" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_QQJdQs_SEd-FBev91lMOjg" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_QQJdRM_SEd-FBev91lMOjg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_QQJdRc_SEd-FBev91lMOjg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QQJdQ8_SEd-FBev91lMOjg" y="-186"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QQJdQc_SEd-FBev91lMOjg" points="[42, -9, -167, 54]$[200, -55, -9, 8]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q3DFMM_SEd-FBev91lMOjg" id="(0.8646209386281588,0.5453857791225416)"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UMoWYM_REd-FBev91lMOjg" name="Program"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_do9t8M_REd-FBev91lMOjg" name="Organization Unit"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_iNNVMM_REd-FBev91lMOjg" name="Service" clientDependency="_Kre60M_SEd-FBev91lMOjg"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_jY66YM_REd-FBev91lMOjg" name="Target Group"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_w3sMoM_REd-FBev91lMOjg" name="Service2" clientDependency="_QP_sQM_SEd-FBev91lMOjg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Kre60M_SEd-FBev91lMOjg" name="SLA or Output?" supplier="_w3sMoM_REd-FBev91lMOjg" client="_iNNVMM_REd-FBev91lMOjg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_QP_sQM_SEd-FBev91lMOjg" name="Output" supplier="_jY66YM_REd-FBev91lMOjg" client="_w3sMoM_REd-FBev91lMOjg"/>
+    </packagedElement>
+    <profileApplication xmi:id="_7sa3gs_NEd-FBev91lMOjg">
+      <eAnnotations xmi:id="_7sa3g8_NEd-FBev91lMOjg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_7sa3hM_NEd-FBev91lMOjg">
+      <eAnnotations xmi:id="_7sa3hc_NEd-FBev91lMOjg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_7sa3hs_NEd-FBev91lMOjg">
+      <eAnnotations xmi:id="_7sa3h8_NEd-FBev91lMOjg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+  </uml:Model>
+  <Default:Documentation xmi:id="_Rr0mgM_REd-FBev91lMOjg" base_Comment="_Rrq1gM_REd-FBev91lMOjg"/>
+</xmi:XMI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="misa.xform.feature"
+      label="MISA Transformations"
+      version="1.0.0.qualifier"
+      provider-name="IBM">
+
+   <description>
+      Transformations for MISA
+   </description>
+
+   <copyright>
+      Copyright 2009 IBM
+   </copyright>
+
+   <license>
+      For use with MISA
+   </license>
+
+   <plugin
+         id="misa.xform.front"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="misa.xform.model.extract"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="misa.xform.model.extract.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="misa.xform.reqpro"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="misa.xform.rrc"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="reqpro.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

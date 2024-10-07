@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/misa.xform.model.extract/src"
+    modelPluginID="misa.xform.model.extract" modelName="Extract" importerID="org.eclipse.xsd.ecore.importer"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>extract.xsd</foreignModel>
+  <genPackages prefix="Extract" basePackage="misa.xform.model" resource="XML" disposableProviderFactory="true"
+      ecorePackage="Extract.ecore#/">
+    <genClasses ecoreClass="Extract.ecore#//AttributeDef">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Extract.ecore#//AttributeDef/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Extract.ecore#//AttributeDef/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Extract.ecore#//AttributeDef/typeName"/>
+    </genClasses>
+    <genClasses ecoreClass="Extract.ecore#//ClassDef">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Extract.ecore#//ClassDef/attributeDef"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Extract.ecore#//ClassDef/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Extract.ecore#//ClassDef/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Extract.ecore#//ClassDef/package"/>
+    </genClasses>
+    <genClasses ecoreClass="Extract.ecore#//Description">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Extract.ecore#//Description/value"/>
+    </genClasses>
+    <genClasses ecoreClass="Extract.ecore#//DocumentRoot">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute Extract.ecore#//DocumentRoot/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference Extract.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference Extract.ecore#//DocumentRoot/xSISchemaLocation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Extract.ecore#//DocumentRoot/root"/>
+    </genClasses>
+    <genClasses ecoreClass="Extract.ecore#//Root">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Extract.ecore#//Root/classDef"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Extract.ecore#//Root/targetProject"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

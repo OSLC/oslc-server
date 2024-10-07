@@ -1,0 +1,608 @@
+
+	FONT "LabelFont" { NAME "Arial" HEIGHT 10 BOLD }
+	FONT "PropertyFont" { NAME "Arial" HEIGHT 10 }
+	FONT "FooterFont" { NAME "Arial" HEIGHT 8 }
+	SETTING { LEGENDFONT "LabelFont" }
+	SETTING { FONT "PropertyFont" }
+	SETTING { TRAILERFONT "FooterFont" }
+	SETTING { IGNORECASE }
+
+REPORT "Outcome actualizes Goal"
+DESCRIPT "Determine the Goals actualized by Outcomes"
+ID 29945
+{
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa5E3A" }
+	SETTING { OUTPUTFILE "sa5E3A.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		WHERE Class = Diagram
+		JOIN
+		WHERE RELATION = "contains"
+		JOIN
+		SELECT "Name" LEGEND "Outcome"
+		WHERE Class = Symbol
+		WHERE "Type Number" = 601
+		JOIN
+		WHERE RELATION = "addresses"
+		JOIN
+		SELECT "Name" LEGEND "Goal"
+		WHERE Class = Definition
+		WHERE "Type Number" = 679
+	}
+}
+REPORT "Vision amplifiedBy Goal"
+DESCRIPT "List the Goals that amplify a Vision"
+ID 39342
+{
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa297D" }
+	SETTING { OUTPUTFILE "sa297D.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		WHERE Class = Diagram
+		WHERE "Type Number" = 145
+		JOIN
+		WHERE RELATION = "contains"
+		JOIN
+		SELECT "Name" LEGEND "Vision"
+		WHERE Class = Symbol
+		WHERE "Type Number" = 793
+		JOIN
+		WHERE RELATION = "is parent of"
+		JOIN
+		SELECT "Name" LEGEND "Goal"
+		WHERE Class = Symbol
+		WHERE "Type Number" = 840
+	}
+}
+REPORT "Vision amplifiedBy Goal (via a connector)"
+DESCRIPT "List the Goals that amplify a Vision"
+ID 9682
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Vision amplifiedBy Goal (via a connector)" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa5BDB" }
+	SETTING { OUTPUTFILE "sa5BDB.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		WHERE Class = Diagram
+		WHERE "Type Number" = 145
+		JOIN
+		WHERE RELATION = "contains"
+		JOIN
+		SELECT "Name" LEGEND "Vision" LEGENDFONT Font4
+		WHERE Class = Symbol
+		WHERE "Type Number" = 793
+		ORDERBY "Name"
+		JOIN
+		WHERE "RELATION NUMBER" = 8, 6
+		JOIN
+		WHERE Class = Symbol
+		JOIN
+		WHERE "RELATION NUMBER" = 9, 7
+		JOIN
+		SELECT "Name" LEGEND "Goal"
+		WHERE Class = Symbol
+		WHERE "Type Number" = 840, 840
+	}
+}
+REPORT "Service Output to Target Group"
+DESCRIPT "Describes the Output a Service provides to a Target Group"
+ID 42541
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Service Output to Target Group" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saE8F7" }
+	SETTING { OUTPUTFILE "saE8F7.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "produces"
+		JOIN
+		SELECT "Name" LEGEND "Output" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 152
+		JOIN
+		WHERE RELATION = "creates"
+		JOIN
+		SELECT "Name" LEGEND " Service Value" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 167
+		JOIN
+		WHERE RELATION = "realizes"
+		JOIN
+		SELECT "Name" LEGEND "Outcome"
+		WHERE Class = Definition
+		WHERE "Type Number" = 151
+		JOIN
+		WHERE RELATION = "experiencedBy"
+		JOIN
+		SELECT "Name" LEGEND "Target Group"
+		WHERE Class = Definition
+		WHERE "Type Number" = 155
+	}
+}
+REPORT "Organization Unit accountable for Programs"
+DESCRIPT "A report that lists the organization units and the programs they are responsible for"
+ID 31666
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Organization Unit accountable for Programs" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "676C" }
+	SETTING { OUTPUTFILE "sa676C.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Organization Unit Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "accountableFor"
+		JOIN
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		ORDERBY "Name"
+	}
+}
+REPORT "Organization Unit Hierarchy Report"
+DESCRIPT "Displays the hierarchy of organization units"
+ID 28724
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Organization Unit Report" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saD5EA" }
+	SETTING { OUTPUTFILE "saD5EA.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Organization Unit" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "comprises"
+		JOIN
+		SELECT "Name" LEGEND "Sub-Organization Unit" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		ORDERBY "Name"
+	}
+}
+REPORT "Organization Units not accountable for anu Services"
+DESCRIPT "Lists Organization Units that are not accountable for any Services"
+ID 57244
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Organization Units not accountable for anu Services" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saBAFA" }
+	SETTING { OUTPUTFILE "saBAFA.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Services <-- Services" { SOURCE PROPERTY "Services" LENGTH 1200 TYPE MEMO LEGEND "Services" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Organization Unit Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		WHERE "Services <-- Services" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Organization Units not responsible for any Processes"
+DESCRIPT "Lists Organization Units that are not responsible for any Processes"
+ID 59965
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Organization Units not responsible for any Processes" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa1008" }
+	SETTING { OUTPUTFILE "sa1008.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Processes <-- Processes" { SOURCE PROPERTY "Processes" LENGTH 1200 TYPE MEMO LEGEND "Processes" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Organization Unit Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		WHERE "Processes <-- Processes" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Processes that don't implement any Service"
+DESCRIPT "Lists the Processes that don't implement or contribute to the performance of any Service"
+ID 779
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Services with no performing Processes" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saEDEA" }
+	SETTING { OUTPUTFILE "saEDEA.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Service <-- Service" { SOURCE PROPERTY "Service" LENGTH 80 TYPE CHARACTER LEGEND "Service" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 143
+		WHERE "Service <-- Service" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Processes that don't use any Resources"
+DESCRIPT "Lists the Processes that don't use any Resources"
+ID 10074
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Services with no performing Processes" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa95A6" }
+	SETTING { OUTPUTFILE "sa95A6.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Resources <-- Resources" { SOURCE PROPERTY "Resources" LENGTH 1200 TYPE MEMO LEGEND "Resources" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 143
+		WHERE "Resources <-- Resources" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Processes with no responsible Organization Unit"
+DESCRIPT "Lists Processes with no responsible Organization Unit"
+ID 4029
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Processes with no responsible Organization Unit" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa19EB" }
+	SETTING { OUTPUTFILE "sa19EB.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Responsible Parties <-- Responsible Parties" { SOURCE PROPERTY "Responsible Parties" LENGTH 1200 TYPE MEMO LEGEND "Responsible Parties" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 143
+		WHERE "Responsible Parties <-- Responsible Parties" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Program administers Services"
+DESCRIPT "List programs and the services they administer"
+ID 54703
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Program administers Services" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa8F4D" }
+	SETTING { OUTPUTFILE "sa8F4D.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "administers"
+		JOIN
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		ORDERBY "Name"
+	}
+}
+REPORT "Program Hierarchy Report"
+DESCRIPT "Reports on the Program and Sub-Program Hierarchy"
+ID 15342
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Program Hierarchy Report" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saE85C" }
+	SETTING { OUTPUTFILE "saE85C.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		ORDERBY "Name"
+		JOIN
+		WHERE RELATION = "aggregates"
+		JOIN
+		SELECT "Name" LEGEND "Sub-Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		ORDERBY "Name"
+	}
+}
+REPORT "Programs administring no Services"
+DESCRIPT "List programs that administer no Services"
+ID 45881
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Programs administring no Services" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa43FB" }
+	SETTING { OUTPUTFILE "sa43FB.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Services <-- Services" { SOURCE PROPERTY "Services" LENGTH 1200 TYPE MEMO LEGEND "Services" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		WHERE "Services <-- Services" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Programs with no accountable Organization Unit"
+DESCRIPT "Lists Programs with no accountable Organization Unit"
+ID 36623
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Programs with no accountable Organization Unit" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saBDF0" }
+	SETTING { OUTPUTFILE "saBDF0.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Owner <-- Owner" { SOURCE PROPERTY "Owner" LENGTH 80 TYPE CHARACTER LEGEND "Owner" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Program Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 141
+		WHERE "Owner <-- Owner" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Services Report"
+DESCRIPT "Lists services and their properties"
+ID 40560
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Services Report" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saAB13" }
+	SETTING { OUTPUTFILE "saAB13.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Description <-- Description" { SOURCE PROPERTY "Description" LENGTH 4074 TYPE MEMO LEGEND "Description" }
+	FIELD "Output <-- Output" { SOURCE PROPERTY "Output" LENGTH 80 TYPE CHARACTER LEGEND "Output" }
+	FIELD "Program <-- Program" { SOURCE PROPERTY "Program" LENGTH 80 TYPE CHARACTER LEGEND "Program" }
+	FIELD "Status <-- Status" { SOURCE PROPERTY "Status" LENGTH 8 TYPE CHARACTER LEGEND "Status" }
+	FIELD "Service Type <-- Service Type" { SOURCE PROPERTY "Service Type" LENGTH 20 TYPE CHARACTER LEGEND "Service Type" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGENDFONT Font4, "Description <-- Description" LEGEND "Description" LEGENDFONT Font4, 
+		       "Output <-- Output" LEGEND "Output" LEGENDFONT Font4, 
+		       "Program <-- Program" LEGEND "Program" LEGENDFONT Font4, 
+		       "Status <-- Status" LEGEND "Status" LEGENDFONT Font4, 
+		       "Service Type <-- Service Type" LEGEND "Service Type" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		ORDERBY "Name"
+	}
+}
+REPORT "Services with no accountable Organization Unit"
+DESCRIPT "List the Services with no accountable Organization Unit"
+ID 58337
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Services with no accountable Organization Unit" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa2546" }
+	SETTING { OUTPUTFILE "sa2546.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Owners <-- Owners" { SOURCE PROPERTY "Owners" LENGTH 1200 TYPE MEMO LEGEND "Owners" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		WHERE "Owners <-- Owners" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Services with no administring Program"
+DESCRIPT "Lists the Services with no administring Program"
+ID 23284
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Services with no administring Program" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa92B8" }
+	SETTING { OUTPUTFILE "sa92B8.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Program <-- Program" { SOURCE PROPERTY "Program" LENGTH 80 TYPE CHARACTER LEGEND "Program" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		WHERE "Program <-- Program" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Services with no performing Processes"
+DESCRIPT "Lists the Services with no performing Processes"
+ID 42605
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Services with no performing Processes" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa2D9" }
+	SETTING { OUTPUTFILE "sa2D9.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Processes <-- Processes" { SOURCE PROPERTY "Processes" LENGTH 1200 TYPE MEMO LEGEND "Processes" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Service Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 142
+		WHERE "Processes <-- Processes" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Top-level Organization Units"
+DESCRIPT "Lists organization units that have no parent"
+ID 12047
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Top-level Organization Units" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saFCAC" }
+	SETTING { OUTPUTFILE "saFCAC.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Parents <-- Parents" { SOURCE PROPERTY "Parents" LENGTH 1200 TYPE MEMO LEGEND "Parents" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGEND "Organization Unit Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 321
+		WHERE "Parents <-- Parents" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Unaddressed Needs"
+DESCRIPT "Shows the needs that are not addressed by any outcomes"
+ID 20699
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Unaddressed Needs" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "sa62AB" }
+	SETTING { OUTPUTFILE "sa62AB.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Outcome <-- Outcome" { SOURCE PROPERTY "Outcome" LENGTH 1200 TYPE MEMO LEGEND "Outcome" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 150
+		WHERE "Outcome <-- Outcome" = ""
+		ORDERBY "Name"
+	}
+}
+REPORT "Unused Resources"
+DESCRIPT "Lists the Resources that are not used by any Process"
+ID 9513
+{
+	FONT "Font4" { NAME "Courier" HEIGHT 12 }
+	SETTING { DECIMALSEPARATOR "." }
+	SETTING { LISTSEPARATOR "," }
+	SETTING { MEASUREMENT ENGLISH }
+	SETTING { PAGESIZE -1", 0.00 }
+	SETTING { HEADER 1 "Unused Resources" }
+	SETTING { REPORTFORMAT 20 }
+	SETTING { EXTRACT YES EXTRACTFILE "saCDAC" }
+	SETTING { OUTPUTFILE "saCDAC.tmp" }
+	SETTING { STYLESHEETFILE "C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\Reports\Stylesht\Default.xsl" }
+	FIELD "Processes <-- Processes" { SOURCE PROPERTY "Processes" LENGTH 1200 TYPE MEMO LEGEND "Processes" }
+	TABULAR 1
+	{
+		SELECT "Name" LEGENDFONT Font4
+		WHERE Class = Definition
+		WHERE "Type Number" = 144
+		WHERE "Processes <-- Processes" = ""
+		ORDERBY "Name"
+	}
+}

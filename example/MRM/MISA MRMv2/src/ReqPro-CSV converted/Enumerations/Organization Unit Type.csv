@@ -1,0 +1,12 @@
+Name,"Is Instance", "Instance Of"
+"MRM Organization Unit Type", F,
+"Agency", T, "MRM Organization Unit Type"
+"Board", T, "MRM Organization Unit Type"
+"Branch", T, "MRM Organization Unit Type"
+"Commission", T, "MRM Organization Unit Type"
+"Corporation", T, "MRM Organization Unit Type"
+"Department", T, "MRM Organization Unit Type"
+"Division", T, "MRM Organization Unit Type"
+"Governing Body", T, "MRM Organization Unit Type"
+"Office", T, "MRM Organization Unit Type"
+"Section", T, "MRM Organization Unit Type"

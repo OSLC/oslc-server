@@ -1,0 +1,5 @@
+Name,"Is Instance", "Instance Of"
+"MRM Process Level Type", F,
+"Activity", T, "MRM Process Level Type"
+"Process", T, "MRM Process Level Type"
+"Task", T, "MRM Process Level Type"

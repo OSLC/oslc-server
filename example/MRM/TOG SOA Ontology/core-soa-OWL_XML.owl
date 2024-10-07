@@ -1,0 +1,732 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY www "http://www.w3.org/2006/12/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY core-soa "http://www.semanticweb.org/ontologies/2010/0/core-soa.owl#" >
+]>
+
+
+<Ontology xmlns="&www;owl2-xml#"
+     xml:base="&www;owl2-xml#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="&www;owl2-xml#"
+     xmlns:core-soa="http://www.semanticweb.org/ontologies/2010/0/core-soa.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:www="http://www.w3.org/2006/12/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     URI="http://www.semanticweb.org/ontologies/2010/0/core-soa.owl">
+    <SubClassOf>
+        <Class URI="&www;Actor"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&www;hasPolicy"/>
+            <Class URI="&www;Policy"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Actor"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&www;hasPolicy"/>
+            <Class URI="&www;Policy"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Actor"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Choreography"/>
+        <Class URI="&www;Composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Choreography"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Process"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Choreography"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Process"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Choreography"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Collaboration"/>
+        <Class URI="&www;Composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Collaboration"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Process"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Collaboration"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Process"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Collaboration"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Component"/>
+        <Class URI="&www;Element"/>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Component"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Composition"/>
+        <Class URI="&www;System"/>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Composition"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Effect"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty URI="&www;isSpecifiedBy"/>
+            <Class URI="&www;ServiceContract"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Effect"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;Actor"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;Service"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;System"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;Task"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&www;isElementIn"/>
+            <Class URI="&www;System"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty URI="&www;directs"/>
+            <Class URI="&www;Orchestration"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;Actor"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;Service"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;System"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Element"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;originatedFrom"/>
+            <Class URI="&www;Task"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Element"/>
+    </Declaration>
+    <Declaration>
+        <Class URI="&www;Events"/>
+    </Declaration>
+    <Declaration>
+        <Class URI="&www;InformationType"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Orchestration"/>
+        <Class URI="&www;Composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Orchestration"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Process"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Orchestration"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty URI="&www;directedBy"/>
+            <Class URI="&www;Element"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Orchestration"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Process"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Orchestration"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Policy"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;isPolicyFor"/>
+            <Class URI="&www;Element"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Policy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Process"/>
+        <Class URI="&www;Composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Process"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Choreography"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Process"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Collaboration"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Process"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Orchestration"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Process"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Choreography"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Process"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Collaboration"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Process"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&core-soa;is"/>
+            <Class URI="&www;Orchestration"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Process"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Service"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&www;hasInterface"/>
+            <Class URI="&www;ServiceInterface"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Service"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;ServiceContract"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&www;isContractFor"/>
+            <Class URI="&www;Service"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;ServiceContract"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&www;specifies"/>
+            <Class URI="&www;Effect"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;ServiceContract"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;ServiceInterface"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&www;isInterfaceOf"/>
+            <Class URI="&www;Service"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;ServiceInterface"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;System"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty URI="&www;has"/>
+            <Class URI="&www;Element"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;System"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&www;Task"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty URI="&www;doneBy"/>
+            <Class URI="&www;Actor"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&www;Task"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty URI="&www;doneBy"/>
+            <Class URI="&www;Actor"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <Declaration>
+        <Class URI="&www;Task"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Choreography"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Collaboration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Orchestration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Choreography"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Collaboration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Orchestration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;is"/>
+        <Class URI="&www;Process"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&core-soa;is"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;isElement"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;isElement"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;isElement"/>
+        <Class URI="&www;System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;isElement"/>
+        <Class URI="&www;Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;isElement"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&core-soa;isElement"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;isGovernedBy"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;isGovernedBy"/>
+        <Class URI="&www;Policy"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&core-soa;isGovernedBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;isPolicyFor"/>
+        <Class URI="&www;Policy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;isPolicyFor"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&core-soa;isPolicyFor"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&core-soa;originatedFrom"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;originatedFrom"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;originatedFrom"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;originatedFrom"/>
+        <Class URI="&www;System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&core-soa;originatedFrom"/>
+        <Class URI="&www;Task"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&core-soa;originatedFrom"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;directedBy"/>
+        <Class URI="&www;Orchestration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;directedBy"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;directedBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;directs"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;directs"/>
+        <Class URI="&www;Orchestration"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;directs"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;does"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;does"/>
+        <Class URI="&www;Task"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;does"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;doneBy"/>
+        <Class URI="&www;Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;doneBy"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;doneBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;generatedBy"/>
+        <Class URI="&www;Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;generatedBy"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;generatedBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;generates"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;generates"/>
+        <Class URI="&www;Events"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;generates"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;has"/>
+        <Class URI="&www;System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;has"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;has"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;hasContract"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;hasContract"/>
+        <Class URI="&www;ServiceContract"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;hasContract"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;hasInput"/>
+        <Class URI="&www;ServiceInterface"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;hasInput"/>
+        <Class URI="&www;InformationType"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;hasInput"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;hasInterface"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;hasInterface"/>
+        <Class URI="&www;ServiceInterface"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;hasInterface"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;hasOutput"/>
+        <Class URI="&www;ServiceInterface"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;hasOutput"/>
+        <Class URI="&www;InformationType"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;hasOutput"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;hasPolicy"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;hasPolicy"/>
+        <Class URI="&www;Policy"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;hasPolicy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;involvesParty"/>
+        <Class URI="&www;ServiceContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;involvesParty"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;involvesParty"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isContractFor"/>
+        <Class URI="&www;ServiceContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isContractFor"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isContractFor"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isElementIn"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isElementIn"/>
+        <Class URI="&www;System"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isElementIn"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isInputAt"/>
+        <Class URI="&www;InformationType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isInputAt"/>
+        <Class URI="&www;ServiceInterface"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isInputAt"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isInterfaceOf"/>
+        <Class URI="&www;ServiceInterface"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isInterfaceOf"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isInterfaceOf"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isOutputAt"/>
+        <Class URI="&www;InformationType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isOutputAt"/>
+        <Class URI="&www;ServiceInterface"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isOutputAt"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isPartyTo"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isPartyTo"/>
+        <Class URI="&www;ServiceContract"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isPartyTo"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isPolicyOf"/>
+        <Class URI="&www;Policy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isPolicyOf"/>
+        <Class URI="&www;Actor"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isPolicyOf"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;isSpecifiedBy"/>
+        <Class URI="&www;Effect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;isSpecifiedBy"/>
+        <Class URI="&www;ServiceContract"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;isSpecifiedBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;performedBy"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;performedBy"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;performedBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;performs"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;performs"/>
+        <Class URI="&www;Service"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;performs"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;respondedToBy"/>
+        <Class URI="&www;Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;respondedToBy"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;respondedToBy"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;respondsTo"/>
+        <Class URI="&www;Element"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;respondsTo"/>
+        <Class URI="&www;Events"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;respondsTo"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&www;specifies"/>
+        <Class URI="&www;ServiceContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&www;specifies"/>
+        <Class URI="&www;Effect"/>
+    </ObjectPropertyRange>
+    <Declaration>
+        <ObjectProperty URI="&www;specifies"/>
+    </Declaration>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

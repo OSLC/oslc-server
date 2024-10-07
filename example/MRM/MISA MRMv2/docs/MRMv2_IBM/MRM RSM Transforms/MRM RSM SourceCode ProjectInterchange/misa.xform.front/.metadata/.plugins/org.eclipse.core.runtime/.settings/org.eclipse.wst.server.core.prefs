@@ -1,0 +1,4 @@
+#Wed Sep 09 08:59:09 CDT 2009
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8"?><runtimes>\r\n  <runtime alternate-names\="WebSphere Application Server v7.0 stub" id\="was.base.v7" id-set\="true" location\="C\:/SDP75/runtimes/base_v7" locked\="true" name\="WebSphere Application Server v7.0" runtime-type-id\="com.ibm.ws.ast.st.runtime.v70" stub\="false" test-environment\="true" timestamp\="0"/>\r\n  <runtime alternate-names\="WebSphere Application Server v6.0" id\="was.base.v6" id-set\="true" location\="C\:/SDP75/runtimes/base_v6_stub" locked\="true" name\="WebSphere Application Server v6.0 stub" runtime-type-id\="com.ibm.ws.ast.st.runtime.v60" stub\="true" test-environment\="false" timestamp\="0"/>\r\n</runtimes>
+eclipse.preferences.version=1

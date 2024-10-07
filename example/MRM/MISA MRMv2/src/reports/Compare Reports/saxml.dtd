@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Licensed Materials - Property of IBM -->
+<!-- System Architect XML DTD - Conforms to DTD specification -->
+<!-- (c) Copyright IBM Corporation 1986, 2008.  All Rights Reserved. -->
+<!-- U.S. Government Users Restricted Rights:  Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+
+<!ENTITY % SAEncAtt ' SAPath CDATA #IMPLIED
+     SADisplayName CDATA #IMPLIED
+     SAAuditId CDATA #IMPLIED
+     SAVersion CDATA #IMPLIED' >
+
+<!ENTITY % SAObjAtt ' SAObjName CDATA #REQUIRED
+     SAObjId ID #REQUIRED
+     SAObjMajorTypeNum  (1 | 2 | 3) #REQUIRED
+     SAObjMinorTypeNum CDATA #REQUIRED
+     SAObjMinorTypeName CDATA #IMPLIED
+     SAObjAuditId CDATA #IMPLIED
+     SAObjUpdateDate CDATA #IMPLIED
+     SAObjUpdateTime CDATA #IMPLIED
+	 SAObjFQName CDATA #IMPLIED' >
+
+<!ENTITY % SAPrpAtt ' SAPrpName CDATA #REQUIRED
+     SAPrpValue CDATA #REQUIRED
+     SAPrpEditType CDATA #IMPLIED
+     SAPrpLength CDATA #IMPLIED
+     SAPrpEditDefMinorType CDATA #IMPLIED
+     SAPrpEditDefMajorType CDATA #IMPLIED' >
+
+<!ENTITY % SARelAtt ' SARelId CDATA #REQUIRED
+     SARelTypeNum CDATA #REQUIRED
+     SARelTypeName CDATA #IMPLIED' >
+
+<!ENTITY % SADgmAtt ' SADgmCLevelNumber CDATA #IMPLIED
+     SADgmBIsHierarchy CDATA #IMPLIED
+     SADgmSnapGridEnt CDATA #IMPLIED
+     SADgmSnapGridLin CDATA #IMPLIED
+     SADgmPGridNumEnt CDATA #IMPLIED
+     SADgmPGridNumLin CDATA #IMPLIED
+     SADgmPGridSizeEnt CDATA #IMPLIED
+     SADgmPGridSizeLin CDATA #IMPLIED
+     SADgmGridUnit100 CDATA #IMPLIED
+     SADgmBPresentationMenu CDATA #IMPLIED
+     SADgmBShowPages CDATA #IMPLIED
+     SADgmBShowRuler CDATA #IMPLIED
+     SADgmBShowGrid CDATA #IMPLIED
+     SADgmBShowScroll CDATA #IMPLIED
+     SADgmBShowNodeShadow CDATA #IMPLIED
+     SADgmBShowLineShadow CDATA #IMPLIED
+     SADgmBShowTextShadow CDATA #IMPLIED
+     SADgmPShadowDelta CDATA #IMPLIED
+     SADgmRGBShadowColor CDATA #IMPLIED
+     SADgmRMargin CDATA #IMPLIED
+     SADgmBBorder CDATA #IMPLIED
+     SADgmBorderOffset CDATA #IMPLIED
+     SADgmWBorderPenStyle CDATA #IMPLIED
+     SADgmBDgmBorder CDATA #IMPLIED
+     SADgmIDgmForm CDATA #IMPLIED
+     SADgmWOrientation CDATA #IMPLIED
+     SADgmBDgmPDefault CDATA #IMPLIED
+     SADgmBBackgroundColorOn CDATA #IMPLIED
+     SADgmRGBBackgroundColor CDATA #IMPLIED
+     SADgmWLinePenStyle CDATA #IMPLIED' >
+
+<!ENTITY % SADspAtt ' SADspMinorTypeNum CDATA #REQUIRED
+     SADspMode CDATA #REQUIRED
+     SADspModeExt CDATA #REQUIRED' >
+
+<!ENTITY % SALinkAtt ' SALinkName CDATA #REQUIRED
+     SALinkIdentity CDATA #REQUIRED' >
+
+<!ENTITY % SASymAtt ' SASymIdDef CDATA #IMPLIED
+     SASymCLevelNumber CDATA #IMPLIED
+     SASymIdDgm CDATA #IMPLIED
+     SASymLocX CDATA #IMPLIED
+     SASymLocY CDATA #IMPLIED
+     SASymSizeX CDATA #IMPLIED
+     SASymSizeY CDATA #IMPLIED
+     SASymNameLocX CDATA #IMPLIED
+     SASymNameLocY CDATA #IMPLIED
+     SASymNameSizeX CDATA #IMPLIED
+     SASymNameSizeY CDATA #IMPLIED
+     SASymDescLocX CDATA #IMPLIED
+     SASymDescLocY CDATA #IMPLIED
+     SASymDescSizeX CDATA #IMPLIED
+     SASymDescSizeY CDATA #IMPLIED
+     SASymStartLocX CDATA #IMPLIED
+     SASymStartLocY CDATA #IMPLIED
+     SASymEndLocX CDATA #IMPLIED
+     SASymEndLocY CDATA #IMPLIED
+     SASymPenColorOn CDATA #IMPLIED
+     SASymPenColorRed CDATA #IMPLIED
+     SASymPenColorGreen CDATA #IMPLIED
+     SASymPenColorBlue CDATA #IMPLIED
+     SASymFillColorOn CDATA #IMPLIED
+     SASymFillColorRed CDATA #IMPLIED
+     SASymFillColorGreen CDATA #IMPLIED
+     SASymFillColorBlue CDATA #IMPLIED
+     SASymFontColorOn CDATA #IMPLIED
+     SASymFontColorRed CDATA #IMPLIED
+     SASymFontColorGreen CDATA #IMPLIED
+     SASymFontColorBlue CDATA #IMPLIED
+     SASymPenStyle CDATA #IMPLIED
+     SASymFontName CDATA #IMPLIED
+     SASymFontHeight CDATA #IMPLIED
+     SASymFontFlags CDATA #IMPLIED
+     SASymLineStyle CDATA #IMPLIED
+     SASymFromCardinality CDATA #IMPLIED
+     SASymFromCardNumber CDATA #IMPLIED
+     SASymToCardinality CDATA #IMPLIED
+     SASymToCardNumber CDATA #IMPLIED
+     SASymHasFromArrow CDATA #IMPLIED
+     SASymHasToArrow CDATA #IMPLIED
+     SASymProperties CDATA #IMPLIED
+     SASymOrder CDATA #IMPLIED
+     SASymXPEntity CDATA #IMPLIED
+     SASymXPLink CDATA #IMPLIED
+     SASymXPGroup CDATA #IMPLIED
+     SASymXPSibling CDATA #IMPLIED
+     SASymXPSubordinate CDATA #IMPLIED
+     SASymArrangement CDATA #IMPLIED
+     SASymOtherSymbology CDATA #IMPLIED
+     SASymZPDesc CDATA #IMPLIED
+     SASymZPLegend CDATA #IMPLIED
+     SASymZPSample CDATA #IMPLIED
+     SASymZPDerivation CDATA #IMPLIED
+     SASymZPPicFile CDATA #IMPLIED
+     SASymZPPicType CDATA #IMPLIED
+     SASymZPMenu CDATA #IMPLIED
+     SASymZPFontName CDATA #IMPLIED
+     SASymS2iid CDATA #IMPLIED
+     SASymZPFrom CDATA #IMPLIED
+     SASymZPPicture CDATA #IMPLIED
+     SASymZPToUsing CDATA #IMPLIED
+     SASymZPIdName CDATA #IMPLIED
+     SASymS4iid CDATA #IMPLIED
+     SASymFlags CDATA #IMPLIED
+     SASymFlags2 CDATA #IMPLIED
+     SASymFlags3 CDATA #IMPLIED
+     SASymTextFlags CDATA #IMPLIED
+     SASymStyle CDATA #IMPLIED
+     SASymAuxStyle CDATA #IMPLIED
+     SASymOccurs CDATA #IMPLIED
+     SASymOccOffset CDATA #IMPLIED
+     SASymBGColor CDATA #IMPLIED
+     SASymFGColor CDATA #IMPLIED
+     SASymPrompt CDATA #IMPLIED
+     SASymStyleFlags CDATA #IMPLIED
+     SASymSeqNum CDATA #IMPLIED
+     SASymRotation CDATA #IMPLIED
+     SASymError1 CDATA #IMPLIED
+     SASymError2 CDATA #IMPLIED
+     SASymNameCrlf1 CDATA #IMPLIED
+     SASymNameCrlf2 CDATA #IMPLIED
+     SASymNameCrlf3 CDATA #IMPLIED
+     SASymNameCrlf4 CDATA #IMPLIED
+     SASymIdComment CDATA #IMPLIED
+     SASymZPSsadmStr CDATA #IMPLIED
+     SASymFrExArcChar CDATA #IMPLIED
+     SASymToExArcChar CDATA #IMPLIED
+     SASymUncleCount CDATA #IMPLIED
+     SASymHideProgeny CDATA #IMPLIED
+     SASymHidden CDATA #IMPLIED
+     SASymOtherForm CDATA #IMPLIED
+     SASymHasDspMode CDATA #IMPLIED
+     SASymDspMode CDATA #IMPLIED
+     SASymDspModeExt CDATA #IMPLIED' >
+
+<!ENTITY % SALocAtt ' SALocX CDATA #REQUIRED
+     SALocY CDATA #REQUIRED
+     SALocType CDATA #IMPLIED'>
+
+<!ENTITY % SAAdjAtt ' SAAdjNum CDATA #REQUIRED
+     SAAdjLocX CDATA #REQUIRED
+     SAAdjLocY CDATA #REQUIRED
+     SAAdjSizeX CDATA #REQUIRED
+     SAAdjSizeY CDATA #REQUIRED' >
+
+<!ENTITY % SAMetaClassAtt ' SAMetaClassType CDATA #REQUIRED
+     SAMetaClassName CDATA #REQUIRED' >
+
+<!ENTITY % SAMetaItemAtt ' SAMetaItemType CDATA #REQUIRED
+     SAMetaItemName CDATA #REQUIRED' >
+
+<!ENTITY % SAMetaPropertyAtt ' SAMetaPrpName CDATA #REQUIRED
+     SAMetaPrpAltLabelLong CDATA #IMPLIED
+     SAMetaPrpAltLabelShort CDATA #IMPLIED
+     SAMetaPrpDefault CDATA #IMPLIED
+     SAMetaPrpEditFlags CDATA #IMPLIED
+     SAMetaPrpEditLength CDATA #IMPLIED
+     SAMetaPrpEditType CDATA #IMPLIED
+     SAMetaPrpEditTypeNum CDATA #IMPLIED
+     SAMetaPrpHelp CDATA #IMPLIED
+     SAMetaPrpHelpID CDATA #IMPLIED
+     SAMetaPrpKey CDATA #IMPLIED
+     SAMetaPrpLabel CDATA #IMPLIED
+     SAMetaPrpOfFlags CDATA #IMPLIED
+     SAMetaPrpOfMajorType CDATA #IMPLIED
+     SAMetaPrpOfMajorTypeName CDATA #IMPLIED
+     SAMetaPrpOfMinorType CDATA #IMPLIED
+     SAMetaPrpOfMinorTypeName CDATA #IMPLIED
+     SAMetaPrpOfRelateType CDATA #IMPLIED
+     SAMetaPrpRangeMax CDATA #IMPLIED
+     SAMetaPrpRangeMin CDATA #IMPLIED
+     SAMetaPrpRequired CDATA #IMPLIED' >
+
+<!ENTITY % SAMetaKeyedByAtt ' SAMetaKeyFromName CDATA #IMPLIED
+     SAMetaKeyKeyedName CDATA #REQUIRED
+     SAMetaKeyQualifiable CDATA #REQUIRED' >
+
+<!ELEMENT SAEncyclopedia (SAHeader,SAMetaData*, SAContent) >
+
+<!ATTLIST SAEncyclopedia %SAEncAtt;  >
+
+<!ELEMENT SAHeader (SAVendor|SAProduct)* >
+<!ATTLIST SAHeader SALinkFormat CDATA #IMPLIED >
+
+<!ELEMENT SAVendor ANY >
+
+<!ELEMENT SAProduct ANY >
+
+<!ELEMENT SAMetaData (SAMetaClass)* >
+
+<!ELEMENT SAMetaClass (SAMetaItem)* >
+<!ATTLIST SAMetaClass %SAMetaClassAtt;  >
+
+<!ELEMENT SAMetaItem (SAMetaProperty)* >
+<!ATTLIST SAMetaItem %SAMetaItemAtt;  >
+
+<!ELEMENT SAMetaProperty (SAMetaKeyedBy)* >
+<!ATTLIST SAMetaProperty %SAMetaPropertyAtt; >
+
+<!ELEMENT SAMetaKeyedBy EMPTY >
+<!ATTLIST SAMetaKeyedBy %SAMetaKeyedByAtt;  >
+
+<!ELEMENT SAContent (SADefinition|SADiagram)* >
+
+<!ELEMENT SADefinition (SAProperty*,SARelation*,SATauDefinition*) >
+
+<!ATTLIST SADefinition %SAObjAtt;  >
+
+<!ELEMENT SAProperty (SALink)* >
+
+<!ATTLIST SAProperty %SAPrpAtt;  >
+
+<!ELEMENT SARelation EMPTY >
+
+<!ATTLIST SARelation %SARelAtt;  >
+
+<!ELEMENT SATauDefinition (#PCDATA)>
+
+<!ELEMENT SADiagram (SAProperty*,SADisplay*,SARelation*,SASymbol*,SATauDiagram*) >
+
+<!ATTLIST SADiagram %SAObjAtt; 
+     %SADgmAtt;  >
+
+<!ELEMENT SADisplay EMPTY >
+
+<!ATTLIST SADisplay %SADspAtt;  >
+
+<!ELEMENT SALink EMPTY >
+
+<!ATTLIST SALink %SALinkAtt;  >
+
+<!ELEMENT SASymbol (SALocation*,SAPicture*,SAProperty*,SARelation*,SAAdjunct*) >
+
+<!ATTLIST SASymbol %SAObjAtt; 
+     %SASymAtt;  >
+
+<!ELEMENT SATauDiagram (#PCDATA)>
+
+<!ELEMENT SALocation EMPTY >
+
+<!ATTLIST SALocation %SALocAtt;  >
+
+<!ELEMENT SAPicture EMPTY >
+
+<!ATTLIST SAPicture SAPictureEncodingMethod CDATA #REQUIRED
+     SAPictureEncodingVersion CDATA #REQUIRED
+     SAOriginalFile CDATA #REQUIRED
+     SAOriginalFileLength CDATA #REQUIRED
+     SAPictureData CDATA #REQUIRED >
+
+<!ELEMENT SAAdjunct EMPTY >
+
+<!ATTLIST SAAdjunct %SAAdjAtt;  >
+

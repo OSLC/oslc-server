@@ -1,0 +1,796 @@
+Name,Description,Service corresponds to BPMN Events,Service Type,Status,Source,Program Field Type,From Date,To Date,Program,Allocation,Output,Processes,Uses Services,UsedBy Services,Owners,Locations,Impacts,KPIs,Projects,Sub-Services,Reference Documents,Initial Date,Last Change Date,Initial Time,Last Change Time,Initial Audit,Last Change Audit,GUID211,An internal service provided to community service providers offering call taking and referral of inquiries about available community services.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV82.2311,"An internal service provided to public service providers offering a single point of contact by the public in accessing a service, in supporting public facing processes, and in fulfilling a service request.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV82.3911,An internal service provided to emergency service providers offering integrated call taking in support of emergency service providers / first responder agencies.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV82.1Accounting,An internal service that accounts for revenues and expenditures by an approved budget account.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV90.3Adult Day Care,"A public service provided to seniors offering social and other therapeutic activities at a location outside of the home, including planned recreation and physical activities, meals, transportation to a facility and personal care.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Adult Day Individual Care Case Management""
+""Adult Day Enhanced Personal Care""
+""Adult Day Medication Monitoring""
+""Adult Day Participant Information and Referral""
+""Adult Day Personal Care""
+""Adult Day Psycho-social Support""
+""Adult Day Recreation Activity""
+""Adult Day Rehabilitation""
+""Adult Day Meal Provision""
+""Adult Day Respite Care""
+",,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21Adult Day Enhanced Personal Care,"A public service provided to elderly and frail adults offering access to a variety of personal care support including: hairdressers, chiropody, and dental care in response to specific need s or desires.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.2Adult Day Individual Care Case Management,"A public service provided to elderly and frail adults offering documentation of client care needs, goals, and interdisciplinary and other support interventions",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Adult Day Respite Care""
+",,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.1Adult Day Meal Provision,"A public service provided to elderly and frail adults offering meals (1 meal and 2 snacks) served at the appropriate temperature, time and in a suitable environment.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:54 AM,jra,jra,SV21.9Adult Day Medication Monitoring,A public service provided to elderly and frail adults offering monitoring of medication to ensure proper consumption.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.3Adult Day Participant Information and Referral,A public service provided to elderly and frail adults offering information and referral in response to their specific needs and identified goals.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.4Adult Day Personal Care,A public service provided to elderly and frail adults offering support in accomplishing personal care requirements.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.5Adult Day Psycho-social Support,A public service provided to elderly and frail adults offering access to social workers and specialized support services in response to individual and group referrals.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.6Adult Day Recreation Activity,A public service provided to elderly and frail adults offering a variety of opportunities for recreational activity intended to engage individuals in active lifestyles.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.7Adult Day Rehabilitation,A public service provided to elderly and frail adults offering various specialized rehabilitation support to individuals and groups.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.8Adult Day Respite Care,A public service provided to the care giver of an elderly and frail adult offering a period of respite from care giving.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:54 AM,10:45:54 AM,jra,jra,SV21.10Affordable Housing,A public service provided to housing owners / operators offering financial assistance to convert or intensify housing to more affordable options.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Affordable Housing Construction and Maintenance""
+",,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV25Affordable Housing Construction and Maintenance,"A public service provided to prospective social housing providers offering supports in the planning, design, construction and delivery of affordable housing accommodation.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV25.1Affordable Housing Strategy Development,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:52 AM,jra,jra,SV27.4Agency Support Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,5952f817-091f-4460-83e8-3fbac5736a23"Agency, Board & Commission Governance & Relationship Management","An internal service provided to the corporation offering support to affiliated agencies, boards and commissions of the municipality.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV79.4Airport,A public service provided to airport users offering access to an airport facility.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Airport Property Leasing""
+""Airport Security""
+""Airport Parking""
+""Airport Operations""
+""Airport Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:26 AM,10:45:26 AM,jra,jra,SV61Airport Asset Lifecycle Management,An internal service provided to the airport operator offering management of the airport assets over their lifespan.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV61.5Airport Operations,A public service provided to airport users offering access to an operating airport facility.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV61.4Airport Parking,A public service provided to airport users offering access to limited term parking spaces.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV61.3Airport Property Leasing,A public service provided to businesses offering a lease to access a portion of the airport facility to conduct their business.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV61.1Airport Security,"A public service provided to airport users offering safety of passengers, employees and visitors as well as security of private and public property while using an airport.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV61.2Allotment / Community Gardening,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV64.6Alteration Permission,A pubic service provided to property owners and developers offering compliance with applicable building code and regulations for a proposed building alteration.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.5Animal Control,A public service provided to animal owners and property owners affected by roaming animals offering safe capture and detention of stray animals.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Animal Registration""
+""Animal Patrol and Intervention""
+""Rodent Control""
+""Stray Animal Care""
+""Dangerous Animal Investigation and Assessment""
+",,10/28/10,10/28/10,10:45:34 AM,10:45:34 AM,jra,jra,SV48Animal Patrol and Intervention,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:34 AM,10:45:34 AM,jra,jra,SV48.2Animal Registration,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:34 AM,10:45:34 AM,jra,jra,SV48.1Application Maintenance,An internal service provided to the corporation offering maintenance of operational application systems.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:04 AM,10:45:04 AM,jra,jra,SV99.6Aquatics Instruction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV65.1Aquatics Programming,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV67.2Arena Facility Booking and Access,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV66.1Art Gallery Access,A public service provided to art gallery patrons offering access to the art gallery and its art collection.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV72.1Art Gallery Access and Collection Management,A public service provided to the art gallery patron offering access to the artistic heritage of the municipality.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Art Gallery Access""
+""Art Gallery Collection Management""
+""Art Gallery Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV72Art Gallery Asset Lifecycle Management,An internal service provided to cultural and heritage asset owners offering management of cultural and heritage assets over their life.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV72.3Art Gallery Collection Management,An internal service provided to the art gallery owner offering management of the art gallery collection over their life.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV72.2Arts & Cultural Advisory,A public service provided to interested parties offering information about arts and culture in the municipality.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Community Group Cultural Advisory""
+""Cultural Group Advisory""
+",,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV70Arts & Cultural Education,A public service provided to arts and cultural program participants offering engagement in activities of arts and cultural significance to •_ÒMy Municipality•_Ó.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV71Arts & Cultural Event Coordination / Hosting,A public service provided to arts & cultural event coordinators offering assistance and support in hosting events in the municipality.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:22 AM,10:45:22 AM,jra,jra,SV69Arts Instruction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV65.4Asset Commissioning,An internal service provided to the corporation offering sign off on a proposed construction project for infrastructure and / or facilities prior to turning the asset over for program / service delivery.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV95.7Asset Warranty Monitoring,An internal service provided to the corporation offering monitoring of terms and conditions associated with the warranty of a product or constructed asset.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV95.8Assisted Housing Provider Funding Support,A public service provided to social housing owners offering subsidies for rent for assisted housing leaseholders and occupants to meet their housing needs.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Residential Conversion / Intensification Subsidy""
+""Shelter Conversion to Transitional Housing Subsidy""
+""Residential Rehabilitation Assistance (Loan)""
+""Affordable Housing Strategy Development""
+",,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV27Bio-Solids Disposal,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19.14Birth Certification,,,,Active,,,,,,,"""Birth Certificate Issued""",,,,,,,,,,,10/28/10,10/28/10,10:43:27 AM,10:43:27 AM,jra,jra,6eb46682-306c-4bbf-bc3e-50b73311d99dBoulevard Forestry,A public service provided to property owners offering access to the amenities of boulevard trees.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:41 AM,10:45:42 AM,jra,jra,SV37.1Brownfield Redevelopment Incentive Funding,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV11.4Building Inspection,A public service provided to property owners offering inspection of their building for compliance with applicable zoning and building regulations.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Accounting""
+""Grants / Subsidies Management""
+""Human Resource Recruitment Support""
+""Employee Learning and Development""
+""Payroll""
+""Employee and Labour Relations""
+""Compensation and Benefits Management""
+""Workplace Health, Wellness and Safety""
+""Vehicle & Equipment Acquisition""
+""Vehicle & Equipment Maintenance""
+""Fleet & Equipment Operator Training & Certification""
+""Vehicle & Equipment Disposal""
+""Vehicle & Equipment Asset Lifecycle Management""
+""Financial Management""
+""Property Valuation""
+""Property Tax Billing and Collection""
+""Human Resource Management""
+""Materiel Management""
+""Engineering Design and Construction""
+""Fleet Management""
+""Information Access""
+""Facility Management""
+""Records and Information Management""
+""Real Property Management""
+""Business Solutions Management""
+""Information and Information Technology Management""
+""Information Technology Infrastructure Management""
+""Business Solution Analysis and Development""
+""Application Maintenance""
+""Business Solution User Training""
+""Business Solution Functional Support""
+""Information Technology Infrastructure Management""
+""Property Tax Assessment Roll Reconciliation""
+""Property Tax Assessment Appeal Management""
+""Property Tax Account Creation and Maintenance""
+""Property Tax Rate Determination""
+""Property Tax Billing""
+""Property Tax Collection""
+""Scheduled Building Inspection""
+""Complaint Initiated Building Inspection""
+""Environmental Assessment Analysis""
+""Land & Site Surveying""
+""Preliminary / Schematic Design""
+""Detailed Design""
+""Construction Contract Management""
+""Construction Site Inspection & Progress Payment Approval""
+""Asset Commissioning""
+""Asset Warranty Monitoring""
+""Real Property Appraisal""
+""Real Property Acquisition & Sale""
+""Real Property Lease Management""
+""Real Property Remediation""
+""Market Value Assessment""
+""Property Income Assessment""
+""Complex Property Valuation""
+""Purchasing""
+""Inventory Control / Stores""
+""Fuel Management""
+""Facility Design & Construction""
+""Custodial Care""
+""Facility Operations & Maintenance""
+""Facility Energy Management""
+""Facility Security & Safety Access""
+""Facility Asset Lifecycle Management""
+""Financial Planning and Budgeting""
+""Investment / Debt Management""
+",,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV9Building Permission,A public service provided to property owners and developers offering compliance with applicable building code and regulations.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Issue Management""
+""Organizational Design""
+""Agency, Board & Commission Governance & Relationship Management""
+""Lobbyist Registration""
+""Change Initiative Management""
+""Preliminary Project Review""
+""Pre-Application Applicable Law Review""
+""Construction Permission""
+""Demolition Permission""
+""Alteration Permission""
+""Sign Permission""
+""Art Gallery Access""
+""Change of Use Permission""
+""Art Gallery Collection Management""
+""Fence Permission""
+""Art Gallery Asset Lifecycle Management""
+""Electricity Acquisition""
+""Electricity Generation""
+""Electricity Service Connection""
+""Electricity Meter Installation and Repair""
+""Electricity Meter Reading""
+""Electricity Billing and Collection""
+""Electricity Network Construction""
+""Electricity Network Maintenance:""
+""Electricity Network Infrastructure Lifecycle Management""
+""Library Material Circulation and Management""
+""Library Programming""
+""Literacy Training & Education""
+""Library Facility Access""
+""Arts & Cultural Advisory""
+""Arts & Cultural Education""
+""Art Gallery Access and Collection Management""
+""Museum Access and Collection Management""
+""Electrical Upgrade Loans ""
+""Energy Conservation""
+""Electricity Distribution ""
+""Energy Audits ""
+""Criminal Investigation""
+""Energy Conservation Awareness Education ""
+""Provincial Offences Act Enforcement""
+""Energy Efficient Product Sales and Rental ""
+""Library""
+""Corporate Leadership""
+""Provincial Offences Act Dispute Resolution""
+""Provincial Offences Act Default Fine Collection""
+""Provincial Offences Act Court Case Coordination""
+""Community Group Cultural Advisory""
+""Cultural Group Advisory""
+""Museum Access""
+""Museum Collection Management""
+""Museum Guided Touring""
+""Museum Asset Lifecycle Management""
+""Crime Scene Analysis""
+""Forensic Analysis""
+""Surveillance""
+""Interrogating""
+""Strategic Planning""
+",,10/28/10,10/28/10,10:45:22 AM,10:45:22 AM,jra,jra,SV7Building Permit Fees / Charges Waiving,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV11.2Building Record Information Provision,A public service provided to property owners and their agents offering information regarding the compliance of a property with applicable building regulations.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:15 AM,10:45:15 AM,jra,jra,SV8.1Building Regulation & Construction Advisory,A public service provided to property owners and their agents offering information regarding applicable building regulations.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Risk Assessment""
+""Value for Money Auditing""
+""Financial Auditing""
+""Operational Auditing""
+""Compliance Auditing""
+""Forensic Investigation""
+""Council and Committee Meeting Support""
+""Mayor and Councillor Support""
+""Correspondence Intake and Response""
+""Program Planning""
+""Service Planning""
+""Program & Service Performance Measurement & Monitoring""
+""Corporate Risk Assessment""
+""Insurance Policy Negotiation and Management""
+""Insurance Claim Receipt & Submission""
+""Insurance Claim Settlement""
+""Public Policy Development""
+""Corporate Policy Development""
+""Intergovernmental Policy Development""
+""Emergency / Disaster Recovery Planning""
+""Emergency / Disaster Recovery Coordination""
+""Emergency Shelter Accommodation""
+""911""
+""211""
+""311""
+""Interpretation and Translation""
+""Building Record Information Provision""
+""Building Regulation Compliance Notification""
+""Council and Committees of Council Advisory""
+""Corporate Advisory""
+""By-Law Preparation""
+""Civil Litigation Negotiation & Support""
+""Prosecution""
+""Program and Service Planning and Monitoring""
+""Legal Agreement Preparation""
+""Internal Auditing""
+""Legal Interpretation""
+""Integrated Delivery""
+""Risk Management""
+""Council and Administrative Support""
+""Legal Support""
+""Policy Development""
+""Contract / Agreement Management""
+""Corporate Communications""
+""Emergency / Disaster Recovery""
+""Communication Planning""
+""Communication Branding / Image Development""
+""Media / Public Relations""
+""Internal Communications""
+""External Communications""
+",,10/28/10,10/28/10,10:45:15 AM,10:45:15 AM,jra,jra,SV8Building Regulation Compliance Notification,A public service provided to current and prospective property owners offering information regarding the compliance of a property with applicable building regulations.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:15 AM,10:45:15 AM,jra,jra,SV8.2Burial,"A public service provided to families of the deceased offering the sale of a burial plot, and burial of the deceased.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV2.1Business Attraction,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,fbb4dcd7-0a1f-4b4d-b3cc-18286ad093feBusiness Consultation and Support,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,9cffd576-a06e-4ff8-893c-7584e3315543Business Improvement Area (BIA) Support,A public service provided to commercial establishments offering administrative support for the levy of business improvement funds collected to enhance shopping experiences,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Business Improvement Area Financial Support""
+""Business Improvement Area Advisory""
+",,10/28/10,10/28/10,10:46:00 AM,10:46:00 AM,jra,jra,SV17Business Improvement Area Advisory,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV17.2Business Improvement Area Financial Support,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:46:00 AM,jra,jra,SV17.1Business Improvement Area Support,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV11.5Business Licensing,A public service provided to businesses offering acknowledgement that they operate in •_ÒMy Municipality.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Temporary Sign Permission""
+""Noise Exemption Permission""
+""Natural Garden Exemption Permission""
+""Fence Exemption Permission""
+""Graffiti Art Mural Exemption Permission""
+""Fireworks Permission""
+""Group Home Licensing""
+""Rooming House Licensing""
+""Retail Business Licensing""
+""Taxi Cab / Driver Licensing""
+""Livery Limousine Licensing""
+""Tow Truck Licensing""
+""Charitable Gaming Licensing""
+""Liquor Establishment Licensing""
+""Occupational Licensing""
+""Right-of-Way Occupancy Permission""
+""Clothing Drop Box Permission""
+",,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12Business Market Research,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,080efcf4-4201-4d29-8105-5b77e606c8f4Business Retention and Expansion Support,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,3664e8c7-0a71-4ddd-a2cd-00c8abbe9ef1Business Solution Analysis and Development,An internal service provided to the corporation offering analysis (requirements definition) and development of business solutions.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:04 AM,10:45:04 AM,jra,jra,SV99.5Business Solution Functional Support,An internal service provided to the corporation offering functional support of business solutions.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:03 AM,10:45:03 AM,jra,jra,SV99.8Business Solution User Training,An internal service provided to the corporation offering training to intended business users in the use of business solutions.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:03 AM,10:45:03 AM,jra,jra,SV99.7Business Solutions Management,"An internal service provided to the corporation to ensure that business processes and overall needs are supported with the right Information Technology solutions. Involves researching, evaluating, recommending, implementing and supporting technology applications.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:04 AM,10:45:04 AM,jra,jra,SV99.3By-Law Preparation,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV85.3Camp Programming,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV67.3Cemetery Management,"A public service provided to families of the deceased offering the sale of a burial plot, burial of the deceased, and perpetual care of the burial site.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Homeless Shelter""
+""Homeless Outreach & Referral""
+""Homeless Pre-employment & Income Assistance""
+""Homelessness Prevention""
+""Homeless Shelter Subsidy""
+""Paramedic Call Taking and Dispatching""
+""Paramedic Emergency Care""
+""Paramedic Patient Transfer""
+""Paramedic Community Care""
+""Paramedic Standby Support""
+""Homemaking""
+""Supportive Housing Placement Coordination""
+""Supportive Housing Case Management""
+""Waste Collection and Disposal""
+""Adult Day Care""
+""Supportive Housing""
+""Affordable Housing Construction and Maintenance""
+""Homeless Support""
+""Transitional Housing""
+""Affordable Housing""
+""Assisted Housing Provider Funding Support""
+""Social Housing""
+""Paramedic Care""
+""Social Housing Accommodation""
+""Rent Geared to Income Housing Subsidy""
+""Burial ""
+""Social Housing Subsidy""
+""Perpetual Care""
+""Rent Supplement""
+""Cremation""
+""Adult Day Individual Care Case Management""
+""Adult Day Enhanced Personal Care""
+""Adult Day Medication Monitoring""
+""Adult Day Participant Information and Referral""
+""Adult Day Personal Care""
+""Adult Day Psycho-social Support""
+""Adult Day Recreation Activity""
+""Adult Day Rehabilitation""
+""Adult Day Meal Provision""
+""Domiciliary Hostel Accommodation""
+""Transitional Housing Subsidy""
+""Residential Conversion / Intensification Subsidy""
+""Shelter Conversion to Transitional Housing Subsidy""
+""Residential Rehabilitation Assistance (Loan)""
+""Affordable Housing Strategy Development""
+""Curbside Solid Waste Collection""
+""Multi-Residential Solid Waste Collection""
+""Litter Collection""
+""Household Chemical Waste (drop off)""
+""Solid Waste Transfer and Processing""
+""Adult Day Respite Care""
+""Solid Waste Disposal""
+""Landfill Site Remediation""
+",,10/28/10,10/28/10,10:45:56 AM,10:45:56 AM,jra,jra,SV2Change Initiative Management,An internal service provided to the corporation offering oversight and management of transformation initiatives.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:15 AM,10:45:15 AM,jra,jra,SV79.6Change of Use Permission,A public service provided to property owners and developers offering compliance with applicable building code and regulations for a proposed change in use to an existing building and/or unit.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.7Charitable Gaming Licensing,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.5Chemical Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.7Child and Youth Health Promotion,"A public service provided to children, youth and their families offeirng promotional campaigns aimed at increasing awareness about healthy lifestyles.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32.6Children and Youth Health Consultation and Assessment,A public service provided to children and youth offering advice on how to improve personal health.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.6Chronic Disease Consultation and Assessment,A public service provided to chronic disease sufferers and their families offering advice and assessment of the impacts of the chronic disease on lifestyle options.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.1Chronic Disease Education,A public service provided to chronic disease sufferers and their families offering education on how to live a productive life with a chronic disease.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:47 AM,10:45:47 AM,jra,jra,SV33.1Chronic Disease Prevention Promotion,A public service provided to chronic disease candidates and their families offering promotional and prevention awareness campaigns to educate candidates of lifestyle choices.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32.2Chronic Disease Promotion & Advocacy,A public service provided to chronic disease sufferers and candidates offering alternative lifestyle options for living with chronic disease.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32.1Civic Addressing,A public service provided to property owners and occupants providing a civic address to property for convenient access by service providers.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Street Naming""
+""Street Numbering""
+",,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV10Civil Litigation Negotiation & Support,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV85.4Clothing Drop Box Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:00 AM,10:46:00 AM,jra,jra,SV12.9Committee of Adjustment Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,bb1c7550-a995-45b0-b4eb-e1025a8cb329Communication Branding / Image Development,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:10 AM,10:45:11 AM,jra,jra,SV88.2Communication Planning,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV88.1Community Centre Booking and Access,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV66.2Community Group Cultural Advisory,A public service provided to community groups offering information about culture in the community.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:21 AM,jra,jra,SV70.1Community Improvement Plan Incentive,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV11.1Community Partnership Development,A public service provided to the community offering the development of partnerships to further the interests of the community.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV63Compensation and Benefits Management,"An internal service provided to the corporation offering compensation packages comprised of position wage rates and benefits, and paying the employee in accordance with the compensation package.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV93.5Complaint Initiated Building Inspection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV9.2Complex Property Valuation,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV91.3Compliance Auditing,"An internal service provided to the corporation offering monitoring of the compliance of the corporation with its policies, procedures and standards in delivery of services to the public and internally.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV81.5Condominium Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,97ccd30e-523f-48f3-aed8-16c575c5a3aaConstruction Contract Management,An internal service provide to the corporation offering oversight of construction contracts to ensure compliance with the terms and conditions of the agreement.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV95.5Construction Permission,A public service provided to property owners and developers offering compliance with the Building Code for a proposed new building.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.3Construction Site Inspection & Progress Payment Approval,An internal service provided to the corporation offering expertise in monitoring construction projects including the use / disposition of materials required to support the construction effort.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV95.6Contract / Agreement Management,An internal service that prepares and legally binds parties to an agreement to govern the purchase of products and/or services.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV87Contracted Transit,A public service provided to contractors offering access to transit vehicles for regular transport of people.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:26 AM,10:45:26 AM,jra,jra,SV60.2Corporate Advisory,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV85.2Corporate Communications,An internal service provided to the Corporation offering communication to the public and all parties that work for or with •_ÒMy Municipality•_Ó.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Communication Planning""
+""Communication Branding / Image Development""
+""Media / Public Relations""
+""Internal Communications""
+""External Communications""
+",,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV88Corporate Leadership,An internal service that guides the Corporation in the strategic direction for growth and program/service delivery.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Issue Management""
+""Organizational Design""
+""Agency, Board & Commission Governance & Relationship Management""
+""Lobbyist Registration""
+""Change Initiative Management""
+""Strategic Planning""
+",,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV79Corporate Policy Development,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV86.2Corporate Risk Assessment,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV83.1Correspondence Intake and Response,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV84.3Council and Administrative Support,"An internal service provided to the Corporation providing secretarial / clerical support to the administration of departments, agencies, boards and commissions, and to Council.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Council and Committee Meeting Support""
+""Mayor and Councillor Support""
+""Correspondence Intake and Response""
+",,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV84Council and Committee Meeting Support,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV84.1Council and Committees of Council Advisory,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV85.1Courtroom Security,A public service provided to the courts offering security of courtrooms during proceedings.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV50Cremation,"A public service provided to families of the deceased offering the sale of a cremation plot, and cremation of the deceased.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV2.3Crime Prevention Education,A public service provided to students interested in crime prevention by offering training and awareness sessions.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV53Crime Scene Analysis,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV76.1Criminal Investigation,A public service provided to the victims of crime to determine the suspected criminal and the nature of the crime in support of court proceedings.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Crime Scene Analysis""
+""Forensic Analysis""
+""Surveillance""
+""Interrogating""
+",,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV76Criminal Record Checking,A public service provided to employers offering assurance that a prospective employee has no criminal record.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV52.2Crisis and Outreach Intervention,A public service provided to crisis and outreach victims offering crisis and outreach interventions.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:39 AM,10:45:39 AM,jra,jra,SV39.5Cultural Group Advisory,A public service provided to cultural groups offering information about culture in the municipality.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV70.2Curbside Solid Waste Collection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20.1Custodial Care,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV97.2Dangerous Animal Investigation and Assessment,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:33 AM,10:45:33 AM,jra,jra,SV48.5Death Registration,,,,Active,,,,,,,"""Death Certificate Issued""",,,,,,,,,,,10/28/10,10/28/10,10:43:39 AM,10:43:39 AM,jra,jra,e83a59fb-0b77-4fa9-9e32-b2c2bfcc6576Demolition Permission,A pubic service provided to property owners and developers offering compliance with applicable building code and regulations for a proposed building demolition.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.4Detailed Design,An internal service provided to the corporation offering expertise in the detailed design of prospective infrastructure and/or facilities.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV95.4Development Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,accf60ff-6305-4899-bdb8-8d109fb0b8d6Domiciliary Hostel Accommodation,A public service provided to transitional housing residents offering housing that is intended to offer a supportive living environment and tools and opportunities for social and skills development.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV24.1Early Learning and Child Care,A public service provided to children and their parents or guardians offering early learning opportunities to meet families•_Õ child care needs through fee subsidies to eligible families.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Early Learning and Child Care Subsidy""
+""Early Learning and Child Care Wage Subsidy""
+""Literacy Training and Education""
+""Pre-School Special Needs Funding""
+",,10/28/10,10/28/10,10:45:41 AM,10:45:41 AM,jra,jra,SV38Early Learning and Child Care Subsidy,A public service provided directly to child care centres offering children and their parents•_Õ or guardians with a subsidy for early learning opportunities coupled with child care.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:41 AM,10:45:41 AM,jra,jra,SV38.1Early Learning and Child Care Wage Subsidy,A public service provided to early childhood professionals offering a wage subsidy or wage improvement to support higher quality early learning and child care by decreasing staff turnover.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:41 AM,10:45:41 AM,jra,jra,SV38.2Election Candidate Registration,,,,Active,,,,,,,"""Election Candidate Registered""",,,,,,,,,,,10/28/10,10/28/10,10:43:23 AM,10:43:23 AM,jra,jra,0ca6aed5-078e-40d9-bdaa-7cbcde3e2f49Election Management,"A public service provided to election participants offering registration of voters and election candidates, polling station operations and election result posting.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Injury Prevention Promotion""
+""Mental Health Promotion""
+""Child and Youth Health Promotion""
+""Food Safety Promotion""
+""Health Hazard Promotion""
+""Long-Term Care Information and Referral""
+""Long-Term Resident Care Case Management""
+""Long-Term Care Accommodation""
+""Long-Term Convalescent Care""
+""Long-Term Care Respite Care""
+""Long-Term Care Volunteer Management""
+""Early Learning and Child Care Subsidy""
+""Early Learning and Child Care Wage Subsidy""
+""Literacy Training and Education""
+""Pre-School Special Needs Funding""
+""Voter Registration""
+""Sexually Transmitted Disease Control""
+""Election Candidate Registration""
+""Infectious Disease Control""
+""Polling Station Operations""
+""Election Officer Training""
+""Election Result Posting""
+""Food Safety Inspection and Enforcement""
+""Water Safety Inspection""
+""Health Hazard Inspection and Monitoring""
+""Boulevard Forestry""
+""Park and Open Space Forestry""
+""Chronic Disease Consultation and Assessment""
+""Reproductive Health Consultation and Assessment""
+""Mental Health Consultation and Assessment""
+""Injury Prevention Consultation and Assessment""
+""Substance Misuse Prevention Consultation and Assessment""
+""Children and Youth Health Consultation and Assessment""
+""Vulnerable Adults and Seniors Consultation and Assessment""
+""Oral / Dental Treatment""
+""Chronic Disease Education""
+""Reproductive Health Education""
+""Substance Misuse Prevention Education""
+""School Age and Youth Health Education""
+""Vulnerable Adults and Seniors Health Education""
+""Sexual Health Education""
+""Storm Water Drainage System Design & Construction""
+""Storm Water Drainage System Maintenance""
+""Storm Water Treatment""
+""Local Drainage Improvement ""
+""Storm Water Drainage Infrastructure Lifecycle Management""
+""Public Health Care & Treatment""
+""Public Health Disease Control""
+""Public Health Promotion & Advocacy""
+""Public Health Education""
+""Public Health Inspection and Enforcement""
+""Long-Term Care""
+""Storm Water Drainage""
+""Urban Forestry""
+""Early Learning and Child Care""
+""Financial Assistance""
+""Social Support""
+""Employment Assistance""
+""Social Support Case Management""
+""Social Support Information and Referrals""
+""Crisis and Outreach Intervention""
+""Chronic Disease Promotion & Advocacy""
+""Chronic Disease Prevention Promotion""
+""Reproduction Health Promotion""
+",,10/28/10,10/28/10,10:45:50 AM,10:45:50 AM,jra,jra,SV3Election Officer Training,,,,Active,,,,,,,"""Election Officer Trained""",,,,,,,,,,,10/28/10,10/28/10,10:43:23 AM,10:43:23 AM,jra,jra,1bfd3e6f-c8d0-4fd5-9563-604289c0e299Election Result Posting,,,,Active,,,,,,,"""Election Result Posted""",,,,,,,,,,,10/28/10,10/28/10,10:43:32 AM,10:43:32 AM,jra,jra,bbdef0e8-d36d-4bf3-8651-2fb3ff331b00Electrical Fire Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,70207d80-0224-444f-8e32-98d8ca68faeeElectrical Upgrade Loans,A public service provided to property owners offering loans to upgrade their electrical infrastructure.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:19 AM,10:45:19 AM,jra,jra,SV74.1Electricity Acquisition,An internal service provided to electricity distributer which acquires electricity,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.1Electricity Billing and Collection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.6Electricity Distribution,A public service provided to energy consumers offering access to electricity.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Electricity Acquisition""
+""Electricity Generation""
+""Electricity Service Connection""
+""Electricity Meter Installation and Repair""
+""Electricity Meter Reading""
+""Electricity Billing and Collection""
+""Electricity Network Construction""
+""Electricity Network Maintenance:""
+""Electricity Network Infrastructure Lifecycle Management""
+",,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75Electricity Generation,A public service provided to the public energy distributors offering the generation of electricity,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.2Electricity Meter Installation and Repair,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.4Electricity Meter Reading,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.5Electricity Network Construction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.7Electricity Network Infrastructure Lifecycle Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV75.9Electricity Network Maintenance:,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.8Electricity Service Connection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV75.3Emergency / Disaster Recovery,"An internal service provided to the corporation offering emergency and/or disaster recovery planning, coordination, temporary shelter, and monitoring.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Emergency / Disaster Recovery Planning""
+""Emergency / Disaster Recovery Coordination""
+""Emergency Shelter Accommodation""
+",,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV89Emergency / Disaster Recovery Coordination,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV89.2Emergency / Disaster Recovery Planning,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV89.1Emergency Shelter Accommodation,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV89.3Employee and Labour Relations,"An internal service provided to the corporation and employees offering support in maintaining employee-employer relationships to resolve problems which arise out of the workplace or that affect it, and working with employees to resolve any professional and/or personal issues that may be implicating their productivity.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV93.4Employee Learning and Development,An internal service provided to the Corporation offering employees training and development in support of increased productivity and career and personal development of employees...,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV93.2Employment Assistance,A public service provided to Ontario Works Employment Support Recipients offering employment assistance in support of seeking and securing employment opportunities.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:40 AM,10:45:40 AM,jra,jra,SV39.2Energy Audits,A public service provided to energy consumer offering advice on how to improve energy consumption.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:19 AM,10:45:19 AM,jra,jra,SV74.2Energy Conservation,"A public service provided to energy consumers offering financial assistance, energy audits, education and new energy saving products to conserve energy.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Electrical Upgrade Loans ""
+""Energy Audits ""
+""Energy Conservation Awareness Education ""
+""Energy Efficient Product Sales and Rental ""
+",,10/28/10,10/28/10,10:45:19 AM,10:45:19 AM,jra,jra,SV74Energy Conservation Awareness Education,A public service provided to energy consumers offering advice on how to conserve energy.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV74.3Energy Efficient Product Sales and Rental,A public service provided to purchasers / renters offering energy efficient products to buy or rent.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:18 AM,10:45:18 AM,jra,jra,SV74.4Engineering Design and Construction,An internal service provided to the corporation offering engineering expertise to design and construction new infrastructure and/or facility projects.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Environmental Assessment Analysis""
+""Land & Site Surveying""
+""Preliminary / Schematic Design""
+""Detailed Design""
+""Construction Contract Management""
+""Construction Site Inspection & Progress Payment Approval""
+""Asset Commissioning""
+""Asset Warranty Monitoring""
+",,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV95Environmental Assessment Analysis,An internal service provided to the corporation offering expertise in conducting an environmental assessment of a prospective site to be used for program and service delivery.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV95.1Environmental Fire Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,e23b0b48-2bd7-4019-a5d5-f79ca2dca050External Communications,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV88.5Facility Asset Lifecycle Management,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV97.6Facility Design & Construction,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV97.1Facility Energy Management,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV97.4Facility Management,An internal service that supports the Corporation by providing a well maintained building to deliver programs and services.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Facility Design & Construction""
+""Custodial Care""
+""Facility Operations & Maintenance""
+""Facility Energy Management""
+""Facility Security & Safety Access""
+""Facility Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV97Facility Operations & Maintenance,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV97.3Facility Security & Safety Access,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV97.5Fence By-Law Enforcement,,,,Active,,,,,,,"""Fence By-law violation brought into compliance""",,,,,,,,,,,10/28/10,10/28/10,10:43:30 AM,10:43:30 AM,jra,jra,0988d65e-4ac8-4fdb-99be-ed8c7ebc3b08Fence Exemption Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.13Fence Permission,A public service provided to adjacent property owners offering compliance with applicable building code and regulations for a proposed fence construction.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.8Ferry,A public service provided to ferry passengers offering a ferry trip,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV62Film Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:28 AM,jra,jra,SV58.7Financial Assistance,A public service provided to unemployed / underemployed offering financial assistance in support of subsequent employment.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:40 AM,10:45:40 AM,jra,jra,SV39.1Financial Auditing,An internal service provided to the corporation offering monitoring of financial processes and systems in the corporation in delivery of services to the public and internally.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV81.3Financial Management,"An internal service provided to the corporation offering budget preparation and monitoring, accounting, investment / debt management, and grant / subsidy management.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Accounting""
+""Grants / Subsidies Management""
+""Financial Planning and Budgeting""
+""Investment / Debt Management""
+",,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV90Financial Planning and Budgeting,An internal service provided to the corporation offering prioritization and allocation of resources in support of programs and services to be delivered in a given fiscal period.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV90.1Fire Rescue,,,,Active,,,,,"""Fire Safety""",,,"""Pay for Fire Rescue activity resources""
+""Identify actual Fire Rescue location""
+""Confirm arrival at scene of Fire Rescue""
+""Take Command of Fire Rescue Scene / possess Fire Rescue""
+""Decommission Fire Rescue activity""
+""Train Fire Rescue activity resources""
+""Assess Fire Rescue to determine response and resource requirements""
+""Deploy Fire Rescue activity resources""
+""Develop Fire Rescue strategy""
+""Assign resources to sectors and sectors to tactics""
+""Mitigate Fire Incident""
+""Determine Fire Rescue cause""
+""Transfer command of Fire Rescue""
+""Terminate command of Fire Rescue""
+""Investigate Fire Rescue""
+""Return resources to Fire Station""
+""Promote Fire Rescue activity""
+""Prepare Fire Rescue report""
+""Mitigate Fire Rescue activity risks""
+""Develop post Fire Rescue analysis""
+""Receive call for Fire Rescue response""
+""Seek support for critical Fire Rescue stress""
+""Qualify call for Fire Rescue response""
+""Return equipment / fleet to stock""
+""Forecast Fire Rescue activity demand""
+""Determine Fire Rescue response requirements""
+""Maintain equipment / fleet""
+""Set performance targets for Fire Rescue activity""
+""Dispatch resources to Fire Rescue response""
+""Account for Fire Rescue activity costs""
+""Develop Fire Rescue policies, procedures and standards""
+""Send Fire Rescue profile to dispatched resources""
+""Process Fire Rescue activity exceptions""
+""Estimate Fire Rescue activity resource requirements""
+""Acknowledge receipt of Fire Rescue profile""
+""Monitor Fire Rescue activity resource consumption / availability""
+""Resolve Fire Rescue activity complaints""
+""Set Fire Rescue activity schedule""
+""Monitor Fire Rescue activity performance""
+""Acquire Fire Rescue activity resources""
+""Receive Fire Rescue response route detail and updated incident profile""
+""Monitor Fire Rescue activity risks and quality""",,,,,,,,,,10/28/10,10/28/10,10:44:00 AM,11:21:59 AM,jra,jra,f6b3f284-25fd-40da-a8a3-21c57c741263Fire Rescue Call Taking and Dispatching,,,,Active,,,,,"""Fire Safety""",,"""Extinguished Fires""",,"""Fire Dispatching uses Fire Safety Education""",,,,,,,,,10/28/10,10/28/10,10:44:48 AM,11:11:52 AM,jra,jra,b99e4c93-43bc-4153-aed7-32aea69fce16Fire Safety Education,,,,Active,,,,,"""Fire Safety""",,,"""Monitor Fire Safety Education activity risks and quality""
+""Forecast Fire Safety Education activity demand""
+""Decommission Fire Safety Education activity""
+""Set performance targets for Fire Safety Education activity""
+""Develop Fire Safety Education policies, procedures and standards""
+""Estimate Fire Safety Education activity resource requirements""
+""Set Fire Safety Education activity schedule""
+""Deploy Fire Safety Education activity resources""
+""Acquire Fire Safety Education activity resources""
+""Promote Fire Safety Education activity""
+""Pay for Fire Safety Education activity resources""
+""Mitigate Fire Safety Education activity risks""
+""Identify opportunities for Fire Safety Education""
+""Develop strategies for Fire Safety Education""
+""Develop Fire Safety Education plan""
+""Define partnerships to deliver Fire Safety Education""
+""Develop Fire Safety Education curriculum""
+""Evaluate effectiveness of Fire Safety Education""
+""Develop Fire Safety Education material""
+""Monitor Fire Safety Education activity performance""
+""Deliver Fire Safety Education courses""
+""Monitor Fire Safety Education activity resource consumption / availability""",,"""Fire Dispatching uses Fire Safety Education""",,,,,,,,10/28/10,10/28/10,10:44:00 AM,11:21:59 AM,jra,jra,e7532a0d-b317-4ca5-b682-e870aac1dcfaFire Safety Inspection,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:53:50 AM,jra,jra,62849d70-82e8-4b26-bf81-450ae1de6a56Fire Safety Promotion,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:53:51 AM,jra,jra,a9b8be9a-ebea-4d0a-ae15-6deb819460f0Fire Setter Counselling,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:53:51 AM,jra,jra,dff0d4ab-4422-4af8-95a3-6222ecf7d358Fireworks By-Law Enforcement,,,,Active,,,,,,,"""Fireworks By-law violation brought into compliance""",,,,,,,,,,,10/28/10,10/28/10,10:43:31 AM,10:53:53 AM,jra,jra,ab8efc21-a5ff-4627-b3ac-579b9222b639Fireworks Permission,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:53:54 AM,jra,jra,d211c180-4285-4e4b-8a1d-94874ef8106cFirst Aid Instruction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV65.3Fleet & Equipment Operator Training & Certification,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV96.3Fleet Management,"An internal service that determines the acquisition needs for vehicles and equipment, maintains the vehicles and equipment and disposes of vehicles and equipment.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Vehicle & Equipment Acquisition""
+""Vehicle & Equipment Maintenance""
+""Fleet & Equipment Operator Training & Certification""
+""Vehicle & Equipment Disposal""
+""Vehicle & Equipment Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV96Food Safety Inspection and Enforcement,A public service provided to food establishments offering regular inspection of establishments that serve or sell food and enforcement of regulations.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:45 AM,10:45:45 AM,jra,jra,SV34.1Food Safety Promotion,"A public service provided to food preparation, handling and processing operators and food consumers offering promotional campaigns aimed at informing people about how to improve food safety.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32.7Forensic Analysis,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV76.2Forensic Investigation,An internal service provided to the corporation offering monitoring of peculiar circumstances that may violate the ethics of the corporation in delivery of services to the public and internally.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV81.6Fuel Management,An internal service provided to the corporation offering management of fuel for consumption by fleet and equipment.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV94.3Fuels (flammables) Fire Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,c14f8ec2-c281-4864-8cb5-bab6828de819General Interest Programming,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV67.1Graffiti Art Mural Exemption Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.14Graffiti By-Law Enforcement,,,,Active,,,,,,,"""Graffiti By-law violation brought into compliance""",,,,,,,,,,,10/28/10,10/28/10,10:43:31 AM,10:43:31 AM,jra,jra,82fa0a56-251f-416d-a00d-94f491f190afGrants / Subsidies Management,"An internal service provided to the Corporation offering support, accounting and reporting of grants / subsidies offered by •_ÒMy Municipality•_Ó to external service providers, and grants and subsidies received from other governments and organizations.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV90.4Grass & Weed By-Law Enforcement,,,,Active,,,,,,,"""Grass & Weed By-law violation brought into compliance""",,,,,,,,,,,10/28/10,10/28/10,10:43:31 AM,10:43:31 AM,jra,jra,6c6a89e3-9c91-4d62-a0a2-b7c9cb8a3631Group Home Licensing,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.16Hazardous Materials Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,21d11d12-df58-485a-9132-2179639d3d4fHealth Hazard Inspection and Monitoring,"A public service provided to health hazard violators (e.g. firms emitting hazardous material into the air, water or land) and potential candidate victims of health hazards offering monitoring of air, water and land quality to ensure that it complies with provincial standards, and enforcing compliance with emission standards for violators.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:44 AM,10:45:44 AM,jra,jra,SV34.3Health Hazard Promotion,"A public service provided to potential candidate victims of health hazards offering promotional campaigns aimed at increasing awareness of potential air, water and land quality health hazards.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:47 AM,10:45:47 AM,jra,jra,SV32.8Heritage Demolition & Alteration Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,9f5957d4-c255-437e-a620-ad9562a33c3bHeritage Incentive Funding,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV11.6Heritage Listing and Designation,An internal service provided to the corporation and heritage property owners offering listing and/or designation of their properties as heritage sites.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:38 AM,10:45:38 AM,jra,jra,SV4.5Hoarding Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:28 AM,10:45:28 AM,jra,jra,SV58.4Homeless Outreach & Referral,A public service provided to homeless persons an their families\ offering proactive support and referral to other service providers for support.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV23.2Homeless Pre-employment & Income Assistance,A public service provided to homeless persons offering employment assistance and financial support.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV23.3Homeless Shelter,A public service provided to homeless persons offering access to temporary shelter and supports.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV23.1Homeless Shelter Subsidy,A public service provided to homeless shelter operators offering a subsidy to operate the homeless shelter.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV23.5Homeless Support,A public service provided to homeless persons offering temporary shelter and supports.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Homeless Shelter""
+""Homeless Outreach & Referral""
+""Homeless Pre-employment & Income Assistance""
+""Homelessness Prevention""
+""Homeless Shelter Subsidy""
+",,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV23Homelessness Prevention,"A public service provided to prospective homeless candidates offering supports that will provide them with basic needs, such as utility payments, counselling sessions, etc., necessary to remain within their existing home.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV23.4Homemaking,"A public service provided to homebound seniors offering assistance to maintain a safe and comfortable home, including routine household activities including menu planning and meal preparation, shopping, light housecleaning and laundry, and paying bills or banking.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV22.1Household Chemical Waste (drop off),,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20.4Human Resource Management,An internal service provided to the corporation offering support in the hiring of employees and growth in their development.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Human Resource Recruitment Support""
+""Employee Learning and Development""
+""Payroll""
+""Employee and Labour Relations""
+""Compensation and Benefits Management""
+""Workplace Health, Wellness and Safety""
+",,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV93Human Resource Recruitment Support,An internal service providing support to the corporation in the qualification and selection of human resources.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV93.1Incident Cause Investigation,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,1147c77b-5c0a-4013-84ef-56eed37ccd19Incident Hazard Mitigation (clean-up),,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,57ee7934-9011-4bc9-bedf-9c437f2cba06Industrial Wastewater Monitoring,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:56 AM,10:45:56 AM,jra,jra,SV19.5Infectious Disease Control,A public service provided to victims of infectious disease offering immunization and/or treatment for infection.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:49 AM,jra,jra,SV31.2Information Access,"A public service provided to information requesters offering access to public information under the Municipal Freedom of Information and Protection of Privacy Act, and Personal Health Information Protection Act, and the Municipal Act.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:04 AM,10:45:04 AM,jra,jra,SV99.1Information and Information Technology Management,"An internal service provided to the corporation offering management of information, records, and information technology solutions.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Information Access""
+""Records and Information Management""
+""Business Solutions Management""
+""Information Technology Infrastructure Management""
+""Business Solution Analysis and Development""
+""Application Maintenance""
+""Business Solution User Training""
+""Business Solution Functional Support""
+""Information Technology Infrastructure Management""
+",,10/28/10,10/28/10,10:45:04 AM,10:45:04 AM,jra,jra,SV99Information Technology Infrastructure Management,"An internal service provided to the corporation for the hosting of applications and technology services (e.g. e-mail, voice mail, telephone, data network, etc.), ensuring availability, capacity, performance, continuity, recovery, security and asset management.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:03 AM,10:45:03 AM,jra,jra,SV99.9Injury Prevention Consultation and Assessment,A public service provided to injury victims or candidates offering advice on how to improve personal health.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.4Injury Prevention Promotion,A public service provided to injury victims or candidates offering prevention and promotional campaigns to increase awareness and treatment interventions.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32.4Installation and Replacement of Street Lighting,A service delivery process group identified for the purpose of defining processes.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:37 AM,10:45:37 AM,jra,jra,SV40.1Insurance Claim Receipt & Submission,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV83.3Insurance Claim Settlement,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV83.4Insurance Policy Negotiation and Management,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV83.2Integrated Delivery,An internal service provided to public service providers offering integration of public facing processes in support of improved service delivery.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""911""
+""211""
+""311""
+""Interpretation and Translation""
+",,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV82Intelligent Transportation System Operation,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:29 AM,10:45:30 AM,jra,jra,SV57.2Inter-governmental Land Use Planning Coordination,An internal service provided to the corporation in partnership with or collaboration with other government organizations offering cohesion and innovation in land use planning matters.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:38 AM,10:45:38 AM,jra,jra,SV4.4Intergovernmental Policy Development,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV86.3Internal Auditing,"An internal service provided to the corporation offering monitoring of financial processes and systems in the corporation, the compliance of the corporation with its policies, procedures and standards, and the value for money in delivery of services to the public and internally.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Risk Assessment""
+""Value for Money Auditing""
+""Financial Auditing""
+""Operational Auditing""
+""Compliance Auditing""
+""Forensic Investigation""
+",,10/28/10,10/28/10,10:45:14 AM,10:45:14 AM,jra,jra,SV81Internal Communications,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV88.4International Business Promotion,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,f7e63ea1-65b9-4bc3-aaec-3a748e776241Interpretation and Translation,An internal service provided to the corporation offering interpretation and translation of program and service information.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:13 AM,jra,jra,SV82.4Interrogating,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV76.4Inventory Control / Stores,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV94.2Investment / Debt Management,"An internal service provided to the corporation offering investments opportunities which may include: money market funds, bond funds, sinking funds, pension funds, trust funds, city owned subsidiaries, debt.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV90.2Issue Management,An internal service provided to the corporation offering resolution of issues that may arise from time to time.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV79.2Land & Site Surveying,"An internal service provided to the corporation offering expertise in surveying prospective sites for survey boundaries, soil conditions, etc.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV95.2Land Use Planning,An internal service provided to the corporation offering policies for designating the purpose and general nature for which land may be used.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Standby Support""
+""Inter-governmental Land Use Planning Coordination""
+""Resource Sharing""
+""Heritage Listing and Designation""
+""Incident Cause Investigation""
+""Socio-Economic Surveying & Monitoring""
+""Hazardous Materials Response""
+""Fire Safety Promotion""
+""Fire Setter Counselling""
+""Animal Registration""
+""Animal Patrol and Intervention""
+""Rodent Control""
+""Stray Animal Care""
+""Dangerous Animal Investigation and Assessment""
+""Street Lighting""
+""Street Lighting Asset Lifecycle Management""
+""Traffic Enforcement""
+""Fire Rescue""
+""Fire Rescue Call Taking and Dispatching""
+""Fire Safety Education""
+""Fire Safety Inspection""
+""Zoo""
+""Animal Control""
+""Police Patrolling and Intervention""
+""Zoo Exhibiting and Visiting""
+""Zoo Product Sales and Rental""
+""Zoo Education and Outreach""
+""Zoo Special Event Hosting""
+""Zoo Volunteer Management""
+""Zoo Exhibit Design and Graphics""
+""Zoo Curatorial""
+""Zoo Infrastructure Management""
+""Zoo Animal Collection Care""
+""Installation and Replacement of Street Lighting""
+""Street Lighting Operations""
+""Street Lighting Maintenance""
+""Structure Fire Response""
+""Environmental Fire Response""
+""Vehicle Fire Response""
+""Electrical Fire Response""
+""Fuels (flammables) Fire Response""
+""Vehicle Accident Response""
+""Medical Assistance Response""
+""Rescue Response""
+""Public Assistance Response""
+""Police Patrolling""
+""Police Intervention""
+""Potential Incident Investigation""
+""Urban Design""
+""Agency Support Response""
+""Official Plan Development""
+""Incident Hazard Mitigation (clean-up)""
+""Zoning By-Law Development""
+",,10/28/10,10/28/10,10:45:39 AM,10:45:39 AM,jra,jra,SV4Landfill Site Remediation,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20.7Legal Agreement Preparation,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV85.6Legal Interpretation,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV85.7Legal Support,An internal service that provides support to the Corporation through the exercise of skills by or under the supervision of legally trained and qualified staff.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Council and Committees of Council Advisory""
+""Corporate Advisory""
+""By-Law Preparation""
+""Civil Litigation Negotiation & Support""
+""Prosecution""
+""Legal Agreement Preparation""
+""Legal Interpretation""
+",,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV85Library,A public service provided to library users offering access to a library facility and its collection of material for personal use.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Library Material Circulation and Management""
+""Library Programming""
+""Literacy Training & Education""
+""Library Facility Access""
+",,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV78Library Facility Access,"A public service provided to library facility users offering access to the library for various purposes, including meetings, seminars, etc.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV78.4Library Material Circulation and Management,A public service provided to library collection users by offering access to the various library collections for their personal / professional business needs.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV78.1Library Programming,A public service provided to those individuals who may have a special learning need (i.e. infants) by offering specialized learning experiences.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV78.2Liquor Establishment Licensing,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:00 AM,10:46:00 AM,jra,jra,SV12.6Literacy Training & Education,"A public service provided to literacy students offering training in speaking, reading and writing languages.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV78.3Literacy Training and Education,"A public service provided to service providers (professionals), parents and children offering education and training in literacy.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:41 AM,10:45:41 AM,jra,jra,SV38.3Litter & Dumping By-Law Enforcement,,,,Active,,,,,,,"""Litter & Dumping By-law violation brought into compliance""",,,,,,,,,,,10/28/10,10/28/10,10:43:31 AM,10:43:31 AM,jra,jra,3a84b889-9d9f-47b7-b6cf-c3c3cafd103aLitter Collection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20.3Livery Limousine Licensing,,,,Active,,,,,"""Transportation Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,aa04aeed-0f85-4394-82fb-28888db0b4f4Lobbyist Registration,"An internal service provided to the corporation offering formal registration of individuals and businesses who may lobby the municipality to offer their services, or advocate a particular direction.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:15 AM,10:45:15 AM,jra,jra,SV79.5Local Drainage Improvement,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV36.4Long-Term Care,A public service provided to the elderly and frail adults offering accommodation and supports.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Long-Term Care Information and Referral""
+""Long-Term Resident Care Case Management""
+""Long-Term Care Accommodation""
+""Long-Term Convalescent Care""
+""Long-Term Care Respite Care""
+""Long-Term Care Volunteer Management""
+",,10/28/10,10/28/10,10:45:44 AM,10:45:44 AM,jra,jra,SV35Long-Term Care Accommodation,A public service provided to long-term care recipients offering a period of accommodation for adults with various levels of care needs.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:43 AM,10:45:43 AM,jra,jra,SV35.3Long-Term Care Information and Referral,A public service provided to the general public offering referral to appropriate community/provincial contacts. Will assist in contacting where required.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:43 AM,10:45:43 AM,jra,jra,SV35.1Long-Term Care Respite Care,A public service provided to long-term care recipients offering admission to the facility for those eligible adults for up to 90 days/year.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV35.5Long-Term Care Volunteer Management,An internal service provide to long-term care service providers offering access to qualified volunteers.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV35.6Long-Term Convalescent Care,A public service provided to long-term care recipients offering overnight accommodation and individualized care on an overnight basis.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:43 AM,jra,jra,SV35.4Long-Term Resident Care Case Management,A public service provided to long-term care recipients offering eligibility assessment and coordination of services to meet long-term care needs.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:43 AM,10:45:43 AM,jra,jra,SV35.2Market Value Assessment,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV91.1Marriage Licensing,,,,Active,,,,,,,"""Marriage Licence Issued""",,,,,,,,,,,10/28/10,10/28/10,10:43:35 AM,10:43:35 AM,jra,jra,03690b4d-f8c0-4df3-9bc4-39936d31f479Materiel Management,An internal service provided to the corporation offering purchasing and control of acquired goods and services.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Purchasing""
+""Inventory Control / Stores""
+""Fuel Management""
+",,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV94Mayor and Councillor Support,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV84.2Media / Public Relations,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:10 AM,10:45:10 AM,jra,jra,SV88.3Medical Assistance Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,c4866ea7-7d33-462d-b60c-b71f080ba030Mental Health Consultation and Assessment,A public service provided to mentally challenged individuals offering advice on how to improve personal health and live with mental health issues.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.3Mental Health Promotion,A public service provided to mentally challenged individuals and their families offering promotional campaigns aimed at increasing awareness about how to live with mental health challenges.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32.5Mobile Home By-Law Enforcement,A public service provided to violators of the Mobile Home By-law offering compliance with applicable municipal regulations,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV5.11Multi-Residential Solid Waste Collection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20.2Museum Access,A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV73.1Museum Access and Collection Management,A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Museum Access""
+""Museum Collection Management""
+""Museum Guided Touring""
+""Museum Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV73Museum Asset Lifecycle Management,An internal service provided to cultural and heritage asset owners offering management of cultural and heritage assets over their life.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:19 AM,10:45:19 AM,jra,jra,SV73.4Museum Collection Management,A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:20 AM,10:45:20 AM,jra,jra,SV73.2Museum Guided Touring,A public service provided to museum visitors offering access to museum artifacts and archival collections for valuable education and research purposes.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:19 AM,10:45:20 AM,jra,jra,SV73.3Natural Garden Exemption Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.12Noise By-Law Enforcement,,,,Active,,,,,,,"""Noise By-law violation brought into compliance""",,,,,,,,,,,10/28/10,10/28/10,10:43:32 AM,10:43:32 AM,jra,jra,114e1b29-1616-4cb3-9357-dcefc79efc31Noise Exemption Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.11Occupational Licensing,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:00 AM,10:46:00 AM,jra,jra,SV12.7Official Plan Amendment Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,50028a64-1c44-45c4-a7c1-b81dabf4092fOfficial Plan Development,An internal service provided to the corporation offering an Official Plan policy for designating the purpose and general nature for which land may be used.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:39 AM,10:45:39 AM,jra,jra,SV4.2Off-Street Parking,A public service provided to parking patron (vehicle operators) offering limited time parking privileges to conveniently access business establishments.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:30 AM,10:45:30 AM,jra,jra,SV56.2On-Street Parking,A public service provided to parking patrons offering a period of parking typically provided in a parking space accessible on the street or off the street in a parking lot or parking facility.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:30 AM,10:45:30 AM,jra,jra,SV56.1On-Street Parking Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:28 AM,10:45:28 AM,jra,jra,SV58.2Operational Auditing,An internal service provided to the corporation offering monitoring of the manner in which the municipality delivers its services to the public and internally.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:13 AM,10:45:13 AM,jra,jra,SV81.4Oral / Dental Treatment,A public service provided to low income dental patients and their families offering dental / oral treatment at limited or no cost.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.8Organizational Design,An internal service provided to the corporation offering the design and/or restructuring of the organization to meet changing needs.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV79.3Oversize Vehicle Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:28 AM,10:45:28 AM,jra,jra,SV58.6Paramedic Call Taking and Dispatching,An intenal service provided to paramedic care service providers offering receipt of calls and the dispatching of resources to respond to service requests.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV29.1Paramedic Care,"A public service provided to victims of emergency incidents and hospital patients offering pre-hospital advanced medical and trauma care, and patient transfer.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Paramedic Call Taking and Dispatching""
+""Paramedic Emergency Care""
+""Paramedic Patient Transfer""
+""Paramedic Community Care""
+""Paramedic Standby Support""
+",,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV29Paramedic Community Care,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV29.4Paramedic Emergency Care,"A public service provided to paramedic patients offering pre-hospital care by a paramedic prior to receiving hospital medical care, and includes stabilization, comfort, assessment / referral, and transport from the scene of an incident to the hospital.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV29.2Paramedic Patient Transfer,A public service provided to paramedic patients offering safe transfer from / to hospital / clinic and home.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV29.3Paramedic Standby Support,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:50 AM,10:45:50 AM,jra,jra,SV29.5Para-Transit,"A public service provided to persons with mobility disabilities offering on demand transit trips to and from medical, shopping and recreational facilities thereby assisting these individuals in leading active, productive lifestyles.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:26 AM,10:45:26 AM,jra,jra,SV60.5Park & Open Space Asset Lifecycle Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV64.9Park & Open Space Construction Contract Management,An internal service provided to the park & open space service providers offering assistance in the oversight of construction contracts to build new parks and open space.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV64.4Park & Open Space Design,An internal service provided to the park & open space service providers offering assistance in the design of new parks and open space.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV64.3Park & Open Space Maintenance,"An internal service provided to park and open space service providers offering maintenanc of parks, open space and amenities.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV64.5Park & Open Space Planning,An internal service provided to the park & open space service providers offering assistance in the planning of new parks and open space.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV64.2"Park & Open Space Planning, Design and Construction","An internal service provided to the park & open space service providers offering assistance in the planning, design and construction of new parks and open space.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV64.1Park & Sport Field Booking and Access,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV66.3Park and Open Space Forestry,A public service provided to property owners offering access to the amenities of park and open space trees.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:41 AM,10:45:41 AM,jra,jra,SV37.2Park Lighting,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV64.7Park Winter Snow Control,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV64.8Parking,A public service provided to parking patrons offering a period of parking typically provided in a parking space accessible on the street or off the street in a parking lot or parking facility.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""On-Street Parking""
+""Off-Street Parking""
+""Parking By-Law Enforcement""
+""Parking Permission""
+",,10/28/10,10/28/10,10:45:30 AM,10:45:30 AM,jra,jra,SV56Parking By-Law Enforcement,A public service provided to parking by-law violators and roadway users offering increased compliance with the Parking By-law.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:30 AM,10:45:30 AM,jra,jra,SV56.3Parking Permission,A public service provided to parking patron offering a period of vehicular parking in residential or commercial areas.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:30 AM,10:45:30 AM,jra,jra,SV56.4Parks & Open Space Access and Maintenance,A public service provided to park / open space users offering access to parks and open space for recreation and leisure pursuits.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Park & Open Space Planning, Design and Construction""
+""Park & Open Space Planning""
+""Park & Open Space Design""
+""Park & Open Space Construction Contract Management""
+""Park & Open Space Maintenance""
+""Allotment / Community Gardening""
+""Park Lighting""
+""Park Winter Snow Control""
+""Park & Open Space Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:25 AM,10:45:25 AM,jra,jra,SV64Part Lot Control Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,ad05965c-478e-404c-9f50-4c774ae2569fPayroll,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV93.3Perpetual Care,A public service provided to families of the deceased that offering perpetual care of the burial site.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV2.2Police Intervention,A public service provided to victims of incidents and perpetrators offering intervention in incidents to reduce the loss of life or property due to the incident.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:33 AM,10:45:33 AM,jra,jra,SV49.2Police Patrolling,A public service provided to potential victims and perpetrators offering protection from criminal activity through regular patrol of the community or neighbourhood.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:33 AM,10:45:33 AM,jra,jra,SV49.1Police Patrolling and Intervention,"A public service provided to victims of incidents and perpetrators offering reduced loss of lives, reduced loss of property, reduced injury and improved security due to incidents.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Police Patrolling""
+""Police Intervention""
+",,10/28/10,10/28/10,10:45:33 AM,10:45:33 AM,jra,jra,SV49Policy Development,An internal service that drafts and enacts policies governing the services delivered by •_ÒMy Municipality•_Ó (public policy) and how •_ÒMy Municipality•_Ó operates in the delivery of its services (corporate policy).,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Public Policy Development""
+""Corporate Policy Development""
+""Intergovernmental Policy Development""
+",,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV86Polling Station Operations,A public service provided to voters offering a polling station to enter a vote for election candidates.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:50 AM,10:45:50 AM,jra,jra,SV3.3Potable Water Account Creation and Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18.14Potable Water Advisory,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.17Potable Water Billing & Collection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.18Potable Water Compliance Monitoring & Reporting,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:59 AM,jra,jra,SV18.16Potable Water Distribution,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18.11Potable Water Infrastructure Lifecycle Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.20Potable Water Main Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18.12"Potable Water Meter Installation, Repair and Reading",,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18.15Potable Water Pump Station & Equipment Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.9Potable Water Storage & Reservoir Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18.10Potable Water Supply,"A public service provided to water account holders and water consumers offering access to safe, clean potable water.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Potable Water Storage & Reservoir Management""
+""Potable Water Distribution""
+""Potable Water Main Maintenance""
+""SCADA System Management""
+""Potable Water Account Creation and Maintenance""
+""Potable Water Meter Installation, Repair and Reading""
+""Potable Water Compliance Monitoring & Reporting""
+""Potable Water Advisory""
+""Potable Water Billing & Collection""
+""Potable Water Utility Locating""
+""Potable Water Infrastructure Lifecycle Management""
+""Potable Water System Planning & Optimization""
+""Potable Water System Design & Construction""
+""Source Water Management""
+""Source Water Production""
+""Potable Water Treatment""
+""Potable Water Treatment Plant Maintenance""
+""Chemical Management""
+""Potable Water Transmission""
+""Potable Water Pump Station & Equipment Maintenance""
+",,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18Potable Water System Design & Construction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Potable Water Infrastructure Lifecycle Management""
+",,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.2Potable Water System Planning & Optimization,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Potable Water Storage & Reservoir Management""
+""Potable Water Distribution""
+""Potable Water Main Maintenance""
+""SCADA System Management""
+""Potable Water Account Creation and Maintenance""
+""Potable Water Meter Installation, Repair and Reading""
+""Potable Water Compliance Monitoring & Reporting""
+""Potable Water Advisory""
+""Potable Water Billing & Collection""
+""Potable Water Utility Locating""
+",,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18.1Potable Water Transmission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.8Potable Water Treatment,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.5Potable Water Treatment Plant Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.6Potable Water Utility Locating,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.19Potential Incident Investigation,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,ce10b8bf-0501-43ba-920e-4d61fec97d08Pre-Application Applicable Law Review,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.2Preliminary / Schematic Design,An internal service provided to the corporation offering expertise in the preliminary and schematic design of prospective infrastructure and/or facilities.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV95.3Preliminary Project Review,A public service provided to property owners and developers offering advice on how to comply with applicable zoning and building regulations and/or by-laws.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.1Pre-School Special Needs Funding,A public service provided to pre-school agencies offering funds to pre-school children with special needs.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:41 AM,10:45:41 AM,jra,jra,SV38.4Private Drain Connection Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:28 AM,10:45:28 AM,jra,jra,SV58.3Program & Service Performance Measurement & Monitoring,An internal service provided to the corporation offering measurement and monitoring of program and service performance.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:14 AM,10:45:14 AM,jra,jra,SV80.3Program and Service Planning and Monitoring,An internal service provided to the corporation offering alignment of programs and services offered by the municipality with the strategic directions of the corporation.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Program Planning""
+""Service Planning""
+""Program & Service Performance Measurement & Monitoring""
+",,10/28/10,10/28/10,10:45:14 AM,10:45:14 AM,jra,jra,SV80Program Planning,An internal service provided to the corporation offering alignment of programs offered by the municipality with the strategic directions of the corporation.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:14 AM,10:45:14 AM,jra,jra,SV80.1Property Development Incentive Funding,A public service provided to property owners offering incentives to develop their land and/or buildings.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Community Improvement Plan Incentive""
+""Building Permit Fees / Charges Waiving""
+""Property Tax Reduction""
+""Brownfield Redevelopment Incentive Funding""
+""Business Improvement Area Support""
+""Heritage Incentive Funding""
+",,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV11Property Income Assessment,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:09 AM,jra,jra,SV91.2Property Sale Negotiation Support,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,19a9289f-f623-4cc4-80e4-467171c67023Property Standards By-Law Enforcement,,,,Active,,,,,,,"""Property Standards By-law violation brought into compliance""",,,,,,,,,,,10/28/10,10/28/10,10:43:32 AM,10:43:32 AM,jra,jra,c3e89f9c-44de-47e7-874e-70a1f0f153aeProperty Tax Account Creation and Maintenance,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV92.3Property Tax Assessment Appeal Management,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV92.2Property Tax Assessment Roll Reconciliation,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV92.1Property Tax Billing,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV92.5Property Tax Billing and Collection,A public service provided to property owners offering property tax collection for municipal services without fees.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Property Tax Assessment Roll Reconciliation""
+""Property Tax Assessment Appeal Management""
+""Property Tax Account Creation and Maintenance""
+""Property Tax Rate Determination""
+""Property Tax Billing""
+""Property Tax Collection""
+",,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV92Property Tax Collection,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV92.6Property Tax Rate Determination,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:08 AM,10:45:08 AM,jra,jra,SV92.4Property Tax Reduction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV11.3Property Valuation,"An internal service provided to property owners offering fair, equitable valuation of property for taxation purposes.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Market Value Assessment""
+""Property Income Assessment""
+""Complex Property Valuation""
+",,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV91Prosecution,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV85.5Prospective Business Support,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,1b3c209c-edaa-410d-88fd-461aee9711d6Provincial Offences Act Court Case Coordination,An internal service provided to the provincial offences act courts offering coordination of cases.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV77.3Provincial Offences Act Default Fine Collection,A public service provided to provincial offence violators offering collection of default fines.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV77.2Provincial Offences Act Dispute Resolution,,,,Active,,,,,,,,"""Forecast Dispute Resolution activity demand""
+""Set performance targets for Dispute Resolution activity""
+""Develop Dispute Resolution policies, procedures and standards""",,,,,,,,,,10/28/10,10/28/10,10:44:01 AM,10:44:01 AM,jra,jra,902a0179-9ff0-43ac-b5cd-c6adcd876a6eProvincial Offences Act Enforcement,A public service provided to provincial offence violators offering prosecution of offences coming with the jurisdiction of the Provincial Offences Act and to collect the resulting fines.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Provincial Offences Act Dispute Resolution""
+""Provincial Offences Act Default Fine Collection""
+""Provincial Offences Act Court Case Coordination""
+",,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV77Public Art Access,A public service provided to public space users offering access to art.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:22 AM,10:45:22 AM,jra,jra,SV68Public Assistance Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,7ba48f39-d5a5-4e16-9624-ab85cfcbd9d4Public Health Care & Treatment,A public service provided to at risk individuals and their families offering consultation and assessment of the impacts of risks and choices they have in lifestyle options.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Chronic Disease Consultation and Assessment""
+""Reproductive Health Consultation and Assessment""
+""Mental Health Consultation and Assessment""
+""Injury Prevention Consultation and Assessment""
+""Substance Misuse Prevention Consultation and Assessment""
+""Children and Youth Health Consultation and Assessment""
+""Vulnerable Adults and Seniors Consultation and Assessment""
+""Oral / Dental Treatment""
+",,10/28/10,10/28/10,10:45:50 AM,10:45:50 AM,jra,jra,SV30Public Health Disease Control,A public service provided to individuals infected with a disease offering control of the spread of the disease within the individual and to others.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Sexually Transmitted Disease Control""
+""Infectious Disease Control""
+",,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV31Public Health Education,A public service provided to at risk individuals and their families offering education on how to improve their personal lifestyle options.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Chronic Disease Education""
+""Reproductive Health Education""
+""Substance Misuse Prevention Education""
+""School Age and Youth Health Education""
+""Vulnerable Adults and Seniors Health Education""
+""Sexual Health Education""
+",,10/28/10,10/28/10,10:45:47 AM,10:45:47 AM,jra,jra,SV33Public Health Inspection and Enforcement,A public service provided to business establishments offering regular inspection and enforcement of public health regulations and standards.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Food Safety Inspection and Enforcement""
+""Water Safety Inspection""
+""Health Hazard Inspection and Monitoring""
+",,10/28/10,10/28/10,10:45:45 AM,10:45:45 AM,jra,jra,SV34Public Health Promotion & Advocacy,A public service provided to at risk individuals offering information and promotional material recommending options for living alternate lifestyle options.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Injury Prevention Promotion""
+""Mental Health Promotion""
+""Child and Youth Health Promotion""
+""Food Safety Promotion""
+""Health Hazard Promotion""
+""Chronic Disease Promotion & Advocacy""
+""Chronic Disease Prevention Promotion""
+""Reproduction Health Promotion""
+",,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32Public Policy Development,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:11 AM,10:45:11 AM,jra,jra,SV86.1Purchasing,"An internal service provided to the corporation offering assistance in the preparation of requests for proposal, request for tender, and requests for quotation, management of vendor contracts and the issuance of purchase orders.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV94.1Real Property Acquisition & Sale,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV98.2Real Property Appraisal,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV98.1Real Property Lease Management,"An internal service provided to the corporation offering access to property owned by other title holders for municipal use, or provision of municipally owned property for third party / public use.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV98.3Real Property Management,"An internal service provided to the corporation offering support in the management of the real estate portfolio by acquiring land, and managing property rights owned properties, disposing of lands deemed surplus to the needs of •_ÒMy Municipality•_Ó.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Real Property Appraisal""
+""Real Property Acquisition & Sale""
+""Real Property Lease Management""
+""Real Property Remediation""
+",,10/28/10,10/28/10,10:45:05 AM,10:45:05 AM,jra,jra,SV98Real Property Remediation,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:04 AM,10:45:04 AM,jra,jra,SV98.4Records and Information Management,"An internal service provided to the corporation offering the modeling, integration, and stewardship of corporate information, designing forms, managing the lifecycle management of records, managing documents, and providing print, courier and mail distribution services.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:04 AM,10:45:04 AM,jra,jra,SV99.2Recreational Facility Booking & Access,A public service provided to recreational facility users offering access to well maintained recreational facilities for personal and group activities.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Arena Facility Booking and Access""
+""Community Centre Booking and Access""
+""Park & Sport Field Booking and Access""
+""Swimming Pool Booking and Access""
+",,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV66Recreational Instruction,A public service provided to students interested in expanding their recreational experiences through recreational training and education lessons.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Aquatics Instruction""
+""Sports Instruction""
+""First Aid Instruction""
+""Arts Instruction""
+",,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV65Recreational Programming,A public service provided to users of recreation programs offering access to supervised / unsupervised recreational activity.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""General Interest Programming""
+""Aquatics Programming""
+""Camp Programming""
+""Ski Programming""
+""Skating Programming""
+""Sports Programming""
+""Special Event Hosting""
+""Recreational Programming Subsidy""
+",,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV67Recreational Programming Subsidy,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:22 AM,10:45:22 AM,jra,jra,SV67.8Rent Geared to Income Housing Subsidy,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV28.2Rent Supplement,A public service provided to landlords and tenants of income supported housing offering a rent supplement to cover a portion of the costs of rent.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV28.4Reproduction Health Promotion,A public service provided to pregnant women offering prevention and promotional campaigns to increase awareness about healthy pregnancy.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:48 AM,10:45:48 AM,jra,jra,SV32.3Reproductive Health Consultation and Assessment,A public service provided to pregnant women offering advice on how to improve personal health during pregnancy.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.2Reproductive Health Education,A public service provided to pregnant women offering group education on how to improve personal health during pregnancy.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:47 AM,10:45:47 AM,jra,jra,SV33.2Rescue Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,0b1fcf33-1d0c-46cf-ab86-6faa37fb20abResidential Conversion / Intensification Subsidy,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV27.1Residential Rehabilitation Assistance (Loan),,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV27.3Resource Sharing,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,492a946c-80bd-49d9-a4d1-f820ea2269f8Retail Business Licensing,A public service provided to retail businesses offering licensing of their retail establishment in accordance with applicable licensing regulations / by-laws.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Temporary Sign Permission""
+""Noise Exemption Permission""
+""Natural Garden Exemption Permission""
+""Fence Exemption Permission""
+""Graffiti Art Mural Exemption Permission""
+""Fireworks Permission""
+""Group Home Licensing""
+""Rooming House Licensing""
+",,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.1Rezoning Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,da3cffb1-2edc-4f5a-a2a4-1509f3852460Right-of-Way By-Law Enforcement,A public service provided to violators of the Right-of-Way By-law offering compliance with applicable municipal regulations,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV5.10Right-of-Way Occupancy Permission,,,,Active,,,,,"""Transportation Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,b85f863c-fe27-4f99-b138-6b98e667bb0dRisk Assessment,An internal service provided to the corporation offering monitoring of risks associated with the delivery of services to the public and internally.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:14 AM,10:45:14 AM,jra,jra,SV81.1Risk Management,An internal service that mitigates the risk to the Corporation posed by the delivery of services.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Corporate Risk Assessment""
+""Insurance Policy Negotiation and Management""
+""Insurance Claim Receipt & Submission""
+""Insurance Claim Settlement""
+",,10/28/10,10/28/10,10:45:12 AM,10:45:12 AM,jra,jra,SV83Road Access and Maintenance,"A public service provided to roadway users offering convenient, safe access to public highways (roads) for the transport of people, goods and services.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Roadway Design and Construction""
+""Road Maintenance""
+""Winter Control (Road Snow and Ice Control)""
+""Road Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV55Road Asset Lifecycle Management,An internal service provided to road service providers offering management and optimization of road infrastructure assets over their useful life.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV55.4Road Maintenance,"An internal service provided to road service providers offering maintenance of roads, roadways and appurtenances.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV55.2Roadway Design and Construction,An internal service provided to road service providers offering support in the design and construction of roads.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV55.1Rodent Control,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:34 AM,10:45:34 AM,jra,jra,SV48.3Rooming House Licensing,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.17SCADA System Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:59 AM,10:45:59 AM,jra,jra,SV18.13SCADA system management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19.13Scheduled Building Inspection,A public service provided to property owners offering inspection on a scheduled basis of their building for compliance with applicable zoning and building regulations.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:09 AM,10:45:09 AM,jra,jra,SV9.1Scheduled Transit,A public service provided to transit riders / passengers offering a scheduled transit trip.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:26 AM,10:45:26 AM,jra,jra,SV60.1Scheduled Transit Infrastructure Lifecycle Management,An internal service provided to transit service providers offering management and optimization of transit assets  over their useful life.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:26 AM,10:45:26 AM,jra,jra,SV60.4School Age and Youth Health Education,A public service provided to school aged children and youth offering group education on how to improve personal health.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:46 AM,10:45:47 AM,jra,jra,SV33.4School Crossing Guard,A public service provided to school aged children and their parents offering safe crossing of busy roadways adjacent to schools.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:28 AM,10:45:28 AM,jra,jra,SV57.6Security Clearance / Criminal Record Checking,A public service provided to potential employees and their prospective employers offering assurance of no criminal record of the employee.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Security Clearance Checking""
+""Criminal Record Checking""
+",,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV52Security Clearance Checking,A public service provided to employers offering assurance that a prospective employee has no security restrictions.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV52.1Service Planning,An internal service provided to the corporation offering alignment of services offered by the municipality with the strategic directions of the corporation.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:14 AM,10:45:14 AM,jra,jra,SV80.2Sewer Use By-Law Enforcement,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:56 AM,10:45:56 AM,jra,jra,SV19.6Sexual Health Education,A public service provided to sexually active adults offering courses on safe sexual behaviour.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:46 AM,10:45:46 AM,jra,jra,SV33.6Sexually Transmitted Disease Control,A public service provided to individuals infected with a sexually transmitted disease offering drugs for the treatment of sexually transmitted diseases free of charge.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV31.1Shelter Conversion to Transitional Housing Subsidy,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV27.2Sidewalk Access Ramp Construction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59.3Sidewalk and Pathway Access and Maintenance,"A public service provided to pedestrians offering access to sidewalks, and involves provision of safe, functional sidewalks, including placement and maintenance of access curb ramps.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Sidewalk and Pathway Design""
+""Sidewalk Commissioning""
+""Sidewalk Access Ramp Construction""
+""Trail Lighting""
+""Sidewalk Repair and Maintenance ""
+""Sidewalk Snow Clearing""
+""Sidewalk Asset Lifecycle Management""
+",,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59Sidewalk and Pathway Design,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59.1Sidewalk Asset Lifecycle Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59.7Sidewalk Caf•À_ Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:28 AM,10:45:28 AM,jra,jra,SV58.1Sidewalk Commissioning,"A public service provided to pedestrians offering access to a new sidewalk.  Note, a sidewalk is typically constructed as part of a development proposal but the commissioning is acknowledging that the sidewalk constructed is to standard.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59.2Sidewalk Repair and Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59.5Sidewalk Snow Clearing,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59.6Sign By-Law Enforcement,A public service provided to violators of the Sign By-law offering compliance with applicable municipal regulations,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV5.7Sign Permission,A public service provided to commercial establishments offering compliance with applicable building code and regulations for a proposed sign installation / erection.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:21 AM,10:45:21 AM,jra,jra,SV7.6Site Plan Control Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,498599e7-ddd4-43bb-89b6-a1bb1572732eSkating Programming,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV67.5Ski Programming,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV67.4Small Business Advisory,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,a4d8de80-9ffe-47fc-b60c-a6d5ccf9c2afSocial Housing,A public service provided to social housing residents and social housing operators offering non-profit or co-operative housing communities where some or all the rents are subsidized.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Social Housing Accommodation""
+""Rent Geared to Income Housing Subsidy""
+""Social Housing Subsidy""
+""Rent Supplement""
+",,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV28Social Housing Accommodation,A public service provided to assisted and non-assisted housing occupants offering lower cost rental accommodation to meet their housing needs.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV28.1Social Housing Subsidy,A public service provided to social housing owners offering subsidies for rent for assisted housing leaseholders and occupants to meet their housing needs.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:51 AM,10:45:51 AM,jra,jra,SV28.3Social Support,A public service provided to unemployed / underemployed offering financial and employment supports.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Financial Assistance""
+""Employment Assistance""
+""Social Support Case Management""
+""Social Support Information and Referrals""
+""Crisis and Outreach Intervention""
+",,10/28/10,10/28/10,10:45:40 AM,10:45:40 AM,jra,jra,SV39Social Support Case Management,"This service provides for the intake, eligibility determination, case plan preparation, case plan implementation and monitoring.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:40 AM,10:45:40 AM,jra,jra,SV39.3Social Support Information and Referrals,"This service provides additional information about the local labour market and about resources and services in the community to applicants or participants to assist them in meeting eligibility requirements or to become involved in employment measures.  This service also includes the following types of referrals to other program and service providers:
+- Referrals to program partners offering LEAP Parenting Training, Basic Education, etc.
+- Referrals to agencies providing programs and services external to Ontario Works.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:40 AM,10:45:40 AM,jra,jra,SV39.4Socio-Economic Surveying & Monitoring,"An internal service provided to the corporation offering research and insight into the trends in the economy, demographics, and other municipal characteristics to aid in improved land use planning and policy development.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:38 AM,10:45:38 AM,jra,jra,SV4.6Solid Waste Disposal,A public service provided to Solid Waste Haulers offering disposal and incineration of solid waste,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20.6Solid Waste Transfer and Processing,An internal service provided to solid waste service providers offering transfer and processing of collected waste.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20.5Source Water Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.3Source Water Production,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:58 AM,10:45:58 AM,jra,jra,SV18.4Special Event Hosting,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:22 AM,10:45:22 AM,jra,jra,SV67.7Special Event Transit,A public service provided to special event hosts offering access to transit vehicles for the transport of people.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:26 AM,10:45:26 AM,jra,jra,SV60.3Sports Instruction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:24 AM,10:45:24 AM,jra,jra,SV65.2Sports Programming,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:22 AM,10:45:22 AM,jra,jra,SV67.6Standby Support,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,e8e45a21-84c9-4a33-8574-f5b9dfa623b1Storm Water Drainage,A public service provided to property owners offering safe removal and disposal of storm water.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Storm Water Drainage System Design & Construction""
+""Storm Water Drainage System Maintenance""
+""Storm Water Treatment""
+""Local Drainage Improvement ""
+""Storm Water Drainage Infrastructure Lifecycle Management""
+",,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV36Storm Water Drainage Infrastructure Lifecycle Management,An internal service provided to storm water drainage service providers offering management and optimization of storm water drainage infrastructure over its lifespan.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV36.5Storm Water Drainage System Design & Construction,An internal service provided to storm water drainage service providers offering design and construction of storm water drainage systems.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV36.1Storm Water Drainage System Maintenance,An internal service provided to storm water drainage service providers offering maintenance of storm water drainage systems.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV36.2Storm Water Treatment,An internal service provided to storm water drainage service providers offering treatment of storm drainage water.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV36.3Strategic Planning,"An internal service provided to the corporation offering a plan that sets out the vision, mission and core values of the municipality in the short- and long-term.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:16 AM,10:45:16 AM,jra,jra,SV79.1Stray Animal Care,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:33 AM,10:45:34 AM,jra,jra,SV48.4Street Lighting,A public service provided to roadway users and adjacent property owners offering lighting of streets and roadways at night and other periods of darkness.  This service also includes the lighting of other public areas.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Installation and Replacement of Street Lighting""
+""Street Lighting Operations""
+""Street Lighting Maintenance""
+",,10/28/10,10/28/10,10:45:38 AM,10:45:38 AM,jra,jra,SV40Street Lighting Asset Lifecycle Management,An internal service provided to street lighting service providers offering management and optimization of street lights and appurtances over their useful life.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:37 AM,10:45:37 AM,jra,jra,SV41Street Lighting Maintenance,A service delivery process group identified for the purpose of defining processes.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:37 AM,10:45:37 AM,jra,jra,SV40.3Street Lighting Operations,A service delivery process group identified for the purpose of defining processes.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:37 AM,10:45:37 AM,jra,jra,SV40.2Street Naming,"A public service provided to property owners fronting on a public highway offering identification of the street name, including the renaming of the street.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV10.1Street Numbering,A public service provided to property owners and occupants providing a civic address to property for convenient access by service providers.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:02 AM,10:46:02 AM,jra,jra,SV10.2Structure Fire Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,0dcd9494-d789-4e8d-8c7b-66d46729a8feSubdivision Approval,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,59955986-b903-474a-8eb1-5e6bf7e2bb05Substance Misuse Prevention Consultation and Assessment,A public service provided to substance abusers offering advice on how to improve personal health.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.5Substance Misuse Prevention Education,A public service provided to substance abusers offering group education on how to improve personal health.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:47 AM,10:45:47 AM,jra,jra,SV33.3Supportive Housing,A public service provided to seniors offering people who only need minimal to moderate care -- such as homemaking or personal care and support - to live independently.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Homemaking""
+""Supportive Housing Placement Coordination""
+""Supportive Housing Case Management""
+",,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV22Supportive Housing Case Management,"A public service provided to mentally challenged individuals offering the eligibility assessment, care planning and care oversight.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV22.3Supportive Housing Placement Coordination,A public service provided to prospective supportive housing residents offering a placement in a supportive housing facility.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:53 AM,10:45:53 AM,jra,jra,SV22.2Surveillance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:17 AM,10:45:17 AM,jra,jra,SV76.3Swimming Pool Booking and Access,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:23 AM,10:45:23 AM,jra,jra,SV66.4Taxi Cab / Driver Licensing,,,,Active,,,,,"""Transportation Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,4879c4d7-90d2-45e8-9b81-d89c9bf2ac52Temporary Sign Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:46:01 AM,10:46:01 AM,jra,jra,SV12.10Tourism Event Attendance Building,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,93d60b1a-4ddf-4553-b19f-c606fd0ab758Tourism Event Bid Presentation,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,f01f0960-f4b7-4c8b-93ed-d662bd40b2beTourism Event Familiarization Touring,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,eea1373d-a25b-416b-a4d8-cdb7608ac099Tourism In-Market Reception,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,17389ade-2616-42e7-83e0-ac9975a14808Tourism Market Research,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,182ddc85-0995-4f15-924f-66d63dd08545Tourism Marketing and Promotion,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,65ec1dd8-f3ec-48c1-9dd1-70b93c09c3d5Tourism Promotion,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,08668300-444c-4625-8dbd-d31ad1ea7749Tourism Promotional Material Development,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,5359e925-055b-4cc3-a151-a56b78119379Tourism Site Inspection,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,aa20a270-3461-463b-91cb-df1af2eae9beTourism Venue Plan Development,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,4e8abf1a-7b4e-489f-919a-a6dcd2cf40d0Tow Truck Licensing,,,,Active,,,,,"""Transportation Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,fc3c29b0-9f8f-4806-9418-adfe20350e4aTrade Show Promotion and Hosting,,,,Active,,,,,"""Business Development""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:47 AM,10:44:47 AM,jra,jra,b64abd5e-2885-46f3-9440-936fea173385Traffic Control Markings Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:29 AM,10:45:29 AM,jra,jra,SV57.4Traffic Control/Street Signs Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:29 AM,10:45:29 AM,jra,jra,SV57.3Traffic Enforcement,"A public service provided to traffic violators offering compliance with traffic code, and safer roadways for roadway users.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:37 AM,10:45:37 AM,jra,jra,SV42Traffic Engineering Support,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:29 AM,10:45:29 AM,jra,jra,SV57.5Traffic Flow Control,"A public service provided to road users offered controlled access to the roadway by vehicles, pedestrians and bicycles.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Traffic Signalization""
+""Intelligent Transportation System Operation""
+""Traffic Control/Street Signs Maintenance  ""
+""Traffic Control Markings Maintenance""
+""Traffic Engineering Support""
+""School Crossing Guard""
+",,10/28/10,10/28/10,10:45:30 AM,10:45:30 AM,jra,jra,SV57Traffic Signalization,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:30 AM,10:45:30 AM,jra,jra,SV57.1Trail Lighting,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:27 AM,10:45:27 AM,jra,jra,SV59.4Transit,A public service provided to transit riders / passengers offering a scheduled transit and Para transit trips.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Scheduled Transit""
+""Contracted Transit""
+""Special Event Transit""
+""Scheduled Transit Infrastructure Lifecycle Management""
+""Para-Transit""
+",,10/28/10,10/28/10,10:45:26 AM,10:45:26 AM,jra,jra,SV60Transitional Housing,"A public service provided to transitional housing residents offering housing that is intended to offer a supportive living environment and tools and opportunities for social and skills development. It is an intermediate step between emergency shelters and supportive housing, with limits on the length of stay.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Domiciliary Hostel Accommodation""
+""Transitional Housing Subsidy""
+",,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV24Transitional Housing Subsidy,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:52 AM,10:45:52 AM,jra,jra,SV24.2Urban Design,,,,Active,,,,,,,"""Official Plan Amendment Approved""",,,,,,,,,,,10/28/10,10/28/10,10:43:27 AM,10:43:27 AM,jra,jra,d8953a77-5750-4c08-b82f-617b0ceffac9Urban Forestry,A public service provided to property owners offering access to the amenities of trees.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Boulevard Forestry""
+""Park and Open Space Forestry""
+",,10/28/10,10/28/10,10:45:42 AM,10:45:42 AM,jra,jra,SV37Utility Cut Permission,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:28 AM,10:45:28 AM,jra,jra,SV58.5Utility Locating,"A public service provided to utility and construction contractors / operators offering advice on the location of underground infrastructure (e.g. gas lines, water lines, buried cable, etc.) thereby allowing the contractor who is digging around the site of such buried infrastructure not to damage the infrastructure.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV54Value for Money Auditing,An internal service provided to the corporation offering monitoring of  the value for money in delivery of services to the public and internally.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:14 AM,10:45:14 AM,jra,jra,SV81.2Vehicle & Equipment Acquisition,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV96.1Vehicle & Equipment Asset Lifecycle Management,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV96.5Vehicle & Equipment Disposal,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV96.4Vehicle & Equipment Maintenance,,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:06 AM,10:45:06 AM,jra,jra,SV96.2Vehicle Accident Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,68a15ac3-4dc9-41d4-881c-62a6b18d6dcfVehicle Fire Response,,,,Active,,,,,"""Fire Safety""",,,,,,,,,,,,,10/28/10,10/28/10,10:44:48 AM,10:44:48 AM,jra,jra,229a90a4-a688-4ccd-98b1-a24d8adf5226Victim Support and Referral,"A public service provided to victims and their families, and youth at risk offering referral to support service providers.",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV51Visitor Information,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,63ad3bf2-9f0a-4251-ba36-96da7c0f9190Visitor Information Collateral Development,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,e7cd6af2-f430-4a50-95de-e2a95dfce104Visitor Information Distribution,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,d5f540b4-4a5d-4204-9fe0-7899ee616968Visitor Information eBlast Advisory,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,acbc8195-4c30-489b-98a3-cee17bb0a536Visitor Information Kiosk Advisory,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,90c5e766-8874-4542-a1da-13992e1444b1Visitor Information Research,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,3fabdac4-ea93-4c66-a838-930a60c106dbVisitor Information Social Media Advisory,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,2de1853f-565b-4df6-a5ec-3f379f8bac8aVisitor Information Telephone Advisory,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,9f17cff1-a22a-44c2-bac3-8feea533f92fVisitor Information Web Site Advisory,,,,Active,,,,,Tourism,,,,,,,,,,,,,10/28/10,10/28/10,10:44:46 AM,10:44:46 AM,jra,jra,eb065d27-7fda-49ab-a16d-057dda666a85Vital Rights Registration,,,,Active,,,,,,,"""Vital Rights Registered""",,,,,,,,,,,10/28/10,10/28/10,10:43:23 AM,10:43:23 AM,jra,jra,84bba3f3-d6c3-4d40-9c98-7d5e53e0678aVoter Registration,,,,Active,,,,,,,"""Voter Registered""",,,,,,,,,,,10/28/10,10/28/10,10:43:24 AM,10:43:24 AM,jra,jra,fd3643c0-36ae-4c08-a5b9-1de3855c5bc2Vulnerable Adults and Seniors Consultation and Assessment,A public service provided to vulnerable adults and seniors offering advice on how to improve personal health.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:49 AM,10:45:49 AM,jra,jra,SV30.7Vulnerable Adults and Seniors Health Education,A public service provided to vulnerable adults and seniors offering group education on how to improve personal health.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:46 AM,10:45:46 AM,jra,jra,SV33.5Waste & Waste Collection By-Law Enforcement,A public service provided to violators of the Noise By-law offering compliance with applicable municipal regulations,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV5.2Waste Collection and Disposal,"A pubic service provided to waste producers offering curb side collection of solid waste, including residual waste, recycled material, organics, etc..",,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Curbside Solid Waste Collection""
+""Multi-Residential Solid Waste Collection""
+""Litter Collection""
+""Household Chemical Waste (drop off)""
+""Solid Waste Transfer and Processing""
+""Solid Waste Disposal""
+""Landfill Site Remediation""
+",,10/28/10,10/28/10,10:45:55 AM,10:45:55 AM,jra,jra,SV20Wastewater Account Creation and Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:56 AM,10:45:56 AM,jra,jra,SV19.8Wastewater Billing and Collection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:56 AM,10:45:56 AM,jra,jra,SV19.9Wastewater Collection,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:56 AM,10:45:56 AM,jra,jra,SV19.4Wastewater Collection and Treatment,A public service provided to wastewater account holders and wastewater producers offering safe removal of wastewater from their premises.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Wastewater Compliance Monitoring & Reporting ""
+""Wastewater Sewer Maintenance""
+""Chemical Management""
+""SCADA system management""
+""Bio-Solids Disposal""
+""Wastewater Infrastructure Lifecycle Management""
+""Wastewater System Planning & Optimization""
+""Wastewater System Design & Construction""
+""Wastewater Service Connection Installation & Maintenance""
+""Wastewater Collection""
+""Industrial Wastewater Monitoring""
+""Sewer Use By-Law Enforcement""
+""Wastewater Treatment""
+""Wastewater Account Creation and Maintenance""
+""Wastewater Billing and Collection""
+",,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19Wastewater Compliance Monitoring & Reporting,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19.10Wastewater Infrastructure Lifecycle Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19.15Wastewater Service Connection Installation & Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:56 AM,10:45:57 AM,jra,jra,SV19.3Wastewater Sewer Maintenance,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19.11Wastewater System Design & Construction,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19.2Wastewater System Planning & Optimization,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Wastewater Compliance Monitoring & Reporting ""
+""Wastewater Sewer Maintenance""
+""Chemical Management""
+""SCADA system management""
+""Bio-Solids Disposal""
+""Wastewater Infrastructure Lifecycle Management""
+",,10/28/10,10/28/10,10:45:57 AM,10:45:57 AM,jra,jra,SV19.1Wastewater Treatment,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:56 AM,10:45:56 AM,jra,jra,SV19.7Water Safety Inspection,A public service offering regular inspection of water sources and surface water bodies.  The main objective of the Safe Water Program is to protect public health by ensuring that drinking water meets the health-related parameters of the Ontario Drinking Water Standards.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:45 AM,10:45:45 AM,jra,jra,SV34.2Winter Control (Road Snow and Ice Control),A public service provided to roadway users offering safe passage along roadways during winter conditions.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:31 AM,10:45:31 AM,jra,jra,SV55.3"Workplace Health, Wellness and Safety","An internal service provided to the corporation and employees offering a healthy, well and a safe environment.",,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:07 AM,10:45:07 AM,jra,jra,SV93.6Zoning By-Law Development,An internal service provided to the corporation offering a Zoning By-Law policy for designating the purpose and general nature for which land may be used.,,Internal,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:38 AM,10:45:39 AM,jra,jra,SV4.3Zoning By-Law Enforcement,A public service provided to violators of the Zoning By-law offering compliance with applicable municipal regulations,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:32 AM,10:45:32 AM,jra,jra,SV5.8Zoo,A public service provided to zoo visitors offering access to zoological exhibitions.,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,"""Zoo Exhibiting and Visiting""
+""Zoo Product Sales and Rental""
+""Zoo Education and Outreach""
+""Zoo Special Event Hosting""
+""Zoo Volunteer Management""
+""Zoo Exhibit Design and Graphics""
+""Zoo Curatorial""
+""Zoo Infrastructure Management""
+""Zoo Animal Collection Care""
+",,10/28/10,10/28/10,10:45:36 AM,10:45:36 AM,jra,jra,SV47Zoo Animal Collection Care,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:34 AM,10:45:34 AM,jra,jra,SV47.9Zoo Curatorial,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:34 AM,10:45:34 AM,jra,jra,SV47.7Zoo Education and Outreach,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:35 AM,10:45:35 AM,jra,jra,SV47.3Zoo Exhibit Design and Graphics,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:34 AM,10:45:35 AM,jra,jra,SV47.6Zoo Exhibiting and Visiting,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:35 AM,10:45:35 AM,jra,jra,SV47.1Zoo Infrastructure Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:34 AM,10:45:34 AM,jra,jra,SV47.8Zoo Product Sales and Rental,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:35 AM,10:45:35 AM,jra,jra,SV47.2Zoo Special Event Hosting,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:35 AM,10:45:35 AM,jra,jra,SV47.4Zoo Volunteer Management,,,Public,Active,KPMG,,2/22/10,,,,,,,,,,,,,,,10/28/10,10/28/10,10:45:35 AM,10:45:35 AM,jra,jra,SV47.5
