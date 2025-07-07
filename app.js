@@ -24,4 +24,4 @@ app.use(function(err, req, res, next){
 
 app.listen(env.port, env.host);
 module.exports = app;
-console.log('oslc-server running on port:'+env.port);
+console.log('oslc-server running on http://'+env.host+':'+env.port);

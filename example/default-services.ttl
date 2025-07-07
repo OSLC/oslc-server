@@ -3,6 +3,7 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ldp:  <http://www.w3.org/ns/ldp#> .
 @prefix oslc:  <http://open-services.net/ns/core#> .
+@prefix oslc_cm:  <http://open-services.net/ns/cm#> .
 
 @base <http://localhost:3000/> .
 
