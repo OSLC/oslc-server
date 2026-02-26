@@ -3,88 +3,111 @@
 [![Discourse status](https://img.shields.io/discourse/https/meta.discourse.org/status.svg)](https://forum.open-services.net/)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/OSLC/chat)
 
-An OSLC Server Node.js app
+An [OSLC 3.0](https://docs.oasis-open-projects.org/oslc-op/core/v3.0/oslc-core.html) server reference implementation built with Node.js and Express. It uses the **oslc-service** Express middleware for OSLC operations, backed by **Apache Jena Fuseki** for RDF persistence.
 
-oslc-server is a Node.js Express.js sample app that uses the oslc-service (which in turn uses the ldp-service) to support a generic OSLC3 server reference implementation. The server is configured to support the OSLC Change Management 3.0 (CM3) domain. This server can be used for OSLC Core 3.0 (OSLC3) and CM3 testing.
+oslc-server only provides OSLC and LDP REST services. It does not provide any additional application capabilities or UI. The REST services are intended to be used programmatically, possibly to support an OSLC3 test server and reference implementation, or by the oslc-browser sample application.
 
-oslc-server only provides OSLC and LDP REST services, it does not provide any additional application capabilities or UI. The oslc-server REST services are intended to be used programmatically, possibly to support an OSLC3 and CM3 test server and reference implementation, or by the oslc-browser sample application.
+Many thanks to Steve Speicher and Sam Padgett for their valuable contribution to LDP and the LDP middleware upon which this service is built.
 
-As a result, there are fiew views or controllers with this Express app, rather the REST services are all directly provided by OSLC, LDP and HTTP.
+## Architecture
 
-oslc-server exploits the dynamic and asynchronous capabilities of JavaScript and Node.js to build an OSLC server that can easily adapt to any OSLC domain, extensions to domains, and/or integrations between domains, and can be easily adapted to provide OSLC access to existing data sources. 
+oslc-server is built from several modules in the oslc4js workspace:
 
-## Installation
+- **oslc-server** -- Express application entry point and static assets
+- **oslc-service** -- Express middleware providing OSLC 3.0 services, built on ldp-service
+- **ldp-service** -- Express middleware implementing the W3C LDP protocol (GET, HEAD, PUT, POST, DELETE for RDF resources and containers)
+- **ldp-service-jena** -- Storage backend that persists RDF graphs in Apache Jena Fuseki
+- **storage-service** -- Abstract storage interface shared by all backends
 
-At this time, [oslc-service](https://github.com/OSLC/oslc-service) is not in the npm package manager. The services must be linked into the same directory as oslc-server from GitHub.
+The Express app (`src/app.ts`) serves static files, then mounts oslc-service which delegates to ldp-service for all LDP operations. Configuration is read from `config.json` with environment variable overrides.
 
-Within oslc-server and oslc-service, run 
-	
-	$ npm install
+## Running
 
-## Configuration
+### Prerequisites
 
-### Server configuration
+- [Node.js](http://nodejs.org) v22 or later
+- [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/) running with a dataset configured
 
-At startup, the server uses the config/env.js which in turn uses config/env/development.js, production.js or test.js file to configure the oslc-service Express middleware. The process.env.NODE_ENV environment variable is used to specify which configuration to use: development (the default), production or test. development.js configuration information includes:
+### Setup
 
-	var path = require("path");
+Install dependencies from the workspace root:
 
-	module.exports = {
-		// Development configuration settings
-		"scheme": "http",
-		"host": "localhost",
-		"port": 3000,
-		"context": "/",
-		"JenaURL": "http://localhost:3030/univ/",
-		"services": path.resolve("./services/spc.ttl"),
-		"contentType": "text/turtle"
-	};
+    $ npm install
 
+Build the TypeScript source:
 
-### OSLC vocabularies and services configuration
+    $ cd oslc-server
+    $ npm run build
 
-When oslc-server is run for the first time, a set of resources contained in the file indicated by the "services" key in the configuration file is loaded into the configured database in order to establish the initially supported vocabularies and OSLC services. Every subsequent oslc-server startup will reuse these same vocabularies and services, unless the user deletes the root resource.
+### Configuration
 
-The following OSLC methods can be used on the server:
+Edit `config.json` to match your environment:
 
-- CRUD Methods using RDF resource representations
-- Discovery
-- Creation Factory 
-- Delegated Creation and Selection Dialogs 
-- Resource Preview 
-- Query Capability
-
-
-The 'path' package allows the server to read in the services file defaultServices.json, which is a JSON-LD file that contains the services defined for this server. This can be customized depending on the location of the user's preferred default service.
-
-All this information is processed by the oslc-service and ldp-service. The oslc-server only addresses where the configuration information comes from and how it is passed to the services, like any Express middleware configuration.
-
-oslc-server accepts RDF resources in JSON-LD, Turtle, and RDF-XML formats. When conducting OSLC Queries, the results return in OSLC Query Capability RDF/XML resources.
-
-
-## Starting up the Fuseki server
-
-
-OSLC Server requires the installation of oslc-service, and Apache Jena Fuseki 3.8.
-
-Apache Jena Fuseki 3.8 must be running before initializing the server. The database can be downloaded [here](https://jena.apache.org/download/#jena-fuseki). Once it is unzipped, enter the folder apache-jena labeled apache-jena-fuseki-3.8.0 and run the following code:
-
-```
-cd ~/bin/apache-jena-fuseki-3.8.0
-./fuseki-server --update --config=../config-univ.ttl
-./fuseki-server --update --config=<location of fuseki config.ttl file>
+```json
+{
+  "scheme": "http",
+  "host": "localhost",
+  "port": 3001,
+  "context": "/",
+  "jenaURL": "http://localhost:3030/univ/"
+}
 ```
 
-## Running The Server
+- **port** -- The port to listen on (3001 by default, to avoid conflict with ldp-app on 3000)
+- **context** -- The URL path prefix for OSLC/LDP resources
+- **jenaURL** -- The Fuseki dataset endpoint URL
 
-In oslc-server folder, run the server by executing
-	
-	$ node app.js
+### Start
 
-By default, the server can be accessed at http://localhost:3000/.
+Start Fuseki with your dataset, then:
 
-The server can be exercised using Chrome, Postman, Firefox REST Client, Poster or any other REST client.
+    $ npm start
 
+The server starts on the configured port. Use a REST client or the ldp-app visualization to interact with resources.
+
+## REST API
+
+oslc-server exposes OSLC 3.0 discovery services and W3C LDP resource management. All RDF endpoints accept and produce `text/turtle`, `application/ld+json`, and `application/rdf+xml`.
+
+### OSLC Discovery
+
+The ServiceProviderCatalog is an LDP BasicContainer at `{context}/oslc` (e.g. `http://localhost:3000/oslc`), initialized at startup from `config/catalog-template.ttl`.
+
+- **GET /oslc** -- Returns the catalog with `ldp:contains` links to ServiceProviders
+- **POST /oslc** -- Creates a new ServiceProvider. Body is Turtle with at least `dcterms:title`. Use `Slug` header to suggest a URI segment. Returns `201` with `Location`
+- **GET /oslc/{sp}** -- Returns a ServiceProvider with its services, creation factories, and dialogs
+- **DELETE /oslc/{sp}** -- Deletes a ServiceProvider and removes it from the catalog
+
+Example -- create a ServiceProvider:
+
+    POST /oslc HTTP/1.1
+    Content-Type: text/turtle
+    Slug: myproject
+
+    @prefix dcterms: <http://purl.org/dc/terms/> .
+    <> dcterms:title "My Project" .
+
+### OSLC Delegated UI
+
+- **GET /dialog/create?shape={shapeURI}&creation={creationURI}** -- Returns an HTML creation form generated from the ResourceShape. On submit, POSTs Turtle to the creation URI and responds via the OSLC delegated UI protocol (`postMessage` or `windowName`)
+- **GET /compact?uri={resourceURI}** -- Resource preview. `Accept: text/html` returns a small preview HTML fragment; `Accept: text/turtle` returns an `oslc:Compact` RDF description with a `smallPreview` link
+
+### LDP Resources and Containers
+
+All resources are managed under the configured `context` path. LDP supports RDF Source resources and containers (BasicContainer, DirectContainer).
+
+- **GET /{path}** -- Returns the resource or container. Supports `If-None-Match`/`ETag` conditional requests. Containers support `Prefer` header to control containment and membership triples
+- **HEAD /{path}** -- Same as GET without the body. Returns `ETag`, `Content-Type`, `Link`, and `Allow` headers
+- **POST /{container}** -- Creates a new resource in the container. Use `Slug` header to suggest a URI. Returns `201` with `Location`. For DirectContainers, automatically adds membership triples
+- **PUT /{resource}** -- Updates an existing RDF Source (not containers). Requires `If-Match` with the current `ETag`. Can also create a resource at a specific URI
+- **DELETE /{path}** -- Deletes the resource and cleans up container membership (`ldp:contains` for BasicContainers, `hasMemberRelation` for DirectContainers)
+- **OPTIONS /{path}** -- Returns `Allow` and `Link` headers describing supported methods and interaction model
+
+## Static Assets
+
+- `public/` -- Favicon, stylesheets, usage documentation
+- `dialog/` -- OSLC delegated UI dialogs (creation and selection)
+- `example/` -- Sample Turtle data files
 
 ## License
 
@@ -99,4 +122,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-

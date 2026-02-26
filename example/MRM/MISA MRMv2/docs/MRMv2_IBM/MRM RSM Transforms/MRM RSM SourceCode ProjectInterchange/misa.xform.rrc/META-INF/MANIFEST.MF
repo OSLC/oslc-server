@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: misa.xform.rrc
-Bundle-SymbolicName: misa.xform.rrc;singleton:=true
-Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: 
-Require-Bundle: org.eclipse.jet
-Bundle-ClassPath: .,bin/
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><servers>
-  <server baseServerName="server1" hostname="localhost" id="was.base.v7" id-set="true" isAutoConnectionTypeEnabled="true" isHotMethodReplace="true" isOptimiziedForDevelopmentEnv="true" isRunServerWithWorkspaceResources="true" isUTCEnabled="true" isZeroBinaryEnabled="true" name="WebSphere Application Server v7.0 at localhost" runtime-id="was.base.v7" securityPasswd="{xor}" server-type="com.ibm.ws.ast.st.v7.server.base" server-type-id="com.ibm.ws.ast.st.v7.server.base" serverConnectionType="IPC" serverIPCConnectorPortNum="9633" serverOrbBootstrapPortNum="2810" serverSoapConnectorPortNum="8881" start-timeout="300" stop-timeout="120" timestamp="0" webSphereProfileName="was70profile1">
-    <list key="connectorTypeList" value0="IPC" value1="JSR160RMI" value2="RMI" value3="SOAP"/>
-  </server>
-</servers>

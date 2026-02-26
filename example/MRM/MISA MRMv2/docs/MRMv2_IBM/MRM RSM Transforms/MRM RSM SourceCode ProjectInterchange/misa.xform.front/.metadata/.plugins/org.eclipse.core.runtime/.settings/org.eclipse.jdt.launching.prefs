@@ -1,3 +1,0 @@
-#Wed Sep 09 08:59:28 CDT 2009
-eclipse.preferences.version=1
-org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8"?><vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1252504748515">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1252504748515" javadocURL\="http\://java.sun.com/javase/6/docs/api/" name\="jdk" path\="C\:\\SDP75\\jdk"/>\r\n<vm id\="was.vm.was.base.v7" name\="WebSphere Application Server v7.0 JRE" path\="C\:\\SDP75\\runtimes\\base_v7\\java\\jre"/>\r\n<vm id\="was.vm.was.base.v6" name\="WebSphere v6 JRE" path\="C\:\\SDP75\\runtimes\\base_v6_stub\\java\\jre"/>\r\n</vmType>\r\n</vmSettings>

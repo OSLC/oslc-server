@@ -1,15 +1,34 @@
 {
-  "name": "oslc-server",
-  "version": "0.0.1",
-  "dependencies": {
-    "body-parser": "~1.18.3",
-    "cookie-parser": "~1.4.4",
-    "debug": "~4.1.1",
-    "ejs": "~2.6.1",
-    "express": "~4.16.4",
-    "morgan": "~1.9.1",
-    "serve-favicon": "~2.5.0",
-    "oslc-service": "../oslc-service",
-    "rdflib": "^0.19.1"
-  }
+	"name": "oslc-server",
+	"version": "2.0.0",
+	"description": "An OSLC 3.0 server reference implementation using oslc-service",
+	"license": "Apache-2.0",
+	"author": "Jim Amsden",
+	"type": "module",
+	"main": "dist/app.js",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rm -rf dist",
+		"start": "node dist/app.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.6",
+		"express": "^5.0.1",
+		"ldp-service-jena": "*",
+		"oslc-service": "*",
+		"storage-service": "*"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.0.0",
+		"typescript": "^5.7.0"
+	},
+	"engines": {
+		"node": "^22.11.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/OSLC/oslc-server.git"
+	}
 }

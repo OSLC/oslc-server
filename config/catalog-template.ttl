@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc:    <http://open-services.net/ns/core#> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+@prefix oslc_rm: <http://open-services.net/ns/rm#> .
+
+# --- Catalog properties ---
+
+<urn:oslc:template/catalog>
+  dcterms:title "OSLC4JS Service Provider Catalog" ;
+  dcterms:description "Root ServiceProviderCatalog for the OSLC4JS reference server" ;
+  dcterms:publisher [
+    a oslc:Publisher ;
+    dcterms:identifier "oslc4js" ;
+    dcterms:title "OSLC4JS Open Source Project"
+  ] .
+
+# --- Meta ServiceProvider definition ---
+# Defines the services every new ServiceProvider will have.
+
+<urn:oslc:template/sp>
+  a oslc:ServiceProvider ;
+  oslc:service <urn:oslc:template/sp/service> .
+
+<urn:oslc:template/sp/service>
+  a oslc:Service ;
+  oslc:domain oslc_cm: , oslc_rm: ;
+
+  oslc:creationFactory [
+    a oslc:CreationFactory ;
+    dcterms:title "Change Management Resources" ;
+    oslc:resourceType oslc_cm:ChangeRequest ;
+    oslc:resourceShape <shapes/ChangeRequest>
+  ] ;
+
+  oslc:creationFactory [
+    a oslc:CreationFactory ;
+    dcterms:title "Requirements Management Resources" ;
+    oslc:resourceType oslc_rm:Requirement ;
+    oslc:resourceShape <shapes/Requirement>
+  ] ;
+
+  oslc:creationDialog [
+    a oslc:Dialog ;
+    dcterms:title "New Change Request" ;
+    oslc:label "Change Request" ;
+    oslc:resourceType oslc_cm:ChangeRequest ;
+    oslc:hintHeight "505px" ;
+    oslc:hintWidth "680px" ;
+    oslc:resourceShape <shapes/ChangeRequest>
+  ] ;
+
+  oslc:creationDialog [
+    a oslc:Dialog ;
+    dcterms:title "New Requirement" ;
+    oslc:label "Requirement" ;
+    oslc:resourceType oslc_rm:Requirement ;
+    oslc:hintHeight "505px" ;
+    oslc:hintWidth "680px" ;
+    oslc:resourceShape <shapes/Requirement>
+  ] .
