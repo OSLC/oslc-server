@@ -1,7 +1,7 @@
 {
 	"scheme": "http",
 	"host": "localhost",
-	"port": 3000,
+	"port": 3001,
 	"context": "/",
-	"jenaURL": "http://localhost:3030/univ/"
+	"jenaURL": "http://localhost:3030/rmcm/"
 }

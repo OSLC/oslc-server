@@ -1,0 +1,45 @@
+###############################################################################
+# 02-create-service-providers.http — Create ServiceProvider instances
+#
+# Each POST creates an SP from the catalog template with CM and RM services.
+# The Slug header controls the SP's URI path segment.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. Create "Acme Web App" project
+POST {{baseUrl}}/oslc
+Content-Type: text/turtle
+Slug: acme-webapp
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<> dcterms:title "Acme Web App" ;
+   dcterms:description "Change and requirements management for the Acme web application." .
+
+### 2. Create "Mobile Platform" project
+POST {{baseUrl}}/oslc
+Content-Type: text/turtle
+Slug: mobile-platform
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<> dcterms:title "Mobile Platform" ;
+   dcterms:description "Mobile platform requirements and defect tracking." .
+
+### 3. Create "Infrastructure" project (using title-derived slug)
+POST {{baseUrl}}/oslc
+Content-Type: text/turtle
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<> dcterms:title "Infrastructure Services" .
+
+### 4. Verify catalog now contains the new ServiceProviders
+GET {{baseUrl}}/oslc
+Accept: text/turtle
+
+### 5. Attempt duplicate creation (should return 409 Conflict)
+POST {{baseUrl}}/oslc
+Content-Type: text/turtle
+Slug: acme-webapp
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<> dcterms:title "Acme Web App" .

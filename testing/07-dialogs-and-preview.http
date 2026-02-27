@@ -1,0 +1,34 @@
+###############################################################################
+# 07-dialogs-and-preview.http — Creation dialogs and resource preview
+#
+# Tests the OSLC-specific endpoints:
+# - GET /dialog/create — returns an HTML creation form
+# - GET /compact — returns resource preview (Compact)
+#
+# The shape and creation URIs come from the ServiceProvider's
+# oslc:creationDialog and oslc:creationFactory definitions.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. Creation dialog for ChangeRequest (HTML form)
+# Shape and creation URIs are from the Acme Web App SP.
+# Adjust these if your SP has different URIs.
+GET {{baseUrl}}/dialog/create?shape={{baseUrl}}/shapes/ChangeRequest&creation={{baseUrl}}/oslc/acme-webapp/resources
+Accept: text/html
+
+### 2. Creation dialog for Requirement (HTML form)
+GET {{baseUrl}}/dialog/create?shape={{baseUrl}}/shapes/Requirement&creation={{baseUrl}}/oslc/acme-webapp/resources
+Accept: text/html
+
+### 3. Resource preview as Turtle (Compact representation)
+GET {{baseUrl}}/compact?uri={{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Accept: text/turtle
+
+### 4. Resource preview as HTML (small preview fragment)
+GET {{baseUrl}}/compact?uri={{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Accept: text/html
+
+### 5. Resource preview for a Requirement
+GET {{baseUrl}}/compact?uri={{baseUrl}}/oslc/acme-webapp/resources/req-101
+Accept: text/turtle

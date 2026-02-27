@@ -1,0 +1,40 @@
+###############################################################################
+# 08-error-cases.http — Error handling and edge cases
+#
+# Verifies that the server returns appropriate error responses.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. POST to catalog with empty body (should return 400)
+POST {{baseUrl}}/oslc
+Content-Type: text/turtle
+
+
+### 2. POST to catalog without dcterms:title (should return 400)
+POST {{baseUrl}}/oslc
+Content-Type: text/turtle
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<> dcterms:description "No title provided" .
+
+### 3. POST invalid Turtle to catalog (should return 400)
+POST {{baseUrl}}/oslc
+Content-Type: text/turtle
+
+this is not valid turtle content <<<
+
+### 4. GET a non-existent resource (should return 404)
+GET {{baseUrl}}/oslc/acme-webapp/resources/does-not-exist
+Accept: text/turtle
+
+### 5. GET a non-existent ServiceProvider (should return 404)
+GET {{baseUrl}}/oslc/no-such-project
+Accept: text/turtle
+
+### 6. PUT without If-Match header (should return 412 or error)
+PUT {{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Content-Type: text/turtle
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<> dcterms:title "Missing If-Match" .

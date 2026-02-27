@@ -1,0 +1,32 @@
+###############################################################################
+# 05-read-resources.http — Read and navigate OSLC resources
+#
+# After creating resources in 04, read them back individually and
+# verify the resource containers list their members.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. List resources in "Acme Web App" (should show bug-1001, bug-1002, req-101)
+GET {{baseUrl}}/oslc/acme-webapp/resources
+Accept: text/turtle
+
+### 2. List resources in "Mobile Platform" (should show req-201, bug-2001)
+GET {{baseUrl}}/oslc/mobile-platform/resources
+Accept: text/turtle
+
+### 3. Read a specific ChangeRequest
+GET {{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Accept: text/turtle
+
+### 4. Read a specific Requirement
+GET {{baseUrl}}/oslc/acme-webapp/resources/req-101
+Accept: text/turtle
+
+### 5. Read a resource from Mobile Platform
+GET {{baseUrl}}/oslc/mobile-platform/resources/req-201
+Accept: text/turtle
+
+### 6. Read a resource as JSON-LD
+GET {{baseUrl}}/oslc/acme-webapp/resources/bug-1002
+Accept: application/ld+json

@@ -1,0 +1,32 @@
+###############################################################################
+# 03-read-service-providers.http — Read ServiceProvider details
+#
+# After creating SPs in 02, read them back and verify their structure:
+# services, creation factories, creation dialogs, resource shapes.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. Read the "Acme Web App" ServiceProvider
+GET {{baseUrl}}/oslc/acme-webapp
+Accept: text/turtle
+
+### 2. Read the "Mobile Platform" ServiceProvider
+GET {{baseUrl}}/oslc/mobile-platform
+Accept: text/turtle
+
+### 3. Read the "Infrastructure Services" ServiceProvider
+GET {{baseUrl}}/oslc/infrastructure-services
+Accept: text/turtle
+
+### 4. Read the ChangeRequest ResourceShape
+GET {{baseUrl}}/shapes/ChangeRequest
+Accept: text/turtle
+
+### 5. Read the Requirement ResourceShape
+GET {{baseUrl}}/shapes/Requirement
+Accept: text/turtle
+
+### 6. Read the empty resource container for Acme Web App
+GET {{baseUrl}}/oslc/acme-webapp/resources
+Accept: text/turtle

@@ -1,0 +1,78 @@
+###############################################################################
+# 04-create-resources.http — Create OSLC resources in ServiceProviders
+#
+# POST resources to the SP's resource container. These are standard LDP
+# POST operations handled by ldp-service.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. Create a ChangeRequest in "Acme Web App"
+POST {{baseUrl}}/oslc/acme-webapp/resources
+Content-Type: text/turtle
+Slug: bug-1001
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+
+<> a oslc_cm:ChangeRequest ;
+   dcterms:title "Login page crashes on Safari" ;
+   dcterms:description "Users report a blank white screen when accessing the login page on Safari 17.x" ;
+   dcterms:identifier "BUG-1001" .
+
+### 2. Create another ChangeRequest in "Acme Web App"
+POST {{baseUrl}}/oslc/acme-webapp/resources
+Content-Type: text/turtle
+Slug: bug-1002
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+
+<> a oslc_cm:ChangeRequest ;
+   dcterms:title "Dashboard charts fail to render" ;
+   dcterms:description "Chart components throw TypeError when data array is empty" ;
+   dcterms:identifier "BUG-1002" .
+
+### 3. Create a Requirement in "Acme Web App"
+POST {{baseUrl}}/oslc/acme-webapp/resources
+Content-Type: text/turtle
+Slug: req-101
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_rm: <http://open-services.net/ns/rm#> .
+
+<> a oslc_rm:Requirement ;
+   dcterms:title "User authentication via OAuth 2.0" ;
+   dcterms:description "The system shall support OAuth 2.0 authorization code flow for user authentication" ;
+   dcterms:identifier "REQ-101" .
+
+### 4. Create a Requirement in "Mobile Platform"
+POST {{baseUrl}}/oslc/mobile-platform/resources
+Content-Type: text/turtle
+Slug: req-201
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_rm: <http://open-services.net/ns/rm#> .
+
+<> a oslc_rm:Requirement ;
+   dcterms:title "Offline data sync" ;
+   dcterms:description "The mobile app shall synchronize local data with the server when connectivity is restored" ;
+   dcterms:identifier "REQ-201" .
+
+### 5. Create a ChangeRequest in "Mobile Platform"
+POST {{baseUrl}}/oslc/mobile-platform/resources
+Content-Type: text/turtle
+Slug: bug-2001
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+
+<> a oslc_cm:ChangeRequest ;
+   dcterms:title "Push notifications not received on Android 14" ;
+   dcterms:description "Firebase Cloud Messaging tokens are not being refreshed after app update" ;
+   dcterms:identifier "BUG-2001" .

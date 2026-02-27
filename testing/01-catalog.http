@@ -1,0 +1,23 @@
+###############################################################################
+# 01-catalog.http — ServiceProviderCatalog operations
+#
+# Prerequisites:
+#   1. Fuseki running at http://localhost:3030 with dataset "rmcm"
+#   2. oslc-server running: cd oslc-server && npm start
+#
+# Usage: Click "Send Request" above any request block.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. Read the ServiceProviderCatalog (should exist after server startup)
+GET {{baseUrl}}/oslc
+Accept: text/turtle
+
+### 2. Read the catalog as JSON-LD
+GET {{baseUrl}}/oslc
+Accept: application/ld+json
+
+### 3. Verify the catalog is an LDP BasicContainer (check Link headers)
+HEAD {{baseUrl}}/oslc
+Accept: text/turtle

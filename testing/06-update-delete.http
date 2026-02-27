@@ -1,0 +1,64 @@
+###############################################################################
+# 06-update-delete.http — Update and delete OSLC resources
+#
+# Tests LDP PUT (update) and DELETE operations on resources.
+# Note: You must first GET the resource to obtain the current ETag,
+# then pass it in the If-Match header for PUT.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. GET bug-1001 to obtain its ETag (check response headers)
+GET {{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Accept: text/turtle
+
+### 2. Update bug-1001 (replace ETag value from step 1)
+PUT {{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Content-Type: text/turtle
+If-Match: W/"39647496602e43b07ac7ee8b03143e48"
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+
+<> a oslc_cm:ChangeRequest ;
+   dcterms:title "Login page crashes on Safari (FIXED)" ;
+   dcterms:description "Users report a blank white screen when accessing the login page on Safari 17.x. Root cause: missing CSS vendor prefix." ;
+   dcterms:identifier "BUG-1001" .
+
+### 3. Verify the update
+GET {{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Accept: text/turtle
+
+### 4. Delete a resource
+DELETE {{baseUrl}}/oslc/acme-webapp/resources/bug-1002
+
+### 5. Verify deletion (should return 404 or Gone)
+GET {{baseUrl}}/oslc/acme-webapp/resources/bug-1002
+Accept: text/turtle
+
+### 6. Verify the container no longer lists bug-1002
+GET {{baseUrl}}/oslc/acme-webapp/resources
+Accept: text/turtle
+
+### 7. Update bug-1001 (replace ETag value from step 1) and add a relationsip
+PUT {{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Content-Type: text/turtle
+If-Match: W/"39647496602e43b07ac7ee8b03143e48"
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+@prefix oslc_rm: <http://open-services.net/ns/cm#> .
+@prefix acme-webapp: <http://localhost:3001/oslc/acme-webapp/resources/>.
+
+<> a oslc_cm:ChangeRequest ;
+   dcterms:title "Login page crashes on Safari with relationship" ;
+   dcterms:description "Users report a blank white screen when accessing the login page on Safari 17.x. Root cause: missing CSS vendor prefix." ;
+   dcterms:identifier "BUG-1001" ;
+   oslc_cm:implementsRequirement acme-webapp:req-101.
+
+### 3. Verify the update
+GET {{baseUrl}}/oslc/acme-webapp/resources/bug-1001
+Accept: text/turtle
+
