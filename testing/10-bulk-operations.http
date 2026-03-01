@@ -1,0 +1,28 @@
+###############################################################################
+# 10-bulk-operations.http — Test bulk import/export/backup/restore
+#
+# These tests work directly with the Fuseki dataset.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+@fusekiUrl = http://localhost:3030/oslc
+
+### 1. Export dataset as TriG (backup)
+GET {{fusekiUrl}}/data
+Accept: application/trig
+
+### 2. Export default graph as Turtle (for exchange)
+GET {{fusekiUrl}}/data?default
+Accept: text/turtle
+
+### 3. List all named graphs
+GET {{fusekiUrl}}/sparql?query=SELECT+DISTINCT+?g+WHERE+{+GRAPH+?g+{+?s+?p+?o+}+}
+Accept: application/sparql-results+json
+
+### 4. Cross-resource query on union default graph
+GET {{fusekiUrl}}/sparql?query=SELECT+?s+?title+WHERE+{+?s+<http://purl.org/dc/terms/title>+?title+}+LIMIT+20
+Accept: application/sparql-results+json
+
+### 5. Count resources by type
+GET {{fusekiUrl}}/sparql?query=SELECT+?type+(COUNT(?s)+AS+?count)+WHERE+{+?s+a+?type+}+GROUP+BY+?type+ORDER+BY+DESC(?count)
+Accept: application/sparql-results+json

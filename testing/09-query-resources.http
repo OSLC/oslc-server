@@ -1,0 +1,44 @@
+###############################################################################
+# 09-query-resources.http — Test OSLC query capability
+#
+# After creating resources in 04, read them back via query capability.
+# Run 01 through 04 first to set up test data.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. Query all ChangeRequests (no filters)
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+Accept: text/turtle
+
+### 2. Query with oslc.where filter
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest?oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E&oslc.where=dcterms%3Atitle%3D%22Bug%201001%22
+Accept: text/turtle
+
+### 3. Query with oslc.select for specific properties
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest?oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E&oslc.select=dcterms%3Atitle%2Cdcterms%3Adescription
+Accept: text/turtle
+
+### 4. Query with ordering
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest?oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E&oslc.orderBy=%2Bdcterms%3Atitle
+Accept: text/turtle
+
+### 5. Query with paging
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest?oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E&oslc.pageSize=2
+Accept: text/turtle
+
+### 6. Query Requirements
+GET {{baseUrl}}/oslc/acme-webapp/query/Requirement
+Accept: text/turtle
+
+### 7. Query as JSON-LD
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+Accept: application/ld+json
+
+### 8. Full representation with where filter (no oslc.select)
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest?oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E&oslc.where=dcterms%3Atitle%3D%22Bug%201001%22
+Accept: text/turtle
+
+### 9. Query with search terms
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest?oslc.searchTerms=%22bug%22
+Accept: text/turtle
