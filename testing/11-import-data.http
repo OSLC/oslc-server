@@ -1,0 +1,67 @@
+###############################################################################
+# 11-import-data.http — Test bulk import via PUT /oslc/{sp}/import
+#
+# Imports RDF data (Turtle or TriG) into a ServiceProvider.
+# Run 01 and 02 first to create the catalog and a ServiceProvider.
+###############################################################################
+
+@baseUrl = http://localhost:3001
+
+### 1. Import Turtle data with known resource types
+PUT {{baseUrl}}/oslc/acme-webapp/import
+Content-Type: text/turtle
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://localhost:3001/resources/import-bug-1>
+  a oslc_cm:ChangeRequest ;
+  dcterms:title "Imported Bug 1" ;
+  dcterms:description "A bug imported via bulk import" .
+
+<http://localhost:3001/resources/import-bug-2>
+  a oslc_cm:ChangeRequest ;
+  dcterms:title "Imported Bug 2" ;
+  dcterms:description "Another imported bug" .
+
+### 2. Import Turtle data with unknown resource types (should warn)
+PUT {{baseUrl}}/oslc/acme-webapp/import
+Content-Type: text/turtle
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/ns#> .
+
+<http://localhost:3001/resources/unknown-type-1>
+  a ex:UnknownType ;
+  dcterms:title "Unknown Type Resource" .
+
+### 3. Import TriG data (named graphs)
+PUT {{baseUrl}}/oslc/acme-webapp/import
+Content-Type: application/trig
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://localhost:3001/resources/trig-bug-1> {
+  <http://localhost:3001/resources/trig-bug-1>
+    a oslc_cm:ChangeRequest ;
+    dcterms:title "TriG Imported Bug" ;
+    dcterms:description "Imported via TriG format" .
+}
+
+### 4. Verify imported resources via query
+GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest?oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E&oslc.where=dcterms%3Atitle%3D%22Imported%20Bug%201%22
+Accept: text/turtle
+
+### 5. Import empty body (should return 400)
+PUT {{baseUrl}}/oslc/acme-webapp/import
+Content-Type: text/turtle
+
+### 6. Import invalid Turtle (should return 400)
+PUT {{baseUrl}}/oslc/acme-webapp/import
+Content-Type: text/turtle
+
+this is not valid turtle content !!!
