@@ -4,61 +4,63 @@
 # After creating resources in 04, read them back via query capability.
 # Run 01 through 04 first to set up test data.
 #
-# Queries use POST with application/x-www-form-urlencoded body so that
-# OSLC query parameters are readable without URL-encoding.
+# Queries use POST with oslc.prefix on the URL and OSLC query parameters
+# in the form-encoded body for readability.
 ###############################################################################
 
 @baseUrl = http://localhost:3001
+@queryBase = {{baseUrl}}/oslc/acme-webapp/query
+@prefix = oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E
 
 ### 1. Query all ChangeRequests (no filters)
-GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+GET {{queryBase}}/ChangeRequest
 Accept: text/turtle
 
 ### 2. Query with oslc.where filter
-POST {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+POST {{queryBase}}/ChangeRequest?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
-oslc.prefix=dcterms=<http://purl.org/dc/terms/>&oslc.where=dcterms:title="Bug 1001"
+oslc.where=dcterms:title="Bug 1001"
 
 ### 3. Query with oslc.select for specific properties
-POST {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+POST {{queryBase}}/ChangeRequest?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
-oslc.prefix=dcterms=<http://purl.org/dc/terms/>&oslc.select=dcterms:title,dcterms:description
+oslc.select=dcterms:title,dcterms:description
 
 ### 4. Query with ordering
-POST {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+POST {{queryBase}}/ChangeRequest?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
-oslc.prefix=dcterms=<http://purl.org/dc/terms/>&oslc.orderBy=+dcterms:title
+oslc.orderBy=+dcterms:title
 
 ### 5. Query with paging
-POST {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+POST {{queryBase}}/ChangeRequest?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
-oslc.prefix=dcterms=<http://purl.org/dc/terms/>&oslc.pageSize=2
+oslc.pageSize=2
 
 ### 6. Query Requirements
-GET {{baseUrl}}/oslc/acme-webapp/query/Requirement
+GET {{queryBase}}/Requirement
 Accept: text/turtle
 
 ### 7. Query as JSON-LD
-GET {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+GET {{queryBase}}/ChangeRequest
 Accept: application/ld+json
 
 ### 8. Full representation with where filter (no oslc.select)
-POST {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+POST {{queryBase}}/ChangeRequest?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
-oslc.prefix=dcterms=<http://purl.org/dc/terms/>&oslc.where=dcterms:title="Bug 1001"
+oslc.where=dcterms:title="Bug 1001"
 
 ### 9. Query with search terms
-POST {{baseUrl}}/oslc/acme-webapp/query/ChangeRequest
+POST {{queryBase}}/ChangeRequest
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
