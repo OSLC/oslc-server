@@ -21,7 +21,7 @@ POST {{queryBase}}/ChangeRequest?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
-oslc.where=dcterms:title="Bug 1001"
+oslc.where=dcterms:identifier="BUG-1001"
 
 ### 3. Query with oslc.select for specific properties
 POST {{queryBase}}/ChangeRequest?{{prefix}}

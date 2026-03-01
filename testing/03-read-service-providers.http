@@ -27,6 +27,4 @@ Accept: text/turtle
 GET {{baseUrl}}/shapes/Requirement
 Accept: text/turtle
 
-### 6. Read the empty resource container for Acme Web App
-GET {{baseUrl}}/oslc/acme-webapp/resources
-Accept: text/turtle
+
