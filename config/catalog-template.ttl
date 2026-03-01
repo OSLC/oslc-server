@@ -58,4 +58,18 @@
     oslc:hintHeight "505px" ;
     oslc:hintWidth "680px" ;
     oslc:resourceShape <shapes/Requirement>
+  ] ;
+
+  oslc:queryCapability [
+    a oslc:QueryCapability ;
+    dcterms:title "Query Change Requests" ;
+    oslc:resourceType oslc_cm:ChangeRequest ;
+    oslc:resourceShape <shapes/ChangeRequest>
+  ] ;
+
+  oslc:queryCapability [
+    a oslc:QueryCapability ;
+    dcterms:title "Query Requirements" ;
+    oslc:resourceType oslc_rm:Requirement ;
+    oslc:resourceShape <shapes/Requirement>
   ] .
