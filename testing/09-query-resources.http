@@ -4,63 +4,67 @@
 # After creating resources in 04, read them back via query capability.
 # Run 01 through 04 first to set up test data.
 #
-# Queries use POST with oslc.prefix on the URL and OSLC query parameters
-# in the form-encoded body for readability.
+# All query capabilities share a single queryBase URL. Clients filter
+# by type via oslc.where when desired. Queries use POST with oslc.prefix
+# on the URL and OSLC query parameters in the form-encoded body.
 ###############################################################################
 
 @baseUrl = http://localhost:3001
 @queryBase = {{baseUrl}}/oslc/acme-webapp/query
 @prefix = oslc.prefix=dcterms%3D%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E
 
-### 1. Query all ChangeRequests (no filters)
-GET {{queryBase}}/ChangeRequest
+### 1. Query all resources (no type filter)
+GET {{queryBase}}
 Accept: text/turtle
 
-### 2. Query with oslc.where filter
-POST {{queryBase}}/ChangeRequest?{{prefix}}
+### 2. Query ChangeRequests with oslc.where filter
+POST {{queryBase}}?{{prefix}},oslc_cm%3D%3Chttp%3A%2F%2Fopen-services.net%2Fns%2Fcm%23%3E
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
-oslc.where=dcterms:identifier="BUG-1001"
+oslc.where=rdf:type=oslc_cm:ChangeRequest and dcterms:identifier="BUG-1001"
 
 ### 3. Query with oslc.select for specific properties
-POST {{queryBase}}/ChangeRequest?{{prefix}}
+POST {{queryBase}}?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
 oslc.select=dcterms:title,dcterms:description
 
 ### 4. Query with ordering
-POST {{queryBase}}/ChangeRequest?{{prefix}}
+POST {{queryBase}}?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
 oslc.orderBy=+dcterms:title
 
 ### 5. Query with paging
-POST {{queryBase}}/ChangeRequest?{{prefix}}
+POST {{queryBase}}?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
 oslc.pageSize=2
 
-### 6. Query Requirements
-GET {{queryBase}}/Requirement
+### 6. Query Requirements (type filter via oslc.where)
+POST {{queryBase}}?oslc.prefix=oslc_rm%3D%3Chttp%3A%2F%2Fopen-services.net%2Fns%2Frm%23%3E
 Accept: text/turtle
+Content-Type: application/x-www-form-urlencoded
+
+oslc.where=rdf:type=oslc_rm:Requirement
 
 ### 7. Query as JSON-LD
-GET {{queryBase}}/ChangeRequest
+GET {{queryBase}}
 Accept: application/ld+json
 
 ### 8. Full representation with where filter (no oslc.select)
-POST {{queryBase}}/ChangeRequest?{{prefix}}
+POST {{queryBase}}?{{prefix}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
 oslc.where=dcterms:title="Bug 1001"
 
 ### 9. Query with search terms
-POST {{queryBase}}/ChangeRequest
+POST {{queryBase}}
 Accept: text/turtle
 Content-Type: application/x-www-form-urlencoded
 
