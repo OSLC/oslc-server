@@ -1,0 +1,258 @@
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dc11:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oslc_am: <http://open-services.net/ns/am#> .
+@prefix dd:      <http://www.omg.org/spec/DD#> .
+
+# Ontology declaration
+<http://www.omg.org/spec/DD>
+  a owl:Ontology ;
+  owl:imports <http://open-services.net/ns/am> ;
+  dc11:title "OMG Diagram Definition Vocabulary" ;
+  dc11:description "RDF vocabulary for the OMG Diagram Definition (DD) metamodel, adapted for OSLC." .
+
+# ---- Core Classes ----
+
+dd:Diagram
+  a rdfs:Class ;
+  rdfs:subClassOf oslc_am:Resource ;
+  dc11:description "A top-level diagram container. Inherits dcterms:title and dcterms:description from oslc_am:Resource." .
+
+dd:DiagramElement
+  a rdfs:Class ;
+  dc11:description "Abstract base class for visual elements in a diagram. Modeled as blank nodes." .
+
+dd:Shape
+  a rdfs:Class ;
+  rdfs:subClassOf dd:DiagramElement ;
+  dc11:description "A diagram element with bounds (position and size)." .
+
+dd:Edge
+  a rdfs:Class ;
+  rdfs:subClassOf dd:DiagramElement ;
+  dc11:description "A connection between two diagram elements." .
+
+# ---- Geometry Classes ----
+
+dd:Bounds
+  a rdfs:Class ;
+  dc11:description "A rectangle defined by x, y, width, and height." .
+
+dd:Point
+  a rdfs:Class ;
+  dc11:description "A coordinate pair (x, y)." .
+
+# ---- Style Classes ----
+
+dd:Style
+  a rdfs:Class ;
+  dc11:description "Abstract base class for visual styling of diagram elements." .
+
+dd:SharedStyle
+  a rdfs:Class ;
+  rdfs:subClassOf dd:Style ;
+  dc11:description "A reusable named style that can be shared across diagram elements." .
+
+# ---- Diagram Properties ----
+
+dd:resolution
+  a rdf:Property ;
+  rdfs:domain dd:Diagram ;
+  rdfs:range xsd:double ;
+  dc11:description "The rendering resolution of the diagram." .
+
+dd:diagramElement
+  a rdf:Property ;
+  rdfs:domain dd:Diagram ;
+  rdfs:range dd:DiagramElement ;
+  dc11:description "A top-level element contained in this diagram." .
+
+# ---- DiagramElement Properties ----
+
+dd:modelElement
+  a rdf:Property ;
+  rdfs:domain dd:DiagramElement ;
+  rdfs:range rdfs:Resource ;
+  dc11:description "The model element that this diagram element represents." .
+
+dd:owningElement
+  a rdf:Property ;
+  rdfs:domain dd:DiagramElement ;
+  rdfs:range dd:DiagramElement ;
+  dc11:description "The parent element that contains this element." .
+
+dd:ownedElement
+  a rdf:Property ;
+  rdfs:domain dd:DiagramElement ;
+  rdfs:range dd:DiagramElement ;
+  dc11:description "A nested child element contained within this element." .
+
+dd:localStyle
+  a rdf:Property ;
+  rdfs:domain dd:DiagramElement ;
+  rdfs:range dd:Style ;
+  dc11:description "A style applied directly to this element." .
+
+dd:sharedStyle
+  a rdf:Property ;
+  rdfs:domain dd:DiagramElement ;
+  rdfs:range dd:SharedStyle ;
+  dc11:description "A reference to a shared, reusable style." .
+
+# ---- Shape Properties ----
+
+dd:bounds
+  a rdf:Property ;
+  rdfs:domain dd:Shape ;
+  rdfs:range dd:Bounds ;
+  dc11:description "The position and size of this shape." .
+
+# ---- Edge Properties ----
+
+dd:source
+  a rdf:Property ;
+  rdfs:domain dd:Edge ;
+  rdfs:range dd:DiagramElement ;
+  dc11:description "The source diagram element of this edge." .
+
+dd:target
+  a rdf:Property ;
+  rdfs:domain dd:Edge ;
+  rdfs:range dd:DiagramElement ;
+  dc11:description "The target diagram element of this edge." .
+
+dd:waypoint
+  a rdf:Property ;
+  rdfs:domain dd:Edge ;
+  rdfs:range rdf:List ;
+  dc11:description "An ordered list of intermediate points defining the edge path." .
+
+# ---- Bounds Properties ----
+
+dd:x
+  a rdf:Property ;
+  rdfs:range xsd:double ;
+  dc11:description "The x coordinate." .
+
+dd:y
+  a rdf:Property ;
+  rdfs:range xsd:double ;
+  dc11:description "The y coordinate." .
+
+dd:width
+  a rdf:Property ;
+  rdfs:domain dd:Bounds ;
+  rdfs:range xsd:double ;
+  dc11:description "The width." .
+
+dd:height
+  a rdf:Property ;
+  rdfs:domain dd:Bounds ;
+  rdfs:range xsd:double ;
+  dc11:description "The height." .
+
+# ---- Style Properties ----
+
+dd:fill
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:boolean ;
+  dc11:description "Whether the element should be filled." .
+
+dd:fillColor
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:string ;
+  dc11:description "Fill color as a CSS color string." .
+
+dd:fillOpacity
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:double ;
+  dc11:description "Fill opacity (0.0 to 1.0)." .
+
+dd:stroke
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:boolean ;
+  dc11:description "Whether the element should have a stroke." .
+
+dd:strokeColor
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:string ;
+  dc11:description "Stroke color as a CSS color string." .
+
+dd:strokeWidth
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:double ;
+  dc11:description "Stroke width in pixels." .
+
+dd:strokeOpacity
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:double ;
+  dc11:description "Stroke opacity (0.0 to 1.0)." .
+
+dd:strokeDashLength
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:double ;
+  dc11:description "Length of dashes in a dashed stroke." .
+
+dd:strokeDashGap
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:double ;
+  dc11:description "Gap between dashes in a dashed stroke." .
+
+dd:fontSize
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:double ;
+  dc11:description "Font size in points." .
+
+dd:fontName
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:string ;
+  dc11:description "Font family name." .
+
+dd:fontColor
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:string ;
+  dc11:description "Font color as a CSS color string." .
+
+dd:fontBold
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:boolean ;
+  dc11:description "Whether font is bold." .
+
+dd:fontItalic
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:boolean ;
+  dc11:description "Whether font is italic." .
+
+dd:fontUnderline
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:boolean ;
+  dc11:description "Whether font is underlined." .
+
+dd:fontStrikeThrough
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:boolean ;
+  dc11:description "Whether font has strikethrough." .
+
+dd:shapeType
+  a rdf:Property ;
+  rdfs:domain dd:Style ;
+  rdfs:range xsd:string ;
+  dc11:description "Shape rendering hint: rect, ellipse, roundedRect, diamond, stickFigure." .

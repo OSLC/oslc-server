@@ -1,0 +1,390 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix oslc:    <http://open-services.net/ns/core#> .
+@prefix oslc_am: <http://open-services.net/ns/am#> .
+@prefix dd:      <http://www.omg.org/spec/DD#> .
+
+# ============================================================
+# Reusable Property Definitions
+# These are shared across multiple ResourceShapes.
+# ============================================================
+
+# ---- Inherited AM Properties ----
+
+<#p-title>
+  a oslc:Property ;
+  oslc:name "title" ;
+  oslc:propertyDefinition dcterms:title ;
+  dcterms:description "Title of the resource." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType xsd:string .
+
+<#p-description>
+  a oslc:Property ;
+  oslc:name "description" ;
+  oslc:propertyDefinition dcterms:description ;
+  dcterms:description "Description of the resource." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:string .
+
+<#p-identifier>
+  a oslc:Property ;
+  oslc:name "identifier" ;
+  oslc:propertyDefinition dcterms:identifier ;
+  dcterms:description "Unique identifier of the resource." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType xsd:string .
+
+<#p-type>
+  a oslc:Property ;
+  oslc:name "type" ;
+  oslc:propertyDefinition rdf:type ;
+  dcterms:description "RDF type(s) of the resource." ;
+  oslc:occurs oslc:Zero-or-many ;
+  oslc:valueType oslc:Resource ;
+  oslc:representation oslc:Reference .
+
+# ---- Diagram Properties ----
+
+<#p-resolution>
+  a oslc:Property ;
+  oslc:name "resolution" ;
+  oslc:propertyDefinition dd:resolution ;
+  dcterms:description "Rendering resolution of the diagram." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:double .
+
+<#p-diagramElement>
+  a oslc:Property ;
+  oslc:name "diagramElement" ;
+  oslc:propertyDefinition dd:diagramElement ;
+  dcterms:description "A top-level element in this diagram." ;
+  oslc:occurs oslc:Zero-or-many ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+# ---- DiagramElement Properties ----
+
+<#p-modelElement>
+  a oslc:Property ;
+  oslc:name "modelElement" ;
+  oslc:propertyDefinition dd:modelElement ;
+  dcterms:description "The model element this diagram element represents." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType oslc:Resource ;
+  oslc:representation oslc:Reference .
+
+<#p-owningElement>
+  a oslc:Property ;
+  oslc:name "owningElement" ;
+  oslc:propertyDefinition dd:owningElement ;
+  dcterms:description "The parent element containing this element." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+<#p-ownedElement>
+  a oslc:Property ;
+  oslc:name "ownedElement" ;
+  oslc:propertyDefinition dd:ownedElement ;
+  dcterms:description "A nested child element." ;
+  oslc:occurs oslc:Zero-or-many ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+<#p-localStyle>
+  a oslc:Property ;
+  oslc:name "localStyle" ;
+  oslc:propertyDefinition dd:localStyle ;
+  dcterms:description "Style applied directly to this element." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+<#p-sharedStyle>
+  a oslc:Property ;
+  oslc:name "sharedStyle" ;
+  oslc:propertyDefinition dd:sharedStyle ;
+  dcterms:description "Reference to a shared reusable style." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType oslc:Resource ;
+  oslc:representation oslc:Reference .
+
+# ---- Shape Properties ----
+
+<#p-bounds>
+  a oslc:Property ;
+  oslc:name "bounds" ;
+  oslc:propertyDefinition dd:bounds ;
+  dcterms:description "Position and size of the shape." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+# ---- Edge Properties ----
+
+<#p-source>
+  a oslc:Property ;
+  oslc:name "source" ;
+  oslc:propertyDefinition dd:source ;
+  dcterms:description "The source diagram element." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+<#p-target>
+  a oslc:Property ;
+  oslc:name "target" ;
+  oslc:propertyDefinition dd:target ;
+  dcterms:description "The target diagram element." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+<#p-waypoint>
+  a oslc:Property ;
+  oslc:name "waypoint" ;
+  oslc:propertyDefinition dd:waypoint ;
+  dcterms:description "Ordered list of intermediate points (rdf:List of dd:Point)." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType oslc:AnyResource ;
+  oslc:representation oslc:Inline .
+
+# ---- Geometry Properties ----
+
+<#p-x>
+  a oslc:Property ;
+  oslc:name "x" ;
+  oslc:propertyDefinition dd:x ;
+  dcterms:description "X coordinate." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType xsd:double .
+
+<#p-y>
+  a oslc:Property ;
+  oslc:name "y" ;
+  oslc:propertyDefinition dd:y ;
+  dcterms:description "Y coordinate." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType xsd:double .
+
+<#p-width>
+  a oslc:Property ;
+  oslc:name "width" ;
+  oslc:propertyDefinition dd:width ;
+  dcterms:description "Width." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType xsd:double .
+
+<#p-height>
+  a oslc:Property ;
+  oslc:name "height" ;
+  oslc:propertyDefinition dd:height ;
+  dcterms:description "Height." ;
+  oslc:occurs oslc:Exactly-one ;
+  oslc:valueType xsd:double .
+
+# ---- Style Properties ----
+
+<#p-fill>
+  a oslc:Property ;
+  oslc:name "fill" ;
+  oslc:propertyDefinition dd:fill ;
+  dcterms:description "Whether to fill." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:boolean .
+
+<#p-fillColor>
+  a oslc:Property ;
+  oslc:name "fillColor" ;
+  oslc:propertyDefinition dd:fillColor ;
+  dcterms:description "Fill color (CSS color)." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:string .
+
+<#p-fillOpacity>
+  a oslc:Property ;
+  oslc:name "fillOpacity" ;
+  oslc:propertyDefinition dd:fillOpacity ;
+  dcterms:description "Fill opacity (0-1)." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:double .
+
+<#p-stroke>
+  a oslc:Property ;
+  oslc:name "stroke" ;
+  oslc:propertyDefinition dd:stroke ;
+  dcterms:description "Whether to stroke." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:boolean .
+
+<#p-strokeColor>
+  a oslc:Property ;
+  oslc:name "strokeColor" ;
+  oslc:propertyDefinition dd:strokeColor ;
+  dcterms:description "Stroke color (CSS color)." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:string .
+
+<#p-strokeWidth>
+  a oslc:Property ;
+  oslc:name "strokeWidth" ;
+  oslc:propertyDefinition dd:strokeWidth ;
+  dcterms:description "Stroke width in pixels." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:double .
+
+<#p-strokeOpacity>
+  a oslc:Property ;
+  oslc:name "strokeOpacity" ;
+  oslc:propertyDefinition dd:strokeOpacity ;
+  dcterms:description "Stroke opacity (0-1)." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:double .
+
+<#p-strokeDashLength>
+  a oslc:Property ;
+  oslc:name "strokeDashLength" ;
+  oslc:propertyDefinition dd:strokeDashLength ;
+  dcterms:description "Dash length." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:double .
+
+<#p-strokeDashGap>
+  a oslc:Property ;
+  oslc:name "strokeDashGap" ;
+  oslc:propertyDefinition dd:strokeDashGap ;
+  dcterms:description "Gap between dashes." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:double .
+
+<#p-fontSize>
+  a oslc:Property ;
+  oslc:name "fontSize" ;
+  oslc:propertyDefinition dd:fontSize ;
+  dcterms:description "Font size in points." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:double .
+
+<#p-fontName>
+  a oslc:Property ;
+  oslc:name "fontName" ;
+  oslc:propertyDefinition dd:fontName ;
+  dcterms:description "Font family name." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:string .
+
+<#p-fontColor>
+  a oslc:Property ;
+  oslc:name "fontColor" ;
+  oslc:propertyDefinition dd:fontColor ;
+  dcterms:description "Font color (CSS color)." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:string .
+
+<#p-fontBold>
+  a oslc:Property ;
+  oslc:name "fontBold" ;
+  oslc:propertyDefinition dd:fontBold ;
+  dcterms:description "Whether font is bold." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:boolean .
+
+<#p-fontItalic>
+  a oslc:Property ;
+  oslc:name "fontItalic" ;
+  oslc:propertyDefinition dd:fontItalic ;
+  dcterms:description "Whether font is italic." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:boolean .
+
+<#p-fontUnderline>
+  a oslc:Property ;
+  oslc:name "fontUnderline" ;
+  oslc:propertyDefinition dd:fontUnderline ;
+  dcterms:description "Whether font is underlined." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:boolean .
+
+<#p-fontStrikeThrough>
+  a oslc:Property ;
+  oslc:name "fontStrikeThrough" ;
+  oslc:propertyDefinition dd:fontStrikeThrough ;
+  dcterms:description "Whether font has strikethrough." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:boolean .
+
+<#p-shapeType>
+  a oslc:Property ;
+  oslc:name "shapeType" ;
+  oslc:propertyDefinition dd:shapeType ;
+  dcterms:description "Shape rendering hint: rect, ellipse, roundedRect, diamond, stickFigure." ;
+  oslc:occurs oslc:Zero-or-one ;
+  oslc:valueType xsd:string .
+
+# ============================================================
+# ResourceShape Definitions
+# ============================================================
+
+<#DiagramShape>
+  a oslc:ResourceShape ;
+  dcterms:title "Diagram" ;
+  oslc:describes dd:Diagram ;
+  oslc:property
+    <#p-title>, <#p-description>, <#p-identifier>, <#p-type>,
+    <#p-resolution>, <#p-diagramElement> .
+
+<#ShapeShape>
+  a oslc:ResourceShape ;
+  dcterms:title "Shape" ;
+  oslc:describes dd:Shape ;
+  oslc:property
+    <#p-type>, <#p-modelElement>, <#p-localStyle>,
+    <#p-sharedStyle>, <#p-bounds>, <#p-ownedElement> .
+
+<#EdgeShape>
+  a oslc:ResourceShape ;
+  dcterms:title "Edge" ;
+  oslc:describes dd:Edge ;
+  oslc:property
+    <#p-type>, <#p-modelElement>, <#p-localStyle>,
+    <#p-sharedStyle>, <#p-source>, <#p-target>, <#p-waypoint> .
+
+<#BoundsShape>
+  a oslc:ResourceShape ;
+  dcterms:title "Bounds" ;
+  oslc:describes dd:Bounds ;
+  oslc:property <#p-x>, <#p-y>, <#p-width>, <#p-height> .
+
+<#PointShape>
+  a oslc:ResourceShape ;
+  dcterms:title "Point" ;
+  oslc:describes dd:Point ;
+  oslc:property <#p-x>, <#p-y> .
+
+<#StyleShape>
+  a oslc:ResourceShape ;
+  dcterms:title "Style" ;
+  oslc:describes dd:Style ;
+  oslc:property
+    <#p-fill>, <#p-fillColor>, <#p-fillOpacity>,
+    <#p-stroke>, <#p-strokeColor>, <#p-strokeWidth>,
+    <#p-strokeOpacity>, <#p-strokeDashLength>, <#p-strokeDashGap>,
+    <#p-fontSize>, <#p-fontName>, <#p-fontColor>,
+    <#p-fontBold>, <#p-fontItalic>, <#p-fontUnderline>,
+    <#p-fontStrikeThrough>, <#p-shapeType> .
+
+<#SharedStyleShape>
+  a oslc:ResourceShape ;
+  dcterms:title "SharedStyle" ;
+  oslc:describes dd:SharedStyle ;
+  oslc:property
+    <#p-title>,
+    <#p-fill>, <#p-fillColor>, <#p-fillOpacity>,
+    <#p-stroke>, <#p-strokeColor>, <#p-strokeWidth>,
+    <#p-strokeOpacity>, <#p-strokeDashLength>, <#p-strokeDashGap>,
+    <#p-fontSize>, <#p-fontName>, <#p-fontColor>,
+    <#p-fontBold>, <#p-fontItalic>, <#p-fontUnderline>,
+    <#p-fontStrikeThrough>, <#p-shapeType> .
