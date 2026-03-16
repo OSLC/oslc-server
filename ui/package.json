@@ -1,0 +1,29 @@
+{
+  "name": "oslc-server-ui",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.1",
+    "@mui/material": "^7.3.1",
+    "oslc-browser": "file:../../oslc-browser",
+    "oslc-client": "file:../../oslc-client",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "rdflib": "^2.2.35"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0"
+  }
+}
