@@ -63,7 +63,20 @@ Start Fuseki with your dataset, then:
 
     $ npm start
 
-The server starts on the configured port. Use a REST client or the ldp-app visualization to interact with resources.
+The server starts on the configured port (3001 by default).
+
+### Web UI
+
+oslc-server includes the [oslc-browser](../oslc-browser) web application, served as static files from `public/`. After starting the server, open your browser to:
+
+    http://localhost:3001/
+
+The UI provides an interactive column browser for navigating service providers, containers, and resources. To rebuild the UI after changes to oslc-browser:
+
+    $ cd oslc-server/ui
+    $ npm run build
+
+This builds the Vite app shell into `oslc-server/public/`.
 
 ## REST API
 
