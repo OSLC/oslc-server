@@ -16,7 +16,7 @@ oslc-server is built from several modules in the oslc4js workspace:
 - **oslc-server** -- Express application entry point and static assets
 - **oslc-service** -- Express middleware providing OSLC 3.0 services, built on ldp-service
 - **ldp-service** -- Express middleware implementing the W3C LDP protocol (GET, HEAD, PUT, POST, DELETE for RDF resources and containers)
-- **ldp-service-jena** -- Storage backend that persists RDF graphs in Apache Jena Fuseki
+- **jena-storage-service** -- Storage backend that persists RDF graphs in Apache Jena Fuseki
 - **storage-service** -- Abstract storage interface shared by all backends
 
 The Express app (`src/app.ts`) serves static files, then mounts oslc-service which delegates to ldp-service for all LDP operations. Configuration is read from `config.json` with environment variable overrides.

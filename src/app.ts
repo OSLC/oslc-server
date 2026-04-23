@@ -17,14 +17,14 @@
 /*
  * oslc-server: An OSLC 3.0 server reference implementation that uses
  * oslc-service Express middleware. Initializes the server, connects
- * to Fuseki via ldp-service-jena, and serves OSLC resources.
+ * to Fuseki via jena-storage-service, and serves OSLC resources.
  */
 
 import express, { type Request, type Response, type NextFunction } from 'express';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { oslcService } from 'oslc-service';
-import { JenaStorageService } from 'ldp-service-jena';
+import { JenaStorageService } from 'jena-storage-service';
 import { env } from './env.js';
 
 const __filename = fileURLToPath(import.meta.url);
