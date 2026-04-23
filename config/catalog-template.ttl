@@ -30,14 +30,14 @@
     a oslc:CreationFactory ;
     dcterms:title "Change Management Resources" ;
     oslc:resourceType oslc_cm:ChangeRequest ;
-    oslc:resourceShape <shapes/ChangeRequest>
+    oslc:resourceShape <domain/ChangeRequest>
   ] ;
 
   oslc:creationFactory [
     a oslc:CreationFactory ;
     dcterms:title "Requirements Management Resources" ;
     oslc:resourceType oslc_rm:Requirement ;
-    oslc:resourceShape <shapes/Requirement>
+    oslc:resourceShape <domain/Requirement>
   ] ;
 
   oslc:creationDialog [
@@ -47,7 +47,7 @@
     oslc:resourceType oslc_cm:ChangeRequest ;
     oslc:hintHeight "505px" ;
     oslc:hintWidth "680px" ;
-    oslc:resourceShape <shapes/ChangeRequest>
+    oslc:resourceShape <domain/ChangeRequest>
   ] ;
 
   oslc:creationDialog [
@@ -57,19 +57,19 @@
     oslc:resourceType oslc_rm:Requirement ;
     oslc:hintHeight "505px" ;
     oslc:hintWidth "680px" ;
-    oslc:resourceShape <shapes/Requirement>
+    oslc:resourceShape <domain/Requirement>
   ] ;
 
   oslc:queryCapability [
     a oslc:QueryCapability ;
     dcterms:title "Query Change Requests" ;
     oslc:resourceType oslc_cm:ChangeRequest ;
-    oslc:resourceShape <shapes/ChangeRequest>
+    oslc:resourceShape <domain/ChangeRequest>
   ] ;
 
   oslc:queryCapability [
     a oslc:QueryCapability ;
     dcterms:title "Query Requirements" ;
     oslc:resourceType oslc_rm:Requirement ;
-    oslc:resourceShape <shapes/Requirement>
+    oslc:resourceShape <domain/Requirement>
   ] .
