@@ -60,16 +60,10 @@
     oslc:resourceShape <domain/Requirement>
   ] ;
 
+  # Single QueryCapability — the server has one /query endpoint that
+  # accepts any OSLC query filter. Clients disambiguate by resource
+  # type (or any other property) via oslc.where.
   oslc:queryCapability [
     a oslc:QueryCapability ;
-    dcterms:title "Query Change Requests" ;
-    oslc:resourceType oslc_cm:ChangeRequest ;
-    oslc:resourceShape <domain/ChangeRequest>
-  ] ;
-
-  oslc:queryCapability [
-    a oslc:QueryCapability ;
-    dcterms:title "Query Requirements" ;
-    oslc:resourceType oslc_rm:Requirement ;
-    oslc:resourceShape <domain/Requirement>
+    dcterms:title "Query Resources"
   ] .
