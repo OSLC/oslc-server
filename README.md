@@ -5,6 +5,8 @@
 
 An [OSLC 3.0](https://docs.oasis-open-projects.org/oslc-op/core/v3.0/oslc-core.html) server reference implementation built with Node.js and Express. It uses the **oslc-service** Express middleware for OSLC operations, backed by **Apache Jena Fuseki** for RDF persistence.
 
+oslc-server provides the OSLC substrate for **AI Assisted Knowledge Integration (AAKI)** deployments — the system of record on top of which the Define / Instantiate / Activate stages are realized. See the [AAKI framework](../docs/AAKI.md) for the architectural context.
+
 oslc-server only provides OSLC and LDP REST services. It does not provide any additional application capabilities or UI. The REST services are intended to be used programmatically, possibly to support an OSLC3 test server and reference implementation, or by the oslc-browser sample application.
 
 Many thanks to Steve Speicher and Sam Padgett for their valuable contribution to LDP and the LDP middleware upon which this service is built.
